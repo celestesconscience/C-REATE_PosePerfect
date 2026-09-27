@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: d8b70dd20332742209b8aca1dc22d868
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6681791676658945868
+    second: Pose02_TEST_0
+  - first:
+      213: 7598136767079628057
+    second: Pose02_TEST_1
+  - first:
+      213: -3785358405993522112
+    second: Pose02_TEST_2
+  - first:
+      213: -8848265443777651396
+    second: Pose02_TEST_3
+  - first:
+      213: -7338268907194398591
+    second: Pose02_TEST_4
+  - first:
+      213: 8955133520058801119
+    second: Pose02_TEST_5
+  - first:
+      213: -31498934452808476
+    second: Pose02_TEST_6
+  - first:
+      213: -3203006683597824225
+    second: Pose02_TEST_7
+  - first:
+      213: -408838193350912752
+    second: Pose02_TEST_8
+  - first:
+      213: -698946606159716928
+    second: Pose02_TEST_9
+  - first:
+      213: -8608472804080392254
+    second: Pose02_TEST_10
+  - first:
+      213: -2562378478196899127
+    second: Pose02_TEST_11
+  - first:
+      213: 3984796519823496838
+    second: Pose02_TEST_12
+  - first:
+      213: 1441579036459125969
+    second: Pose02_TEST_13
+  - first:
+      213: -2557236173011360234
+    second: Pose02_TEST_14
+  - first:
+      213: -2063127057186045551
+    second: Pose02_TEST_15
+  - first:
+      213: 4008008386559714988
+    second: Pose02_TEST_16
+  - first:
+      213: 2915937398409319659
+    second: Pose02_TEST_17
+  - first:
+      213: -2237913655696593851
+    second: Pose02_TEST_18
+  - first:
+      213: 6514674965021119103
+    second: Pose02_TEST_19
+  - first:
+      213: -5919219688039834970
+    second: Pose02_TEST_20
+  - first:
+      213: 8146743737030822929
+    second: Pose02_TEST_21
+  - first:
+      213: 3678190629252878051
+    second: Pose02_TEST_22
+  - first:
+      213: -2292410082210060744
+    second: Pose02_TEST_23
+  - first:
+      213: 7786008936747064313
+    second: Pose02_TEST_24
+  - first:
+      213: -550574764387580956
+    second: Pose02_TEST_25
+  - first:
+      213: -5543450024542185817
+    second: Pose02_TEST_26
+  - first:
+      213: 2220710331968214861
+    second: Pose02_TEST_27
+  - first:
+      213: 3345765398580825211
+    second: Pose02_TEST_28
+  - first:
+      213: 5133273311818259998
+    second: Pose02_TEST_29
+  - first:
+      213: -4819757970421987146
+    second: Pose02_TEST_30
+  - first:
+      213: 3291467741960729350
+    second: Pose02_TEST_31
+  - first:
+      213: -1772618863145746147
+    second: Pose02_TEST_32
+  - first:
+      213: 1077207086491870606
+    second: Pose02_TEST_33
+  - first:
+      213: -6654886798714822742
+    second: Pose02_TEST_34
+  - first:
+      213: -5459451318207281525
+    second: Pose02_TEST_35
+  - first:
+      213: 3100426400775871935
+    second: Pose02_TEST_36
+  - first:
+      213: -5756795136917216132
+    second: Pose02_TEST_37
+  - first:
+      213: 9063779857650373464
+    second: Pose02_TEST_38
+  - first:
+      213: -5186090682131807298
+    second: Pose02_TEST_39
+  - first:
+      213: 5441141135254357089
+    second: Pose02_TEST_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pose02_TEST_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 844
+        width: 228
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f0b66d02e7abc50800000000000000
+      internalID: 6681791676658945868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 698
+        width: 199
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dbd9c0221027960800000000000000
+      internalID: 7598136767079628057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 909
+        width: 167
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c973fd594b77bc0800000000000000
+      internalID: -3785358405993522112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_3
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 844
+        width: 228
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3dd4418575a43580800000000000000
+      internalID: -8848265443777651396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_4
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 698
+        width: 199
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18842680f4b392a90800000000000000
+      internalID: -7338268907194398591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_5
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 909
+        width: 167
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb5c4b7d76074c70800000000000000
+      internalID: 8955133520058801119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_6
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 844
+        width: 228
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e41321d2e7109ff0800000000000000
+      internalID: -31498934452808476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_7
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 698
+        width: 199
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f13fa3462ac83d0800000000000000
+      internalID: -3203006683597824225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_8
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 909
+        width: 167
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015d4ba44d3835af0800000000000000
+      internalID: -408838193350912752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_9
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 885
+        width: 178
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd92eec3c7dc46f0800000000000000
+      internalID: -698946606159716928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_10
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 858
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c76d26289f888880800000000000000
+      internalID: -8608472804080392254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_11
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 858
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2c7f2a95a907cd0800000000000000
+      internalID: -2562378478196899127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_12
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 858
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686da4a8257dc4730800000000000000
+      internalID: 3984796519823496838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_13
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 532
+        width: 228
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dccbcfee74810410800000000000000
+      internalID: 1441579036459125969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_14
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 532
+        width: 228
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616e0ecdf3fd28cd0800000000000000
+      internalID: -2557236173011360234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_15
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 532
+        width: 228
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 191cde55fdc4e53e0800000000000000
+      internalID: -2063127057186045551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_16
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 715
+        width: 35
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6ada9646e4f9730800000000000000
+      internalID: 4008008386559714988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 528
+        width: 167
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4d6735d9d777820800000000000000
+      internalID: 2915937398409319659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_18
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 528
+        width: 167
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c653a136551f0e0800000000000000
+      internalID: -2237913655696593851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_19
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 528
+        width: 167
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72d63d4d56c86a50800000000000000
+      internalID: 6514674965021119103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_20
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 528
+        width: 167
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aa13ea1e05badda0800000000000000
+      internalID: -5919219688039834970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 268
+        width: 228
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c4cd9f34c0f0170800000000000000
+      internalID: 8146743737030822929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_22
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 122
+        width: 199
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eec9c0b3ee8b0330800000000000000
+      internalID: 3678190629252878051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_23
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 333
+        width: 167
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836685a0d29bf20e0800000000000000
+      internalID: -2292410082210060744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_24
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 268
+        width: 228
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb53dc30e57d0c60800000000000000
+      internalID: 7786008936747064313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_25
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 122
+        width: 199
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3426a3b27fb58f0800000000000000
+      internalID: -550574764387580956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_26
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 199
+        width: 242
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a65809b295b113b0800000000000000
+      internalID: -5543450024542185817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_27
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 268
+        width: 228
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d475106f74c81de10800000000000000
+      internalID: 2220710331968214861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_28
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 122
+        width: 199
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c043447eb8e6e20800000000000000
+      internalID: 3345765398580825211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_29
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 333
+        width: 167
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e9bed31ec0d3740800000000000000
+      internalID: 5133273311818259998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_30
+      rect:
+        serializedVersion: 2
+        x: 1742
+        y: 309
+        width: 178
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8c3ad79a7cc1db0800000000000000
+      internalID: -4819757970421987146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_31
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 282
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603f93de874adad20800000000000000
+      internalID: 3291467741960729350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_32
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 282
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d118a0429846667e0800000000000000
+      internalID: -1772618863145746147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_33
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 0
+        width: 194
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85a1eb432203fe00800000000000000
+      internalID: 1077207086491870606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_34
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 0
+        width: 194
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf9a2637b715a3a0800000000000000
+      internalID: -6654886798714822742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_35
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 0
+        width: 194
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8687b593f12c34b0800000000000000
+      internalID: -5459451318207281525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_36
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 139
+        width: 35
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd1d7e726de60b20800000000000000
+      internalID: 3100426400775871935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_37
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 132
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c746a53e251cb10b0800000000000000
+      internalID: -5756795136917216132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_38
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 0
+        width: 132
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853579132c309cd70800000000000000
+      internalID: 9063779857650373464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_39
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 0
+        width: 132
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3029e600e4708b0800000000000000
+      internalID: -5186090682131807298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pose02_TEST_40
+      rect:
+        serializedVersion: 2
+        x: 1768
+        y: 0
+        width: 132
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1640a9bb801d28b40800000000000000
+      internalID: 5441141135254357089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pose02_TEST_0: 6681791676658945868
+      Pose02_TEST_1: 7598136767079628057
+      Pose02_TEST_10: -8608472804080392254
+      Pose02_TEST_11: -2562378478196899127
+      Pose02_TEST_12: 3984796519823496838
+      Pose02_TEST_13: 1441579036459125969
+      Pose02_TEST_14: -2557236173011360234
+      Pose02_TEST_15: -2063127057186045551
+      Pose02_TEST_16: 4008008386559714988
+      Pose02_TEST_17: 2915937398409319659
+      Pose02_TEST_18: -2237913655696593851
+      Pose02_TEST_19: 6514674965021119103
+      Pose02_TEST_2: -3785358405993522112
+      Pose02_TEST_20: -5919219688039834970
+      Pose02_TEST_21: 8146743737030822929
+      Pose02_TEST_22: 3678190629252878051
+      Pose02_TEST_23: -2292410082210060744
+      Pose02_TEST_24: 7786008936747064313
+      Pose02_TEST_25: -550574764387580956
+      Pose02_TEST_26: -5543450024542185817
+      Pose02_TEST_27: 2220710331968214861
+      Pose02_TEST_28: 3345765398580825211
+      Pose02_TEST_29: 5133273311818259998
+      Pose02_TEST_3: -8848265443777651396
+      Pose02_TEST_30: -4819757970421987146
+      Pose02_TEST_31: 3291467741960729350
+      Pose02_TEST_32: -1772618863145746147
+      Pose02_TEST_33: 1077207086491870606
+      Pose02_TEST_34: -6654886798714822742
+      Pose02_TEST_35: -5459451318207281525
+      Pose02_TEST_36: 3100426400775871935
+      Pose02_TEST_37: -5756795136917216132
+      Pose02_TEST_38: 9063779857650373464
+      Pose02_TEST_39: -5186090682131807298
+      Pose02_TEST_4: -7338268907194398591
+      Pose02_TEST_40: 5441141135254357089
+      Pose02_TEST_5: 8955133520058801119
+      Pose02_TEST_6: -31498934452808476
+      Pose02_TEST_7: -3203006683597824225
+      Pose02_TEST_8: -408838193350912752
+      Pose02_TEST_9: -698946606159716928
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
