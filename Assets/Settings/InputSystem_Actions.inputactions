@@ -503,17 +503,6 @@
                     "action": "Button",
                     "isComposite": false,
                     "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "98fcbb84-91ac-48a0-a643-1962d670c06a",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Button",
-                    "isComposite": false,
-                    "isPartOfComposite": false
                 }
             ]
         },

@@ -311,7 +311,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 25635722}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1479386604}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OpenMainGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &25635722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -432,7 +444,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 277629168}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1479386604}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OpenTutorial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &277629168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -553,7 +577,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 499008963}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1479386604}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OpenHighScores
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &499008963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1083,7 +1119,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 652434115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1479386604}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OpenControls
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &652434115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1204,7 +1252,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 656772400}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1479386604}
+        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+        m_MethodName: OpenCredits
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &656772400
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1519,6 +1579,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863086940}
   m_CullTransparentMesh: 1
+--- !u!1 &950680540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4402496660030844007, guid: 1d0ebb4aea80b41f888a55195511f458, type: 3}
+  m_PrefabInstance: {fileID: 1024619355}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1024619355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1606,6 +1671,34 @@ PrefabInstance:
     - target: {fileID: 28256033873304747, guid: 1d0ebb4aea80b41f888a55195511f458, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708015205248131202, guid: 1d0ebb4aea80b41f888a55195511f458, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708015205248131202, guid: 1d0ebb4aea80b41f888a55195511f458, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708015205248131202, guid: 1d0ebb4aea80b41f888a55195511f458, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1479386604}
+    - target: {fileID: 3708015205248131202, guid: 1d0ebb4aea80b41f888a55195511f458, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708015205248131202, guid: 1d0ebb4aea80b41f888a55195511f458, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CloseControls
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708015205248131202, guid: 1d0ebb4aea80b41f888a55195511f458, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MainMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3708015205248131202, guid: 1d0ebb4aea80b41f888a55195511f458, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 4402496660030844007, guid: 1d0ebb4aea80b41f888a55195511f458, type: 3}
       propertyPath: m_Name
@@ -2424,6 +2517,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1460885853}
   m_CullTransparentMesh: 1
+--- !u!1 &1479386602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1479386603}
+  - component: {fileID: 1479386604}
+  m_Layer: 0
+  m_Name: MainMenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1479386603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479386602}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1479386604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479386602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8304236a04a434f8bab56b844681902b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainMenu
+  controlsOverlay: {fileID: 950680540}
 --- !u!1 &1542294870
 GameObject:
   m_ObjectHideFlags: 0
@@ -2721,3 +2859,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 4568354}
   - {fileID: 580543901}
+  - {fileID: 1479386603}
