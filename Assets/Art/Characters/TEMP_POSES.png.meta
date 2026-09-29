@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a96b455b350a4477b9b1dcc7edeaf385
+guid: 474313b2bda374828a80f4d39ad9cae8
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -124,7 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: test poses_0
+      name: TEMP_POSES_0
       rect:
         serializedVersion: 2
         x: 0
@@ -139,14 +139,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f59b6aec8061b4ccfbdb8c26074a928c
-      internalID: 689658448
+      spriteID: 65c0e2e5444cf4932894f8acdaedcd7f
+      internalID: -1919181763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: test poses_1
+      name: TEMP_POSES_1
       rect:
         serializedVersion: 2
         x: 15
@@ -161,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab2ff79fb8f634c69a6a07549ab42a3f
-      internalID: 812822965
+      spriteID: 1fd313bda84134b57ba6a5eda65b409e
+      internalID: -760751450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: test poses_2
+      name: TEMP_POSES_2
       rect:
         serializedVersion: 2
         x: 30
@@ -183,14 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37d7c51c2338347a080d690a77ff18b6
-      internalID: -754382758
+      spriteID: b09f3bb05c6e9445ab752a5a880e7910
+      internalID: -249272816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: test poses_3
+      name: TEMP_POSES_3
       rect:
         serializedVersion: 2
         x: 45
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56d537f372f104065b4a15a682e22628
-      internalID: 2102346135
+      spriteID: 24355217c3621408d96107d17a961cc4
+      internalID: -502772432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: test poses_4
+      name: TEMP_POSES_4
       rect:
         serializedVersion: 2
         x: 60
@@ -227,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 435584f46d9dc49bc987711861413063
-      internalID: 172745032
+      spriteID: 5232066502e134d84928504d9107d827
+      internalID: 658645532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: test poses_5
+      name: TEMP_POSES_5
       rect:
         serializedVersion: 2
         x: 0
@@ -249,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39d6fd1b5880243f08dc698060854484
-      internalID: -2145468476
+      spriteID: 64381528ed40e4874986379824e42000
+      internalID: 1953661430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: test poses_6
+      name: TEMP_POSES_6
       rect:
         serializedVersion: 2
         x: 15
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed1c54559be9240e38862961d08f737e
-      internalID: -1800104387
+      spriteID: 8cdec85c8fcc14ccc8e29762cafd88c0
+      internalID: -340514368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: test poses_7
+      name: TEMP_POSES_7
       rect:
         serializedVersion: 2
         x: 30
@@ -293,14 +293,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e462f7888ada14160a84dbf9f53f84c6
-      internalID: -1844619919
+      spriteID: f2e30c90165fa4589a3138f964de3799
+      internalID: -1818746031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: test poses_8
+      name: TEMP_POSES_8
       rect:
         serializedVersion: 2
         x: 45
@@ -315,14 +315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71448111e1c1049de8bb42bdee2f2e7e
-      internalID: -1074118819
+      spriteID: 4afff7ac43c3640d883897a0d79a65a4
+      internalID: -655118795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: test poses_9
+      name: TEMP_POSES_9
       rect:
         serializedVersion: 2
         x: 60
@@ -337,8 +337,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0914ab054778149a28c046d8ad11372e
-      internalID: 208434820
+      spriteID: bd82803b2b2494cf4809c53070d0b7ab
+      internalID: -2010692498
       vertices: []
       indices: 
       edges: []
@@ -347,7 +347,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ec8e37eb24c78459aa6096e66225ba03
+    spriteID: 8746d0cd2b78a4850981a085a18a5b2e
     internalID: 0
     vertices: []
     indices: 
@@ -359,16 +359,16 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":15.0,"y":15.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      test poses_0: 689658448
-      test poses_1: 812822965
-      test poses_2: -754382758
-      test poses_3: 2102346135
-      test poses_4: 172745032
-      test poses_5: -2145468476
-      test poses_6: -1800104387
-      test poses_7: -1844619919
-      test poses_8: -1074118819
-      test poses_9: 208434820
+      TEMP_POSES_0: -1919181763
+      TEMP_POSES_1: -760751450
+      TEMP_POSES_2: -249272816
+      TEMP_POSES_3: -502772432
+      TEMP_POSES_4: 658645532
+      TEMP_POSES_5: 1953661430
+      TEMP_POSES_6: -340514368
+      TEMP_POSES_7: -1818746031
+      TEMP_POSES_8: -655118795
+      TEMP_POSES_9: -2010692498
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
