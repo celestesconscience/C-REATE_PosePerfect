@@ -23,7 +23,7 @@ public class PlayerScript : MonoBehaviour
         currentLocation = 1;
 
         // Moves the player to the starting location
-        transform.position = new Vector2(Locations[currentLocation], -1.8f);
+        transform.position = new Vector2(Locations[currentLocation], transform.position.y);
     }
 
     // Update is called once per frame
@@ -68,7 +68,7 @@ public class PlayerScript : MonoBehaviour
             }
 
             // Moves the player to the new location
-            transform.position = new Vector2(Locations[currentLocation], -1.8f);
+            transform.position = new Vector2(Locations[currentLocation], transform.position.y);
         }
     }
 }
