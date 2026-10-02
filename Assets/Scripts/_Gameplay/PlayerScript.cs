@@ -8,9 +8,9 @@ public class PlayerScript : MonoBehaviour
     private bool pressed, held;
 
     // Player changing poses variables;
-    public Sprite[] poses;
+    public Sprite[] poses;// leave 0 empty
     private SpriteRenderer spriteRenderer;
-    private int startingPose = 1;// leave 0 empty
+    private int startingPose = 1;
 
     // Player movement variables
     public float[] Locations = new float[3];//in inspector you can change where you want to player to be
