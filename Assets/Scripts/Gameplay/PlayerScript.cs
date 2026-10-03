@@ -64,42 +64,42 @@ public class PlayerScript : MonoBehaviour
     }
 
     // SCRIPT FOR POSE CHANGING
-    private void poseChange()
+    private void poseChange() // Method for changing the player's pose when the button is pressed
     {
-        startingPose++;
-        if(startingPose == poses.Length)
+        startingPose++; // Increments the starting pose of the player character (e.g., startingPose = 1 ++ -> startingPose = 2)
+        if(startingPose == poses.Length) // Checks if the player has gone past the last pose in array
         {
-            startingPose = 1;
+            startingPose = 1; // Resets the starting pose to the first pose in the array (index 1, not 0)
         }
 
-        spriteRenderer.sprite = poses[startingPose];
+        spriteRenderer.sprite = poses[startingPose]; // Sets the sprite of the player character to the new pose
 
-        switch (startingPose)
+        switch (startingPose) // What value does this variable currently have?
         {
-            case 1:
-                gameObject.tag = "Pose_1";
+            case 1: // If the starting pose is 1
+                gameObject.tag = "Pose_1"; // Sets the tag of the player character to "Pose_1"
                 break;
-            case 2:
-                gameObject.tag = "Pose_2";
+            case 2: // If the starting pose is 2
+                gameObject.tag = "Pose_2"; // Sets the tag of the player character to "Pose_2"
                 break;
-            case 3:
-                gameObject.tag = "Pose_3";
+            case 3: // If the starting pose is 3
+                gameObject.tag = "Pose_3"; // Sets the tag of the player character to "Pose_3"
                 break;
-            case 4:
-                gameObject.tag = "Pose_4";
+            case 4: // If the starting pose is 4
+                gameObject.tag = "Pose_4"; // Sets the tag of the player character to "Pose_4"
                 break;
-            case 5:
-                gameObject.tag = "Pose_5";
+            case 5: // If the starting pose is 5
+                gameObject.tag = "Pose_5"; // Sets the tag of the player character to "Pose_5"
                 break;
         }
 
-     
+        // End of pose change logic
     }
 
     // SCRIPT FOR LANE MOVEMENT
-    private void laneMovement()
+    private void laneMovement() // Method for moving the player character between lanes
     {
-        currentLocation+= changeAMT;
+        currentLocation+= changeAMT; // Updates the current location of the player character based on the change amount
 
             // Checks if the player goes past the last location
             if(currentLocation== Locations.Length)
@@ -123,7 +123,7 @@ public class PlayerScript : MonoBehaviour
                 currentLocation+= changeAMT;
             }
 
-            // Moves the player to the new location
+            // Actually moves the player character game object to the new location based on the current location index
             transform.position = new Vector2(Locations[currentLocation], transform.position.y);
     }
 }

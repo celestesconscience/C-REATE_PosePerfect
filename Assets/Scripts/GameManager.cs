@@ -14,20 +14,22 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
     // Opens the Controls Overlay
     public void OpenControls()
     {
-        if(!pauseOverlay.activeSelf)
+        if(pauseOverlay.activeSelf) // Checks if the pause overlay is currently active
         {
-            controlsOverlay.SetActive(true);
+            pauseOverlay.SetActive(false); // Hide the pause overlay before showing the controls overlay
+            controlsOverlay.SetActive(true); // Show the controls overlay
             Time.timeScale = 0; // Pause the game by setting the time scale to 0
             print("Controls menu opened. Game frozen"); // For debugging purposes
         }
     }
 
     // Closes the Controls Overlay
-    public void CloseControls()
+    public void CloseControls() // Method for closing the controls overlay and showing the pause overlay
     {
-            controlsOverlay.SetActive(false);
-            Time.timeScale = 1; // Resume the game by setting the time scale back to 1
-            print("Controls menu closed. Game resumed"); // For debugging purposes
+            controlsOverlay.SetActive(false); // Hide the controls overlay before showing the pause overlay
+            pauseOverlay.SetActive(true); // Show the pause overlay after closing the controls overlay
+            Time.timeScale = 0; // This should be 0 to keep the game paused
+            print("Controls menu closed. Returned to pause menu."); // For debugging purposes
     }
 
     // Toggles the visiblity of the Controls Panel
@@ -63,24 +65,24 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
         print("Pause menu closed. Game resumed"); // For debugging: print a message when the pause menu is closed
     }
 
-    // Toggles the visibility of the Pause Panel  
-    public void TogglePause()  
-    {  
-        // Set the Pause Overlay to the opposiite of its current active state  
-        // activeSelf checks if the panel is currently active (true) or inactive (false)
-        // ! means "Not", so it changes true to false or false to true
-        // Basically, set pause overlay((!opposite)pauseoverlay.whatever state)
+    // // Toggles the visibility of the Pause Panel  
+    // public void TogglePause()  
+    // {  
+    //     // Set the Pause Overlay to the opposiite of its current active state  
+    //     // activeSelf checks if the panel is currently active (true) or inactive (false)
+    //     // ! means "Not", so it changes true to false or false to true
+    //     // Basically, set pause overlay((!opposite)pauseoverlay.whatever state)
 
-        // If the Pause overlay is currently open
-        if(pauseOverlay.activeSelf)
-        {
-            ClosePause();
-        }
-        else
-        {
-            OpenPause();
-        }
-    }
+    //     // If the Pause overlay is currently open
+    //     if(pauseOverlay.activeSelf)
+    //     {
+    //         ClosePause();
+    //     }
+    //     else
+    //     {
+    //         OpenPause();
+    //     }
+    // }
 
     // Returns to the Main Menu from the Game Pause
     public void ReturnToMainMenu()
