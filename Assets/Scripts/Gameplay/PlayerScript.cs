@@ -3,33 +3,33 @@ using UnityEngine.InputSystem;
 
 public class PlayerScript : MonoBehaviour
 {
-    // Button input variables
-    InputAction buttonPress, buttonHold;
-    private bool pressed, held;
+    // Button Input Variables
+    InputAction buttonPress, buttonHold; // References to the input actions for tapping and holding the button
+    private bool pressed, held; // Stores the state of the button press and hold actions
 
-    // Player changing poses variables;
-    public Sprite[] poses;// leave 0 empty
-    private SpriteRenderer spriteRenderer;
-    private int startingPose = 1;
+    // Player Changing Poses Variables;
+    public Sprite[] poses; // Leave 0 empty; array of poses for the player character
+    private SpriteRenderer spriteRenderer; // Reference to the sprite renderer component of the player character
+    private int startingPose = 1; // The initial pose of the player character
 
-    // Player movement variables
-    public float[] Locations = new float[3];//in inspector you can change where you want to player to be
-    public int currentLocation;//change from 0-2 in inspector to start left(0) middle(1) right(2)
-    private int changeAMT = 1;
+    // Player Movement Variables
+    public float[] Locations = new float[3]; // In inspector you can change where you want the player to be
+    public int currentLocation; // Change from 0-2 in inspector to start left(0) middle(1) right(2)
+    private int changeAMT = 1; // The amount by which the player's location changes when moving lanes
 
     // Start is called once when the game starts
     void Start()
     {
-        // Finds the input actions
-        buttonPress = InputSystem.actions.FindAction("TapButton");
+        // Finds the Input Actions for tapping and holding the button
+        buttonPress = InputSystem.actions.FindAction("TapButton"); 
         buttonHold = InputSystem.actions.FindAction("HoldButton");
 
-        // Gets the spriteRenderer from the inspector and changes pose to starting pose
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.sprite = poses[startingPose];
-        gameObject.tag = "Pose_1";
+        // Gets the spriteRenderer from the Inspector and Changes Pose to Starting Pose
+        spriteRenderer = GetComponent<SpriteRenderer>(); // Gets the sprite renderer component from the player character
+        spriteRenderer.sprite = poses[startingPose]; // Sets the initial pose of the player character
+        gameObject.tag = "Pose_1"; // Sets the initial tag of the player character based on the starting pose
 
-        // Moves the player to the starting location
+        // Moves the Player to the Starting Location
         transform.position = new Vector2(Locations[currentLocation], transform.position.y);
     }
 
@@ -63,7 +63,7 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
-    //SCRIPT FOR POSE CHANGING
+    // SCRIPT FOR POSE CHANGING
     private void poseChange()
     {
         startingPose++;
@@ -96,7 +96,7 @@ public class PlayerScript : MonoBehaviour
      
     }
 
-    //SCRIPT FOR LANE MOVEMENT
+    // SCRIPT FOR LANE MOVEMENT
     private void laneMovement()
     {
         currentLocation+= changeAMT;
