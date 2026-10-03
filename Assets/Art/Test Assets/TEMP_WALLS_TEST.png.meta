@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: b8e4fc96043d34dc5a06fac94075a78b
+guid: 229e7d91ca9594b3bae66a087bf914db
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 277417765023817808
-    second: Crouch_POSE06_0
-  - first:
-      213: 5621519705199573287
-    second: Crouch_POSE06_1
+      213: 3758516812884357975
+    second: TEMP_WALLS_TEST_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Crouch_POSE06_0
+      name: TEMP_WALLS_TEST_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,8 +128,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 050a0aaccf599d300800000000000000
-      internalID: 277417765023817808
+      spriteID: 7533e4ab02fe82430800000000000000
+      internalID: 3758516812884357975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMP_WALLS_TEST_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bd3dc9cef044094bcb082ac718af11
+      internalID: 1958760194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMP_WALLS_TEST_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21834efe753224ea2b9331b76ba79914
+      internalID: 978018201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMP_WALLS_TEST_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7534b3d2bf80948c289d778d5f3253d3
+      internalID: -1889305377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEMP_WALLS_TEST_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6be2cfac183c451ea5e4c3fefe98805
+      internalID: -630891443
       vertices: []
       indices: 
       edges: []
@@ -141,7 +226,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 9654bd049789f4a13a3ffc0921c8a8f6
+    spriteID: fd1c25115b91d4964aa7c07ec00b901b
     internalID: 0
     vertices: []
     indices: 
@@ -151,9 +236,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Crouch_POSE06_0: 277417765023817808
+      TEMP_WALLS_TEST_0: 3758516812884357975
+      TEMP_WALLS_TEST_1: 1958760194
+      TEMP_WALLS_TEST_2: 978018201
+      TEMP_WALLS_TEST_3: -1889305377
+      TEMP_WALLS_TEST_4: -630891443
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
