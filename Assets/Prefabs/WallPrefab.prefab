@@ -180,8 +180,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ad6d43da4a6b4fd2840679594fdf7e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WallScript
-  wallEndPosition: -3.42
-  wallStartPosition: -1.84
   wallSpeed: 0.2
-  wallStartScale: 0.5
-  wallEndScale: 1.05
+  wallExitSpeed: 1
+  wallResultPauseDuration: 0.8
