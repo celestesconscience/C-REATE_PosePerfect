@@ -16,7 +16,7 @@ public class IndicatorScript : MonoBehaviour// BASICALLY JUST COPYING CODE FROM 
     {
         buttonPress = InputSystem.actions.FindAction("TapButton"); // Finds the Input Action for tapping the button
         
-        transform.localPosition = new Vector2(Locations[startingPose], transform.position.y); // Moves the indicator to the starting location
+        transform.localPosition = new Vector2(Locations[startingPose], transform.localPosition.y); // Moves the indicator to the starting location
     }
 
     // Update is called once per frame
@@ -35,7 +35,7 @@ public class IndicatorScript : MonoBehaviour// BASICALLY JUST COPYING CODE FROM 
 
 
         // Moves the indicator to the new location
-        transform.localPosition = new Vector2(Locations[startingPose], transform.position.y); // Updates the position of the indicator based on the new starting location
+        transform.localPosition = new Vector2(Locations[startingPose], transform.localPosition.y); // Updates the position of the indicator based on the new starting location
     }
     }
 }
