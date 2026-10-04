@@ -85,7 +85,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: -1889305377, guid: 229e7d91ca9594b3bae66a087bf914db, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.83137256, b: 0.8862745, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -183,3 +183,5 @@ MonoBehaviour:
   wallSpeed: 0.2
   wallExitSpeed: 1
   wallResultPauseDuration: 0.8
+  requiredPose: 1
+  player: {fileID: 0}
