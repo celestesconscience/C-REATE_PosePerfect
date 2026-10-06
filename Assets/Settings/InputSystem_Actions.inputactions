@@ -41,31 +41,9 @@
                 },
                 {
                     "name": "",
-                    "id": "17385df2-8c23-41e0-ae55-0cf947e000f0",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "HoldButton",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "2b0ef450-a431-47a2-b135-459b1592a5aa",
                     "path": "<Keyboard>/space",
                     "interactions": "Tap",
-                    "processors": "",
-                    "groups": "",
-                    "action": "TapButton",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "dc57f02f-3666-4b9d-b82d-d22e29cf8e7a",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
                     "processors": "",
                     "groups": "",
                     "action": "TapButton",

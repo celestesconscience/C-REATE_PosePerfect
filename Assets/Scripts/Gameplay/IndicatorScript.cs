@@ -8,7 +8,7 @@ public class IndicatorScript : MonoBehaviour// BASICALLY JUST COPYING CODE FROM 
     private bool pressed;
 
     // Indicator Location Variables
-    public float[] Locations; // Array of possible locations for the indicator
+    public GameObject[] Location; // Array of possible locations for the indicator
     private int startingPose = 0; // The initial location of the indicator
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,7 +16,7 @@ public class IndicatorScript : MonoBehaviour// BASICALLY JUST COPYING CODE FROM 
     {
         buttonPress = InputSystem.actions.FindAction("TapButton"); // Finds the Input Action for tapping the button
         
-        transform.localPosition = new Vector2(Locations[startingPose], transform.localPosition.y); // Moves the indicator to the starting location
+        transform.localPosition = new Vector2(Location[startingPose].transform.localPosition.x, transform.localPosition.y); // Moves the indicator to the starting location
     }
 
     // Update is called once per frame
@@ -28,14 +28,14 @@ public class IndicatorScript : MonoBehaviour// BASICALLY JUST COPYING CODE FROM 
         if(pressed == true)
         {
             startingPose++; // Increments the starting location of the indicator
-            if(startingPose == Locations.Length) // Checks if the indicator has gone past the last location
+            if(startingPose == Location.Length) // Checks if the indicator has gone past the last location
             {
                 startingPose = 0; // Resets the starting location to the first location
             }
 
 
         // Moves the indicator to the new location
-        transform.localPosition = new Vector2(Locations[startingPose], transform.localPosition.y); // Updates the position of the indicator based on the new starting location
+        transform.localPosition = new Vector2(Location[startingPose].transform.localPosition.x, transform.localPosition.y); // Updates the position of the indicator based on the new starting location
     }
     }
 }
