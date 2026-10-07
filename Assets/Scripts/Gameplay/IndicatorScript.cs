@@ -1,14 +1,16 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class IndicatorScript : MonoBehaviour// BASICALLY JUST COPYING CODE FROM PLAYERSCRIPT
+public class IndicatorScript : MonoBehaviour
 {
     // Button Input Variables
     InputAction buttonPress;
     private bool pressed;
 
+    public int arrowAbove;//used only for arrow indicator, leave 0 for circle, how much higher do you want the arrow instead of it being on the pose
+
     // Indicator Location Variables
-    public GameObject[] Location; // Array of possible locations for the indicator
+    public GameObject[] Location; // put the location of the different poses here, it will go to position of the poses
     private int startingPose = 0; // The initial location of the indicator
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -16,7 +18,7 @@ public class IndicatorScript : MonoBehaviour// BASICALLY JUST COPYING CODE FROM 
     {
         buttonPress = InputSystem.actions.FindAction("TapButton"); // Finds the Input Action for tapping the button
         
-        transform.localPosition = new Vector2(Location[startingPose].transform.localPosition.x, transform.localPosition.y); // Moves the indicator to the starting location
+        transform.localPosition = new Vector2(Location[startingPose].transform.localPosition.x, Location[startingPose].transform.localPosition.y + arrowAbove); // Moves the indicator to the starting location
     }
 
     // Update is called once per frame
@@ -33,9 +35,8 @@ public class IndicatorScript : MonoBehaviour// BASICALLY JUST COPYING CODE FROM 
                 startingPose = 0; // Resets the starting location to the first location
             }
 
-
         // Moves the indicator to the new location
-        transform.localPosition = new Vector2(Location[startingPose].transform.localPosition.x, transform.localPosition.y); // Updates the position of the indicator based on the new starting location
+        transform.localPosition = new Vector2(Location[startingPose].transform.localPosition.x, Location[startingPose].transform.localPosition.y + arrowAbove); // Updates the position of the indicator based on the new starting location
     }
     }
 }
