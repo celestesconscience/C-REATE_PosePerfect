@@ -95,7 +95,7 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
     public void RestartGame()
     {
         Time.timeScale =1; // <-- Resume the game by setting the time scale back to 1
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("TestGameScene");
         print("Game restarted"); // For debugging purposes
     }
 

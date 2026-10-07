@@ -57,7 +57,7 @@ public class MainMenu : MonoBehaviour // <-- MonoBehaviour allows Unity to attac
     // Opens the Main Game Scene using the START Button
     public void OpenMainGame()
     {
-        SceneManager.LoadScene("Game"); // <-- SceneManager = Unity's scene management system
+        SceneManager.LoadScene("TestGameScene"); // <-- SceneManager = Unity's scene management system
                                               // . = Acesssing something that belongs to SceneManager
                                               // LoadScene = a method that loads a new scene by its name
     }
