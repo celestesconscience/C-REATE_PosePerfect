@@ -1,9 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// Everything related to controlling the Main Menu goes in here
-public class MainMenu : MonoBehaviour // <-- MonoBehaviour allows Unity to attach script to a GameObject
-// class = container for objects behaviour; class name is MainMenu
+// Controls Menu Buttons and Overlays; Navigation
+public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to attach script to a GameObject
+// class = container for objects behaviour; class name is MenuManager
 {
     // Reference to the Controls Overlay
     public GameObject controlsOverlay;
@@ -44,6 +44,14 @@ public class MainMenu : MonoBehaviour // <-- MonoBehaviour allows Unity to attac
         SceneManager.LoadScene("HighScores"); // <-- SceneManager = Unity's scene management system
                                               // . = Acesssing something that belongs to SceneManager
                                               // LoadScene = a method that loads a new scene by its name
+    }
+
+    // Closes the Credits or High Scores Scene and Returns to Main Menu
+    public void ReturnToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu"); // <-- SceneManager = Unity's scene management system
+                                            // . = Acesssing something that belongs to SceneManager
+                                            // LoadScene = a method that loads a new scene by its name
     }
 
     // Opens the Tutorial Scene

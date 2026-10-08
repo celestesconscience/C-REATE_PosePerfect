@@ -1056,7 +1056,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1369754158}
   m_CullTransparentMesh: 1
---- !u!1 &1656923909
+--- !u!1 &1693639393
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1064,37 +1064,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1656923911}
-  - component: {fileID: 1656923910}
+  - component: {fileID: 1693639395}
+  - component: {fileID: 1693639394}
   m_Layer: 0
-  m_Name: CreditsManager
+  m_Name: MenuManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1656923910
+--- !u!114 &1693639394
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656923909}
+  m_GameObject: {fileID: 1693639393}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52e9600e36ba45cc96f1ab273018da2, type: 3}
+  m_Script: {fileID: 11500000, guid: 19e2e4b00da794b4d8e6ddcb8cb39cfb, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CreditsMenu
---- !u!4 &1656923911
+  m_EditorClassIdentifier: Assembly-CSharp::MenuManager
+  controlsOverlay: {fileID: 0}
+--- !u!4 &1693639395
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1656923909}
+  m_GameObject: {fileID: 1693639393}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -5.33354, y: -2.6284, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1199,7 +1200,7 @@ PrefabInstance:
     - target: {fileID: 8365644531394518826, guid: 82f15c7e186154fd3a6ecd63fa410d6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1656923910}
+      objectReference: {fileID: 1693639394}
     - target: {fileID: 8365644531394518826, guid: 82f15c7e186154fd3a6ecd63fa410d6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -1210,7 +1211,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8365644531394518826, guid: 82f15c7e186154fd3a6ecd63fa410d6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CreditsMenu, Assembly-CSharp
+      value: MenuManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8365644531394518826, guid: 82f15c7e186154fd3a6ecd63fa410d6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -1232,4 +1233,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 519420032}
   - {fileID: 342000526}
-  - {fileID: 1656923911}
+  - {fileID: 1693639395}

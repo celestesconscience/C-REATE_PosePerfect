@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// Everything related to controlling the Game Manager goes in here
+// Everything related to controlling the Game
 public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to attach script to a GameObject
 // class = container for objects behaviour; class name is GameManager
 {
@@ -84,7 +84,7 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
     //     }
     // }
 
-    // Returns to the Main Menu from the Game Pause
+    // Returns to the Main Menu from the Game Pause (!! Only for use in the Pause Menu since it starts the game back !!)
     public void ReturnToMainMenu()
     {
         Time.timeScale = 1; // Resumes the game since you paused to get to press Main Menu
@@ -104,5 +104,13 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
     {
         Application.Quit(); // Quit the application
         print("Game quit"); // For debugging purposes
+    }
+    
+    // Closes the current scene and Returns to Main Menu
+    public void ReturnToMainMenu2()
+    {
+        SceneManager.LoadScene("MainMenu"); // <-- SceneManager = Unity's scene management system
+                                            // . = Acesssing something that belongs to SceneManager
+                                            // LoadScene = a method that loads a new scene by its name
     }
 }
