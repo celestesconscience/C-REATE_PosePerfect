@@ -24,7 +24,9 @@ public class IndicatorScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
+        if(Time.timeScale != 0){
         pressed = buttonPress.WasPerformedThisFrame(); // Checks if the button was pressed this frame
+        }
         
         // Changes the indicator's location when the button is pressed
         if(pressed == true)

@@ -40,8 +40,10 @@ public class PlayerScript : MonoBehaviour
     void Update()
     {
         // Checks if the button was pressed
+        if(Time.timeScale != 0){//Makes it so button wont work when time is paused
         pressed = buttonPress.WasPerformedThisFrame();
         held = buttonHold.WasPerformedThisFrame();
+        }
 
         // Debug to see if press and hold is working as intended
         if(pressed == true)
