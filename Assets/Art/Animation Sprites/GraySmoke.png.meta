@@ -1,0 +1,3770 @@
+fileFormatVersion: 2
+guid: ccae8c10f33344d04858b0f2ab146d8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1167707728113909833
+    second: GraySmoke_0
+  - first:
+      213: 1234317853027906428
+    second: GraySmoke_1
+  - first:
+      213: -4938654448062191023
+    second: GraySmoke_2
+  - first:
+      213: 273325127998050855
+    second: GraySmoke_3
+  - first:
+      213: 1740553641813154661
+    second: GraySmoke_4
+  - first:
+      213: -2011065223208194883
+    second: GraySmoke_5
+  - first:
+      213: 5665059348469920173
+    second: GraySmoke_6
+  - first:
+      213: -9190722893348022254
+    second: GraySmoke_7
+  - first:
+      213: 3886944502875506564
+    second: GraySmoke_8
+  - first:
+      213: -5531054854162853201
+    second: GraySmoke_9
+  - first:
+      213: 4136564374607220417
+    second: GraySmoke_10
+  - first:
+      213: -164110454699340507
+    second: GraySmoke_11
+  - first:
+      213: -6378938297121480297
+    second: GraySmoke_12
+  - first:
+      213: 2652872047760141940
+    second: GraySmoke_13
+  - first:
+      213: 6123551183821698265
+    second: GraySmoke_14
+  - first:
+      213: -6513328476229337733
+    second: GraySmoke_15
+  - first:
+      213: 5642768736647563658
+    second: GraySmoke_16
+  - first:
+      213: 8287481498667085404
+    second: GraySmoke_17
+  - first:
+      213: -8039104619615466201
+    second: GraySmoke_18
+  - first:
+      213: -1110304263415430271
+    second: GraySmoke_19
+  - first:
+      213: 5424298453741793453
+    second: GraySmoke_20
+  - first:
+      213: 7527459151604042711
+    second: GraySmoke_21
+  - first:
+      213: 816764176588949354
+    second: GraySmoke_22
+  - first:
+      213: 5494337601183354805
+    second: GraySmoke_23
+  - first:
+      213: 18257231241665193
+    second: GraySmoke_24
+  - first:
+      213: 848084498196533428
+    second: GraySmoke_25
+  - first:
+      213: 5403282458665353383
+    second: GraySmoke_26
+  - first:
+      213: -1794175796297433298
+    second: GraySmoke_27
+  - first:
+      213: -939080667198526672
+    second: GraySmoke_28
+  - first:
+      213: 1378986280702181116
+    second: GraySmoke_29
+  - first:
+      213: 6773524118449536152
+    second: GraySmoke_30
+  - first:
+      213: 8248508859944726638
+    second: GraySmoke_31
+  - first:
+      213: -6499508078014151279
+    second: GraySmoke_32
+  - first:
+      213: 3549419270059039358
+    second: GraySmoke_33
+  - first:
+      213: -4154852604402195093
+    second: GraySmoke_34
+  - first:
+      213: 1640740941684574578
+    second: GraySmoke_35
+  - first:
+      213: 236226431909947651
+    second: GraySmoke_36
+  - first:
+      213: 1428219523358053192
+    second: GraySmoke_37
+  - first:
+      213: 9100697689727700253
+    second: GraySmoke_38
+  - first:
+      213: -7610806335934322989
+    second: GraySmoke_39
+  - first:
+      213: 7673272753936066035
+    second: GraySmoke_40
+  - first:
+      213: 8757399558174814587
+    second: GraySmoke_41
+  - first:
+      213: -567263732319746265
+    second: GraySmoke_42
+  - first:
+      213: -8661038751845477723
+    second: GraySmoke_43
+  - first:
+      213: -6219131010258034780
+    second: GraySmoke_44
+  - first:
+      213: 2510975929282429880
+    second: GraySmoke_45
+  - first:
+      213: 4322908112347958953
+    second: GraySmoke_46
+  - first:
+      213: 7585867613597989628
+    second: GraySmoke_47
+  - first:
+      213: -5888445319699811083
+    second: GraySmoke_48
+  - first:
+      213: -1962720658230918881
+    second: GraySmoke_49
+  - first:
+      213: 4025632247016753725
+    second: GraySmoke_50
+  - first:
+      213: -3188420790893508267
+    second: GraySmoke_51
+  - first:
+      213: -3393823271724933221
+    second: GraySmoke_52
+  - first:
+      213: 4058370347993219708
+    second: GraySmoke_53
+  - first:
+      213: -4216270125354860691
+    second: GraySmoke_54
+  - first:
+      213: 9131442336445821412
+    second: GraySmoke_55
+  - first:
+      213: -2364757175359742447
+    second: GraySmoke_56
+  - first:
+      213: -6122615035026069706
+    second: GraySmoke_57
+  - first:
+      213: -4780375991938982606
+    second: GraySmoke_58
+  - first:
+      213: -1594944607851546244
+    second: GraySmoke_59
+  - first:
+      213: -25496121694914332
+    second: GraySmoke_60
+  - first:
+      213: 6457644896892760025
+    second: GraySmoke_61
+  - first:
+      213: 6134081664861057057
+    second: GraySmoke_62
+  - first:
+      213: 4610189475284313738
+    second: GraySmoke_63
+  - first:
+      213: -2333952285255022299
+    second: GraySmoke_64
+  - first:
+      213: 7695260542430455625
+    second: GraySmoke_65
+  - first:
+      213: 30584551257891206
+    second: GraySmoke_66
+  - first:
+      213: 2920197004539633990
+    second: GraySmoke_67
+  - first:
+      213: -548170191189629858
+    second: GraySmoke_68
+  - first:
+      213: 1811448626835807208
+    second: GraySmoke_69
+  - first:
+      213: -5340526650663405236
+    second: GraySmoke_70
+  - first:
+      213: 1006889145989401081
+    second: GraySmoke_71
+  - first:
+      213: -3570233066006785626
+    second: GraySmoke_72
+  - first:
+      213: -4982281122599094421
+    second: GraySmoke_73
+  - first:
+      213: 4217440899862448654
+    second: GraySmoke_74
+  - first:
+      213: 651627696412961158
+    second: GraySmoke_75
+  - first:
+      213: -9159015324857962125
+    second: GraySmoke_76
+  - first:
+      213: -6001513974432492540
+    second: GraySmoke_77
+  - first:
+      213: 2009457332988286254
+    second: GraySmoke_78
+  - first:
+      213: -1538231048959545193
+    second: GraySmoke_79
+  - first:
+      213: 3258048040934772570
+    second: GraySmoke_80
+  - first:
+      213: -6475814842821070947
+    second: GraySmoke_81
+  - first:
+      213: 2944989269795738707
+    second: GraySmoke_82
+  - first:
+      213: -5583517804190456306
+    second: GraySmoke_83
+  - first:
+      213: 5075261236463516593
+    second: GraySmoke_84
+  - first:
+      213: -6660766090936019588
+    second: GraySmoke_85
+  - first:
+      213: 7857294735174052888
+    second: GraySmoke_86
+  - first:
+      213: -123743897626678366
+    second: GraySmoke_87
+  - first:
+      213: -8079715396247038980
+    second: GraySmoke_88
+  - first:
+      213: -7831792497743525920
+    second: GraySmoke_89
+  - first:
+      213: 8760528991223974805
+    second: GraySmoke_90
+  - first:
+      213: 4851449847871922866
+    second: GraySmoke_91
+  - first:
+      213: -1963737260364012387
+    second: GraySmoke_92
+  - first:
+      213: -1078586954665162687
+    second: GraySmoke_93
+  - first:
+      213: -968997340029232003
+    second: GraySmoke_94
+  - first:
+      213: 1971162930151887977
+    second: GraySmoke_95
+  - first:
+      213: 9041467506850806140
+    second: GraySmoke_96
+  - first:
+      213: 6275086910940528440
+    second: GraySmoke_97
+  - first:
+      213: 9014089471283878392
+    second: GraySmoke_98
+  - first:
+      213: -7808114051216414010
+    second: GraySmoke_99
+  - first:
+      213: 1769410146194243517
+    second: GraySmoke_100
+  - first:
+      213: -3340752393269989450
+    second: GraySmoke_101
+  - first:
+      213: -6828942721800370785
+    second: GraySmoke_102
+  - first:
+      213: 8479279332502762612
+    second: GraySmoke_103
+  - first:
+      213: 3452783956339130390
+    second: GraySmoke_104
+  - first:
+      213: 987228588670615039
+    second: GraySmoke_105
+  - first:
+      213: -3537235977988828303
+    second: GraySmoke_106
+  - first:
+      213: 4218187578153456068
+    second: GraySmoke_107
+  - first:
+      213: 6885996871311888342
+    second: GraySmoke_108
+  - first:
+      213: 5445868155197260686
+    second: GraySmoke_109
+  - first:
+      213: 7973263080562217392
+    second: GraySmoke_110
+  - first:
+      213: -4682634409225256667
+    second: GraySmoke_111
+  - first:
+      213: 2328503020153911725
+    second: GraySmoke_112
+  - first:
+      213: 2401958930470205635
+    second: GraySmoke_113
+  - first:
+      213: 4760397731369228684
+    second: GraySmoke_114
+  - first:
+      213: 9066776622578500581
+    second: GraySmoke_115
+  - first:
+      213: 6025502241552990138
+    second: GraySmoke_116
+  - first:
+      213: 7792848758261683141
+    second: GraySmoke_117
+  - first:
+      213: -8135552873515177431
+    second: GraySmoke_118
+  - first:
+      213: 1841357946951700114
+    second: GraySmoke_119
+  - first:
+      213: -4056174272326791994
+    second: GraySmoke_120
+  - first:
+      213: 5079474712793850282
+    second: GraySmoke_121
+  - first:
+      213: -1700386381286420235
+    second: GraySmoke_122
+  - first:
+      213: 5790194198748537947
+    second: GraySmoke_123
+  - first:
+      213: -5494661040835721073
+    second: GraySmoke_124
+  - first:
+      213: -6859881816866479931
+    second: GraySmoke_125
+  - first:
+      213: -2496304411970266753
+    second: GraySmoke_126
+  - first:
+      213: -6094182687940551814
+    second: GraySmoke_127
+  - first:
+      213: -5121473679609167484
+    second: GraySmoke_128
+  - first:
+      213: -7092038629230773741
+    second: GraySmoke_129
+  - first:
+      213: -1626914065582345504
+    second: GraySmoke_130
+  - first:
+      213: -6658011071054026760
+    second: GraySmoke_131
+  - first:
+      213: 5695112028008844963
+    second: GraySmoke_132
+  - first:
+      213: -2633707362490980599
+    second: GraySmoke_133
+  - first:
+      213: 5390281157103130172
+    second: GraySmoke_134
+  - first:
+      213: 186811620675720797
+    second: GraySmoke_135
+  - first:
+      213: -1911067469566541793
+    second: GraySmoke_136
+  - first:
+      213: -5387249208215213686
+    second: GraySmoke_137
+  - first:
+      213: -8211952432410414867
+    second: GraySmoke_138
+  - first:
+      213: -3083848556488924675
+    second: GraySmoke_139
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GraySmoke_0
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 26
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfba4012087bcfe0800000000000000
+      internalID: -1167707728113909833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_1
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 22
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73b6a13c8d212110800000000000000
+      internalID: 1234317853027906428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_2
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 21
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15aa9d212ff567bb0800000000000000
+      internalID: -4938654448062191023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_3
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 94
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722138a71cb0bc300800000000000000
+      internalID: 273325127998050855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_4
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 85
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b19ccb050b72810800000000000000
+      internalID: 1740553641813154661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_5
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 95
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbca886a5d24714e0800000000000000
+      internalID: -2011065223208194883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_6
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da13e0176755e9e40800000000000000
+      internalID: 5665059348469920173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_7
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 103
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218d0f8193ef37080800000000000000
+      internalID: -9190722893348022254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_8
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 98
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4874d837e6331f530800000000000000
+      internalID: 3886944502875506564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_9
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 100
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa25c683aeebd33b0800000000000000
+      internalID: -5531054854162853201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_10
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 86
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cecffad167086930800000000000000
+      internalID: 4136564374607220417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_11
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 81
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dc7b33966f8bdf0800000000000000
+      internalID: -164110454699340507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_12
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 100
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79160f37a657977a0800000000000000
+      internalID: -6378938297121480297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_13
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 100
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e6e496215e0d420800000000000000
+      internalID: 2652872047760141940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_14
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 89
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d47d939b593bf450800000000000000
+      internalID: 6123551183821698265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_15
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 82
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7df9ec82420c95a0800000000000000
+      internalID: -6513328476229337733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_16
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 25
+        width: 35
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89ce81f4442f4e40800000000000000
+      internalID: 5642768736647563658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_17
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e6caa938c030370800000000000000
+      internalID: 8287481498667085404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_18
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 17
+        width: 141
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72d4e9301fc5f6090800000000000000
+      internalID: -8039104619615466201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1838582b7286790f0800000000000000
+      internalID: -1110304263415430271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_20
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 39
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0fafa54baf64b40800000000000000
+      internalID: 5424298453741793453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_21
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db4f985738e67860800000000000000
+      internalID: 7527459151604042711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_22
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 56
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6749d2f0bab55b00800000000000000
+      internalID: 816764176588949354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_23
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 89
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf0b9220fecf3c40800000000000000
+      internalID: 5494337601183354805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_24
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 79
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaddb6eadcd04000800000000000000
+      internalID: 18257231241665193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_25
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 91
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b015869b5005cb00800000000000000
+      internalID: 848084498196533428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_26
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 76
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a009d1b4c05cfa40800000000000000
+      internalID: 5403282458665353383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_27
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 78
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f76158e9ec917e0800000000000000
+      internalID: -1794175796297433298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_28
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 76
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03be130db17b7f2f0800000000000000
+      internalID: -939080667198526672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_29
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfef36357b4232310800000000000000
+      internalID: 1378986280702181116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_30
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 78
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89cb9bd4c44600e50800000000000000
+      internalID: 6773524118449536152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_31
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 66
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60faab0b17987270800000000000000
+      internalID: 8248508859944726638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_32
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1954f23c6db1dc5a0800000000000000
+      internalID: -6499508078014151279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_33
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 80
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a9bce3502124130800000000000000
+      internalID: 3549419270059039358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_34
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 93
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b652084d19ff656c0800000000000000
+      internalID: -4154852604402195093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_35
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 82
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2798c85813515c610800000000000000
+      internalID: 1640740941684574578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_36
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 92
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309ec8030be374300800000000000000
+      internalID: 236226431909947651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_37
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 79
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843d807e61e02d310800000000000000
+      internalID: 1428219523358053192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_38
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 77
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d007cc45c2c4e70800000000000000
+      internalID: 9100697689727700253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_39
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 79
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d6a75416fbf06690800000000000000
+      internalID: -7610806335934322989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_40
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 77
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5ea0b3ae0fc7a60800000000000000
+      internalID: 7673272753936066035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_41
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 88
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b713c2ddf78888970800000000000000
+      internalID: 8757399558174814587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_42
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 79
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7278e1514aca028f0800000000000000
+      internalID: -567263732319746265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_43
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 77
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a29b52b42fcdc780800000000000000
+      internalID: -8661038751845477723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_44
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 82
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af14f9eb4531b9a0800000000000000
+      internalID: -6219131010258034780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_45
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b38f60dd47c8d220800000000000000
+      internalID: 2510975929282429880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_46
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 78
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae8721460e0efb30800000000000000
+      internalID: 4322908112347958953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_47
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 79
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfaf5a5276a664960800000000000000
+      internalID: 7585867613597989628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_48
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 31
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f43bf71e2a084ea0800000000000000
+      internalID: -5888445319699811083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_49
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 82
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1143d4d5f303c4e0800000000000000
+      internalID: -1962720658230918881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_50
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 56
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a8acf233bedd730800000000000000
+      internalID: 4025632247016753725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_51
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 50
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55982540f2470c3d0800000000000000
+      internalID: -3188420790893508267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_52
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 71
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f916237b7b6e0d0800000000000000
+      internalID: -3393823271724933221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_53
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 51
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c724d1f445a325830800000000000000
+      internalID: 4058370347993219708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_54
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 55
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fb125e8accc75c0800000000000000
+      internalID: -4216270125354860691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_55
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 38
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1f0deac6669be70800000000000000
+      internalID: 9131442336445821412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_56
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e50a6c0e1be2fd0800000000000000
+      internalID: -2364757175359742447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_57
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 65
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6372ecc801a180ba0800000000000000
+      internalID: -6122615035026069706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_58
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 71
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ddba3ec51b8adb0800000000000000
+      internalID: -4780375991938982606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_59
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 66
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79759c545e9dd9e0800000000000000
+      internalID: -1594944607851546244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_60
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 60
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e87933996b65aff0800000000000000
+      internalID: -25496121694914332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_61
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df28e4d1d92e9950800000000000000
+      internalID: 6457644896892760025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_62
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 67
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120b74146c2a02550800000000000000
+      internalID: 6134081664861057057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_63
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86e095e6eeaaff30800000000000000
+      internalID: 4610189475284313738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_64
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 529c9aa23c22c9fd0800000000000000
+      internalID: -2333952285255022299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_65
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 59
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947a5ad21be0bca60800000000000000
+      internalID: 7695260542430455625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_66
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 67
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6816751cc78ac6000800000000000000
+      internalID: 30584551257891206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_67
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 59
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641aeb924bf968820800000000000000
+      internalID: 2920197004539633990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_68
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 67
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e542fad8d128468f0800000000000000
+      internalID: -548170191189629858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_69
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 61
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ebda6bbdee832910800000000000000
+      internalID: 1811448626835807208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_70
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4973b97e43a2e5b0800000000000000
+      internalID: -5340526650663405236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_71
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 69
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f905e2f75039fd00800000000000000
+      internalID: 1006889145989401081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_72
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 65
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1df4f31fbf37ec0800000000000000
+      internalID: -3570233066006785626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_73
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 70
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67b85c57b16bdab0800000000000000
+      internalID: -4982281122599094421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_74
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 60
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a4189472c578a30800000000000000
+      internalID: 4217440899862448654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_75
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689208affeb0b0900800000000000000
+      internalID: 651627696412961158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_76
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 57
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3717b7da614a4e080800000000000000
+      internalID: -9159015324857962125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_77
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 54
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404986f66d656bca0800000000000000
+      internalID: -6001513974432492540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_78
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 37
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e25121c3cc603eb10800000000000000
+      internalID: 2009457332988286254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_79
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 62
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7903a48c20b17aae0800000000000000
+      internalID: -1538231048959545193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_80
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 53
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f031d6e69e63d20800000000000000
+      internalID: 3258048040934772570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_81
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 60
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fa276f5b84126a0800000000000000
+      internalID: -6475814842821070947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_82
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 57
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354138d3324bed820800000000000000
+      internalID: 2944989269795738707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_83
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 48
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06a82cc32c5382b0800000000000000
+      internalID: -5583517804190456306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_84
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 61
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbb7b56433fe6640800000000000000
+      internalID: 5075261236463516593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_85
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 52
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c759ac1d7843093a0800000000000000
+      internalID: -6660766090936019588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_86
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 50
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ca8919ee7ba0d60800000000000000
+      internalID: 7857294735174052888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_87
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2abe6daa49f584ef0800000000000000
+      internalID: -123743897626678366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_88
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 48
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3d070c7a51fdf80800000000000000
+      internalID: -8079715396247038980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_89
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e78d69c732ef4390800000000000000
+      internalID: -7831792497743525920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_90
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b8a66c3b6a39970800000000000000
+      internalID: 8760528991223974805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_91
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 55
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2670cbeefc35340800000000000000
+      internalID: 4851449847871922866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_92
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 50
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94edc3bd576fb4e0800000000000000
+      internalID: -1963737260364012387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_93
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 48
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14800db11e61801f0800000000000000
+      internalID: -1078586954665162687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_94
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 41
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c524f9d0e6d82f0800000000000000
+      internalID: -968997340029232003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_95
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 40
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9641f16cd3afa5b10800000000000000
+      internalID: 1971162930151887977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_96
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 51
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7934123bceb97d70800000000000000
+      internalID: 9041467506850806140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_97
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 29
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f30557c46951750800000000000000
+      internalID: 6275086910940528440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_98
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 50
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9d67d8d9a781d70800000000000000
+      internalID: 9014089471283878392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_99
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 53
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca628bb3a104a390800000000000000
+      internalID: -7808114051216414010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_100
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 43
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbf31e937253e8810800000000000000
+      internalID: 1769410146194243517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_101
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 42
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf2b9cf56343a1d0800000000000000
+      internalID: -3340752393269989450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_102
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 40
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95899b96c8ba31a0800000000000000
+      internalID: -6828942721800370785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_103
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 40
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4747325b0a37ca570800000000000000
+      internalID: 8479279332502762612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_104
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 36
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61003c3f6b0caef20800000000000000
+      internalID: 3452783956339130390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_105
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 42
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd72dbbb2753bd00800000000000000
+      internalID: 987228588670615039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_106
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 41
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1739e3d7e9639eec0800000000000000
+      internalID: -3537235977988828303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_107
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 39
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c15dcfd0430a8a30800000000000000
+      internalID: 4218187578153456068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_108
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 44
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df0ffebba9ff8f50800000000000000
+      internalID: 6885996871311888342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_109
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 34
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e830524db3c939b40800000000000000
+      internalID: 5445868155197260686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_110
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 40
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1d5a11788b6ae60800000000000000
+      internalID: 7973263080562217392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_111
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 35
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5218b1180d0f30fb0800000000000000
+      internalID: -4682634409225256667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_112
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 42
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9b2bee821805020800000000000000
+      internalID: 2328503020153911725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_113
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 34
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8f0cfcbe8755120800000000000000
+      internalID: 2401958930470205635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_114
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 40
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8996d7d384501240800000000000000
+      internalID: 4760397731369228684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_115
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 40
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e38b96ec49a3dd70800000000000000
+      internalID: 9066776622578500581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_116
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abff51d3d52ee9350800000000000000
+      internalID: 6025502241552990138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_117
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 19
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3188848a2c52c60800000000000000
+      internalID: 7792848758261683141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_118
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 31
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a28baf3c5b81f80800000000000000
+      internalID: -8135552873515177431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_119
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e066cfb41dd8910800000000000000
+      internalID: 1841357946951700114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_120
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 34
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc02e66df295b7c0800000000000000
+      internalID: -4056174272326791994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_121
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 25
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa128adc65bed7640800000000000000
+      internalID: 5079474712793850282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_122
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0d28268930768e0800000000000000
+      internalID: -1700386381286420235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_123
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 29
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b542fec22f6ea5050800000000000000
+      internalID: 5790194198748537947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_124
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f880fc335ea0fb3b0800000000000000
+      internalID: -5494661040835721073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_125
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 30
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0238035ddccc0a0800000000000000
+      internalID: -6859881816866479931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_126
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 29
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7995410d585b5dd0800000000000000
+      internalID: -2496304411970266753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_127
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 25
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bd7f8322d1d6ba0800000000000000
+      internalID: -6094182687940551814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_128
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 29
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4810268b2dedce8b0800000000000000
+      internalID: -5121473679609167484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_129
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31af9532174049d90800000000000000
+      internalID: -7092038629230773741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_130
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 19
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2b0e0f64a0c69e0800000000000000
+      internalID: -1626914065582345504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_131
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7e43fd43ef993a0800000000000000
+      internalID: -6658011071054026760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_132
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae8589273a190f40800000000000000
+      internalID: 5695112028008844963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_133
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907e4689b11337bd0800000000000000
+      internalID: -2633707362490980599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_134
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 18
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c361d9847202eca40800000000000000
+      internalID: 5390281157103130172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_135
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 17
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d569a42ed20b79200800000000000000
+      internalID: 186811620675720797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_136
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 23
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f108eaef2468a75e0800000000000000
+      internalID: -1911067469566541793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_137
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89e3d35365ac35b0800000000000000
+      internalID: -5387249208215213686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_138
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 18
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0b5c185c8490e80800000000000000
+      internalID: -8211952432410414867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GraySmoke_139
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 17
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df16069a318f335d0800000000000000
+      internalID: -3083848556488924675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GraySmoke_0: -1167707728113909833
+      GraySmoke_1: 1234317853027906428
+      GraySmoke_10: 4136564374607220417
+      GraySmoke_100: 1769410146194243517
+      GraySmoke_101: -3340752393269989450
+      GraySmoke_102: -6828942721800370785
+      GraySmoke_103: 8479279332502762612
+      GraySmoke_104: 3452783956339130390
+      GraySmoke_105: 987228588670615039
+      GraySmoke_106: -3537235977988828303
+      GraySmoke_107: 4218187578153456068
+      GraySmoke_108: 6885996871311888342
+      GraySmoke_109: 5445868155197260686
+      GraySmoke_11: -164110454699340507
+      GraySmoke_110: 7973263080562217392
+      GraySmoke_111: -4682634409225256667
+      GraySmoke_112: 2328503020153911725
+      GraySmoke_113: 2401958930470205635
+      GraySmoke_114: 4760397731369228684
+      GraySmoke_115: 9066776622578500581
+      GraySmoke_116: 6025502241552990138
+      GraySmoke_117: 7792848758261683141
+      GraySmoke_118: -8135552873515177431
+      GraySmoke_119: 1841357946951700114
+      GraySmoke_12: -6378938297121480297
+      GraySmoke_120: -4056174272326791994
+      GraySmoke_121: 5079474712793850282
+      GraySmoke_122: -1700386381286420235
+      GraySmoke_123: 5790194198748537947
+      GraySmoke_124: -5494661040835721073
+      GraySmoke_125: -6859881816866479931
+      GraySmoke_126: -2496304411970266753
+      GraySmoke_127: -6094182687940551814
+      GraySmoke_128: -5121473679609167484
+      GraySmoke_129: -7092038629230773741
+      GraySmoke_13: 2652872047760141940
+      GraySmoke_130: -1626914065582345504
+      GraySmoke_131: -6658011071054026760
+      GraySmoke_132: 5695112028008844963
+      GraySmoke_133: -2633707362490980599
+      GraySmoke_134: 5390281157103130172
+      GraySmoke_135: 186811620675720797
+      GraySmoke_136: -1911067469566541793
+      GraySmoke_137: -5387249208215213686
+      GraySmoke_138: -8211952432410414867
+      GraySmoke_139: -3083848556488924675
+      GraySmoke_14: 6123551183821698265
+      GraySmoke_15: -6513328476229337733
+      GraySmoke_16: 5642768736647563658
+      GraySmoke_17: 8287481498667085404
+      GraySmoke_18: -8039104619615466201
+      GraySmoke_19: -1110304263415430271
+      GraySmoke_2: -4938654448062191023
+      GraySmoke_20: 5424298453741793453
+      GraySmoke_21: 7527459151604042711
+      GraySmoke_22: 816764176588949354
+      GraySmoke_23: 5494337601183354805
+      GraySmoke_24: 18257231241665193
+      GraySmoke_25: 848084498196533428
+      GraySmoke_26: 5403282458665353383
+      GraySmoke_27: -1794175796297433298
+      GraySmoke_28: -939080667198526672
+      GraySmoke_29: 1378986280702181116
+      GraySmoke_3: 273325127998050855
+      GraySmoke_30: 6773524118449536152
+      GraySmoke_31: 8248508859944726638
+      GraySmoke_32: -6499508078014151279
+      GraySmoke_33: 3549419270059039358
+      GraySmoke_34: -4154852604402195093
+      GraySmoke_35: 1640740941684574578
+      GraySmoke_36: 236226431909947651
+      GraySmoke_37: 1428219523358053192
+      GraySmoke_38: 9100697689727700253
+      GraySmoke_39: -7610806335934322989
+      GraySmoke_4: 1740553641813154661
+      GraySmoke_40: 7673272753936066035
+      GraySmoke_41: 8757399558174814587
+      GraySmoke_42: -567263732319746265
+      GraySmoke_43: -8661038751845477723
+      GraySmoke_44: -6219131010258034780
+      GraySmoke_45: 2510975929282429880
+      GraySmoke_46: 4322908112347958953
+      GraySmoke_47: 7585867613597989628
+      GraySmoke_48: -5888445319699811083
+      GraySmoke_49: -1962720658230918881
+      GraySmoke_5: -2011065223208194883
+      GraySmoke_50: 4025632247016753725
+      GraySmoke_51: -3188420790893508267
+      GraySmoke_52: -3393823271724933221
+      GraySmoke_53: 4058370347993219708
+      GraySmoke_54: -4216270125354860691
+      GraySmoke_55: 9131442336445821412
+      GraySmoke_56: -2364757175359742447
+      GraySmoke_57: -6122615035026069706
+      GraySmoke_58: -4780375991938982606
+      GraySmoke_59: -1594944607851546244
+      GraySmoke_6: 5665059348469920173
+      GraySmoke_60: -25496121694914332
+      GraySmoke_61: 6457644896892760025
+      GraySmoke_62: 6134081664861057057
+      GraySmoke_63: 4610189475284313738
+      GraySmoke_64: -2333952285255022299
+      GraySmoke_65: 7695260542430455625
+      GraySmoke_66: 30584551257891206
+      GraySmoke_67: 2920197004539633990
+      GraySmoke_68: -548170191189629858
+      GraySmoke_69: 1811448626835807208
+      GraySmoke_7: -9190722893348022254
+      GraySmoke_70: -5340526650663405236
+      GraySmoke_71: 1006889145989401081
+      GraySmoke_72: -3570233066006785626
+      GraySmoke_73: -4982281122599094421
+      GraySmoke_74: 4217440899862448654
+      GraySmoke_75: 651627696412961158
+      GraySmoke_76: -9159015324857962125
+      GraySmoke_77: -6001513974432492540
+      GraySmoke_78: 2009457332988286254
+      GraySmoke_79: -1538231048959545193
+      GraySmoke_8: 3886944502875506564
+      GraySmoke_80: 3258048040934772570
+      GraySmoke_81: -6475814842821070947
+      GraySmoke_82: 2944989269795738707
+      GraySmoke_83: -5583517804190456306
+      GraySmoke_84: 5075261236463516593
+      GraySmoke_85: -6660766090936019588
+      GraySmoke_86: 7857294735174052888
+      GraySmoke_87: -123743897626678366
+      GraySmoke_88: -8079715396247038980
+      GraySmoke_89: -7831792497743525920
+      GraySmoke_9: -5531054854162853201
+      GraySmoke_90: 8760528991223974805
+      GraySmoke_91: 4851449847871922866
+      GraySmoke_92: -1963737260364012387
+      GraySmoke_93: -1078586954665162687
+      GraySmoke_94: -968997340029232003
+      GraySmoke_95: 1971162930151887977
+      GraySmoke_96: 9041467506850806140
+      GraySmoke_97: 6275086910940528440
+      GraySmoke_98: 9014089471283878392
+      GraySmoke_99: -7808114051216414010
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

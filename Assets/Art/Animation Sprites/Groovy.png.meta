@@ -1,0 +1,3198 @@
+fileFormatVersion: 2
+guid: 8b1fcd3f8db4e4f5680797b087b8d5df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2036913551074964540
+    second: Groovy_0
+  - first:
+      213: 597090343750235433
+    second: Groovy_1
+  - first:
+      213: 2273831111146892640
+    second: Groovy_2
+  - first:
+      213: 7148430660550447378
+    second: Groovy_3
+  - first:
+      213: -6847346952338040994
+    second: Groovy_4
+  - first:
+      213: -7291830920659381704
+    second: Groovy_5
+  - first:
+      213: -4662498597157077059
+    second: Groovy_6
+  - first:
+      213: -3694917235346249668
+    second: Groovy_7
+  - first:
+      213: 8323463063295347480
+    second: Groovy_8
+  - first:
+      213: 7809766146399686545
+    second: Groovy_9
+  - first:
+      213: -8690431118290993676
+    second: Groovy_10
+  - first:
+      213: -4767177481857248446
+    second: Groovy_11
+  - first:
+      213: -2233248566119602056
+    second: Groovy_12
+  - first:
+      213: -660763902669566673
+    second: Groovy_13
+  - first:
+      213: -5219253458775767060
+    second: Groovy_14
+  - first:
+      213: -6786469858449143101
+    second: Groovy_15
+  - first:
+      213: -7306103511312033407
+    second: Groovy_16
+  - first:
+      213: -7168075116608230599
+    second: Groovy_17
+  - first:
+      213: -2877355784673994771
+    second: Groovy_18
+  - first:
+      213: -5179976366687850501
+    second: Groovy_19
+  - first:
+      213: 4443274345450691610
+    second: Groovy_20
+  - first:
+      213: 8512535247411450529
+    second: Groovy_21
+  - first:
+      213: -4374175982200753617
+    second: Groovy_22
+  - first:
+      213: -1324268442154229403
+    second: Groovy_23
+  - first:
+      213: -8541626540779326124
+    second: Groovy_24
+  - first:
+      213: 8350910768162006277
+    second: Groovy_25
+  - first:
+      213: -164628707041531386
+    second: Groovy_26
+  - first:
+      213: -3278531450065043056
+    second: Groovy_27
+  - first:
+      213: 527594161068810517
+    second: Groovy_28
+  - first:
+      213: 8897888110327551736
+    second: Groovy_29
+  - first:
+      213: 5021649880189834948
+    second: Groovy_30
+  - first:
+      213: 3405842082092300837
+    second: Groovy_31
+  - first:
+      213: 3057714657025515231
+    second: Groovy_32
+  - first:
+      213: 3468022299166148410
+    second: Groovy_33
+  - first:
+      213: -5248513032498956831
+    second: Groovy_34
+  - first:
+      213: 5352082854455985147
+    second: Groovy_35
+  - first:
+      213: 4251612311147281339
+    second: Groovy_36
+  - first:
+      213: 5547817811073114759
+    second: Groovy_37
+  - first:
+      213: 5936611145350646793
+    second: Groovy_38
+  - first:
+      213: -1898597262945275842
+    second: Groovy_39
+  - first:
+      213: 8823974285186232506
+    second: Groovy_40
+  - first:
+      213: -599655075566594654
+    second: Groovy_41
+  - first:
+      213: -2675133180324590968
+    second: Groovy_42
+  - first:
+      213: -6021822102644142443
+    second: Groovy_43
+  - first:
+      213: 136639435935000576
+    second: Groovy_44
+  - first:
+      213: 4799246669995442612
+    second: Groovy_45
+  - first:
+      213: 7044236293353573485
+    second: Groovy_46
+  - first:
+      213: -4797651439862072048
+    second: Groovy_47
+  - first:
+      213: 6498524822596040245
+    second: Groovy_48
+  - first:
+      213: -8222588371694541755
+    second: Groovy_49
+  - first:
+      213: -9118407452515468094
+    second: Groovy_50
+  - first:
+      213: -7682604754126293078
+    second: Groovy_51
+  - first:
+      213: 7943198909039502332
+    second: Groovy_52
+  - first:
+      213: 8118887379486287486
+    second: Groovy_53
+  - first:
+      213: 459309491178693315
+    second: Groovy_54
+  - first:
+      213: 1921984364537151022
+    second: Groovy_55
+  - first:
+      213: -7962896586096997577
+    second: Groovy_56
+  - first:
+      213: 3218634435162313820
+    second: Groovy_57
+  - first:
+      213: -3024050836258889623
+    second: Groovy_58
+  - first:
+      213: -673410615184178242
+    second: Groovy_59
+  - first:
+      213: 7345176944006225378
+    second: Groovy_60
+  - first:
+      213: 2026028053499842865
+    second: Groovy_61
+  - first:
+      213: 5355071693574871636
+    second: Groovy_62
+  - first:
+      213: -6145755338310079330
+    second: Groovy_63
+  - first:
+      213: -2018706730782122936
+    second: Groovy_64
+  - first:
+      213: -5177650561805024773
+    second: Groovy_65
+  - first:
+      213: 8027043799140406630
+    second: Groovy_66
+  - first:
+      213: -3634329267653240391
+    second: Groovy_67
+  - first:
+      213: 2285859061380760034
+    second: Groovy_68
+  - first:
+      213: -1082273642930833731
+    second: Groovy_69
+  - first:
+      213: 5787170446017260523
+    second: Groovy_70
+  - first:
+      213: -3721632128097142862
+    second: Groovy_71
+  - first:
+      213: 3035214951552209603
+    second: Groovy_72
+  - first:
+      213: -1752725684689928586
+    second: Groovy_73
+  - first:
+      213: 4192323721301320712
+    second: Groovy_74
+  - first:
+      213: 6033562553654463251
+    second: Groovy_75
+  - first:
+      213: 2060978796291819558
+    second: Groovy_76
+  - first:
+      213: -2016111769399480313
+    second: Groovy_77
+  - first:
+      213: -5595235941008890489
+    second: Groovy_78
+  - first:
+      213: -7115615289886505849
+    second: Groovy_79
+  - first:
+      213: -3349745720675574159
+    second: Groovy_80
+  - first:
+      213: -1865644461215842137
+    second: Groovy_81
+  - first:
+      213: 5407650815619614338
+    second: Groovy_82
+  - first:
+      213: 6446371052308722827
+    second: Groovy_83
+  - first:
+      213: 3703830123121628058
+    second: Groovy_84
+  - first:
+      213: -5558479183390125816
+    second: Groovy_85
+  - first:
+      213: 8779254237871491449
+    second: Groovy_86
+  - first:
+      213: 7261184025259647141
+    second: Groovy_87
+  - first:
+      213: 2245372901785929827
+    second: Groovy_88
+  - first:
+      213: 5543946301577364829
+    second: Groovy_89
+  - first:
+      213: 4275605440272694314
+    second: Groovy_90
+  - first:
+      213: 4550113828408092335
+    second: Groovy_91
+  - first:
+      213: -7109962423369382023
+    second: Groovy_92
+  - first:
+      213: 154451995686751557
+    second: Groovy_93
+  - first:
+      213: -7016982683658607016
+    second: Groovy_94
+  - first:
+      213: 3299623319133411188
+    second: Groovy_95
+  - first:
+      213: 5102531363382853045
+    second: Groovy_96
+  - first:
+      213: -3667394145622046594
+    second: Groovy_97
+  - first:
+      213: -2102028773406539914
+    second: Groovy_98
+  - first:
+      213: -7083290267926461777
+    second: Groovy_99
+  - first:
+      213: -6901714116278229097
+    second: Groovy_100
+  - first:
+      213: -8800155153981251305
+    second: Groovy_101
+  - first:
+      213: -950088416594157463
+    second: Groovy_102
+  - first:
+      213: 4508578142545694600
+    second: Groovy_103
+  - first:
+      213: 2314133100237822477
+    second: Groovy_104
+  - first:
+      213: -6522967187910831422
+    second: Groovy_105
+  - first:
+      213: -1984525152478650072
+    second: Groovy_106
+  - first:
+      213: -3876304086319635621
+    second: Groovy_107
+  - first:
+      213: -8052028462168043712
+    second: Groovy_108
+  - first:
+      213: -3095079218412252982
+    second: Groovy_109
+  - first:
+      213: -1971533305382071533
+    second: Groovy_110
+  - first:
+      213: -3726863556278102810
+    second: Groovy_111
+  - first:
+      213: -7114337059303553744
+    second: Groovy_112
+  - first:
+      213: -6502111226357666174
+    second: Groovy_113
+  - first:
+      213: -3099912254969805029
+    second: Groovy_114
+  - first:
+      213: -1310970563218517084
+    second: Groovy_115
+  - first:
+      213: -8127634270933260365
+    second: Groovy_116
+  - first:
+      213: -8555407823348615943
+    second: Groovy_117
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Groovy_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 935
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34b00a2512944c10800000000000000
+      internalID: 2036913551074964540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_1
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 946
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9257c0e018a494800800000000000000
+      internalID: 597090343750235433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_2
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d642b29554e8f10800000000000000
+      internalID: 2273831111146892640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_3
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 955
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 211de9fcfc3543360800000000000000
+      internalID: 7148430660550447378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_4
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 946
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e579904c93659f0a0800000000000000
+      internalID: -6847346952338040994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_5
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83253e359663eca90800000000000000
+      internalID: -7291830920659381704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_6
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 959
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbff1b69a3a7b4fb0800000000000000
+      internalID: -4662498597157077059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_7
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 955
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38e7b8d95409bcc0800000000000000
+      internalID: -3694917235346249668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_8
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 946
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bcdc47e81e28370800000000000000
+      internalID: 8323463063295347480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f4607aeecd16c60800000000000000
+      internalID: 7809766146399686545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_10
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 960
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fdb34911f2656780800000000000000
+      internalID: -8690431118290993676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_11
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 959
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24358ac765597ddb0800000000000000
+      internalID: -4767177481857248446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_12
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 955
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8786a49e248e101e0800000000000000
+      internalID: -2233248566119602056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_13
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 946
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2dcafc3bbe74d6f0800000000000000
+      internalID: -660763902669566673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_14
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 935
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce701fcc1ac7197b0800000000000000
+      internalID: -5219253458775767060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_15
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 959
+        width: 71
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca4e38be9d91d1a0800000000000000
+      internalID: -6786469858449143101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_16
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 959
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189130cd0918b9a90800000000000000
+      internalID: -7306103511312033407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_17
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 955
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93bef37d8a1e58c90800000000000000
+      internalID: -7168075116608230599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_18
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 946
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de75712a8249118d0800000000000000
+      internalID: -2877355784673994771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_19
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 926
+        width: 12
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffe6ae60f60d18b0800000000000000
+      internalID: -5179976366687850501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_20
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 957
+        width: 93
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1cd138c97ea9ad30800000000000000
+      internalID: 4443274345450691610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_21
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 959
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a293f7c4b9922670800000000000000
+      internalID: 8512535247411450529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_22
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 955
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22f0eb9e1ecb43c0800000000000000
+      internalID: -4374175982200753617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_23
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 934
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561232e3ed04f9de0800000000000000
+      internalID: -1324268442154229403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_24
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 935
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455bcc8aaeb067980800000000000000
+      internalID: -8541626540779326124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_25
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 952
+        width: 115
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505e74f391564e370800000000000000
+      internalID: 8350910768162006277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_26
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 959
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a25fc201f17bdf0800000000000000
+      internalID: -164628707041531386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_27
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 939
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0914ded34015082d0800000000000000
+      internalID: -3278531450065043056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_28
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 946
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511a31c1814625700800000000000000
+      internalID: 527594161068810517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_29
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 818
+        width: 143
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6de33e716ab7b70800000000000000
+      internalID: 8897888110327551736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_30
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 815
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6191fc5fb70b540800000000000000
+      internalID: 5021649880189834948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_31
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 827
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a3038245bf34f20800000000000000
+      internalID: 3405842082092300837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_32
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 807
+        width: 197
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fded284b74f2f6a20800000000000000
+      internalID: 3057714657025515231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_33
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 807
+        width: 191
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a378eee18e3e02030800000000000000
+      internalID: 3468022299166148410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_34
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 807
+        width: 184
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e534ea64398927b0800000000000000
+      internalID: -5248513032498956831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_35
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 817
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3ce44effa664a40800000000000000
+      internalID: 5352082854455985147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_36
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 817
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb7c98fed2c00b30800000000000000
+      internalID: 4251612311147281339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_37
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 807
+        width: 122
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7822993d7eecdfc40800000000000000
+      internalID: 5547817811073114759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_38
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 814
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c00481264136250800000000000000
+      internalID: 5936611145350646793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_39
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 805
+        width: 118
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e303e9a39d3d6a5e0800000000000000
+      internalID: -1898597262945275842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_40
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 810
+        width: 93
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0f4b76cdd057a70800000000000000
+      internalID: 8823974285186232506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_41
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 797
+        width: 96
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5d719c2e89da7f0800000000000000
+      internalID: -599655075566594654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_42
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 810
+        width: 115
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a44e3cb8400ead0800000000000000
+      internalID: -2675133180324590968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_43
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 801
+        width: 76
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ecc4fd3b03e6ca0800000000000000
+      internalID: -6021822102644142443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_44
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 682
+        width: 143
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0082731d7d075e100800000000000000
+      internalID: 136639435935000576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_45
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 675
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b10e8a3b695a9240800000000000000
+      internalID: 4799246669995442612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_46
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 676
+        width: 171
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c014b369722c160800000000000000
+      internalID: 7044236293353573485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_47
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 689
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d31ea3f615b6db0800000000000000
+      internalID: -4797651439862072048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_48
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 673
+        width: 187
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53635ee35e56f2a50800000000000000
+      internalID: 6498524822596040245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_49
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 669
+        width: 188
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544a3eae07f73ed80800000000000000
+      internalID: -8222588371694541755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_50
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 669
+        width: 188
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc7a8bbbb8e47180800000000000000
+      internalID: -9118407452515468094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_51
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 669
+        width: 188
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa733982ea7e16590800000000000000
+      internalID: -7682604754126293078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_52
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 669
+        width: 188
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3e199a259eb3e60800000000000000
+      internalID: 7943198909039502332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_53
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 669
+        width: 188
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e76aea15e051ca070800000000000000
+      internalID: 8118887379486287486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_54
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 541
+        width: 188
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2eba77c8bcf5600800000000000000
+      internalID: 459309491178693315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_55
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 541
+        width: 186
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e7710b8924caa10800000000000000
+      internalID: 1921984364537151022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_56
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 558
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b84828ebb1e7190800000000000000
+      internalID: -7962896586096997577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_57
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 541
+        width: 145
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5490b937f2eaac20800000000000000
+      internalID: 3218634435162313820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_58
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 560
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960e01a59c96806d0800000000000000
+      internalID: -3024050836258889623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_59
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 558
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb348f50d9097a6f0800000000000000
+      internalID: -673410615184178242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_60
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 541
+        width: 119
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ed51ef938f4fe560800000000000000
+      internalID: 7345176944006225378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_61
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 562
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13195d1c7c5ed1c10800000000000000
+      internalID: 2026028053499842865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_62
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 560
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a974a3559015a40800000000000000
+      internalID: 5355071693574871636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_63
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 558
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c2197d414e5baa0800000000000000
+      internalID: -6145755338310079330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_64
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 541
+        width: 97
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c9a068cec1cf3e0800000000000000
+      internalID: -2018706730782122936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_65
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 564
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf182841f3a4528b0800000000000000
+      internalID: -5177650561805024773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_66
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 562
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66514446ec9c56f60800000000000000
+      internalID: 8027043799140406630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_67
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 560
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b919bc59c4409dc0800000000000000
+      internalID: -3634329267653240391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_68
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 558
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1453094b009bf10800000000000000
+      internalID: 2285859061380760034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_69
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 541
+        width: 75
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6f65b1bddfaf0f0800000000000000
+      internalID: -1082273642930833731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_70
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 565
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb6f71ebd8205050800000000000000
+      internalID: 5787170446017260523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_71
+      rect:
+        serializedVersion: 2
+        x: 1618
+        y: 563
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7b61c2c4b1a5cc0800000000000000
+      internalID: -3721632128097142862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_72
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 562
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2593ccaef3f1a20800000000000000
+      internalID: 3035214951552209603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_73
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 560
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e7a5fa6411da7e0800000000000000
+      internalID: -1752725684689928586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_74
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 558
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804eb9f66302e2a30800000000000000
+      internalID: 4192323721301320712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_75
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 545
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b4ca4ec258bb350800000000000000
+      internalID: 6033562553654463251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_76
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 567
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6280692bb411a9c10800000000000000
+      internalID: 2060978796291819558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_77
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 565
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700b57d07055504e0800000000000000
+      internalID: -2016111769399480313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_78
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 563
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785aaa57e8ab952b0800000000000000
+      internalID: -5595235941008890489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_79
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 562
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7840aff0891404d90800000000000000
+      internalID: -7115615289886505849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_80
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 560
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e5f37c3005381d0800000000000000
+      internalID: -3349745720675574159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_81
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 547
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a00e044f36eb16e0800000000000000
+      internalID: -1865644461215842137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_82
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 556
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286cb5e04c5db0b40800000000000000
+      internalID: 5407650815619614338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_83
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 441
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84f837515c167950800000000000000
+      internalID: 6446371052308722827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_84
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 439
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a935e0d8fd5a66330800000000000000
+      internalID: 3703830123121628058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_85
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 437
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801d0aef1a05cd2b0800000000000000
+      internalID: -5558479183390125816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_86
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 435
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9794c21073d26d970800000000000000
+      internalID: 8779254237871491449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_87
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 434
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0a75a4668e4c460800000000000000
+      internalID: 7261184025259647141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_88
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 423
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3680d37f1ca292f10800000000000000
+      internalID: 2245372901785929827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_89
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 430
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d550c57c9cd00fc40800000000000000
+      internalID: 5543946301577364829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_90
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 443
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c7e2bae70065b30800000000000000
+      internalID: 4275605440272694314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_91
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 441
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa66bdd5b60452f30800000000000000
+      internalID: 4550113828408092335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_92
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 439
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97741bc98d6545d90800000000000000
+      internalID: -7109962423369382023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_93
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 437
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d42c19549b42200800000000000000
+      internalID: 154451995686751557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_94
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 435
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85626714d6bae9e90800000000000000
+      internalID: -7016982683658607016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_95
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 426
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477da853ded9acd20800000000000000
+      internalID: 3299623319133411188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_96
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 432
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd79b99d35dfc640800000000000000
+      internalID: 5102531363382853045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_97
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 443
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e78c9da847cca1dc0800000000000000
+      internalID: -3667394145622046594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_98
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 441
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ff375b7f714d2e0800000000000000
+      internalID: -2102028773406539914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_99
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 439
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2034bb70913bd90800000000000000
+      internalID: -7083290267926461777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_100
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 437
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797efedf39f2830a0800000000000000
+      internalID: -6901714116278229097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_101
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 429
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711ef9e33819fd580800000000000000
+      internalID: -8800155153981251305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_102
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 434
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96021bf6e9b90d2f0800000000000000
+      internalID: -950088416594157463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_103
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 443
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fc684eeefa19e30800000000000000
+      internalID: 4508578142545694600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_104
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 441
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a16aa3bc37d1020800000000000000
+      internalID: 2314133100237822477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_105
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 439
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2db0b17e3c975a0800000000000000
+      internalID: -6522967187910831422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_106
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 433
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821aea663ec8574e0800000000000000
+      internalID: -1984525152478650072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_107
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 435
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53e58598f9943ac0800000000000000
+      internalID: -3876304086319635621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_108
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 443
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f832f66c2714090800000000000000
+      internalID: -8052028462168043712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_109
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 441
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac018da69d11c05d0800000000000000
+      internalID: -3095079218412252982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_110
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 435
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31399d587e4b3a4e0800000000000000
+      internalID: -1971533305382071533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_111
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 437
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4d1b16755874cc0800000000000000
+      internalID: -3726863556278102810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_112
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 444
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03580df432cc44d90800000000000000
+      internalID: -7114337059303553744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_113
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 439
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e2fde0a4cd3c5a0800000000000000
+      internalID: -6502111226357666174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_114
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 439
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1705a76a36eaf4d0800000000000000
+      internalID: -3099912254969805029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_115
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 442
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3dd54f73f7ecde0800000000000000
+      internalID: -1310970563218517084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_116
+      rect:
+        serializedVersion: 2
+        x: 1744
+        y: 441
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b76bb051b7d43f80800000000000000
+      internalID: -8127634270933260365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Groovy_117
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 443
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f435b4c9e5154980800000000000000
+      internalID: -8555407823348615943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Groovy_0: 2036913551074964540
+      Groovy_1: 597090343750235433
+      Groovy_10: -8690431118290993676
+      Groovy_100: -6901714116278229097
+      Groovy_101: -8800155153981251305
+      Groovy_102: -950088416594157463
+      Groovy_103: 4508578142545694600
+      Groovy_104: 2314133100237822477
+      Groovy_105: -6522967187910831422
+      Groovy_106: -1984525152478650072
+      Groovy_107: -3876304086319635621
+      Groovy_108: -8052028462168043712
+      Groovy_109: -3095079218412252982
+      Groovy_11: -4767177481857248446
+      Groovy_110: -1971533305382071533
+      Groovy_111: -3726863556278102810
+      Groovy_112: -7114337059303553744
+      Groovy_113: -6502111226357666174
+      Groovy_114: -3099912254969805029
+      Groovy_115: -1310970563218517084
+      Groovy_116: -8127634270933260365
+      Groovy_117: -8555407823348615943
+      Groovy_12: -2233248566119602056
+      Groovy_13: -660763902669566673
+      Groovy_14: -5219253458775767060
+      Groovy_15: -6786469858449143101
+      Groovy_16: -7306103511312033407
+      Groovy_17: -7168075116608230599
+      Groovy_18: -2877355784673994771
+      Groovy_19: -5179976366687850501
+      Groovy_2: 2273831111146892640
+      Groovy_20: 4443274345450691610
+      Groovy_21: 8512535247411450529
+      Groovy_22: -4374175982200753617
+      Groovy_23: -1324268442154229403
+      Groovy_24: -8541626540779326124
+      Groovy_25: 8350910768162006277
+      Groovy_26: -164628707041531386
+      Groovy_27: -3278531450065043056
+      Groovy_28: 527594161068810517
+      Groovy_29: 8897888110327551736
+      Groovy_3: 7148430660550447378
+      Groovy_30: 5021649880189834948
+      Groovy_31: 3405842082092300837
+      Groovy_32: 3057714657025515231
+      Groovy_33: 3468022299166148410
+      Groovy_34: -5248513032498956831
+      Groovy_35: 5352082854455985147
+      Groovy_36: 4251612311147281339
+      Groovy_37: 5547817811073114759
+      Groovy_38: 5936611145350646793
+      Groovy_39: -1898597262945275842
+      Groovy_4: -6847346952338040994
+      Groovy_40: 8823974285186232506
+      Groovy_41: -599655075566594654
+      Groovy_42: -2675133180324590968
+      Groovy_43: -6021822102644142443
+      Groovy_44: 136639435935000576
+      Groovy_45: 4799246669995442612
+      Groovy_46: 7044236293353573485
+      Groovy_47: -4797651439862072048
+      Groovy_48: 6498524822596040245
+      Groovy_49: -8222588371694541755
+      Groovy_5: -7291830920659381704
+      Groovy_50: -9118407452515468094
+      Groovy_51: -7682604754126293078
+      Groovy_52: 7943198909039502332
+      Groovy_53: 8118887379486287486
+      Groovy_54: 459309491178693315
+      Groovy_55: 1921984364537151022
+      Groovy_56: -7962896586096997577
+      Groovy_57: 3218634435162313820
+      Groovy_58: -3024050836258889623
+      Groovy_59: -673410615184178242
+      Groovy_6: -4662498597157077059
+      Groovy_60: 7345176944006225378
+      Groovy_61: 2026028053499842865
+      Groovy_62: 5355071693574871636
+      Groovy_63: -6145755338310079330
+      Groovy_64: -2018706730782122936
+      Groovy_65: -5177650561805024773
+      Groovy_66: 8027043799140406630
+      Groovy_67: -3634329267653240391
+      Groovy_68: 2285859061380760034
+      Groovy_69: -1082273642930833731
+      Groovy_7: -3694917235346249668
+      Groovy_70: 5787170446017260523
+      Groovy_71: -3721632128097142862
+      Groovy_72: 3035214951552209603
+      Groovy_73: -1752725684689928586
+      Groovy_74: 4192323721301320712
+      Groovy_75: 6033562553654463251
+      Groovy_76: 2060978796291819558
+      Groovy_77: -2016111769399480313
+      Groovy_78: -5595235941008890489
+      Groovy_79: -7115615289886505849
+      Groovy_8: 8323463063295347480
+      Groovy_80: -3349745720675574159
+      Groovy_81: -1865644461215842137
+      Groovy_82: 5407650815619614338
+      Groovy_83: 6446371052308722827
+      Groovy_84: 3703830123121628058
+      Groovy_85: -5558479183390125816
+      Groovy_86: 8779254237871491449
+      Groovy_87: 7261184025259647141
+      Groovy_88: 2245372901785929827
+      Groovy_89: 5543946301577364829
+      Groovy_9: 7809766146399686545
+      Groovy_90: 4275605440272694314
+      Groovy_91: 4550113828408092335
+      Groovy_92: -7109962423369382023
+      Groovy_93: 154451995686751557
+      Groovy_94: -7016982683658607016
+      Groovy_95: 3299623319133411188
+      Groovy_96: 5102531363382853045
+      Groovy_97: -3667394145622046594
+      Groovy_98: -2102028773406539914
+      Groovy_99: -7083290267926461777
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

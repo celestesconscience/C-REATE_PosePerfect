@@ -1,0 +1,390 @@
+fileFormatVersion: 2
+guid: e9b4417ae261d4fdda27d41e4340a1ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5366314709814244259
+    second: Poses_SpriteSheet-Large_0
+  - first:
+      213: -3987070448287943265
+    second: Poses_SpriteSheet-Large_1
+  - first:
+      213: -5063142168660008714
+    second: Poses_SpriteSheet-Large_2
+  - first:
+      213: 204957028707914642
+    second: Poses_SpriteSheet-Large_3
+  - first:
+      213: 7159191394375022813
+    second: Poses_SpriteSheet-Large_4
+  - first:
+      213: 4102889456431848663
+    second: Poses_SpriteSheet-Large_5
+  - first:
+      213: -410531335233931216
+    second: Poses_SpriteSheet-Large_6
+  - first:
+      213: 5511070276684147636
+    second: Poses_SpriteSheet-Large_7
+  - first:
+      213: -8429389564387637838
+    second: Poses_SpriteSheet-Large_8
+  - first:
+      213: 3686225521971825146
+    second: Poses_SpriteSheet-Large_9
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Poses_SpriteSheet-Large_0
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 111
+        width: 194
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c819014350785b0800000000000000
+      internalID: -5366314709814244259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poses_SpriteSheet-Large_1
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 111
+        width: 138
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f95f65b3d841ba8c0800000000000000
+      internalID: -3987070448287943265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poses_SpriteSheet-Large_2
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 143
+        width: 186
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f028b5f50b1cb9b0800000000000000
+      internalID: -5063142168660008714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poses_SpriteSheet-Large_3
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 111
+        width: 210
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293da5ae45728d200800000000000000
+      internalID: 204957028707914642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poses_SpriteSheet-Large_4
+      rect:
+        serializedVersion: 2
+        x: 2455
+        y: 111
+        width: 170
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8b1c464ae8a5360800000000000000
+      internalID: 7159191394375022813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poses_SpriteSheet-Large_5
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 111
+        width: 170
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcd05bf83460f830800000000000000
+      internalID: 4102889456431848663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poses_SpriteSheet-Large_6
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 103
+        width: 234
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038f63afcef7d4af0800000000000000
+      internalID: -410531335233931216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poses_SpriteSheet-Large_7
+      rect:
+        serializedVersion: 2
+        x: 4119
+        y: 111
+        width: 170
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbe8fdb7314b7c40800000000000000
+      internalID: 5511070276684147636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poses_SpriteSheet-Large_8
+      rect:
+        serializedVersion: 2
+        x: 4639
+        y: 111
+        width: 250
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b54a4d1adac40b80800000000000000
+      internalID: -8429389564387637838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Poses_SpriteSheet-Large_9
+      rect:
+        serializedVersion: 2
+        x: 5231
+        y: 111
+        width: 186
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af90c1fe49a182330800000000000000
+      internalID: 3686225521971825146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Poses_SpriteSheet-Large_0: -5366314709814244259
+      Poses_SpriteSheet-Large_1: -3987070448287943265
+      Poses_SpriteSheet-Large_2: -5063142168660008714
+      Poses_SpriteSheet-Large_3: 204957028707914642
+      Poses_SpriteSheet-Large_4: 7159191394375022813
+      Poses_SpriteSheet-Large_5: 4102889456431848663
+      Poses_SpriteSheet-Large_6: -410531335233931216
+      Poses_SpriteSheet-Large_7: 5511070276684147636
+      Poses_SpriteSheet-Large_8: -8429389564387637838
+      Poses_SpriteSheet-Large_9: 3686225521971825146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

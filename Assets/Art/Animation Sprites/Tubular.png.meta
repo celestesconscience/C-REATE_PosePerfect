@@ -1,0 +1,5148 @@
+fileFormatVersion: 2
+guid: b2a0e6d3159b9434fbbf8e515bdb273b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6231405495944522010
+    second: Tubular_0
+  - first:
+      213: -7483382017165277373
+    second: Tubular_1
+  - first:
+      213: 978596165927381844
+    second: Tubular_2
+  - first:
+      213: 1601903449847921017
+    second: Tubular_3
+  - first:
+      213: 5633341020257120142
+    second: Tubular_4
+  - first:
+      213: 2338039957525509270
+    second: Tubular_5
+  - first:
+      213: 5845626630987701542
+    second: Tubular_6
+  - first:
+      213: -7491834425411395410
+    second: Tubular_7
+  - first:
+      213: -8597454693095232758
+    second: Tubular_8
+  - first:
+      213: 5986445432189808488
+    second: Tubular_9
+  - first:
+      213: 5499996210302743520
+    second: Tubular_10
+  - first:
+      213: 6420799882848920542
+    second: Tubular_11
+  - first:
+      213: 1539527503854400433
+    second: Tubular_12
+  - first:
+      213: 410671338336611071
+    second: Tubular_13
+  - first:
+      213: 3073084821696733057
+    second: Tubular_14
+  - first:
+      213: 7733583622821793786
+    second: Tubular_15
+  - first:
+      213: 3881952301479418672
+    second: Tubular_16
+  - first:
+      213: 5229477215536365017
+    second: Tubular_17
+  - first:
+      213: -2372642083043160823
+    second: Tubular_18
+  - first:
+      213: -7878949889110020991
+    second: Tubular_19
+  - first:
+      213: 4441857769679873901
+    second: Tubular_20
+  - first:
+      213: -7042904548391724368
+    second: Tubular_21
+  - first:
+      213: -6823191121454482923
+    second: Tubular_22
+  - first:
+      213: -5016330928661235372
+    second: Tubular_23
+  - first:
+      213: 8348751672136981024
+    second: Tubular_24
+  - first:
+      213: -8520437929382400339
+    second: Tubular_25
+  - first:
+      213: -6984315197984363236
+    second: Tubular_26
+  - first:
+      213: -3560249456871198757
+    second: Tubular_27
+  - first:
+      213: -1431356252997995865
+    second: Tubular_28
+  - first:
+      213: -2618191994041094053
+    second: Tubular_29
+  - first:
+      213: 8576804773876396977
+    second: Tubular_30
+  - first:
+      213: -4811507846782537309
+    second: Tubular_31
+  - first:
+      213: -223075046109656988
+    second: Tubular_32
+  - first:
+      213: -5684811745634436624
+    second: Tubular_33
+  - first:
+      213: 4833226709457865701
+    second: Tubular_34
+  - first:
+      213: -7463773688261044096
+    second: Tubular_35
+  - first:
+      213: -2729351194980494580
+    second: Tubular_36
+  - first:
+      213: 2168641005890460835
+    second: Tubular_37
+  - first:
+      213: -9159243728657054647
+    second: Tubular_38
+  - first:
+      213: -1448790689951615377
+    second: Tubular_39
+  - first:
+      213: -7667228550812443810
+    second: Tubular_40
+  - first:
+      213: -5000736644655136264
+    second: Tubular_41
+  - first:
+      213: 3193127070267422259
+    second: Tubular_42
+  - first:
+      213: 8715216413367034305
+    second: Tubular_43
+  - first:
+      213: -6924471019386447168
+    second: Tubular_44
+  - first:
+      213: -8945979595465548178
+    second: Tubular_45
+  - first:
+      213: 2998053852431019941
+    second: Tubular_46
+  - first:
+      213: 8899105528299871670
+    second: Tubular_47
+  - first:
+      213: 5136805909358365491
+    second: Tubular_48
+  - first:
+      213: 2931909257306890589
+    second: Tubular_49
+  - first:
+      213: -7177342225638652855
+    second: Tubular_50
+  - first:
+      213: 6929436517641794322
+    second: Tubular_51
+  - first:
+      213: 6107584043441901930
+    second: Tubular_52
+  - first:
+      213: -6828980220662786240
+    second: Tubular_53
+  - first:
+      213: -7736298233545134221
+    second: Tubular_54
+  - first:
+      213: -9127351675451229530
+    second: Tubular_55
+  - first:
+      213: -5121988659798231800
+    second: Tubular_56
+  - first:
+      213: 3588360087260317137
+    second: Tubular_57
+  - first:
+      213: -7409182922523365455
+    second: Tubular_58
+  - first:
+      213: -8448371718604684203
+    second: Tubular_59
+  - first:
+      213: 8078450086822621950
+    second: Tubular_60
+  - first:
+      213: 202068190062605424
+    second: Tubular_61
+  - first:
+      213: -8703501430788894537
+    second: Tubular_62
+  - first:
+      213: 8120881870124350232
+    second: Tubular_63
+  - first:
+      213: 3292130156436275406
+    second: Tubular_64
+  - first:
+      213: 4099240978148359855
+    second: Tubular_65
+  - first:
+      213: -4516980419115475539
+    second: Tubular_66
+  - first:
+      213: 1468866711802685890
+    second: Tubular_67
+  - first:
+      213: -3421363513711097863
+    second: Tubular_68
+  - first:
+      213: -656903949564663006
+    second: Tubular_69
+  - first:
+      213: -7273335208215223738
+    second: Tubular_70
+  - first:
+      213: -584729788865092153
+    second: Tubular_71
+  - first:
+      213: 9141708806020554302
+    second: Tubular_72
+  - first:
+      213: -1446115479783250339
+    second: Tubular_73
+  - first:
+      213: -7851094472452652262
+    second: Tubular_74
+  - first:
+      213: 8831228876531378126
+    second: Tubular_75
+  - first:
+      213: 1486917479923381442
+    second: Tubular_76
+  - first:
+      213: 7572126213129641058
+    second: Tubular_77
+  - first:
+      213: -5310244002370853328
+    second: Tubular_78
+  - first:
+      213: -1797749542115945611
+    second: Tubular_79
+  - first:
+      213: -1064596840378858487
+    second: Tubular_80
+  - first:
+      213: 3661521969851178764
+    second: Tubular_81
+  - first:
+      213: 7283409296688179448
+    second: Tubular_82
+  - first:
+      213: -7171542450015369632
+    second: Tubular_83
+  - first:
+      213: 1698447577882918256
+    second: Tubular_84
+  - first:
+      213: -4266072954322387918
+    second: Tubular_85
+  - first:
+      213: 903259873879684006
+    second: Tubular_86
+  - first:
+      213: -1185000280155480323
+    second: Tubular_87
+  - first:
+      213: -2463728639347865600
+    second: Tubular_88
+  - first:
+      213: -1366715552165503187
+    second: Tubular_89
+  - first:
+      213: 2013008121284798687
+    second: Tubular_90
+  - first:
+      213: 4967269626679106899
+    second: Tubular_91
+  - first:
+      213: 4620977216618887275
+    second: Tubular_92
+  - first:
+      213: 7816624295112447814
+    second: Tubular_93
+  - first:
+      213: -8030441899250642911
+    second: Tubular_94
+  - first:
+      213: -7142377569541234254
+    second: Tubular_95
+  - first:
+      213: 618966793470449559
+    second: Tubular_96
+  - first:
+      213: -3883905163547707842
+    second: Tubular_97
+  - first:
+      213: 7288108549296945358
+    second: Tubular_98
+  - first:
+      213: -4748167051338800979
+    second: Tubular_99
+  - first:
+      213: 8561438714166744688
+    second: Tubular_100
+  - first:
+      213: 3132549767561156721
+    second: Tubular_101
+  - first:
+      213: -212682817041277298
+    second: Tubular_102
+  - first:
+      213: 6588185946651758655
+    second: Tubular_103
+  - first:
+      213: -8821110199792694898
+    second: Tubular_104
+  - first:
+      213: 317754744836796423
+    second: Tubular_105
+  - first:
+      213: 3350069563684891048
+    second: Tubular_106
+  - first:
+      213: -8433537281333028766
+    second: Tubular_107
+  - first:
+      213: 710518801835778372
+    second: Tubular_108
+  - first:
+      213: 5498556807070876929
+    second: Tubular_109
+  - first:
+      213: 437068136730177443
+    second: Tubular_110
+  - first:
+      213: 8808615741877429648
+    second: Tubular_111
+  - first:
+      213: 3938614859964879653
+    second: Tubular_112
+  - first:
+      213: 3003983674647739286
+    second: Tubular_113
+  - first:
+      213: -4761330811072883016
+    second: Tubular_114
+  - first:
+      213: -4104721998126926719
+    second: Tubular_115
+  - first:
+      213: -3879986205822996035
+    second: Tubular_116
+  - first:
+      213: -7245275828090751882
+    second: Tubular_117
+  - first:
+      213: -4746757964554714646
+    second: Tubular_118
+  - first:
+      213: -8011728817094481836
+    second: Tubular_119
+  - first:
+      213: -3454970266250440563
+    second: Tubular_120
+  - first:
+      213: 7119514618284086959
+    second: Tubular_121
+  - first:
+      213: -8866432431672451520
+    second: Tubular_122
+  - first:
+      213: -475638365054463715
+    second: Tubular_123
+  - first:
+      213: 535166229261903291
+    second: Tubular_124
+  - first:
+      213: -8283501885468705090
+    second: Tubular_125
+  - first:
+      213: 2500081060169919847
+    second: Tubular_126
+  - first:
+      213: 3143569152534021467
+    second: Tubular_127
+  - first:
+      213: -6444794557377051321
+    second: Tubular_128
+  - first:
+      213: -5988892461984477446
+    second: Tubular_129
+  - first:
+      213: 46615958377642533
+    second: Tubular_130
+  - first:
+      213: 7682160516820667706
+    second: Tubular_131
+  - first:
+      213: -4226760475826321948
+    second: Tubular_132
+  - first:
+      213: -1707766062462240179
+    second: Tubular_133
+  - first:
+      213: -3336094411692220933
+    second: Tubular_134
+  - first:
+      213: 2955235911210048541
+    second: Tubular_135
+  - first:
+      213: -1868925537244675027
+    second: Tubular_136
+  - first:
+      213: -8685333908778900519
+    second: Tubular_137
+  - first:
+      213: 2701520167838693569
+    second: Tubular_138
+  - first:
+      213: 3732743396434110176
+    second: Tubular_139
+  - first:
+      213: -9041042765979939712
+    second: Tubular_140
+  - first:
+      213: -2283027466446596571
+    second: Tubular_141
+  - first:
+      213: -1477237046633633377
+    second: Tubular_142
+  - first:
+      213: -7705276383445806166
+    second: Tubular_143
+  - first:
+      213: -1749583268243025337
+    second: Tubular_144
+  - first:
+      213: 5948921832916015102
+    second: Tubular_145
+  - first:
+      213: 1282892849196017300
+    second: Tubular_146
+  - first:
+      213: 3937882065256846818
+    second: Tubular_147
+  - first:
+      213: -3357604469951338543
+    second: Tubular_148
+  - first:
+      213: 6953571530173428473
+    second: Tubular_149
+  - first:
+      213: 7240849589307648986
+    second: Tubular_150
+  - first:
+      213: 1828998945299000690
+    second: Tubular_151
+  - first:
+      213: 765865411521461387
+    second: Tubular_152
+  - first:
+      213: 1437402776796687951
+    second: Tubular_153
+  - first:
+      213: 436223269830212770
+    second: Tubular_154
+  - first:
+      213: -6449547219770562375
+    second: Tubular_155
+  - first:
+      213: -8220068912635520597
+    second: Tubular_156
+  - first:
+      213: 674046385307202350
+    second: Tubular_157
+  - first:
+      213: 225019351145789241
+    second: Tubular_158
+  - first:
+      213: 2925732782497619377
+    second: Tubular_159
+  - first:
+      213: 7409076828006012751
+    second: Tubular_160
+  - first:
+      213: 4121327286489162338
+    second: Tubular_161
+  - first:
+      213: 5313853181548422602
+    second: Tubular_162
+  - first:
+      213: -7606734977780855802
+    second: Tubular_163
+  - first:
+      213: -5959991520918816593
+    second: Tubular_164
+  - first:
+      213: 6995640400067421119
+    second: Tubular_165
+  - first:
+      213: -7512388734607486174
+    second: Tubular_166
+  - first:
+      213: -1775945978298162326
+    second: Tubular_167
+  - first:
+      213: 2458272033496901759
+    second: Tubular_168
+  - first:
+      213: -3566511086620542589
+    second: Tubular_169
+  - first:
+      213: -8008857938133529941
+    second: Tubular_170
+  - first:
+      213: -2942617914888968153
+    second: Tubular_171
+  - first:
+      213: 295921878330680835
+    second: Tubular_172
+  - first:
+      213: -7767438338279545104
+    second: Tubular_173
+  - first:
+      213: -4892382074496407080
+    second: Tubular_174
+  - first:
+      213: 1835518031412813085
+    second: Tubular_175
+  - first:
+      213: 8833016498052739477
+    second: Tubular_176
+  - first:
+      213: 1929930035258876815
+    second: Tubular_177
+  - first:
+      213: 5285497634322259490
+    second: Tubular_178
+  - first:
+      213: 2822569253883570166
+    second: Tubular_179
+  - first:
+      213: 2756461176860207364
+    second: Tubular_180
+  - first:
+      213: -812135797244463192
+    second: Tubular_181
+  - first:
+      213: 4050520895252756937
+    second: Tubular_182
+  - first:
+      213: -5155835921700753299
+    second: Tubular_183
+  - first:
+      213: -1393701197927416860
+    second: Tubular_184
+  - first:
+      213: 7244784515395263635
+    second: Tubular_185
+  - first:
+      213: 7664297889007391387
+    second: Tubular_186
+  - first:
+      213: 7860413731166926053
+    second: Tubular_187
+  - first:
+      213: -2192995135744305265
+    second: Tubular_188
+  - first:
+      213: 8960023479941744294
+    second: Tubular_189
+  - first:
+      213: -2263232228697255226
+    second: Tubular_190
+  - first:
+      213: 5167639958423410094
+    second: Tubular_191
+  - first:
+      213: -6856761154889775484
+    second: Tubular_192
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tubular_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 935
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19a03d78466a7650800000000000000
+      internalID: 6231405495944522010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_1
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 946
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347415c34bfa52890800000000000000
+      internalID: -7483382017165277373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 935
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b29a0370ca49d00800000000000000
+      internalID: 978596165927381844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_3
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 955
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97978ac43ba1b3610800000000000000
+      internalID: 1601903449847921017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_4
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 946
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8fef0bafc5ad2e40800000000000000
+      internalID: 5633341020257120142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_5
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 936
+        width: 12
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6943af234f2627020800000000000000
+      internalID: 2338039957525509270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_6
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 959
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dd59d0376df1150800000000000000
+      internalID: 5845626630987701542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_7
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 955
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea0af459848a70890800000000000000
+      internalID: -7491834425411395410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_8
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 946
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b2b850284bfa880800000000000000
+      internalID: -8597454693095232758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_9
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 935
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86feeec2760241350800000000000000
+      internalID: 5986445432189808488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_10
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 960
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3f61db969e35c40800000000000000
+      internalID: 5499996210302743520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_11
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 959
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3641f79734b1950800000000000000
+      internalID: 6420799882848920542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_12
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 955
+        width: 22
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b37f25ab108d5510800000000000000
+      internalID: 1539527503854400433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_13
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 946
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaecf8086ff2b500800000000000000
+      internalID: 410671338336611071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_14
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 935
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fd0e90d5ac5aa20800000000000000
+      internalID: 3073084821696733057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_15
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 959
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff4217a455335b60800000000000000
+      internalID: 7733583622821793786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_16
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 960
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bd0bcfc077fd530800000000000000
+      internalID: 3881952301479418672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_17
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 959
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd3b0112d5d29840800000000000000
+      internalID: 5229477215536365017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_18
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 955
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90dc115a89ea21fd0800000000000000
+      internalID: -2372642083043160823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_19
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 947
+        width: 12
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c6e7002d858a290800000000000000
+      internalID: -7878949889110020991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_20
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67e3988b16a4ad30800000000000000
+      internalID: 4441857769679873901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_21
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 957
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bad02ec0a3924e90800000000000000
+      internalID: -7042904548391724368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_22
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 959
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a3b1b63d72f41a0800000000000000
+      internalID: -6823191121454482923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_23
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 960
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45977591999626ab0800000000000000
+      internalID: -5016330928661235372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_24
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 959
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a5ca78969bcd370800000000000000
+      internalID: 8348751672136981024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_25
+      rect:
+        serializedVersion: 2
+        x: 1688
+        y: 955
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daea560b8d251c980800000000000000
+      internalID: -8520437929382400339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_26
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 946
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1da7c8f45ab21f90800000000000000
+      internalID: -6984315197984363236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_27
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdf2a636bf3779ec0800000000000000
+      internalID: -3560249456871198757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_28
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 952
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a23501521dc22ce0800000000000000
+      internalID: -1431356252997995865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_29
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 957
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50b861d0405aabd0800000000000000
+      internalID: -2618191994041094053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_30
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 959
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3f6ceff7ee60770800000000000000
+      internalID: 8576804773876396977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_31
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 959
+        width: 18
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1b5861b171a3db0800000000000000
+      internalID: -4811507846782537309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_32
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 955
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468416e6d6a77ecf0800000000000000
+      internalID: -223075046109656988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_33
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 946
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9bd7636dd7b11b0800000000000000
+      internalID: -5684811745634436624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_34
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 935
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb8a20b512131340800000000000000
+      internalID: 4833226709457865701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_35
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 818
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0881b4310695b6890800000000000000
+      internalID: -7463773688261044096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_36
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 824
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0356e38c856f1ad0800000000000000
+      internalID: -2729351194980494580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_37
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 829
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac5271418f881e10800000000000000
+      internalID: 2168641005890460835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_38
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 832
+        width: 18
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9440c264b54d3e080800000000000000
+      internalID: -9159243728657054647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_39
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 831
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f667a832b8cd4ebe0800000000000000
+      internalID: -1448790689951615377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_40
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 827
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b57197148889590800000000000000
+      internalID: -7667228550812443810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_41
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 818
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f14d084480d99ab0800000000000000
+      internalID: -5000736644655136264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_42
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 807
+        width: 83
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33639f90724405c20800000000000000
+      internalID: 3193127070267422259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_43
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 824
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1656b172ba2f870800000000000000
+      internalID: 8715216413367034305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_44
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 831
+        width: 45
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cadbf79b4657ef90800000000000000
+      internalID: -6924471019386447168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_45
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 831
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e126ca4fe79d380800000000000000
+      internalID: -8945979595465548178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_46
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 827
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af64ab281a3b9920800000000000000
+      internalID: 2998053852431019941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_47
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 807
+        width: 138
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd57091459ff7b70800000000000000
+      internalID: 8899105528299871670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_48
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 829
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bce6332c9994740800000000000000
+      internalID: 5136805909358365491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_49
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 831
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51e4738feb30b820800000000000000
+      internalID: 2931909257306890589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_50
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 817
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9448561e545f46c90800000000000000
+      internalID: -7177342225638652855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_51
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 807
+        width: 99
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213b8af8ccd4a2060800000000000000
+      internalID: 6929436517641794322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_52
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 824
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61d231045f72c450800000000000000
+      internalID: 6107584043441901930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_53
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 817
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047d939bba69a31a0800000000000000
+      internalID: -6828980220662786240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_54
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 817
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f6f09ceb523a490800000000000000
+      internalID: -7736298233545134221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_55
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 807
+        width: 109
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aab9ac8202255180800000000000000
+      internalID: -9127351675451229530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_56
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 829
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805b52d837a0be8b0800000000000000
+      internalID: -5121988659798231800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_57
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 814
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d54757cc7a6cc130800000000000000
+      internalID: 3588360087260317137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_58
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 817
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfaa13336b4d2990800000000000000
+      internalID: -7409182922523365455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_59
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 807
+        width: 103
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5548c1eeeaa51ca80800000000000000
+      internalID: -8448371718604684203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_60
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 824
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef239c07d8b6c1070800000000000000
+      internalID: 8078450086822621950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_61
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 810
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0747611c2f3edc200800000000000000
+      internalID: 202068190062605424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_62
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 814
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b059b3df83f63780800000000000000
+      internalID: -8703501430788894537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_63
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 817
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bfbabd80b23b070800000000000000
+      internalID: 8120881870124350232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_64
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 817
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec04cb05feeffad20800000000000000
+      internalID: 3292130156436275406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_65
+      rect:
+        serializedVersion: 2
+        x: 1684
+        y: 807
+        width: 89
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faef14f63fd63e830800000000000000
+      internalID: 4099240978148359855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_66
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 810
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad1a35ad367051c0800000000000000
+      internalID: -4516980419115475539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_67
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 810
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c92563fd76726410800000000000000
+      internalID: 1468866711802685890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_68
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 814
+        width: 62
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f784cde200e480d0800000000000000
+      internalID: -3421363513711097863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_69
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 807
+        width: 87
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ba5aa965532e6f0800000000000000
+      internalID: -656903949564663006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_70
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 682
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6426df5f92cef0b90800000000000000
+      internalID: -7273335208215223738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_71
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 682
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c56b15ea5f92e7f0800000000000000
+      internalID: -584729788865092153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_72
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 682
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e5ae669bfddde70800000000000000
+      internalID: 9141708806020554302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_73
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 689
+        width: 18
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56635b02ad5eebe0800000000000000
+      internalID: -1446115479783250339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_74
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 679
+        width: 73
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a134d679c2f4b0390800000000000000
+      internalID: -7851094472452652262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_75
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 682
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec723d39fd3de8a70800000000000000
+      internalID: 8831228876531378126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_76
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 682
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4f629e19792a410800000000000000
+      internalID: 1486917479923381442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_77
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 682
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c14080ca8951960800000000000000
+      internalID: 7572126213129641058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_78
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 686
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0366908f6393e46b0800000000000000
+      internalID: -5310244002370853328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_79
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 685
+        width: 45
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573de0bf05c1d07e0800000000000000
+      internalID: -1797749542115945611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_80
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 682
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904073c60dac931f0800000000000000
+      internalID: -1064596840378858487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_81
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 682
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f944ef4d650d230800000000000000
+      internalID: 3661521969851178764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_82
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 682
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f860ea8a2ed31560800000000000000
+      internalID: 7283409296688179448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_83
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 682
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066033f5320997c90800000000000000
+      internalID: -7171542450015369632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_84
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 689
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d7555c219129710800000000000000
+      internalID: 1698447577882918256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_85
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 689
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c76bb204ddbc4c0800000000000000
+      internalID: -4266072954322387918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_86
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 682
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a37672d116098c00800000000000000
+      internalID: 903259873879684006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_87
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 682
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfe189a06880e8fe0800000000000000
+      internalID: -1185000280155480323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_88
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 682
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008c6bc1bd31fcdd0800000000000000
+      internalID: -2463728639347865600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_89
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 682
+        width: 87
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f5c2c4273780de0800000000000000
+      internalID: -1366715552165503187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_90
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 682
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8282f8834afeb10800000000000000
+      internalID: 2013008121284798687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_91
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 682
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35d9bc168694fe440800000000000000
+      internalID: 4967269626679106899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_92
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 682
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68fdb7ab42012040800000000000000
+      internalID: 4620977216618887275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_93
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 682
+        width: 88
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6479dd4d16a3a7c60800000000000000
+      internalID: 7816624295112447814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_94
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 682
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12090c5c3a32e8090800000000000000
+      internalID: -8030441899250642911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_95
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 682
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1e6c3417d21ec90800000000000000
+      internalID: -7142377569541234254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_96
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 682
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797919ce403079800800000000000000
+      internalID: 618966793470449559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_97
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 682
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36fe61e4d8991ac0800000000000000
+      internalID: -3883905163547707842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_98
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 682
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8f45d8c10942560800000000000000
+      internalID: 7288108549296945358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_99
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 682
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0acb2493f1b1eb0800000000000000
+      internalID: -4748167051338800979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_100
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 682
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0769f2c662750d670800000000000000
+      internalID: 8561438714166744688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_101
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 682
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17817b8aa6d097b20800000000000000
+      internalID: 3132549767561156721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_102
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 682
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8edc60da166c0df0800000000000000
+      internalID: -212682817041277298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_103
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 682
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3016687630fd6b50800000000000000
+      internalID: 6588185946651758655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_104
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 682
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8908c0720f159580800000000000000
+      internalID: -8821110199792694898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_105
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 682
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70031b3c144e86400800000000000000
+      internalID: 317754744836796423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_106
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 554
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9294cc486dd7e20800000000000000
+      internalID: 3350069563684891048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_107
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 554
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2689122868e06fa80800000000000000
+      internalID: -8433537281333028766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_108
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 554
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44168a5f5154cd900800000000000000
+      internalID: 710518801835778372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_109
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 554
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10504ce884cce4c40800000000000000
+      internalID: 5498556807070876929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_110
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 554
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afa1789727c01600800000000000000
+      internalID: 437068136730177443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_111
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 554
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095a481e85d7e3a70800000000000000
+      internalID: 8808615741877429648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_112
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 554
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5231843f855c8a630800000000000000
+      internalID: 3938614859964879653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_113
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 554
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b737e7c3b40b920800000000000000
+      internalID: 3003983674647739286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_114
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 556
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6d0eb9ada5cedb0800000000000000
+      internalID: -4761330811072883016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_115
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 554
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184b9e727191907c0800000000000000
+      internalID: -4104721998126926719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_116
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 554
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db131845a15872ac0800000000000000
+      internalID: -3879986205822996035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_117
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 554
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6743dee750c937b90800000000000000
+      internalID: -7245275828090751882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_118
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 558
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1c5f7d7c0202eb0800000000000000
+      internalID: -4746757964554714646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_119
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 556
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458a25cb61f90d090800000000000000
+      internalID: -8011728817094481836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_120
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 554
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d801b9a19da7d00d0800000000000000
+      internalID: -3454970266250440563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_121
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 554
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6160413d89dc260800000000000000
+      internalID: 7119514618284086959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_122
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 560
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e19250eaa14f480800000000000000
+      internalID: -8866432431672451520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_123
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 558
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1191615d613669f0800000000000000
+      internalID: -475638365054463715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_124
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 554
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb5e0fe99da4d6700800000000000000
+      internalID: 535166229261903291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_125
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 554
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebefb5c4ce61b0d80800000000000000
+      internalID: -8283501885468705090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_126
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 562
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d2c1d6a7212b220800000000000000
+      internalID: 2500081060169919847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_127
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 560
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b558aa72d7330ab20800000000000000
+      internalID: 3143569152534021467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_128
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 558
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7458b2dfe7d7f86a0800000000000000
+      internalID: -6444794557377051321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_129
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 556
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe866d490e23eca0800000000000000
+      internalID: -5988892461984477446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_130
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 554
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ab6f797fc95a000800000000000000
+      internalID: 46615958377642533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_131
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 563
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d80a8c9448c9a60800000000000000
+      internalID: 7682160516820667706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_132
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 562
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e506b7ddb78755c0800000000000000
+      internalID: -4226760475826321948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_133
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 560
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a787770dbcc48e0800000000000000
+      internalID: -1707766062462240179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_134
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 558
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd5be5decfc3b1d0800000000000000
+      internalID: -3336094411692220933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_135
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 554
+        width: 87
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c172b576b130920800000000000000
+      internalID: 2955235911210048541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_136
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 565
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2400e8302e3016e0800000000000000
+      internalID: -1868925537244675027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_137
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 564
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3249ba3de777780800000000000000
+      internalID: -8685333908778900519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_138
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 562
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c83495874abd7520800000000000000
+      internalID: 2701520167838693569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_139
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 560
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6e326975e5dc330800000000000000
+      internalID: 3732743396434110176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_140
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 556
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c86ae7183c78280800000000000000
+      internalID: -9041042765979939712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_141
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 554
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5269df18d9e0150e0800000000000000
+      internalID: -2283027466446596571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_142
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 439
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99ea5a9bbccf7be0800000000000000
+      internalID: -1477237046633633377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_143
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 437
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3918c14fb511590800000000000000
+      internalID: -7705276383445806166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_144
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 436
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7425867894b38b7e0800000000000000
+      internalID: -1749583268243025337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_145
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 434
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7568763e0de8250800000000000000
+      internalID: 5948921832916015102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_146
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 432
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 496a731df30cdc110800000000000000
+      internalID: 1282892849196017300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_147
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 430
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e51403efda26a630800000000000000
+      internalID: 3937882065256846818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_148
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 426
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d7694026846761d0800000000000000
+      internalID: -3357604469951338543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_149
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 441
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2b140177c008060800000000000000
+      internalID: 6953571530173428473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_150
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 439
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb27ba765aac7460800000000000000
+      internalID: 7240849589307648986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_151
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 437
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d6c1da9d8e16910800000000000000
+      internalID: 1828998945299000690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_152
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 436
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cbe77b886e0aa00800000000000000
+      internalID: 765865411521461387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_153
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 434
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4e6026b53ea2f310800000000000000
+      internalID: 1437402776796687951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_154
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 432
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ac3df0b0c6cd0600800000000000000
+      internalID: 436223269830212770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_155
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 430
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8a77b89fa9e76a0800000000000000
+      internalID: -6449547219770562375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_156
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 428
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9d02130e27ced80800000000000000
+      internalID: -8220068912635520597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_157
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 443
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e233f5ebd91ba5900800000000000000
+      internalID: 674046385307202350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_158
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 441
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93732ac58ed6f1300800000000000000
+      internalID: 225019351145789241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_159
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 439
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bd5c78e67a4a9820800000000000000
+      internalID: 2925732782497619377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_160
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 437
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4750eebe1452d660800000000000000
+      internalID: 7409076828006012751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_161
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 436
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262af42d455e13930800000000000000
+      internalID: 4121327286489162338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_162
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 434
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5e5ca80599eb940800000000000000
+      internalID: 5313853181548422602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_163
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 432
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c45d407d27f6690800000000000000
+      internalID: -7606734977780855802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_164
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 430
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa83b430a4bd94da0800000000000000
+      internalID: -5959991520918816593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_165
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 443
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3e36e11e1851160800000000000000
+      internalID: 6995640400067421119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_166
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 441
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223131b8f32aeb790800000000000000
+      internalID: -7512388734607486174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_167
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 439
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a632147ca829a57e0800000000000000
+      internalID: -1775945978298162326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_168
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 438
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f782cd5d3698d1220800000000000000
+      internalID: 2458272033496901759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_169
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 435
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3897d7a1015318ec0800000000000000
+      internalID: -3566511086620542589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_170
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 434
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baacbf45322dad090800000000000000
+      internalID: -8008857938133529941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_171
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 432
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728a759d898b927d0800000000000000
+      internalID: -2942617914888968153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_172
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 443
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306aa2761635b1400800000000000000
+      internalID: 295921878330680835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_173
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 441
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6e8182cf3843490800000000000000
+      internalID: -7767438338279545104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_174
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 440
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d927289c64ca1cb0800000000000000
+      internalID: -4892382074496407080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_175
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 437
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d5f21bce1197910800000000000000
+      internalID: 1835518031412813085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_176
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 435
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5913995a4bd259a70800000000000000
+      internalID: 8833016498052739477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_177
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 434
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8366f0542d78ca10800000000000000
+      internalID: 1929930035258876815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_178
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 443
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e12fa381cd95940800000000000000
+      internalID: 5285497634322259490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_179
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 441
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f76ba328c7cb2720800000000000000
+      internalID: 2822569253883570166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_180
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 439
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40968e306dae04620800000000000000
+      internalID: 2756461176860207364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_181
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 437
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a77dd79bc6bab4f0800000000000000
+      internalID: -812135797244463192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_182
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 435
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c976dc2b47563830800000000000000
+      internalID: 4050520895252756937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_183
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 443
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60f3d6cb8ac278b0800000000000000
+      internalID: -5155835921700753299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_184
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 441
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebff76052498ace0800000000000000
+      internalID: -1393701197927416860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_185
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 439
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c926ad125aa8460800000000000000
+      internalID: 7244784515395263635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_186
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 437
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92df07a25e0d5a60800000000000000
+      internalID: 7664297889007391387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_187
+      rect:
+        serializedVersion: 2
+        x: 1968
+        y: 443
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4bec964acc51d60800000000000000
+      internalID: 7860413731166926053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_188
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 441
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f871dc30b8ae091e0800000000000000
+      internalID: -2192995135744305265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_189
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 439
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6461df1e5685c70800000000000000
+      internalID: 8960023479941744294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_190
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 315
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2d84477426790e0800000000000000
+      internalID: -2263232228697255226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_191
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 313
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea511f0b92527b740800000000000000
+      internalID: 5167639958423410094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tubular_192
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 315
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486091dee04e7d0a0800000000000000
+      internalID: -6856761154889775484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Tubular_0: 6231405495944522010
+      Tubular_1: -7483382017165277373
+      Tubular_10: 5499996210302743520
+      Tubular_100: 8561438714166744688
+      Tubular_101: 3132549767561156721
+      Tubular_102: -212682817041277298
+      Tubular_103: 6588185946651758655
+      Tubular_104: -8821110199792694898
+      Tubular_105: 317754744836796423
+      Tubular_106: 3350069563684891048
+      Tubular_107: -8433537281333028766
+      Tubular_108: 710518801835778372
+      Tubular_109: 5498556807070876929
+      Tubular_11: 6420799882848920542
+      Tubular_110: 437068136730177443
+      Tubular_111: 8808615741877429648
+      Tubular_112: 3938614859964879653
+      Tubular_113: 3003983674647739286
+      Tubular_114: -4761330811072883016
+      Tubular_115: -4104721998126926719
+      Tubular_116: -3879986205822996035
+      Tubular_117: -7245275828090751882
+      Tubular_118: -4746757964554714646
+      Tubular_119: -8011728817094481836
+      Tubular_12: 1539527503854400433
+      Tubular_120: -3454970266250440563
+      Tubular_121: 7119514618284086959
+      Tubular_122: -8866432431672451520
+      Tubular_123: -475638365054463715
+      Tubular_124: 535166229261903291
+      Tubular_125: -8283501885468705090
+      Tubular_126: 2500081060169919847
+      Tubular_127: 3143569152534021467
+      Tubular_128: -6444794557377051321
+      Tubular_129: -5988892461984477446
+      Tubular_13: 410671338336611071
+      Tubular_130: 46615958377642533
+      Tubular_131: 7682160516820667706
+      Tubular_132: -4226760475826321948
+      Tubular_133: -1707766062462240179
+      Tubular_134: -3336094411692220933
+      Tubular_135: 2955235911210048541
+      Tubular_136: -1868925537244675027
+      Tubular_137: -8685333908778900519
+      Tubular_138: 2701520167838693569
+      Tubular_139: 3732743396434110176
+      Tubular_14: 3073084821696733057
+      Tubular_140: -9041042765979939712
+      Tubular_141: -2283027466446596571
+      Tubular_142: -1477237046633633377
+      Tubular_143: -7705276383445806166
+      Tubular_144: -1749583268243025337
+      Tubular_145: 5948921832916015102
+      Tubular_146: 1282892849196017300
+      Tubular_147: 3937882065256846818
+      Tubular_148: -3357604469951338543
+      Tubular_149: 6953571530173428473
+      Tubular_15: 7733583622821793786
+      Tubular_150: 7240849589307648986
+      Tubular_151: 1828998945299000690
+      Tubular_152: 765865411521461387
+      Tubular_153: 1437402776796687951
+      Tubular_154: 436223269830212770
+      Tubular_155: -6449547219770562375
+      Tubular_156: -8220068912635520597
+      Tubular_157: 674046385307202350
+      Tubular_158: 225019351145789241
+      Tubular_159: 2925732782497619377
+      Tubular_16: 3881952301479418672
+      Tubular_160: 7409076828006012751
+      Tubular_161: 4121327286489162338
+      Tubular_162: 5313853181548422602
+      Tubular_163: -7606734977780855802
+      Tubular_164: -5959991520918816593
+      Tubular_165: 6995640400067421119
+      Tubular_166: -7512388734607486174
+      Tubular_167: -1775945978298162326
+      Tubular_168: 2458272033496901759
+      Tubular_169: -3566511086620542589
+      Tubular_17: 5229477215536365017
+      Tubular_170: -8008857938133529941
+      Tubular_171: -2942617914888968153
+      Tubular_172: 295921878330680835
+      Tubular_173: -7767438338279545104
+      Tubular_174: -4892382074496407080
+      Tubular_175: 1835518031412813085
+      Tubular_176: 8833016498052739477
+      Tubular_177: 1929930035258876815
+      Tubular_178: 5285497634322259490
+      Tubular_179: 2822569253883570166
+      Tubular_18: -2372642083043160823
+      Tubular_180: 2756461176860207364
+      Tubular_181: -812135797244463192
+      Tubular_182: 4050520895252756937
+      Tubular_183: -5155835921700753299
+      Tubular_184: -1393701197927416860
+      Tubular_185: 7244784515395263635
+      Tubular_186: 7664297889007391387
+      Tubular_187: 7860413731166926053
+      Tubular_188: -2192995135744305265
+      Tubular_189: 8960023479941744294
+      Tubular_19: -7878949889110020991
+      Tubular_190: -2263232228697255226
+      Tubular_191: 5167639958423410094
+      Tubular_192: -6856761154889775484
+      Tubular_2: 978596165927381844
+      Tubular_20: 4441857769679873901
+      Tubular_21: -7042904548391724368
+      Tubular_22: -6823191121454482923
+      Tubular_23: -5016330928661235372
+      Tubular_24: 8348751672136981024
+      Tubular_25: -8520437929382400339
+      Tubular_26: -6984315197984363236
+      Tubular_27: -3560249456871198757
+      Tubular_28: -1431356252997995865
+      Tubular_29: -2618191994041094053
+      Tubular_3: 1601903449847921017
+      Tubular_30: 8576804773876396977
+      Tubular_31: -4811507846782537309
+      Tubular_32: -223075046109656988
+      Tubular_33: -5684811745634436624
+      Tubular_34: 4833226709457865701
+      Tubular_35: -7463773688261044096
+      Tubular_36: -2729351194980494580
+      Tubular_37: 2168641005890460835
+      Tubular_38: -9159243728657054647
+      Tubular_39: -1448790689951615377
+      Tubular_4: 5633341020257120142
+      Tubular_40: -7667228550812443810
+      Tubular_41: -5000736644655136264
+      Tubular_42: 3193127070267422259
+      Tubular_43: 8715216413367034305
+      Tubular_44: -6924471019386447168
+      Tubular_45: -8945979595465548178
+      Tubular_46: 2998053852431019941
+      Tubular_47: 8899105528299871670
+      Tubular_48: 5136805909358365491
+      Tubular_49: 2931909257306890589
+      Tubular_5: 2338039957525509270
+      Tubular_50: -7177342225638652855
+      Tubular_51: 6929436517641794322
+      Tubular_52: 6107584043441901930
+      Tubular_53: -6828980220662786240
+      Tubular_54: -7736298233545134221
+      Tubular_55: -9127351675451229530
+      Tubular_56: -5121988659798231800
+      Tubular_57: 3588360087260317137
+      Tubular_58: -7409182922523365455
+      Tubular_59: -8448371718604684203
+      Tubular_6: 5845626630987701542
+      Tubular_60: 8078450086822621950
+      Tubular_61: 202068190062605424
+      Tubular_62: -8703501430788894537
+      Tubular_63: 8120881870124350232
+      Tubular_64: 3292130156436275406
+      Tubular_65: 4099240978148359855
+      Tubular_66: -4516980419115475539
+      Tubular_67: 1468866711802685890
+      Tubular_68: -3421363513711097863
+      Tubular_69: -656903949564663006
+      Tubular_7: -7491834425411395410
+      Tubular_70: -7273335208215223738
+      Tubular_71: -584729788865092153
+      Tubular_72: 9141708806020554302
+      Tubular_73: -1446115479783250339
+      Tubular_74: -7851094472452652262
+      Tubular_75: 8831228876531378126
+      Tubular_76: 1486917479923381442
+      Tubular_77: 7572126213129641058
+      Tubular_78: -5310244002370853328
+      Tubular_79: -1797749542115945611
+      Tubular_8: -8597454693095232758
+      Tubular_80: -1064596840378858487
+      Tubular_81: 3661521969851178764
+      Tubular_82: 7283409296688179448
+      Tubular_83: -7171542450015369632
+      Tubular_84: 1698447577882918256
+      Tubular_85: -4266072954322387918
+      Tubular_86: 903259873879684006
+      Tubular_87: -1185000280155480323
+      Tubular_88: -2463728639347865600
+      Tubular_89: -1366715552165503187
+      Tubular_9: 5986445432189808488
+      Tubular_90: 2013008121284798687
+      Tubular_91: 4967269626679106899
+      Tubular_92: 4620977216618887275
+      Tubular_93: 7816624295112447814
+      Tubular_94: -8030441899250642911
+      Tubular_95: -7142377569541234254
+      Tubular_96: 618966793470449559
+      Tubular_97: -3883905163547707842
+      Tubular_98: 7288108549296945358
+      Tubular_99: -4748167051338800979
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

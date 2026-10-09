@@ -1,0 +1,2392 @@
+fileFormatVersion: 2
+guid: 2428ea949e7bf48d1b16acc8da6b4f12
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7072585630640041823
+    second: Nice_0
+  - first:
+      213: -5217750197863943017
+    second: Nice_1
+  - first:
+      213: -5232538827427711872
+    second: Nice_2
+  - first:
+      213: 677554573341302184
+    second: Nice_3
+  - first:
+      213: 9134763195554291448
+    second: Nice_4
+  - first:
+      213: -8725006459703895154
+    second: Nice_5
+  - first:
+      213: 6122721186841945034
+    second: Nice_6
+  - first:
+      213: -3791119391896073474
+    second: Nice_7
+  - first:
+      213: -4175434497383719182
+    second: Nice_8
+  - first:
+      213: -2321716829285209263
+    second: Nice_9
+  - first:
+      213: -7655027241379627931
+    second: Nice_10
+  - first:
+      213: 222352361646774998
+    second: Nice_11
+  - first:
+      213: 3922387780347973103
+    second: Nice_12
+  - first:
+      213: 4737196893042508683
+    second: Nice_13
+  - first:
+      213: -5422296646591071053
+    second: Nice_14
+  - first:
+      213: -7934869286564926893
+    second: Nice_15
+  - first:
+      213: 2706140805443412869
+    second: Nice_16
+  - first:
+      213: 8114832275148996069
+    second: Nice_17
+  - first:
+      213: -2473066070635461173
+    second: Nice_18
+  - first:
+      213: -1232299898470756493
+    second: Nice_19
+  - first:
+      213: -1256264130988423118
+    second: Nice_20
+  - first:
+      213: 8659213132464018907
+    second: Nice_21
+  - first:
+      213: 2740172285751811172
+    second: Nice_22
+  - first:
+      213: -1831127552218804654
+    second: Nice_23
+  - first:
+      213: 7667058391209740012
+    second: Nice_24
+  - first:
+      213: 3170267288691527492
+    second: Nice_25
+  - first:
+      213: -7583496007839193916
+    second: Nice_26
+  - first:
+      213: -3290703347840526493
+    second: Nice_27
+  - first:
+      213: -8586170695343916112
+    second: Nice_28
+  - first:
+      213: -104328974680399422
+    second: Nice_29
+  - first:
+      213: -7867848055482820821
+    second: Nice_30
+  - first:
+      213: -7048913687140076425
+    second: Nice_31
+  - first:
+      213: 1279147735865625251
+    second: Nice_32
+  - first:
+      213: -8417647918094822506
+    second: Nice_33
+  - first:
+      213: 4727636650297028872
+    second: Nice_34
+  - first:
+      213: -8969281138448421578
+    second: Nice_35
+  - first:
+      213: -7373484347200303910
+    second: Nice_36
+  - first:
+      213: 3257105435342174387
+    second: Nice_37
+  - first:
+      213: -594774534955460873
+    second: Nice_38
+  - first:
+      213: 2353162675204876388
+    second: Nice_39
+  - first:
+      213: 3161295342982017673
+    second: Nice_40
+  - first:
+      213: -20096410734576755
+    second: Nice_41
+  - first:
+      213: 162442864961661018
+    second: Nice_42
+  - first:
+      213: 6428555943574256313
+    second: Nice_43
+  - first:
+      213: -996428973670231302
+    second: Nice_44
+  - first:
+      213: 3058880872416388958
+    second: Nice_45
+  - first:
+      213: -4977833737267878793
+    second: Nice_46
+  - first:
+      213: -2491311970480038091
+    second: Nice_47
+  - first:
+      213: -8431508161848457178
+    second: Nice_48
+  - first:
+      213: -5114654722027142447
+    second: Nice_49
+  - first:
+      213: -8883178929171485135
+    second: Nice_50
+  - first:
+      213: -4747429880253315238
+    second: Nice_51
+  - first:
+      213: -6655677631717560312
+    second: Nice_52
+  - first:
+      213: -7227392171746966942
+    second: Nice_53
+  - first:
+      213: -8007546160050680888
+    second: Nice_54
+  - first:
+      213: 2476105520161713140
+    second: Nice_55
+  - first:
+      213: -4246054104936324712
+    second: Nice_56
+  - first:
+      213: -2982572906315835114
+    second: Nice_57
+  - first:
+      213: -7737429985498535785
+    second: Nice_58
+  - first:
+      213: 3452889282572967515
+    second: Nice_59
+  - first:
+      213: -7108152029498999258
+    second: Nice_60
+  - first:
+      213: -3671042072795394256
+    second: Nice_61
+  - first:
+      213: 7828144596392023191
+    second: Nice_62
+  - first:
+      213: 8255886713706449943
+    second: Nice_63
+  - first:
+      213: -1173989434565213286
+    second: Nice_64
+  - first:
+      213: 4735290632398462733
+    second: Nice_65
+  - first:
+      213: 3798856334155207082
+    second: Nice_66
+  - first:
+      213: -7081161278525225277
+    second: Nice_67
+  - first:
+      213: -3344569332141267494
+    second: Nice_68
+  - first:
+      213: -90392557279472415
+    second: Nice_69
+  - first:
+      213: 2474634861513996622
+    second: Nice_70
+  - first:
+      213: -2181039199984748437
+    second: Nice_71
+  - first:
+      213: 6310782773150901183
+    second: Nice_72
+  - first:
+      213: 868798113648915572
+    second: Nice_73
+  - first:
+      213: -7117405822214271728
+    second: Nice_74
+  - first:
+      213: 4030347089310979880
+    second: Nice_75
+  - first:
+      213: -8572496542423047845
+    second: Nice_76
+  - first:
+      213: -2544484879112125061
+    second: Nice_77
+  - first:
+      213: -6247579316554244749
+    second: Nice_78
+  - first:
+      213: -2762833889676700194
+    second: Nice_79
+  - first:
+      213: 7025678725683078877
+    second: Nice_80
+  - first:
+      213: 1657959046828730654
+    second: Nice_81
+  - first:
+      213: 7496223662529082432
+    second: Nice_82
+  - first:
+      213: 3828401446304625534
+    second: Nice_83
+  - first:
+      213: 9066881017873689804
+    second: Nice_84
+  - first:
+      213: 4436955884323450246
+    second: Nice_85
+  - first:
+      213: -8859414210770226679
+    second: Nice_86
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Nice_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 935
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fe4dda82fd62260800000000000000
+      internalID: 7072585630640041823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 946
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794789107d3d697b0800000000000000
+      internalID: -5217750197863943017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_2
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 935
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0847bbdd8a94267b0800000000000000
+      internalID: -5232538827427711872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_3
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 955
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad13fb6b48276900800000000000000
+      internalID: 677554573341302184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_4
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 946
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe53527ab235ce70800000000000000
+      internalID: 9134763195554291448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_5
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b5c5a1adc8ae680800000000000000
+      internalID: -8725006459703895154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 959
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3e878da7648f450800000000000000
+      internalID: 6122721186841945034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_7
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 955
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa80f0dffc336bc0800000000000000
+      internalID: -3791119391896073474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_8
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 946
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe18807270ed06c0800000000000000
+      internalID: -4175434497383719182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_9
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ba86148da97cfd0800000000000000
+      internalID: -2321716829285209263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_10
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 960
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cf0a33841e3c590800000000000000
+      internalID: -7655027241379627931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_11
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 959
+        width: 14
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dadcea7b44f51300800000000000000
+      internalID: 222352361646774998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_12
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 955
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed49fe87ee1f6630800000000000000
+      internalID: 3922387780347973103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_13
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 946
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8302e8b977edb140800000000000000
+      internalID: 4737196893042508683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 935
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bcb521bde120c4b0800000000000000
+      internalID: -5422296646591071053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_15
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 959
+        width: 59
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ae323bc6ea1e190800000000000000
+      internalID: -7934869286564926893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_16
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 959
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583e4ac89b42e8520800000000000000
+      internalID: 2706140805443412869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_17
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 955
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed7124c5fcad9070800000000000000
+      internalID: 8114832275148996069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_18
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 946
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5c3b9f287edadd0800000000000000
+      internalID: -2473066070635461173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_19
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 829
+        width: 83
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f86e675cdf5eee0800000000000000
+      internalID: -1232299898470756493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_20
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 831
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238ce58cd6ad09ee0800000000000000
+      internalID: -1256264130988423118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_21
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 827
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd55aea2774bb2870800000000000000
+      internalID: 8659213132464018907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_22
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 824
+        width: 123
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c5b930d2c070620800000000000000
+      internalID: 2740172285751811172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_23
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 818
+        width: 123
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e419761378696e0800000000000000
+      internalID: -1831127552218804654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_24
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 807
+        width: 134
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce60c382cfcd66a60800000000000000
+      internalID: 7667058391209740012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_25
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 807
+        width: 128
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44fcf716d4d0ffb20800000000000000
+      internalID: 3170267288691527492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_26
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 817
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4e6295f8202c690800000000000000
+      internalID: -7583496007839193916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_27
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 807
+        width: 81
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367d6c27db21552d0800000000000000
+      internalID: -3290703347840526493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_28
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 689
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb382b7e3bc7d880800000000000000
+      internalID: -8586170695343916112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_29
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 679
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1e46ca9595d8ef0800000000000000
+      internalID: -104328974680399422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_30
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 686
+        width: 59
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27d23211e9cfc290800000000000000
+      internalID: -7867848055482820821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_31
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 679
+        width: 69
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77470a9295a3d2e90800000000000000
+      internalID: -7048913687140076425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_32
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 682
+        width: 83
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa048ba61270c110800000000000000
+      internalID: 1279147735865625251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_33
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 685
+        width: 43
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693d6ad21d18e2b80800000000000000
+      internalID: -8417647918094822506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_34
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 682
+        width: 123
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80172104c70fb9140800000000000000
+      internalID: 4727636650297028872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_35
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 682
+        width: 123
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dab2c6356b68380800000000000000
+      internalID: -8969281138448421578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_36
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 682
+        width: 124
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc09387d0f1ca990800000000000000
+      internalID: -7373484347200303910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 554
+        width: 124
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b87095f220933d20800000000000000
+      internalID: 3257105435342174387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_38
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 554
+        width: 124
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6188236bfeeb7f0800000000000000
+      internalID: -594774534955460873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_39
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 554
+        width: 124
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4686b4a4cfc18a020800000000000000
+      internalID: 2353162675204876388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_40
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 554
+        width: 124
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9823a8c7d5d2fdb20800000000000000
+      internalID: 3161295342982017673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_41
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 554
+        width: 124
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bb7e0cb6a98bff0800000000000000
+      internalID: -20096410734576755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_42
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 556
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58265eccec114200800000000000000
+      internalID: 162442864961661018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_43
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 554
+        width: 80
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ba387b1291d63950800000000000000
+      internalID: 6428555943574256313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_44
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 430
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af29a74b029fb22f0800000000000000
+      internalID: -996428973670231302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_45
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 426
+        width: 79
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57ad9262f3537a20800000000000000
+      internalID: 3058880872416388958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_46
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 432
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7746133f69e2beab0800000000000000
+      internalID: -4977833737267878793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_47
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 426
+        width: 79
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53fdbde56f41d6dd0800000000000000
+      internalID: -2491311970480038091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_48
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 434
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6284734bff34dfa80800000000000000
+      internalID: -8431508161848457178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_49
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d24cc001a81509b0800000000000000
+      internalID: -5114654722027142447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_50
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 430
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13eaf7a34db98b480800000000000000
+      internalID: -8883178929171485135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_51
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 426
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a570d674dadbd1eb0800000000000000
+      internalID: -4747429880253315238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_52
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 435
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80036fd057842a3a0800000000000000
+      internalID: -6655677631717560312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_53
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 434
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2624596bc1523bb90800000000000000
+      internalID: -7227392171746966942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_54
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 432
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbc2a7713b7fd090800000000000000
+      internalID: -8007546160050680888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_55
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 430
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb6f930ad4ec5220800000000000000
+      internalID: 2476105520161713140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_56
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 428
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8916e22c94cf215c0800000000000000
+      internalID: -4246054104936324712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_57
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 437
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619175a7eb5cb96d0800000000000000
+      internalID: -2982572906315835114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_58
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 435
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79867ef3c602f9490800000000000000
+      internalID: -7737429985498535785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_59
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 434
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ed38022802bef20800000000000000
+      internalID: 3452889282572967515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_60
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 432
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e7d38c365ca5d90800000000000000
+      internalID: -7108152029498999258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_61
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 430
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f448f4fa6dd0dc0800000000000000
+      internalID: -3671042072795394256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_62
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 439
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794175ef80823ac60800000000000000
+      internalID: 7828144596392023191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_63
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 437
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c075c793dc29270800000000000000
+      internalID: 8255886713706449943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_64
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 435
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93cdae44d625bfe0800000000000000
+      internalID: -1173989434565213286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_65
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 434
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f5854ddb127b140800000000000000
+      internalID: 4735290632398462733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_66
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 432
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1501e65bf38b430800000000000000
+      internalID: 3798856334155207082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_67
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 313
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6c044b559aabd90800000000000000
+      internalID: -7081161278525225277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_68
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 311
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5ed07a9e3b591d0800000000000000
+      internalID: -3344569332141267494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_69
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 309
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e49405b27cdebef0800000000000000
+      internalID: -90392557279472415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_70
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 308
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49f65d9b4ba75220800000000000000
+      internalID: 2474634861513996622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_71
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 306
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68f4bb37646bb1e0800000000000000
+      internalID: -2181039199984748437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_72
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 315
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb360580f77649750800000000000000
+      internalID: 6310782773150901183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_73
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 313
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474b29108479e0c00800000000000000
+      internalID: 868798113648915572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_74
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 311
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d0f944d15e93d90800000000000000
+      internalID: -7117405822214271728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_75
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 309
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82719e3f25baee730800000000000000
+      internalID: 4030347089310979880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_76
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 307
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b512c9e40df580980800000000000000
+      internalID: -8572496542423047845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_77
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 315
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b754b24db7c20bcd0800000000000000
+      internalID: -2544484879112125061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_78
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 313
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37dd4b276b32c49a0800000000000000
+      internalID: -6247579316554244749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_79
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 311
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5d868273178a9d0800000000000000
+      internalID: -2762833889676700194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_80
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 309
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6eb5ec399308160800000000000000
+      internalID: 7025678725683078877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_81
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 315
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e192f5608f0420710800000000000000
+      internalID: 1657959046828730654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_82
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 313
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0447ce154bfe70860800000000000000
+      internalID: 7496223662529082432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_83
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 311
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e733498e4d6312530800000000000000
+      internalID: 3828401446304625534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_84
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 315
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccce7135f3804dd70800000000000000
+      internalID: 9066881017873689804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_85
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 313
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68dad296edb339d30800000000000000
+      internalID: 4436955884323450246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nice_86
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 315
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9023ef8e6b90d0580800000000000000
+      internalID: -8859414210770226679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Nice_0: 7072585630640041823
+      Nice_1: -5217750197863943017
+      Nice_10: -7655027241379627931
+      Nice_11: 222352361646774998
+      Nice_12: 3922387780347973103
+      Nice_13: 4737196893042508683
+      Nice_14: -5422296646591071053
+      Nice_15: -7934869286564926893
+      Nice_16: 2706140805443412869
+      Nice_17: 8114832275148996069
+      Nice_18: -2473066070635461173
+      Nice_19: -1232299898470756493
+      Nice_2: -5232538827427711872
+      Nice_20: -1256264130988423118
+      Nice_21: 8659213132464018907
+      Nice_22: 2740172285751811172
+      Nice_23: -1831127552218804654
+      Nice_24: 7667058391209740012
+      Nice_25: 3170267288691527492
+      Nice_26: -7583496007839193916
+      Nice_27: -3290703347840526493
+      Nice_28: -8586170695343916112
+      Nice_29: -104328974680399422
+      Nice_3: 677554573341302184
+      Nice_30: -7867848055482820821
+      Nice_31: -7048913687140076425
+      Nice_32: 1279147735865625251
+      Nice_33: -8417647918094822506
+      Nice_34: 4727636650297028872
+      Nice_35: -8969281138448421578
+      Nice_36: -7373484347200303910
+      Nice_37: 3257105435342174387
+      Nice_38: -594774534955460873
+      Nice_39: 2353162675204876388
+      Nice_4: 9134763195554291448
+      Nice_40: 3161295342982017673
+      Nice_41: -20096410734576755
+      Nice_42: 162442864961661018
+      Nice_43: 6428555943574256313
+      Nice_44: -996428973670231302
+      Nice_45: 3058880872416388958
+      Nice_46: -4977833737267878793
+      Nice_47: -2491311970480038091
+      Nice_48: -8431508161848457178
+      Nice_49: -5114654722027142447
+      Nice_5: -8725006459703895154
+      Nice_50: -8883178929171485135
+      Nice_51: -4747429880253315238
+      Nice_52: -6655677631717560312
+      Nice_53: -7227392171746966942
+      Nice_54: -8007546160050680888
+      Nice_55: 2476105520161713140
+      Nice_56: -4246054104936324712
+      Nice_57: -2982572906315835114
+      Nice_58: -7737429985498535785
+      Nice_59: 3452889282572967515
+      Nice_6: 6122721186841945034
+      Nice_60: -7108152029498999258
+      Nice_61: -3671042072795394256
+      Nice_62: 7828144596392023191
+      Nice_63: 8255886713706449943
+      Nice_64: -1173989434565213286
+      Nice_65: 4735290632398462733
+      Nice_66: 3798856334155207082
+      Nice_67: -7081161278525225277
+      Nice_68: -3344569332141267494
+      Nice_69: -90392557279472415
+      Nice_7: -3791119391896073474
+      Nice_70: 2474634861513996622
+      Nice_71: -2181039199984748437
+      Nice_72: 6310782773150901183
+      Nice_73: 868798113648915572
+      Nice_74: -7117405822214271728
+      Nice_75: 4030347089310979880
+      Nice_76: -8572496542423047845
+      Nice_77: -2544484879112125061
+      Nice_78: -6247579316554244749
+      Nice_79: -2762833889676700194
+      Nice_8: -4175434497383719182
+      Nice_80: 7025678725683078877
+      Nice_81: 1657959046828730654
+      Nice_82: 7496223662529082432
+      Nice_83: 3828401446304625534
+      Nice_84: 9066881017873689804
+      Nice_85: 4436955884323450246
+      Nice_86: -8859414210770226679
+      Nice_9: -2321716829285209263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

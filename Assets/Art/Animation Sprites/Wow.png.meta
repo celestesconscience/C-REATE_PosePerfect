@@ -1,0 +1,2366 @@
+fileFormatVersion: 2
+guid: 376cbe40670384ec595ba6041f928ac4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6399759805875915454
+    second: Wow_0
+  - first:
+      213: -8612252082867680049
+    second: Wow_1
+  - first:
+      213: -7863006061043994919
+    second: Wow_2
+  - first:
+      213: -1330084799908776534
+    second: Wow_3
+  - first:
+      213: -8287500115700794124
+    second: Wow_4
+  - first:
+      213: -2611300321614850651
+    second: Wow_5
+  - first:
+      213: -60880395731951939
+    second: Wow_6
+  - first:
+      213: -3780221938514050922
+    second: Wow_7
+  - first:
+      213: -7651046940108207358
+    second: Wow_8
+  - first:
+      213: 6702089800268206183
+    second: Wow_9
+  - first:
+      213: 9106365275609633289
+    second: Wow_10
+  - first:
+      213: -506627805201521616
+    second: Wow_11
+  - first:
+      213: -957242884445045314
+    second: Wow_12
+  - first:
+      213: -1364522128503770429
+    second: Wow_13
+  - first:
+      213: -8654487444207658176
+    second: Wow_14
+  - first:
+      213: 8338631487654545816
+    second: Wow_15
+  - first:
+      213: 5513882819199615907
+    second: Wow_16
+  - first:
+      213: 8638458811255218165
+    second: Wow_17
+  - first:
+      213: -6841841238230260219
+    second: Wow_18
+  - first:
+      213: -8245309397163539396
+    second: Wow_19
+  - first:
+      213: -6524994381648424241
+    second: Wow_20
+  - first:
+      213: -4652502880216706444
+    second: Wow_21
+  - first:
+      213: 1917918591849862261
+    second: Wow_22
+  - first:
+      213: -4565545552053233120
+    second: Wow_23
+  - first:
+      213: 5492117336230116587
+    second: Wow_24
+  - first:
+      213: 4713005285184736055
+    second: Wow_25
+  - first:
+      213: -703887858028720306
+    second: Wow_26
+  - first:
+      213: -4882695197306588835
+    second: Wow_27
+  - first:
+      213: 2477012652919841732
+    second: Wow_28
+  - first:
+      213: 1283084422427668800
+    second: Wow_29
+  - first:
+      213: 1676466393516145229
+    second: Wow_30
+  - first:
+      213: 776752418774825165
+    second: Wow_31
+  - first:
+      213: -8868638488391503618
+    second: Wow_32
+  - first:
+      213: 1051371444219188234
+    second: Wow_33
+  - first:
+      213: -771512605195306917
+    second: Wow_34
+  - first:
+      213: 6791492032941262655
+    second: Wow_35
+  - first:
+      213: 1740748892737637765
+    second: Wow_36
+  - first:
+      213: 3334221249607264651
+    second: Wow_37
+  - first:
+      213: 6108370310769976890
+    second: Wow_38
+  - first:
+      213: -1070159230029288618
+    second: Wow_39
+  - first:
+      213: -3001403015857814902
+    second: Wow_40
+  - first:
+      213: 6737279146902387824
+    second: Wow_41
+  - first:
+      213: 8149226803468140025
+    second: Wow_42
+  - first:
+      213: 3883406910846583835
+    second: Wow_43
+  - first:
+      213: -399404708819659966
+    second: Wow_44
+  - first:
+      213: 5399975717633796969
+    second: Wow_45
+  - first:
+      213: -4576559541944130914
+    second: Wow_46
+  - first:
+      213: 6114812643879829035
+    second: Wow_47
+  - first:
+      213: 6021033221380682229
+    second: Wow_48
+  - first:
+      213: -8868411183954211728
+    second: Wow_49
+  - first:
+      213: -8184970323080284602
+    second: Wow_50
+  - first:
+      213: -2180282516482117794
+    second: Wow_51
+  - first:
+      213: 998629183942667672
+    second: Wow_52
+  - first:
+      213: -4189527806762964583
+    second: Wow_53
+  - first:
+      213: -6365080105556065926
+    second: Wow_54
+  - first:
+      213: -111736100537286532
+    second: Wow_55
+  - first:
+      213: 1472828021590411740
+    second: Wow_56
+  - first:
+      213: -7133353928506444996
+    second: Wow_57
+  - first:
+      213: 7577709721229236436
+    second: Wow_58
+  - first:
+      213: 4292814245885156666
+    second: Wow_59
+  - first:
+      213: -4262525377375089733
+    second: Wow_60
+  - first:
+      213: -249576539296058276
+    second: Wow_61
+  - first:
+      213: -647972897317900633
+    second: Wow_62
+  - first:
+      213: -963784836492473530
+    second: Wow_63
+  - first:
+      213: 8714465452621004111
+    second: Wow_64
+  - first:
+      213: 4434184989642633033
+    second: Wow_65
+  - first:
+      213: -2078344364140296598
+    second: Wow_66
+  - first:
+      213: -2804229056060460403
+    second: Wow_67
+  - first:
+      213: 558632238804334815
+    second: Wow_68
+  - first:
+      213: 7429789691826062193
+    second: Wow_69
+  - first:
+      213: 1521913723611623870
+    second: Wow_70
+  - first:
+      213: -4372117796427983162
+    second: Wow_71
+  - first:
+      213: -9207839964023051972
+    second: Wow_72
+  - first:
+      213: 1400821352712784132
+    second: Wow_73
+  - first:
+      213: 4920939961364909778
+    second: Wow_74
+  - first:
+      213: -8234479354256164999
+    second: Wow_75
+  - first:
+      213: 8554102672078080786
+    second: Wow_76
+  - first:
+      213: 2836966664936145976
+    second: Wow_77
+  - first:
+      213: 4669459807699706125
+    second: Wow_78
+  - first:
+      213: -6332672218999234819
+    second: Wow_79
+  - first:
+      213: 6334169760121572559
+    second: Wow_80
+  - first:
+      213: 489144598889153266
+    second: Wow_81
+  - first:
+      213: -8023520357861817847
+    second: Wow_82
+  - first:
+      213: 4972314688946554298
+    second: Wow_83
+  - first:
+      213: 1030928518763643589
+    second: Wow_84
+  - first:
+      213: -3984395817715382979
+    second: Wow_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wow_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 935
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba8e05d2a380d850800000000000000
+      internalID: 6399759805875915454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 946
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcccd8c3c522b7880800000000000000
+      internalID: -8612252082867680049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_2
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9deaab0c5adf0e290800000000000000
+      internalID: -7863006061043994919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_3
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 955
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa57a4cebe69a8de0800000000000000
+      internalID: -1330084799908776534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_4
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 946
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fc35a7cd82ecfc80800000000000000
+      internalID: -8287500115700794124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_5
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 937
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a59848513cc2cbd0800000000000000
+      internalID: -2611300321614850651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 959
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe9c964a95b72ff0800000000000000
+      internalID: -60880395731951939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_7
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 955
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6904bb6ec24f98bc0800000000000000
+      internalID: -3780221938514050922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_8
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 947
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20bc20f485502d590800000000000000
+      internalID: -7651046940108207358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_9
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 935
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76051c50a2b920d50800000000000000
+      internalID: 6702089800268206183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_10
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 960
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9021aa778fe406e70800000000000000
+      internalID: 9106365275609633289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 959
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 034a0a502b818f8f0800000000000000
+      internalID: -506627805201521616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_12
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 955
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdf1e41ba037b2f0800000000000000
+      internalID: -957242884445045314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_13
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 946
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c27f5a8a5e301de0800000000000000
+      internalID: -1364522128503770429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_14
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 959
+        width: 46
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b9ceed58515e780800000000000000
+      internalID: -8654487444207658176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_15
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 960
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89949867825c8b370800000000000000
+      internalID: 8338631487654545816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_16
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 959
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3c583d53f358c40800000000000000
+      internalID: 5513882819199615907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_17
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 955
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffd5b33588f1e770800000000000000
+      internalID: 8638458811255218165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_18
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 829
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506aaa9b4a5ec01a0800000000000000
+      internalID: -6841841238230260219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_19
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 831
+        width: 60
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3480eee9c6c29d80800000000000000
+      internalID: -8245309397163539396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_20
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 831
+        width: 18
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc21d684e209275a0800000000000000
+      internalID: -6524994381648424241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_21
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 824
+        width: 119
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 472933cc74dfe6fb0800000000000000
+      internalID: -4652502880216706444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_22
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 818
+        width: 120
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57414573cc0dd9a10800000000000000
+      internalID: 1917918591849862261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_23
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 807
+        width: 130
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a900c728ce3a0c0800000000000000
+      internalID: -4565545552053233120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_24
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 807
+        width: 124
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: becb2ca6e9be73c40800000000000000
+      internalID: 5492117336230116587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_25
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 817
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b89f71655f76140800000000000000
+      internalID: 4713005285184736055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_26
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 807
+        width: 80
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fcc74f8b94b36f0800000000000000
+      internalID: -703887858028720306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_27
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 689
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51f802769e2d3cb0800000000000000
+      internalID: -4882695197306588835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 679
+        width: 79
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c36f6152ed106220800000000000000
+      internalID: 2477012652919841732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_29
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 686
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04173afeb7e6ec110800000000000000
+      internalID: 1283084422427668800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_30
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 689
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4af8677d41044710800000000000000
+      internalID: 1676466393516145229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_31
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 685
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8bf7f953497ca00800000000000000
+      internalID: 776752418774825165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_32
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 682
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0311a68444ce480800000000000000
+      internalID: -8868638488391503618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_33
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 689
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a049ca312c8379e00800000000000000
+      internalID: 1051371444219188234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_34
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 689
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58f89b8f590b45f0800000000000000
+      internalID: -771512605195306917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_35
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 682
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f370c56650a304e50800000000000000
+      internalID: 6791492032941262655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_36
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 682
+        width: 77
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d08c225e1682810800000000000000
+      internalID: 1740748892737637765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_37
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 682
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b896661af88854e20800000000000000
+      internalID: 3334221249607264651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_38
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 682
+        width: 78
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36acf12f6a45c450800000000000000
+      internalID: 6108370310769976890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_39
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 682
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65baff8a9d70621f0800000000000000
+      internalID: -1070159230029288618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_40
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 682
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a824204fbdfd856d0800000000000000
+      internalID: -3001403015857814902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_41
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 554
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c73cf30bf9f7d50800000000000000
+      internalID: 6737279146902387824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_42
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 554
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd7fcee99ed71170800000000000000
+      internalID: 8149226803468140025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_43
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 554
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14ce4f9202a4e530800000000000000
+      internalID: 3883406910846583835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_44
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 554
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2439f219887057af0800000000000000
+      internalID: -399404708819659966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_45
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 554
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b2c4d0e4190fa40800000000000000
+      internalID: 5399975717633796969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_46
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 554
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92eef0285bcc70c0800000000000000
+      internalID: -4576559541944130914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_47
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 554
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2e3682b3bd2cd450800000000000000
+      internalID: 6114812643879829035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_48
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 554
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1b83560d10f8350800000000000000
+      internalID: 6021033221380682229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_49
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 556
+        width: 42
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cce4ad3031de480800000000000000
+      internalID: -8868411183954211728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_50
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 554
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6467fa36bd4296e80800000000000000
+      internalID: -8184970323080284602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_51
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 558
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fa6175a941eb1e0800000000000000
+      internalID: -2180282516482117794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_52
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 554
+        width: 77
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dad3ba3f7dbdd00800000000000000
+      internalID: 998629183942667672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_53
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 432
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999a54528aecbd5c0800000000000000
+      internalID: -4189527806762964583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 430
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71cc6d1e51baa7a0800000000000000
+      internalID: -6365080105556065926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_55
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 426
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7043eacb98037ef0800000000000000
+      internalID: -111736100537286532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_56
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 434
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd943224849807410800000000000000
+      internalID: 1472828021590411740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_57
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 432
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c337c3a656c310d90800000000000000
+      internalID: -7133353928506444996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_58
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 430
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d894e0d7de692960800000000000000
+      internalID: 7577709721229236436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_59
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 428
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d98b4ffc3239b30800000000000000
+      internalID: 4292814245885156666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_60
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 436
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb487bc0c778d4c0800000000000000
+      internalID: -4262525377375089733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_61
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 434
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54bcf6b573598cf0800000000000000
+      internalID: -249576539296058276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_62
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 432
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae294f3510f107f0800000000000000
+      internalID: -647972897317900633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_63
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 430
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b45fc2cc2ff92f0800000000000000
+      internalID: -963784836492473530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_64
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 437
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d73ee682000f870800000000000000
+      internalID: 8714465452621004111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_65
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 435
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fa40831c3698d30800000000000000
+      internalID: 4434184989642633033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_66
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 434
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a668b76ffcc3823e0800000000000000
+      internalID: -2078344364140296598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_67
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 432
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82fface7806519d0800000000000000
+      internalID: -2804229056060460403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_68
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 440
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8730abf09a0c700800000000000000
+      internalID: 558632238804334815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_69
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 437
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173c6292c5aeb1760800000000000000
+      internalID: 7429789691826062193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_70
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 436
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1b9aad77cee1510800000000000000
+      internalID: 1521913723611623870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_71
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 434
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c61fb3570e1353c0800000000000000
+      internalID: -4372117796427983162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_72
+      rect:
+        serializedVersion: 2
+        x: 836
+        y: 441
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39a2c3865e273080800000000000000
+      internalID: -9207839964023051972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_73
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 439
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4094a323997b07310800000000000000
+      internalID: 1400821352712784132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_74
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 438
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de0e2692d0ba4440800000000000000
+      internalID: 4920939961364909778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_75
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 435
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977f54bc7a049bd80800000000000000
+      internalID: -8234479354256164999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_76
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 316
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21b0f650f0746b670800000000000000
+      internalID: 8554102672078080786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_77
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 313
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834c42f962eee5720800000000000000
+      internalID: 2836966664936145976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 311
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01a7ea84f04dc040800000000000000
+      internalID: 4669459807699706125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_79
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 309
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfed0933b24dd18a0800000000000000
+      internalID: -6332672218999234819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_80
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 315
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc411346dd77e750800000000000000
+      internalID: 6334169760121572559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_81
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 314
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2c69ccb6ac9c600800000000000000
+      internalID: 489144598889153266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_82
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 311
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9020885bebab6a090800000000000000
+      internalID: -8023520357861817847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_83
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 315
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5cd1a7dd5310540800000000000000
+      internalID: 4972314688946554298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_84
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 313
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c20ab596089e4e00800000000000000
+      internalID: 1030928518763643589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wow_85
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 315
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35c5803d1594b8c0800000000000000
+      internalID: -3984395817715382979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wow_0: 6399759805875915454
+      Wow_1: -8612252082867680049
+      Wow_10: 9106365275609633289
+      Wow_11: -506627805201521616
+      Wow_12: -957242884445045314
+      Wow_13: -1364522128503770429
+      Wow_14: -8654487444207658176
+      Wow_15: 8338631487654545816
+      Wow_16: 5513882819199615907
+      Wow_17: 8638458811255218165
+      Wow_18: -6841841238230260219
+      Wow_19: -8245309397163539396
+      Wow_2: -7863006061043994919
+      Wow_20: -6524994381648424241
+      Wow_21: -4652502880216706444
+      Wow_22: 1917918591849862261
+      Wow_23: -4565545552053233120
+      Wow_24: 5492117336230116587
+      Wow_25: 4713005285184736055
+      Wow_26: -703887858028720306
+      Wow_27: -4882695197306588835
+      Wow_28: 2477012652919841732
+      Wow_29: 1283084422427668800
+      Wow_3: -1330084799908776534
+      Wow_30: 1676466393516145229
+      Wow_31: 776752418774825165
+      Wow_32: -8868638488391503618
+      Wow_33: 1051371444219188234
+      Wow_34: -771512605195306917
+      Wow_35: 6791492032941262655
+      Wow_36: 1740748892737637765
+      Wow_37: 3334221249607264651
+      Wow_38: 6108370310769976890
+      Wow_39: -1070159230029288618
+      Wow_4: -8287500115700794124
+      Wow_40: -3001403015857814902
+      Wow_41: 6737279146902387824
+      Wow_42: 8149226803468140025
+      Wow_43: 3883406910846583835
+      Wow_44: -399404708819659966
+      Wow_45: 5399975717633796969
+      Wow_46: -4576559541944130914
+      Wow_47: 6114812643879829035
+      Wow_48: 6021033221380682229
+      Wow_49: -8868411183954211728
+      Wow_5: -2611300321614850651
+      Wow_50: -8184970323080284602
+      Wow_51: -2180282516482117794
+      Wow_52: 998629183942667672
+      Wow_53: -4189527806762964583
+      Wow_54: -6365080105556065926
+      Wow_55: -111736100537286532
+      Wow_56: 1472828021590411740
+      Wow_57: -7133353928506444996
+      Wow_58: 7577709721229236436
+      Wow_59: 4292814245885156666
+      Wow_6: -60880395731951939
+      Wow_60: -4262525377375089733
+      Wow_61: -249576539296058276
+      Wow_62: -647972897317900633
+      Wow_63: -963784836492473530
+      Wow_64: 8714465452621004111
+      Wow_65: 4434184989642633033
+      Wow_66: -2078344364140296598
+      Wow_67: -2804229056060460403
+      Wow_68: 558632238804334815
+      Wow_69: 7429789691826062193
+      Wow_7: -3780221938514050922
+      Wow_70: 1521913723611623870
+      Wow_71: -4372117796427983162
+      Wow_72: -9207839964023051972
+      Wow_73: 1400821352712784132
+      Wow_74: 4920939961364909778
+      Wow_75: -8234479354256164999
+      Wow_76: 8554102672078080786
+      Wow_77: 2836966664936145976
+      Wow_78: 4669459807699706125
+      Wow_79: -6332672218999234819
+      Wow_8: -7651046940108207358
+      Wow_80: 6334169760121572559
+      Wow_81: 489144598889153266
+      Wow_82: -8023520357861817847
+      Wow_83: 4972314688946554298
+      Wow_84: 1030928518763643589
+      Wow_85: -3984395817715382979
+      Wow_9: 6702089800268206183
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

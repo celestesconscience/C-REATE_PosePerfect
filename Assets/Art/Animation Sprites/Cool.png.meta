@@ -1,0 +1,2470 @@
+fileFormatVersion: 2
+guid: 5cfc23568ae654927955683aba5d4f5f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7650137855209502040
+    second: Cool_0
+  - first:
+      213: -3136233331273825196
+    second: Cool_1
+  - first:
+      213: 7458565777056031941
+    second: Cool_2
+  - first:
+      213: -8522879608089410953
+    second: Cool_3
+  - first:
+      213: -1370668369812953789
+    second: Cool_4
+  - first:
+      213: 8396783634148115224
+    second: Cool_5
+  - first:
+      213: -4543911885765478868
+    second: Cool_6
+  - first:
+      213: 4993830973554978266
+    second: Cool_7
+  - first:
+      213: 4897958754856477337
+    second: Cool_8
+  - first:
+      213: 4417629484994051533
+    second: Cool_9
+  - first:
+      213: 2335903928779262552
+    second: Cool_10
+  - first:
+      213: 3133217787543058371
+    second: Cool_11
+  - first:
+      213: 6100732623697997634
+    second: Cool_12
+  - first:
+      213: 4787756412994496230
+    second: Cool_13
+  - first:
+      213: 7991711443366738370
+    second: Cool_14
+  - first:
+      213: 2113853690845630639
+    second: Cool_15
+  - first:
+      213: 5424045027803609880
+    second: Cool_16
+  - first:
+      213: 1180230931964245192
+    second: Cool_17
+  - first:
+      213: -1430534378284255724
+    second: Cool_18
+  - first:
+      213: 7777110604447292596
+    second: Cool_19
+  - first:
+      213: 7828933319894054859
+    second: Cool_20
+  - first:
+      213: 3479199193537000981
+    second: Cool_21
+  - first:
+      213: -5611274997504925451
+    second: Cool_22
+  - first:
+      213: 305045097579105092
+    second: Cool_23
+  - first:
+      213: 2250677172066832096
+    second: Cool_24
+  - first:
+      213: 6133681976380148952
+    second: Cool_25
+  - first:
+      213: -4970368875929679926
+    second: Cool_26
+  - first:
+      213: -2366787989754064115
+    second: Cool_27
+  - first:
+      213: -7658496358221344831
+    second: Cool_28
+  - first:
+      213: -6171005451480229448
+    second: Cool_29
+  - first:
+      213: -5926993561416385979
+    second: Cool_30
+  - first:
+      213: 5606752015880242646
+    second: Cool_31
+  - first:
+      213: 4984774407618489716
+    second: Cool_32
+  - first:
+      213: -8139620071976999343
+    second: Cool_33
+  - first:
+      213: 9104992081319626924
+    second: Cool_34
+  - first:
+      213: -7607352666968712419
+    second: Cool_35
+  - first:
+      213: 6999581398432507059
+    second: Cool_36
+  - first:
+      213: 6541015133499157318
+    second: Cool_37
+  - first:
+      213: 5042258425884374940
+    second: Cool_38
+  - first:
+      213: 1269154869006167322
+    second: Cool_39
+  - first:
+      213: -4451453392367497246
+    second: Cool_40
+  - first:
+      213: 332212813752394127
+    second: Cool_41
+  - first:
+      213: -4042509448681208213
+    second: Cool_42
+  - first:
+      213: -4324694970294957694
+    second: Cool_43
+  - first:
+      213: 4903032372080426554
+    second: Cool_44
+  - first:
+      213: 2619137971910977431
+    second: Cool_45
+  - first:
+      213: -9046989614453477189
+    second: Cool_46
+  - first:
+      213: -2957346392526845462
+    second: Cool_47
+  - first:
+      213: 6021608428372672997
+    second: Cool_48
+  - first:
+      213: -7046193288560387486
+    second: Cool_49
+  - first:
+      213: 8734557908321980504
+    second: Cool_50
+  - first:
+      213: 3010045334163108104
+    second: Cool_51
+  - first:
+      213: 8690009143841444451
+    second: Cool_52
+  - first:
+      213: -6596414481130923668
+    second: Cool_53
+  - first:
+      213: -7254178329221978582
+    second: Cool_54
+  - first:
+      213: 3944142580309075398
+    second: Cool_55
+  - first:
+      213: -4600876366777623505
+    second: Cool_56
+  - first:
+      213: 7540514231830599606
+    second: Cool_57
+  - first:
+      213: -6904251781860566235
+    second: Cool_58
+  - first:
+      213: 4038293982927431254
+    second: Cool_59
+  - first:
+      213: -2551497402902859564
+    second: Cool_60
+  - first:
+      213: 7027615323513831321
+    second: Cool_61
+  - first:
+      213: 6280529536357414598
+    second: Cool_62
+  - first:
+      213: 5354640645039429308
+    second: Cool_63
+  - first:
+      213: 2133377616845557383
+    second: Cool_64
+  - first:
+      213: -5748346018812627947
+    second: Cool_65
+  - first:
+      213: 4316651726048943506
+    second: Cool_66
+  - first:
+      213: -2506439179255344997
+    second: Cool_67
+  - first:
+      213: -3564419067653015438
+    second: Cool_68
+  - first:
+      213: 5676352822380099160
+    second: Cool_69
+  - first:
+      213: 8509802532821270748
+    second: Cool_70
+  - first:
+      213: -3954472001772618858
+    second: Cool_71
+  - first:
+      213: 8932833367138139801
+    second: Cool_72
+  - first:
+      213: -5268930363347108163
+    second: Cool_73
+  - first:
+      213: 8310730320578759954
+    second: Cool_74
+  - first:
+      213: 2487890344612737391
+    second: Cool_75
+  - first:
+      213: -8925698348702858784
+    second: Cool_76
+  - first:
+      213: -7738049068680083869
+    second: Cool_77
+  - first:
+      213: -4852627762328940690
+    second: Cool_78
+  - first:
+      213: -7019404532977402017
+    second: Cool_79
+  - first:
+      213: -4963643901082857496
+    second: Cool_80
+  - first:
+      213: 7349624048062459637
+    second: Cool_81
+  - first:
+      213: 8588252872389986951
+    second: Cool_82
+  - first:
+      213: 717206825945755687
+    second: Cool_83
+  - first:
+      213: 4405576058344911204
+    second: Cool_84
+  - first:
+      213: 2837275337790095530
+    second: Cool_85
+  - first:
+      213: -1823863428978357236
+    second: Cool_86
+  - first:
+      213: 4879234403928909426
+    second: Cool_87
+  - first:
+      213: -223178316764687172
+    second: Cool_88
+  - first:
+      213: -4425700478023326843
+    second: Cool_89
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cool_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 935
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aa0871272045d590800000000000000
+      internalID: -7650137855209502040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 946
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4540fa4d66cd974d0800000000000000
+      internalID: -3136233331273825196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c46f4b9e06228760800000000000000
+      internalID: 7458565777056031941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_3
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 955
+        width: 28
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77209601726a8b980800000000000000
+      internalID: -8522879608089410953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_4
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 946
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3456f6831686afce0800000000000000
+      internalID: -1370668369812953789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_5
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81346392a3e578470800000000000000
+      internalID: 8396783634148115224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_6
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 959
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26f54ee638c0f0c0800000000000000
+      internalID: -4543911885765478868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_7
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 955
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add661fdfc6ad4540800000000000000
+      internalID: 4993830973554978266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_8
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 946
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9922cbb798b09f340800000000000000
+      internalID: 4897958754856477337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_9
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 935
+        width: 8
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdbc5a6c929e4d30800000000000000
+      internalID: 4417629484994051533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_10
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 960
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ac3504f3cca6020800000000000000
+      internalID: 2335903928779262552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_11
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 959
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7707e2afc6b7b20800000000000000
+      internalID: 3133217787543058371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_12
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 955
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24fe7298ff72aa450800000000000000
+      internalID: 6100732623697997634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_13
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 947
+        width: 12
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6a2ab4717817240800000000000000
+      internalID: 4787756412994496230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_14
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 935
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c97c41473348ee60800000000000000
+      internalID: 7991711443366738370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_15
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 959
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0900e6bbae55d10800000000000000
+      internalID: 2113853690845630639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_16
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 959
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b35f70734164b40800000000000000
+      internalID: 5424045027803609880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_17
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 955
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c438ac87c5016010800000000000000
+      internalID: 1180230931964245192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_18
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 946
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416f16fef88b52ce0800000000000000
+      internalID: -1430534378284255724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_19
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 829
+        width: 87
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc110dc3e8ddeb60800000000000000
+      internalID: 7777110604447292596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_20
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 831
+        width: 18
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7318eff55f5ac60800000000000000
+      internalID: 7828933319894054859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_21
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 827
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5163991ab39984030800000000000000
+      internalID: 3479199193537000981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_22
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 824
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f020bc9e1fb022b0800000000000000
+      internalID: -5611274997504925451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_23
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 831
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b4da966ecbb3400800000000000000
+      internalID: 305045097579105092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_24
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 818
+        width: 119
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eecf11a6f20c3f10800000000000000
+      internalID: 2250677172066832096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_25
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 807
+        width: 98
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcca5782473f1550800000000000000
+      internalID: 6133681976380148952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_26
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 829
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7cd8b67d3b50bb0800000000000000
+      internalID: -4970368875929679926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_27
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 807
+        width: 92
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d035c04fcda772fd0800000000000000
+      internalID: -2366787989754064115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_28
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 824
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf089e732e87b590800000000000000
+      internalID: -7658496358221344831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_29
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 807
+        width: 116
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9958dbc3f2c5aa0800000000000000
+      internalID: -6171005451480229448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_30
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 689
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54abfb922c61fbda0800000000000000
+      internalID: -5926993561416385979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_31
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 679
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d54f3aa04f2fcd40800000000000000
+      internalID: 5606752015880242646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_32
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 686
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47dee8bc9e97d2540800000000000000
+      internalID: 4984774407618489716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_33
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 679
+        width: 59
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156eb2b8ba24a0f80800000000000000
+      internalID: -8139620071976999343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_34
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 682
+        width: 87
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca80dc1ce0e6b5e70800000000000000
+      internalID: 9104992081319626924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_35
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 685
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b953c0e014d6690800000000000000
+      internalID: -7607352666968712419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_36
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 682
+        width: 88
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4600e4232832160800000000000000
+      internalID: 6999581398432507059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_37
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 689
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bebaeab9a56ca50800000000000000
+      internalID: 6541015133499157318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_38
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 682
+        width: 119
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97fe84c253b9f540800000000000000
+      internalID: 5042258425884374940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_39
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 682
+        width: 120
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1de11c01a1fc9110800000000000000
+      internalID: 1269154869006167322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_40
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 554
+        width: 120
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef4ab579b24932c0800000000000000
+      internalID: -4451453392367497246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_41
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 554
+        width: 120
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f816b814bc14c9400800000000000000
+      internalID: 332212813752394127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_42
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 554
+        width: 120
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b664236131f16e7c0800000000000000
+      internalID: -4042509448681208213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_43
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 554
+        width: 120
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28986a576d89bf3c0800000000000000
+      internalID: -4324694970294957694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_44
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 554
+        width: 120
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e381c07f11b0440800000000000000
+      internalID: 4903032372080426554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_45
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 554
+        width: 118
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797ad71db1c095420800000000000000
+      internalID: 2619137971910977431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_46
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 430
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb03adfe0e2a27280800000000000000
+      internalID: -9046989614453477189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_47
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 426
+        width: 79
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae987abef1565f6d0800000000000000
+      internalID: -2957346392526845462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_48
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 432
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1c6a536fc019350800000000000000
+      internalID: 6021608428372672997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_49
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 430
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26add905984e63e90800000000000000
+      internalID: -7046193288560387486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_50
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 428
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8505c93d322673970800000000000000
+      internalID: 8734557908321980504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_51
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 426
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8013d949844d5c920800000000000000
+      internalID: 3010045334163108104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_52
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 434
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362d091564d199870800000000000000
+      internalID: 8690009143841444451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_53
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 432
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69d2fc8af3d474a0800000000000000
+      internalID: -6596414481130923668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_54
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 430
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26236d6e3bf35b90800000000000000
+      internalID: -7254178329221978582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_55
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 426
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5a0d2a7c86cb630800000000000000
+      internalID: 3944142580309075398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_56
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 435
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cdab622576620c0800000000000000
+      internalID: -4600876366777623505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_57
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 434
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b75a041eb945a860800000000000000
+      internalID: 7540514231830599606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_58
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 432
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bd75ea59b2f20a0800000000000000
+      internalID: -6904251781860566235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_59
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 428
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656acfe4bf6ea0830800000000000000
+      internalID: 4038293982927431254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_60
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 437
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0b4a661a2479cd0800000000000000
+      internalID: -2551497402902859564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_61
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 435
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f322027ea178160800000000000000
+      internalID: 7027615323513831321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_62
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 434
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6beef665ce82750800000000000000
+      internalID: 6280529536357414598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_63
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 432
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6917beb418f4a40800000000000000
+      internalID: 5354640645039429308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_64
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 430
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e49dfa3a74b9d10800000000000000
+      internalID: 2133377616845557383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_65
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 439
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51474ae70c5c930b0800000000000000
+      internalID: -5748346018812627947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_66
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 437
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d593ecfd3d7eb30800000000000000
+      internalID: 4316651726048943506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_67
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 435
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b901d5d98d6573dd0800000000000000
+      internalID: -2506439179255344997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_68
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 434
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278b9e93eb3a88ec0800000000000000
+      internalID: -3564419067653015438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_69
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 432
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85670cd31d476ce40800000000000000
+      internalID: 5676352822380099160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_70
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 313
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd008851154e81670800000000000000
+      internalID: 8509802532821270748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_71
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 311
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b7d148aa4ee19c0800000000000000
+      internalID: -3954472001772618858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_72
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 309
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e76068e9cc7fb70800000000000000
+      internalID: 8932833367138139801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_73
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 308
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbefc6220cff0e6b0800000000000000
+      internalID: -5268930363347108163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_74
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 306
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d4a26c135a55370800000000000000
+      internalID: 8310730320578759954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_75
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 315
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6134c64613c68220800000000000000
+      internalID: 2487890344612737391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_76
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 313
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1864964ac812480800000000000000
+      internalID: -8925698348702858784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_77
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 311
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36608c6be5dec9490800000000000000
+      internalID: -7738049068680083869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_78
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 310
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f4f2fa2c008acb0800000000000000
+      internalID: -4852627762328940690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_79
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 307
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f7d1584c0169e90800000000000000
+      internalID: -7019404532977402017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_80
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 315
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef0c64ab289d1bb0800000000000000
+      internalID: -4963643901082857496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_81
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 313
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe6e69b12c1ff560800000000000000
+      internalID: 7349624048062459637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_82
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 312
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a88042c7a9f2770800000000000000
+      internalID: 8588252872389986951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_83
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 309
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7207bfaeec704f900800000000000000
+      internalID: 717206825945755687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_84
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 315
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4613d945510c32d30800000000000000
+      internalID: 4405576058344911204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_85
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 313
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa084fe13e6006720800000000000000
+      internalID: 2837275337790095530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_86
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 311
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c4be4efd550b6e0800000000000000
+      internalID: -1823863428978357236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_87
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 315
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2762c0ec6d586b340800000000000000
+      internalID: 4879234403928909426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_88
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 313
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4dbabd08c17ecf0800000000000000
+      internalID: -223178316764687172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cool_89
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 315
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583a4251dd0c492c0800000000000000
+      internalID: -4425700478023326843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Cool_0: -7650137855209502040
+      Cool_1: -3136233331273825196
+      Cool_10: 2335903928779262552
+      Cool_11: 3133217787543058371
+      Cool_12: 6100732623697997634
+      Cool_13: 4787756412994496230
+      Cool_14: 7991711443366738370
+      Cool_15: 2113853690845630639
+      Cool_16: 5424045027803609880
+      Cool_17: 1180230931964245192
+      Cool_18: -1430534378284255724
+      Cool_19: 7777110604447292596
+      Cool_2: 7458565777056031941
+      Cool_20: 7828933319894054859
+      Cool_21: 3479199193537000981
+      Cool_22: -5611274997504925451
+      Cool_23: 305045097579105092
+      Cool_24: 2250677172066832096
+      Cool_25: 6133681976380148952
+      Cool_26: -4970368875929679926
+      Cool_27: -2366787989754064115
+      Cool_28: -7658496358221344831
+      Cool_29: -6171005451480229448
+      Cool_3: -8522879608089410953
+      Cool_30: -5926993561416385979
+      Cool_31: 5606752015880242646
+      Cool_32: 4984774407618489716
+      Cool_33: -8139620071976999343
+      Cool_34: 9104992081319626924
+      Cool_35: -7607352666968712419
+      Cool_36: 6999581398432507059
+      Cool_37: 6541015133499157318
+      Cool_38: 5042258425884374940
+      Cool_39: 1269154869006167322
+      Cool_4: -1370668369812953789
+      Cool_40: -4451453392367497246
+      Cool_41: 332212813752394127
+      Cool_42: -4042509448681208213
+      Cool_43: -4324694970294957694
+      Cool_44: 4903032372080426554
+      Cool_45: 2619137971910977431
+      Cool_46: -9046989614453477189
+      Cool_47: -2957346392526845462
+      Cool_48: 6021608428372672997
+      Cool_49: -7046193288560387486
+      Cool_5: 8396783634148115224
+      Cool_50: 8734557908321980504
+      Cool_51: 3010045334163108104
+      Cool_52: 8690009143841444451
+      Cool_53: -6596414481130923668
+      Cool_54: -7254178329221978582
+      Cool_55: 3944142580309075398
+      Cool_56: -4600876366777623505
+      Cool_57: 7540514231830599606
+      Cool_58: -6904251781860566235
+      Cool_59: 4038293982927431254
+      Cool_6: -4543911885765478868
+      Cool_60: -2551497402902859564
+      Cool_61: 7027615323513831321
+      Cool_62: 6280529536357414598
+      Cool_63: 5354640645039429308
+      Cool_64: 2133377616845557383
+      Cool_65: -5748346018812627947
+      Cool_66: 4316651726048943506
+      Cool_67: -2506439179255344997
+      Cool_68: -3564419067653015438
+      Cool_69: 5676352822380099160
+      Cool_7: 4993830973554978266
+      Cool_70: 8509802532821270748
+      Cool_71: -3954472001772618858
+      Cool_72: 8932833367138139801
+      Cool_73: -5268930363347108163
+      Cool_74: 8310730320578759954
+      Cool_75: 2487890344612737391
+      Cool_76: -8925698348702858784
+      Cool_77: -7738049068680083869
+      Cool_78: -4852627762328940690
+      Cool_79: -7019404532977402017
+      Cool_8: 4897958754856477337
+      Cool_80: -4963643901082857496
+      Cool_81: 7349624048062459637
+      Cool_82: 8588252872389986951
+      Cool_83: 717206825945755687
+      Cool_84: 4405576058344911204
+      Cool_85: 2837275337790095530
+      Cool_86: -1823863428978357236
+      Cool_87: 4879234403928909426
+      Cool_88: -223178316764687172
+      Cool_89: -4425700478023326843
+      Cool_9: 4417629484994051533
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

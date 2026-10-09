@@ -1,0 +1,2938 @@
+fileFormatVersion: 2
+guid: 0fd08a8c9e8044becbc24845c17e4544
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7556016082631641370
+    second: Great_0
+  - first:
+      213: -289491752317467539
+    second: Great_1
+  - first:
+      213: 7490321355379749081
+    second: Great_2
+  - first:
+      213: -5445079970886286277
+    second: Great_3
+  - first:
+      213: 4484785000453784674
+    second: Great_4
+  - first:
+      213: -5032023297627714469
+    second: Great_5
+  - first:
+      213: 1894991999671862210
+    second: Great_6
+  - first:
+      213: -8972992842960668214
+    second: Great_7
+  - first:
+      213: 8411170602629528843
+    second: Great_8
+  - first:
+      213: -6379472436827957734
+    second: Great_9
+  - first:
+      213: 7817236944513959759
+    second: Great_10
+  - first:
+      213: -222825313588187547
+    second: Great_11
+  - first:
+      213: 6158163857932732400
+    second: Great_12
+  - first:
+      213: -8086347953348564818
+    second: Great_13
+  - first:
+      213: -466260381691873994
+    second: Great_14
+  - first:
+      213: 6187736446101521488
+    second: Great_15
+  - first:
+      213: 6102442110008288306
+    second: Great_16
+  - first:
+      213: -6009219704489603838
+    second: Great_17
+  - first:
+      213: 5627461294757976466
+    second: Great_18
+  - first:
+      213: -5163740075853705970
+    second: Great_19
+  - first:
+      213: 3171321807637630054
+    second: Great_20
+  - first:
+      213: -7427328531741254104
+    second: Great_21
+  - first:
+      213: -5068152307531712036
+    second: Great_22
+  - first:
+      213: 5326884966326125481
+    second: Great_23
+  - first:
+      213: -8061174508988849981
+    second: Great_24
+  - first:
+      213: -4020187173664673282
+    second: Great_25
+  - first:
+      213: 2232341463618741786
+    second: Great_26
+  - first:
+      213: -4417805496406356279
+    second: Great_27
+  - first:
+      213: 4319624215567451122
+    second: Great_28
+  - first:
+      213: 3560934026548571674
+    second: Great_29
+  - first:
+      213: -7205941963484970210
+    second: Great_30
+  - first:
+      213: -2765071399357894231
+    second: Great_31
+  - first:
+      213: -3770867566517056235
+    second: Great_32
+  - first:
+      213: 3531658529003506938
+    second: Great_33
+  - first:
+      213: 7459431886626219422
+    second: Great_34
+  - first:
+      213: -4867603024993340274
+    second: Great_35
+  - first:
+      213: 3694562277847222543
+    second: Great_36
+  - first:
+      213: 4308706663516966975
+    second: Great_37
+  - first:
+      213: 9122701672541250074
+    second: Great_38
+  - first:
+      213: 1439180786905585358
+    second: Great_39
+  - first:
+      213: 2929767445903587125
+    second: Great_40
+  - first:
+      213: 278538997990352121
+    second: Great_41
+  - first:
+      213: 7058065124508907515
+    second: Great_42
+  - first:
+      213: -1430242521674851990
+    second: Great_43
+  - first:
+      213: -7841752637278160445
+    second: Great_44
+  - first:
+      213: -4615900189095016889
+    second: Great_45
+  - first:
+      213: 4674352062129373978
+    second: Great_46
+  - first:
+      213: -5935732240899242105
+    second: Great_47
+  - first:
+      213: -813554607370953114
+    second: Great_48
+  - first:
+      213: -3761326421687741156
+    second: Great_49
+  - first:
+      213: 8265865035369694053
+    second: Great_50
+  - first:
+      213: 5384762063489055406
+    second: Great_51
+  - first:
+      213: -337782150544837797
+    second: Great_52
+  - first:
+      213: -6771601680960275158
+    second: Great_53
+  - first:
+      213: 6009343941856446396
+    second: Great_54
+  - first:
+      213: 4006183511198742963
+    second: Great_55
+  - first:
+      213: 3481280735032158206
+    second: Great_56
+  - first:
+      213: 8376131376679891480
+    second: Great_57
+  - first:
+      213: -4541877313810026152
+    second: Great_58
+  - first:
+      213: 6260784431976769619
+    second: Great_59
+  - first:
+      213: 384549353729424877
+    second: Great_60
+  - first:
+      213: -5550153984582835020
+    second: Great_61
+  - first:
+      213: -7564063061415281535
+    second: Great_62
+  - first:
+      213: 3753803979513538302
+    second: Great_63
+  - first:
+      213: -2452062953957669450
+    second: Great_64
+  - first:
+      213: 6008092784417527173
+    second: Great_65
+  - first:
+      213: -1506850663341496951
+    second: Great_66
+  - first:
+      213: -520230503156072809
+    second: Great_67
+  - first:
+      213: 2770079012345573593
+    second: Great_68
+  - first:
+      213: 4694774731152357964
+    second: Great_69
+  - first:
+      213: 3240945805541779765
+    second: Great_70
+  - first:
+      213: -2175108685324186289
+    second: Great_71
+  - first:
+      213: 7089070191369312271
+    second: Great_72
+  - first:
+      213: 832831549173381675
+    second: Great_73
+  - first:
+      213: 2426581289488787418
+    second: Great_74
+  - first:
+      213: -1659916443492543905
+    second: Great_75
+  - first:
+      213: -8807462823495149464
+    second: Great_76
+  - first:
+      213: -8921132375400104879
+    second: Great_77
+  - first:
+      213: 7275021441356509455
+    second: Great_78
+  - first:
+      213: -5419677543088612438
+    second: Great_79
+  - first:
+      213: -1755580690483011331
+    second: Great_80
+  - first:
+      213: 8640618213263856717
+    second: Great_81
+  - first:
+      213: 2105026156814662686
+    second: Great_82
+  - first:
+      213: -3990881060918347742
+    second: Great_83
+  - first:
+      213: -1869166897265954866
+    second: Great_84
+  - first:
+      213: -2118063954695751299
+    second: Great_85
+  - first:
+      213: 6630091661136281021
+    second: Great_86
+  - first:
+      213: -2086374667574048579
+    second: Great_87
+  - first:
+      213: 6612213010935097516
+    second: Great_88
+  - first:
+      213: 6156825154545254731
+    second: Great_89
+  - first:
+      213: -7894993019111995002
+    second: Great_90
+  - first:
+      213: 3176041705648065901
+    second: Great_91
+  - first:
+      213: -3183666651782257477
+    second: Great_92
+  - first:
+      213: -3925315579853428949
+    second: Great_93
+  - first:
+      213: -8999641492915303094
+    second: Great_94
+  - first:
+      213: 6153103244436257519
+    second: Great_95
+  - first:
+      213: -6832661030449800609
+    second: Great_96
+  - first:
+      213: -2579914380620520651
+    second: Great_97
+  - first:
+      213: -2194705522709932265
+    second: Great_98
+  - first:
+      213: -4017580748229861678
+    second: Great_99
+  - first:
+      213: -1830424124526339060
+    second: Great_100
+  - first:
+      213: 1232855195868652451
+    second: Great_101
+  - first:
+      213: 4894609665311761735
+    second: Great_102
+  - first:
+      213: 6208045777922384273
+    second: Great_103
+  - first:
+      213: 7920319142220618221
+    second: Great_104
+  - first:
+      213: -6068282108587013408
+    second: Great_105
+  - first:
+      213: 4160317188600878286
+    second: Great_106
+  - first:
+      213: -7069924947257131318
+    second: Great_107
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Great_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 935
+        width: 14
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e63a950863a32790800000000000000
+      internalID: -7556016082631641370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 946
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6446b9f8c48bfbf0800000000000000
+      internalID: -289491752317467539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0bee85697f2f760800000000000000
+      internalID: 7490321355379749081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 955
+        width: 30
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b348ab1ad903f64b0800000000000000
+      internalID: -5445079970886286277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_4
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 946
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2644c0e42382d3e30800000000000000
+      internalID: 4484785000453784674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_5
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c096bb879aa2ab0800000000000000
+      internalID: -5032023297627714469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_6
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 959
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c306a00f2d5c4a10800000000000000
+      internalID: 1894991999671862210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_7
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 955
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9f43fdc86897380800000000000000
+      internalID: -8972992842960668214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_8
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 946
+        width: 14
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0df0fa491b7ab470800000000000000
+      internalID: 8411170602629528843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_9
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 935
+        width: 10
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16597c5e9f8777a0800000000000000
+      internalID: -6379472436827957734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_10
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 960
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4780d265976c7c60800000000000000
+      internalID: 7817236944513959759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_11
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 959
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e6c90de8d58ecf0800000000000000
+      internalID: -222825313588187547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_12
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 955
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7cab4c661367550800000000000000
+      internalID: 6158163857932732400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_13
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 946
+        width: 16
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8a376316587cf80800000000000000
+      internalID: -8086347953348564818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_14
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 935
+        width: 10
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635fa6837a28789f0800000000000000
+      internalID: -466260381691873994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_15
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 831
+        width: 71
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0548e9183814fd550800000000000000
+      internalID: 6187736446101521488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_16
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 831
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234ed6554ca30b450800000000000000
+      internalID: 6102442110008288306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_17
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 827
+        width: 20
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d8e985486fa9ca0800000000000000
+      internalID: -6009219704489603838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_18
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 818
+        width: 14
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2991f456b32c81e40800000000000000
+      internalID: 5627461294757976466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_19
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 807
+        width: 8
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d8a4a72c5b658b0800000000000000
+      internalID: -5163740075853705970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 829
+        width: 95
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cc0b4b16cc20c20800000000000000
+      internalID: 3171321807637630054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_21
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 831
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e50735d04dce890800000000000000
+      internalID: -7427328531741254104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_22
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 827
+        width: 18
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9fef9145e4aa9b0800000000000000
+      internalID: -5068152307531712036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 818
+        width: 12
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3cc3167a5ece940800000000000000
+      internalID: 5326884966326125481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_24
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 824
+        width: 121
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c029477e74f02090800000000000000
+      internalID: -8061174508988849981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_25
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 831
+        width: 22
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1b22fb01d6538c0800000000000000
+      internalID: -4020187173664673282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_26
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 827
+        width: 14
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16ee54dbbedafe10800000000000000
+      internalID: 2232341463618741786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_27
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 818
+        width: 122
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce4eebbe4dc0b2c0800000000000000
+      internalID: -4417805496406356279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_28
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 832
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3c214765362fb30800000000000000
+      internalID: 4319624215567451122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_29
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 831
+        width: 18
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e670961aafa6130800000000000000
+      internalID: 3560934026548571674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_30
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 807
+        width: 169
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13c56286f95ffb90800000000000000
+      internalID: -7205941963484970210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_31
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 679
+        width: 164
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a13ea6563e70a9d0800000000000000
+      internalID: -2765071399357894231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_32
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 679
+        width: 156
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d85ba5def2babc0800000000000000
+      internalID: -3770867566517056235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_33
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 689
+        width: 42
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc8b3978b8f20130800000000000000
+      internalID: 3531658529003506938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_34
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 689
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95e39477c9358760800000000000000
+      internalID: 7459431886626219422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_35
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 679
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84b7a3a6dcc27cb0800000000000000
+      internalID: -4867603024993340274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_36
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 690
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0944ab21d8b54330800000000000000
+      internalID: 3694562277847222543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 686
+        width: 71
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f309948c1e99bcb30800000000000000
+      internalID: 4308706663516966975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_38
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 679
+        width: 90
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12eea746d85a9e70800000000000000
+      internalID: 9122701672541250074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_39
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 682
+        width: 95
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec61313fc4ff8f310800000000000000
+      internalID: 1439180786905585358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_40
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 679
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537369f28ff98a820800000000000000
+      internalID: 2929767445903587125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 554
+        width: 121
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4ee4f2eb19dd300800000000000000
+      internalID: 278538997990352121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 557
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf73de3e5d843f160800000000000000
+      internalID: 7058065124508907515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_43
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 554
+        width: 122
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6959e81102c62ce0800000000000000
+      internalID: -1430242521674851990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_44
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 561
+        width: 24
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c97d86168f7c2390800000000000000
+      internalID: -7841752637278160445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_45
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 561
+        width: 18
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746455eeb3701ffb0800000000000000
+      internalID: -4615900189095016889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_46
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 554
+        width: 159
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13065a4f62aed040800000000000000
+      internalID: 4674352062129373978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_47
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 554
+        width: 160
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7870e5bc9fa00ada0800000000000000
+      internalID: -5935732240899242105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_48
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 554
+        width: 160
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e954e156ca5b4f0800000000000000
+      internalID: -813554607370953114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_49
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 426
+        width: 160
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15d20f3c851dcbc0800000000000000
+      internalID: -3761326421687741156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_50
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 426
+        width: 160
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563488a847046b270800000000000000
+      internalID: 8265865035369694053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_51
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 426
+        width: 160
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaab34a21948aba40800000000000000
+      internalID: 5384762063489055406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_52
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 426
+        width: 160
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53be497ce4ff4bf0800000000000000
+      internalID: -337782150544837797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_53
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 426
+        width: 158
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dbced06207602a0800000000000000
+      internalID: -6771601680960275158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_54
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 302
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7cf7be97a756350800000000000000
+      internalID: 6009343941856446396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_55
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 298
+        width: 117
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b937028da2d89730800000000000000
+      internalID: 4006183511198742963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_56
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 304
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7a007426eff4030800000000000000
+      internalID: 3481280735032158206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_57
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 302
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8123203cb1ffd3470800000000000000
+      internalID: 8376131376679891480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_58
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 298
+        width: 91
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851b2f0a5a208f0c0800000000000000
+      internalID: -4541877313810026152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_59
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 306
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35865431546c2e650800000000000000
+      internalID: 6260784431976769619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_60
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 304
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedf5ab8991365500800000000000000
+      internalID: 384549353729424877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_61
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 302
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4a8346b54e9f2b0800000000000000
+      internalID: -5550153984582835020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_62
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 300
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c30b5c8bc070790800000000000000
+      internalID: -7564063061415281535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_63
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 298
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef62a53b4d0381430800000000000000
+      internalID: 3753803979513538302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_64
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 308
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b545762cb588fdd0800000000000000
+      internalID: -2452062953957669450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_65
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 306
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5855bc02e88016350800000000000000
+      internalID: 6008092784417527173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_66
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 304
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985e7f92e47961be0800000000000000
+      internalID: -1506850663341496951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_67
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 302
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e3f0a1d15c7c8f0800000000000000
+      internalID: -520230503156072809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_68
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 298
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d07f9a6f2c417620800000000000000
+      internalID: 2770079012345573593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_69
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 309
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4af0d67eb0372140800000000000000
+      internalID: 4694774731152357964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_70
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 307
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5392c93f9072afc20800000000000000
+      internalID: 3240945805541779765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_71
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 306
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d8267cc2670d1e0800000000000000
+      internalID: -2175108685324186289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_72
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 304
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08d06097cf616260800000000000000
+      internalID: 7089070191369312271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_73
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 302
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2ab736a1efce8b00800000000000000
+      internalID: 832831549173381675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_74
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 300
+        width: 18
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7a69283d2fca120800000000000000
+      internalID: 2426581289488787418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_75
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 183
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f521ccc0acac6f8e0800000000000000
+      internalID: -1659916443492543905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_76
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 181
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868dc19d93b95c580800000000000000
+      internalID: -8807462823495149464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_77
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 180
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c3a0aee55c13480800000000000000
+      internalID: -8921132375400104879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_78
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 178
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f01b769c47116f460800000000000000
+      internalID: 7275021441356509455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_79
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 176
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab9a0f3dff69c4b0800000000000000
+      internalID: -5419677543088612438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_80
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 174
+        width: 18
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0a939d9ace2a7e0800000000000000
+      internalID: -1755580690483011331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_81
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 185
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44dc592c74a9e770800000000000000
+      internalID: 8640618213263856717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_82
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 183
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cf7dff22e863d10800000000000000
+      internalID: 2105026156814662686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_83
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 181
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228b027d1da8d98c0800000000000000
+      internalID: -3990881060918347742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_84
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 179
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf2b863c926f06e0800000000000000
+      internalID: -1869166897265954866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_85
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 178
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79fcc02e002b92e0800000000000000
+      internalID: -2118063954695751299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_86
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 176
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdbe42fc31d20c50800000000000000
+      internalID: 6630091661136281021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_87
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 187
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db800ee3b45bb03e0800000000000000
+      internalID: -2086374667574048579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_88
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 185
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8a00053bc43cb50800000000000000
+      internalID: 6612213010935097516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_89
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 183
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b410cd89bdf617550800000000000000
+      internalID: 6156825154545254731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_90
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 181
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68904a7bda95f6290800000000000000
+      internalID: -7894993019111995002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_91
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 179
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d8af89a11931c20800000000000000
+      internalID: 3176041705648065901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_92
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 178
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4e2494c0851d3d0800000000000000
+      internalID: -3183666651782257477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_93
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 187
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27a78ff64a7689c0800000000000000
+      internalID: -3925315579853428949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_94
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 185
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dcaec8eb9da1380800000000000000
+      internalID: -8999641492915303094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_95
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 183
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea3deedcc6346550800000000000000
+      internalID: 6153103244436257519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_96
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 181
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a92696ef28d21a0800000000000000
+      internalID: -6832661030449800609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_97
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 179
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53321303a8d423cd0800000000000000
+      internalID: -2579914380620520651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_98
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 187
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717594484f6da81e0800000000000000
+      internalID: -2194705522709932265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_99
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 185
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de9f45789fae38c0800000000000000
+      internalID: -4017580748229861678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_100
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 183
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c5d4de4f60996e0800000000000000
+      internalID: -1830424124526339060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_101
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 181
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3ee39c44bfb1110800000000000000
+      internalID: 1232855195868652451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_102
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 59
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745e91fce852de340800000000000000
+      internalID: 4894609665311761735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_103
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 57
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1916d6e4eb8672650800000000000000
+      internalID: 6208045777922384273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_104
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 55
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de959c3db40aaed60800000000000000
+      internalID: 7920319142220618221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_105
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 59
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea00d8c29129cba0800000000000000
+      internalID: -6068282108587013408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_106
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 57
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4d183d07a6cb930800000000000000
+      internalID: 4160317188600878286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Great_107
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 59
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acef012f7b492ed90800000000000000
+      internalID: -7069924947257131318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Great_0: -7556016082631641370
+      Great_1: -289491752317467539
+      Great_10: 7817236944513959759
+      Great_100: -1830424124526339060
+      Great_101: 1232855195868652451
+      Great_102: 4894609665311761735
+      Great_103: 6208045777922384273
+      Great_104: 7920319142220618221
+      Great_105: -6068282108587013408
+      Great_106: 4160317188600878286
+      Great_107: -7069924947257131318
+      Great_11: -222825313588187547
+      Great_12: 6158163857932732400
+      Great_13: -8086347953348564818
+      Great_14: -466260381691873994
+      Great_15: 6187736446101521488
+      Great_16: 6102442110008288306
+      Great_17: -6009219704489603838
+      Great_18: 5627461294757976466
+      Great_19: -5163740075853705970
+      Great_2: 7490321355379749081
+      Great_20: 3171321807637630054
+      Great_21: -7427328531741254104
+      Great_22: -5068152307531712036
+      Great_23: 5326884966326125481
+      Great_24: -8061174508988849981
+      Great_25: -4020187173664673282
+      Great_26: 2232341463618741786
+      Great_27: -4417805496406356279
+      Great_28: 4319624215567451122
+      Great_29: 3560934026548571674
+      Great_3: -5445079970886286277
+      Great_30: -7205941963484970210
+      Great_31: -2765071399357894231
+      Great_32: -3770867566517056235
+      Great_33: 3531658529003506938
+      Great_34: 7459431886626219422
+      Great_35: -4867603024993340274
+      Great_36: 3694562277847222543
+      Great_37: 4308706663516966975
+      Great_38: 9122701672541250074
+      Great_39: 1439180786905585358
+      Great_4: 4484785000453784674
+      Great_40: 2929767445903587125
+      Great_41: 278538997990352121
+      Great_42: 7058065124508907515
+      Great_43: -1430242521674851990
+      Great_44: -7841752637278160445
+      Great_45: -4615900189095016889
+      Great_46: 4674352062129373978
+      Great_47: -5935732240899242105
+      Great_48: -813554607370953114
+      Great_49: -3761326421687741156
+      Great_5: -5032023297627714469
+      Great_50: 8265865035369694053
+      Great_51: 5384762063489055406
+      Great_52: -337782150544837797
+      Great_53: -6771601680960275158
+      Great_54: 6009343941856446396
+      Great_55: 4006183511198742963
+      Great_56: 3481280735032158206
+      Great_57: 8376131376679891480
+      Great_58: -4541877313810026152
+      Great_59: 6260784431976769619
+      Great_6: 1894991999671862210
+      Great_60: 384549353729424877
+      Great_61: -5550153984582835020
+      Great_62: -7564063061415281535
+      Great_63: 3753803979513538302
+      Great_64: -2452062953957669450
+      Great_65: 6008092784417527173
+      Great_66: -1506850663341496951
+      Great_67: -520230503156072809
+      Great_68: 2770079012345573593
+      Great_69: 4694774731152357964
+      Great_7: -8972992842960668214
+      Great_70: 3240945805541779765
+      Great_71: -2175108685324186289
+      Great_72: 7089070191369312271
+      Great_73: 832831549173381675
+      Great_74: 2426581289488787418
+      Great_75: -1659916443492543905
+      Great_76: -8807462823495149464
+      Great_77: -8921132375400104879
+      Great_78: 7275021441356509455
+      Great_79: -5419677543088612438
+      Great_8: 8411170602629528843
+      Great_80: -1755580690483011331
+      Great_81: 8640618213263856717
+      Great_82: 2105026156814662686
+      Great_83: -3990881060918347742
+      Great_84: -1869166897265954866
+      Great_85: -2118063954695751299
+      Great_86: 6630091661136281021
+      Great_87: -2086374667574048579
+      Great_88: 6612213010935097516
+      Great_89: 6156825154545254731
+      Great_9: -6379472436827957734
+      Great_90: -7894993019111995002
+      Great_91: 3176041705648065901
+      Great_92: -3183666651782257477
+      Great_93: -3925315579853428949
+      Great_94: -8999641492915303094
+      Great_95: 6153103244436257519
+      Great_96: -6832661030449800609
+      Great_97: -2579914380620520651
+      Great_98: -2194705522709932265
+      Great_99: -4017580748229861678
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

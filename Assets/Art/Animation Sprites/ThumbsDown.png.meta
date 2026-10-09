@@ -1,0 +1,1586 @@
+fileFormatVersion: 2
+guid: ea9ff08591aa24aff8d3cba5636378eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6712844259695887466
+    second: ThumbsDown_0
+  - first:
+      213: -3644641944193214897
+    second: ThumbsDown_1
+  - first:
+      213: 6918861613912402191
+    second: ThumbsDown_2
+  - first:
+      213: 6359087271877910252
+    second: ThumbsDown_3
+  - first:
+      213: 837521998980200969
+    second: ThumbsDown_4
+  - first:
+      213: -5109697183230917889
+    second: ThumbsDown_5
+  - first:
+      213: -8908533640637511242
+    second: ThumbsDown_6
+  - first:
+      213: 5028265681616635039
+    second: ThumbsDown_7
+  - first:
+      213: 9181459236190875673
+    second: ThumbsDown_8
+  - first:
+      213: 4962074050284818505
+    second: ThumbsDown_9
+  - first:
+      213: -9187156137292676064
+    second: ThumbsDown_10
+  - first:
+      213: -673947910818278707
+    second: ThumbsDown_11
+  - first:
+      213: 6632531136922978721
+    second: ThumbsDown_12
+  - first:
+      213: 9019246556923406979
+    second: ThumbsDown_13
+  - first:
+      213: 6630631911672519358
+    second: ThumbsDown_14
+  - first:
+      213: -8439361221779641006
+    second: ThumbsDown_15
+  - first:
+      213: -3840988642651849037
+    second: ThumbsDown_16
+  - first:
+      213: -8485011300740020883
+    second: ThumbsDown_17
+  - first:
+      213: -6316454069528365138
+    second: ThumbsDown_18
+  - first:
+      213: 9058396229081519061
+    second: ThumbsDown_19
+  - first:
+      213: 263401946574744128
+    second: ThumbsDown_20
+  - first:
+      213: -7712223205080665407
+    second: ThumbsDown_21
+  - first:
+      213: -7615644811007149131
+    second: ThumbsDown_22
+  - first:
+      213: -3769112958539940624
+    second: ThumbsDown_23
+  - first:
+      213: 1322219306551249350
+    second: ThumbsDown_24
+  - first:
+      213: 8778399912244927243
+    second: ThumbsDown_25
+  - first:
+      213: 3263983840457766432
+    second: ThumbsDown_26
+  - first:
+      213: 1630783424003457214
+    second: ThumbsDown_27
+  - first:
+      213: 1445594016288224064
+    second: ThumbsDown_28
+  - first:
+      213: -7962340578079808273
+    second: ThumbsDown_29
+  - first:
+      213: 8433904575192838610
+    second: ThumbsDown_30
+  - first:
+      213: -6401850209968312708
+    second: ThumbsDown_31
+  - first:
+      213: -2755331222539028207
+    second: ThumbsDown_32
+  - first:
+      213: 734521547853684674
+    second: ThumbsDown_33
+  - first:
+      213: -5161598213767728112
+    second: ThumbsDown_34
+  - first:
+      213: -2267757726437656631
+    second: ThumbsDown_35
+  - first:
+      213: 3064171553155568399
+    second: ThumbsDown_36
+  - first:
+      213: -1755606330284279510
+    second: ThumbsDown_37
+  - first:
+      213: -7556811639200949661
+    second: ThumbsDown_38
+  - first:
+      213: 6286383096418696141
+    second: ThumbsDown_39
+  - first:
+      213: 7909683109465954746
+    second: ThumbsDown_40
+  - first:
+      213: 69074158260336229
+    second: ThumbsDown_41
+  - first:
+      213: -7260576327707316276
+    second: ThumbsDown_42
+  - first:
+      213: -3402700795866718697
+    second: ThumbsDown_43
+  - first:
+      213: 6589806302781084017
+    second: ThumbsDown_44
+  - first:
+      213: 5658395791832245868
+    second: ThumbsDown_45
+  - first:
+      213: -977930649180781525
+    second: ThumbsDown_46
+  - first:
+      213: -8872259406718680516
+    second: ThumbsDown_47
+  - first:
+      213: 6132882358829936974
+    second: ThumbsDown_48
+  - first:
+      213: 2370650127371213190
+    second: ThumbsDown_49
+  - first:
+      213: 2001599247847922949
+    second: ThumbsDown_50
+  - first:
+      213: -131009305084032553
+    second: ThumbsDown_51
+  - first:
+      213: 1231455080379644877
+    second: ThumbsDown_52
+  - first:
+      213: 4091474756172482694
+    second: ThumbsDown_53
+  - first:
+      213: -860661498305116810
+    second: ThumbsDown_54
+  - first:
+      213: -2794968216159801636
+    second: ThumbsDown_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThumbsDown_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 34
+        width: 169
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6481bbb940d82d50800000000000000
+      internalID: 6712844259695887466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 34
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46dfde3671ab6dc0800000000000000
+      internalID: -3644641944193214897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_2
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09a55beafbb40060800000000000000
+      internalID: 6918861613912402191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 16
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee9dff8e24004850800000000000000
+      internalID: 6359087271877910252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_4
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 16
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a3ac812d97f9b00800000000000000
+      internalID: 837521998980200969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_5
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 16
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff205b3fb75b619b0800000000000000
+      internalID: -5109697183230917889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_6
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 16
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b90f207ad78e5480800000000000000
+      internalID: -8908533640637511242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_7
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f940c0d1ffcf7c540800000000000000
+      internalID: 5028265681616635039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 910f2e4a7881b6f70800000000000000
+      internalID: 9181459236190875673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_9
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 940196cfe04dcd440800000000000000
+      internalID: 4962074050284818505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_10
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024ce943b2aa08080800000000000000
+      internalID: -9187156137292676064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc25f8222f7a5a6f0800000000000000
+      internalID: -673947910818278707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_12
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9030aadeb7b0c50800000000000000
+      internalID: 6632531136922978721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_13
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38aa51f15fcca2d70800000000000000
+      internalID: 9019246556923406979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_14
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba1c93d79cb40c50800000000000000
+      internalID: 6630631911672519358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_15
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d2e94bead51ea80800000000000000
+      internalID: -8439361221779641006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_16
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be3d601e2112bac0800000000000000
+      internalID: -3840988642651849037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_17
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6547307d2f2f3a80800000000000000
+      internalID: -8485011300740020883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_18
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7f0b16d727758a0800000000000000
+      internalID: -6316454069528365138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_19
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3542d7063e5bd70800000000000000
+      internalID: 9058396229081519061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_20
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04aebb2ccaac7a300800000000000000
+      internalID: 263401946574744128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_21
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c274a82bdda8f490800000000000000
+      internalID: -7712223205080665407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_22
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb3f50d46bcf4690800000000000000
+      internalID: -7615644811007149131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_23
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcb7ebdbbb61bbc0800000000000000
+      internalID: -3769112958539940624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_24
+      rect:
+        serializedVersion: 2
+        x: 2096
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c986223477795210800000000000000
+      internalID: 1322219306551249350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_25
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0bdda1d53423d970800000000000000
+      internalID: 8778399912244927243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_26
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 026b91372000c4d20800000000000000
+      internalID: 3263983840457766432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_27
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0425542e4b1a610800000000000000
+      internalID: 1630783424003457214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_28
+      rect:
+        serializedVersion: 2
+        x: 2416
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0433a464918cf0410800000000000000
+      internalID: 1445594016288224064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_29
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4efd63e65108190800000000000000
+      internalID: -7962340578079808273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_30
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d139e1c68f3b0570800000000000000
+      internalID: 8433904575192838610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_31
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e2499072f0827a0800000000000000
+      internalID: -6401850209968312708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_32
+      rect:
+        serializedVersion: 2
+        x: 2736
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119b40af9d813c9d0800000000000000
+      internalID: -2755331222539028207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_33
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf50b3c47b813a00800000000000000
+      internalID: 734521547853684674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_34
+      rect:
+        serializedVersion: 2
+        x: 2896
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014751b95c15e58b0800000000000000
+      internalID: -5161598213767728112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_35
+      rect:
+        serializedVersion: 2
+        x: 2976
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c73907ec5e4780e0800000000000000
+      internalID: -2267757726437656631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_36
+      rect:
+        serializedVersion: 2
+        x: 3056
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03d1bcfacf168a20800000000000000
+      internalID: 3064171553155568399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_37
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a297afd1855d2a7e0800000000000000
+      internalID: -1755606330284279510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_38
+      rect:
+        serializedVersion: 2
+        x: 3216
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ad3e21adfc02790800000000000000
+      internalID: -7556811639200949661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_39
+      rect:
+        serializedVersion: 2
+        x: 3296
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb7e089e18bd3750800000000000000
+      internalID: 6286383096418696141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_40
+      rect:
+        serializedVersion: 2
+        x: 3376
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab910a971e6d4cd60800000000000000
+      internalID: 7909683109465954746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_41
+      rect:
+        serializedVersion: 2
+        x: 3456
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 566344ab49665f000800000000000000
+      internalID: 69074158260336229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_42
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf25625c404d3b90800000000000000
+      internalID: -7260576327707316276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_43
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71edc6987ad27c0d0800000000000000
+      internalID: -3402700795866718697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_44
+      rect:
+        serializedVersion: 2
+        x: 3696
+        y: 16
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17195e70be1b37b50800000000000000
+      internalID: 6589806302781084017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_45
+      rect:
+        serializedVersion: 2
+        x: 3776
+        y: 17
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66e9b24ef8a68e40800000000000000
+      internalID: 5658395791832245868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_46
+      rect:
+        serializedVersion: 2
+        x: 3856
+        y: 18
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24cc908141bd62f0800000000000000
+      internalID: -977930649180781525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_47
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 19
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c324a6ba3176fd480800000000000000
+      internalID: -8872259406718680516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_48
+      rect:
+        serializedVersion: 2
+        x: 4016
+        y: 23
+        width: 52
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41715f03006c1550800000000000000
+      internalID: 6132882358829936974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_49
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 27
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68912b80bbd36e020800000000000000
+      internalID: 2370650127371213190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_50
+      rect:
+        serializedVersion: 2
+        x: 4176
+        y: 31
+        width: 52
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d1aa639eb17cb10800000000000000
+      internalID: 2001599247847922949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_51
+      rect:
+        serializedVersion: 2
+        x: 4256
+        y: 35
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9023c2bbf8e2ef0800000000000000
+      internalID: -131009305084032553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_52
+      rect:
+        serializedVersion: 2
+        x: 4336
+        y: 39
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbf0eefed1071110800000000000000
+      internalID: 1231455080379644877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_53
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 43
+        width: 52
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6888329fc96d7c830800000000000000
+      internalID: 4091474756172482694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_54
+      rect:
+        serializedVersion: 2
+        x: 4496
+        y: 47
+        width: 51
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6750ba16de05e04f0800000000000000
+      internalID: -860661498305116810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThumbsDown_55
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 51
+        width: 207
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdea94d37374639d0800000000000000
+      internalID: -2794968216159801636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ThumbsDown_0: 6712844259695887466
+      ThumbsDown_1: -3644641944193214897
+      ThumbsDown_10: -9187156137292676064
+      ThumbsDown_11: -673947910818278707
+      ThumbsDown_12: 6632531136922978721
+      ThumbsDown_13: 9019246556923406979
+      ThumbsDown_14: 6630631911672519358
+      ThumbsDown_15: -8439361221779641006
+      ThumbsDown_16: -3840988642651849037
+      ThumbsDown_17: -8485011300740020883
+      ThumbsDown_18: -6316454069528365138
+      ThumbsDown_19: 9058396229081519061
+      ThumbsDown_2: 6918861613912402191
+      ThumbsDown_20: 263401946574744128
+      ThumbsDown_21: -7712223205080665407
+      ThumbsDown_22: -7615644811007149131
+      ThumbsDown_23: -3769112958539940624
+      ThumbsDown_24: 1322219306551249350
+      ThumbsDown_25: 8778399912244927243
+      ThumbsDown_26: 3263983840457766432
+      ThumbsDown_27: 1630783424003457214
+      ThumbsDown_28: 1445594016288224064
+      ThumbsDown_29: -7962340578079808273
+      ThumbsDown_3: 6359087271877910252
+      ThumbsDown_30: 8433904575192838610
+      ThumbsDown_31: -6401850209968312708
+      ThumbsDown_32: -2755331222539028207
+      ThumbsDown_33: 734521547853684674
+      ThumbsDown_34: -5161598213767728112
+      ThumbsDown_35: -2267757726437656631
+      ThumbsDown_36: 3064171553155568399
+      ThumbsDown_37: -1755606330284279510
+      ThumbsDown_38: -7556811639200949661
+      ThumbsDown_39: 6286383096418696141
+      ThumbsDown_4: 837521998980200969
+      ThumbsDown_40: 7909683109465954746
+      ThumbsDown_41: 69074158260336229
+      ThumbsDown_42: -7260576327707316276
+      ThumbsDown_43: -3402700795866718697
+      ThumbsDown_44: 6589806302781084017
+      ThumbsDown_45: 5658395791832245868
+      ThumbsDown_46: -977930649180781525
+      ThumbsDown_47: -8872259406718680516
+      ThumbsDown_48: 6132882358829936974
+      ThumbsDown_49: 2370650127371213190
+      ThumbsDown_5: -5109697183230917889
+      ThumbsDown_50: 2001599247847922949
+      ThumbsDown_51: -131009305084032553
+      ThumbsDown_52: 1231455080379644877
+      ThumbsDown_53: 4091474756172482694
+      ThumbsDown_54: -860661498305116810
+      ThumbsDown_55: -2794968216159801636
+      ThumbsDown_6: -8908533640637511242
+      ThumbsDown_7: 5028265681616635039
+      ThumbsDown_8: 9181459236190875673
+      ThumbsDown_9: 4962074050284818505
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

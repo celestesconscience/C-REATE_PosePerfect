@@ -1,0 +1,3770 @@
+fileFormatVersion: 2
+guid: ae74a3bfd8c134adcb073c683af5bda0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4323273007612716584
+    second: WhiteSmoke_0
+  - first:
+      213: -3796770093367425955
+    second: WhiteSmoke_1
+  - first:
+      213: -7456293837086142434
+    second: WhiteSmoke_2
+  - first:
+      213: 3810204417147510144
+    second: WhiteSmoke_3
+  - first:
+      213: -6703822536370224848
+    second: WhiteSmoke_4
+  - first:
+      213: -5679021681211123275
+    second: WhiteSmoke_5
+  - first:
+      213: 4628897129917189352
+    second: WhiteSmoke_6
+  - first:
+      213: -1825683332581705683
+    second: WhiteSmoke_7
+  - first:
+      213: -2545422895558113228
+    second: WhiteSmoke_8
+  - first:
+      213: -5922648496566022562
+    second: WhiteSmoke_9
+  - first:
+      213: 3084118337319529136
+    second: WhiteSmoke_10
+  - first:
+      213: 2125395005370734549
+    second: WhiteSmoke_11
+  - first:
+      213: 5647449699936824834
+    second: WhiteSmoke_12
+  - first:
+      213: -6437788418840999649
+    second: WhiteSmoke_13
+  - first:
+      213: 1363302170606078859
+    second: WhiteSmoke_14
+  - first:
+      213: 793497331138943249
+    second: WhiteSmoke_15
+  - first:
+      213: 2873035630787274610
+    second: WhiteSmoke_16
+  - first:
+      213: -7283316357768549454
+    second: WhiteSmoke_17
+  - first:
+      213: 1303604475423191008
+    second: WhiteSmoke_18
+  - first:
+      213: 1373240753323316538
+    second: WhiteSmoke_19
+  - first:
+      213: -7369389460653501653
+    second: WhiteSmoke_20
+  - first:
+      213: -7400910186180391535
+    second: WhiteSmoke_21
+  - first:
+      213: 8073030353210834851
+    second: WhiteSmoke_22
+  - first:
+      213: -2508707853438470951
+    second: WhiteSmoke_23
+  - first:
+      213: -4216119589783526123
+    second: WhiteSmoke_24
+  - first:
+      213: -5931394956449429624
+    second: WhiteSmoke_25
+  - first:
+      213: 7894371034459261776
+    second: WhiteSmoke_26
+  - first:
+      213: 4384347546340827165
+    second: WhiteSmoke_27
+  - first:
+      213: -4909700865822143429
+    second: WhiteSmoke_28
+  - first:
+      213: 8716630369491273862
+    second: WhiteSmoke_29
+  - first:
+      213: 1937636952095754405
+    second: WhiteSmoke_30
+  - first:
+      213: 986038673105150590
+    second: WhiteSmoke_31
+  - first:
+      213: -7583421163444054839
+    second: WhiteSmoke_32
+  - first:
+      213: 5828125406100503079
+    second: WhiteSmoke_33
+  - first:
+      213: -815765240183332185
+    second: WhiteSmoke_34
+  - first:
+      213: 4776184762052954846
+    second: WhiteSmoke_35
+  - first:
+      213: 6532879356914393137
+    second: WhiteSmoke_36
+  - first:
+      213: 2283053771871906526
+    second: WhiteSmoke_37
+  - first:
+      213: 86995675532117331
+    second: WhiteSmoke_38
+  - first:
+      213: -5473694569144927947
+    second: WhiteSmoke_39
+  - first:
+      213: 4124438029880275424
+    second: WhiteSmoke_40
+  - first:
+      213: 7463020619992061345
+    second: WhiteSmoke_41
+  - first:
+      213: -2689330794144103504
+    second: WhiteSmoke_42
+  - first:
+      213: 6816507185929252050
+    second: WhiteSmoke_43
+  - first:
+      213: 6169349843759472669
+    second: WhiteSmoke_44
+  - first:
+      213: -8308648777666484970
+    second: WhiteSmoke_45
+  - first:
+      213: 3555449545569575630
+    second: WhiteSmoke_46
+  - first:
+      213: -512884410497574535
+    second: WhiteSmoke_47
+  - first:
+      213: -4508293485874851060
+    second: WhiteSmoke_48
+  - first:
+      213: -2872707894592432726
+    second: WhiteSmoke_49
+  - first:
+      213: -6870273753806874660
+    second: WhiteSmoke_50
+  - first:
+      213: -5880569375185651041
+    second: WhiteSmoke_51
+  - first:
+      213: 6421517412208030703
+    second: WhiteSmoke_52
+  - first:
+      213: 851173288354752547
+    second: WhiteSmoke_53
+  - first:
+      213: -5907923751927645638
+    second: WhiteSmoke_54
+  - first:
+      213: -627113702581938521
+    second: WhiteSmoke_55
+  - first:
+      213: 2569544074043823319
+    second: WhiteSmoke_56
+  - first:
+      213: -1876535966761694718
+    second: WhiteSmoke_57
+  - first:
+      213: -4779228575166217955
+    second: WhiteSmoke_58
+  - first:
+      213: -5726593977553071024
+    second: WhiteSmoke_59
+  - first:
+      213: -6742058530313117728
+    second: WhiteSmoke_60
+  - first:
+      213: -6249420046453891180
+    second: WhiteSmoke_61
+  - first:
+      213: -5839791335580960010
+    second: WhiteSmoke_62
+  - first:
+      213: 5049424223966802879
+    second: WhiteSmoke_63
+  - first:
+      213: 1887705485452375109
+    second: WhiteSmoke_64
+  - first:
+      213: 4797176265149730777
+    second: WhiteSmoke_65
+  - first:
+      213: -586134678201297462
+    second: WhiteSmoke_66
+  - first:
+      213: 6292331696296839277
+    second: WhiteSmoke_67
+  - first:
+      213: -1123246144709758974
+    second: WhiteSmoke_68
+  - first:
+      213: 5903037022227532031
+    second: WhiteSmoke_69
+  - first:
+      213: -8681557917173039088
+    second: WhiteSmoke_70
+  - first:
+      213: -8432976344952409587
+    second: WhiteSmoke_71
+  - first:
+      213: 6303428580491185509
+    second: WhiteSmoke_72
+  - first:
+      213: -9007914460014926482
+    second: WhiteSmoke_73
+  - first:
+      213: 3380184885072439722
+    second: WhiteSmoke_74
+  - first:
+      213: 7656477325936128390
+    second: WhiteSmoke_75
+  - first:
+      213: 6731858005647807794
+    second: WhiteSmoke_76
+  - first:
+      213: -7486587027339563238
+    second: WhiteSmoke_77
+  - first:
+      213: -6423069795878207491
+    second: WhiteSmoke_78
+  - first:
+      213: -899949995875954914
+    second: WhiteSmoke_79
+  - first:
+      213: -1838627218786841996
+    second: WhiteSmoke_80
+  - first:
+      213: -7822328922949333252
+    second: WhiteSmoke_81
+  - first:
+      213: 6152944535345363855
+    second: WhiteSmoke_82
+  - first:
+      213: -3016118629571436298
+    second: WhiteSmoke_83
+  - first:
+      213: -9217786361221386603
+    second: WhiteSmoke_84
+  - first:
+      213: -8719260964002394891
+    second: WhiteSmoke_85
+  - first:
+      213: -5898580070428438345
+    second: WhiteSmoke_86
+  - first:
+      213: 7926686373569101322
+    second: WhiteSmoke_87
+  - first:
+      213: 7002567940415857332
+    second: WhiteSmoke_88
+  - first:
+      213: -8873393949495661214
+    second: WhiteSmoke_89
+  - first:
+      213: -7258410741167224416
+    second: WhiteSmoke_90
+  - first:
+      213: -663083780031290451
+    second: WhiteSmoke_91
+  - first:
+      213: -8012648076964476929
+    second: WhiteSmoke_92
+  - first:
+      213: 2075454715423915900
+    second: WhiteSmoke_93
+  - first:
+      213: -6236812437049786909
+    second: WhiteSmoke_94
+  - first:
+      213: -5682246600516835033
+    second: WhiteSmoke_95
+  - first:
+      213: -2816107876262050014
+    second: WhiteSmoke_96
+  - first:
+      213: 81376114967689315
+    second: WhiteSmoke_97
+  - first:
+      213: -3331019997059731284
+    second: WhiteSmoke_98
+  - first:
+      213: 3797564161925434611
+    second: WhiteSmoke_99
+  - first:
+      213: -3714188195044133188
+    second: WhiteSmoke_100
+  - first:
+      213: -915401020951598904
+    second: WhiteSmoke_101
+  - first:
+      213: 1074632939112501656
+    second: WhiteSmoke_102
+  - first:
+      213: -7857499162034478909
+    second: WhiteSmoke_103
+  - first:
+      213: 6201069074139184273
+    second: WhiteSmoke_104
+  - first:
+      213: 7011878525095231584
+    second: WhiteSmoke_105
+  - first:
+      213: -220543459646614193
+    second: WhiteSmoke_106
+  - first:
+      213: 662193446383300520
+    second: WhiteSmoke_107
+  - first:
+      213: -275475427151057026
+    second: WhiteSmoke_108
+  - first:
+      213: 1162433821628178418
+    second: WhiteSmoke_109
+  - first:
+      213: 8599922301353605428
+    second: WhiteSmoke_110
+  - first:
+      213: 5304967935042225923
+    second: WhiteSmoke_111
+  - first:
+      213: 441909981366731389
+    second: WhiteSmoke_112
+  - first:
+      213: 2958310891952534759
+    second: WhiteSmoke_113
+  - first:
+      213: -5764639077405140332
+    second: WhiteSmoke_114
+  - first:
+      213: -3401706987502749817
+    second: WhiteSmoke_115
+  - first:
+      213: 8050357483271472964
+    second: WhiteSmoke_116
+  - first:
+      213: 1552593617870753936
+    second: WhiteSmoke_117
+  - first:
+      213: 8508187451750984683
+    second: WhiteSmoke_118
+  - first:
+      213: 2735597050684482400
+    second: WhiteSmoke_119
+  - first:
+      213: -6470200286748781729
+    second: WhiteSmoke_120
+  - first:
+      213: -640336723992514084
+    second: WhiteSmoke_121
+  - first:
+      213: 3212590296461533466
+    second: WhiteSmoke_122
+  - first:
+      213: 7014857839212853986
+    second: WhiteSmoke_123
+  - first:
+      213: 6181046892189285784
+    second: WhiteSmoke_124
+  - first:
+      213: 7200400501593313677
+    second: WhiteSmoke_125
+  - first:
+      213: -3469907627334574342
+    second: WhiteSmoke_126
+  - first:
+      213: -3205411728489367236
+    second: WhiteSmoke_127
+  - first:
+      213: 7685473282228353533
+    second: WhiteSmoke_128
+  - first:
+      213: -8540490568327969796
+    second: WhiteSmoke_129
+  - first:
+      213: -4793621469945679221
+    second: WhiteSmoke_130
+  - first:
+      213: -6886219210184290972
+    second: WhiteSmoke_131
+  - first:
+      213: 7930524765614648649
+    second: WhiteSmoke_132
+  - first:
+      213: -6734350438581358351
+    second: WhiteSmoke_133
+  - first:
+      213: -3320911233426744917
+    second: WhiteSmoke_134
+  - first:
+      213: -8865011422250581759
+    second: WhiteSmoke_135
+  - first:
+      213: -2383488018671540761
+    second: WhiteSmoke_136
+  - first:
+      213: -5866760357719023060
+    second: WhiteSmoke_137
+  - first:
+      213: 2091083850630977614
+    second: WhiteSmoke_138
+  - first:
+      213: 845854390352776332
+    second: WhiteSmoke_139
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WhiteSmoke_0
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 26
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8266acd05e95ffb30800000000000000
+      internalID: 4323273007612716584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_1
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 22
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54020b57b92f4bc0800000000000000
+      internalID: -3796770093367425955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_2
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 21
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10db83a24ce58890800000000000000
+      internalID: -7456293837086142434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_3
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 94
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d93b5eab090e430800000000000000
+      internalID: 3810204417147510144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_4
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 85
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031056aebec37f2a0800000000000000
+      internalID: -6703822536370224848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_5
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 95
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b95ba3aedf0031b0800000000000000
+      internalID: -5679021681211123275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_6
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec0a8a2a652d3040800000000000000
+      internalID: 4628897129917189352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_7
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 103
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28bd119eaed9a6e0800000000000000
+      internalID: -1825683332581705683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_8
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 98
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438cc1bdc57dcacd0800000000000000
+      internalID: -2545422895558113228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_9
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 100
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e4ea862968ecda0800000000000000
+      internalID: -5922648496566022562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_10
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 86
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bae235994dfcca20800000000000000
+      internalID: 3084118337319529136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_11
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 81
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7138e1f7bee7d10800000000000000
+      internalID: 2125395005370734549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_12
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 100
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20eee93a495cf5e40800000000000000
+      internalID: 5647449699936824834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_13
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 100
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19cbdbba8168a6a0800000000000000
+      internalID: -6437788418840999649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_14
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 89
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b8e70e91c6be210800000000000000
+      internalID: 1363302170606078859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_15
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 82
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119d1c85e91130b00800000000000000
+      internalID: 793497331138943249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_16
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 25
+        width: 35
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277ad182fa21fd720800000000000000
+      internalID: 2873035630787274610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_17
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbe96c7c567cea90800000000000000
+      internalID: -7283316357768549454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_18
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 17
+        width: 141
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef65351d55571210800000000000000
+      internalID: 1303604475423191008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_19
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 44
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a351dec703bbe0310800000000000000
+      internalID: 1373240753323316538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_20
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 39
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b239d3a845baab990800000000000000
+      internalID: -7369389460653501653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_21
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 32
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dc52ab56faa4990800000000000000
+      internalID: -7400910186180391535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_22
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 56
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aff310655a290070800000000000000
+      internalID: 8073030353210834851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_23
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 89
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4319ebf774f2dd0800000000000000
+      internalID: -2508707853438470951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_24
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 79
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515236032955d75c0800000000000000
+      internalID: -4216119589783526123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_25
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 91
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887c94686b37fada0800000000000000
+      internalID: -5931394956449429624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_26
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 76
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05bc31231a07e8d60800000000000000
+      internalID: 7894371034459261776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_27
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 78
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1020873dd458dc30800000000000000
+      internalID: 4384347546340827165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_28
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 76
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c4e33431d3ddbb0800000000000000
+      internalID: -4909700865822143429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_29
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688c8eb6321b7f870800000000000000
+      internalID: 8716630369491273862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_30
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 78
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a88659ba8ed3ea10800000000000000
+      internalID: 1937636952095754405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_31
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 66
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72ea3de2fc1fad00800000000000000
+      internalID: 986038673105150590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_32
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4dcba61a642c690800000000000000
+      internalID: -7583421163444054839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_33
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 80
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72abc099d29a1e050800000000000000
+      internalID: 5828125406100503079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_34
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 93
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2e2ce06d1dda4f0800000000000000
+      internalID: -815765240183332185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_35
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 82
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edacccb5cba684240800000000000000
+      internalID: 4776184762052954846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_36
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 92
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1306d55992379aa50800000000000000
+      internalID: 6532879356914393137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_37
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 79
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda6a833f490faf10800000000000000
+      internalID: 2283053771871906526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_38
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 77
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35546112b12153100800000000000000
+      internalID: 86995675532117331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_39
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 79
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539b12d4ac78904b0800000000000000
+      internalID: -5473694569144927947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_40
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 77
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e130253982fc3930800000000000000
+      internalID: 4124438029880275424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_41
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 88
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5da0e86b9f19760800000000000000
+      internalID: 7463020619992061345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_42
+      rect:
+        serializedVersion: 2
+        x: 1245
+        y: 79
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3858334e39daad0800000000000000
+      internalID: -2689330794144103504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_43
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 77
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dce5329b29199e50800000000000000
+      internalID: 6816507185929252050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_44
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 82
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10256c0ffeed9550800000000000000
+      internalID: 6169349843759472669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_45
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 81
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615a4b335ffb1bc80800000000000000
+      internalID: -8308648777666484970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_46
+      rect:
+        serializedVersion: 2
+        x: 1347
+        y: 78
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2af7c268e775130800000000000000
+      internalID: 3555449545569575630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_47
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 79
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 979d475985ed1e8f0800000000000000
+      internalID: -512884410497574535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_48
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 31
+        width: 31
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03d837e5f25f61c0800000000000000
+      internalID: -4508293485874851060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_49
+      rect:
+        serializedVersion: 2
+        x: 1476
+        y: 82
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa59b5fd3671228d0800000000000000
+      internalID: -2872707894592432726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_50
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 56
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7d6a2db62e7a0a0800000000000000
+      internalID: -6870273753806874660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_51
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 50
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ab4035f45046ea0800000000000000
+      internalID: -5880569375185651041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_52
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 71
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe335a15010dd1950800000000000000
+      internalID: 6421517412208030703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_53
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 51
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328afa69899ffcb00800000000000000
+      internalID: 851173288354752547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_54
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 55
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a724e26a6d20ea0800000000000000
+      internalID: -5907923751927645638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_55
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 38
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6d2dbf86b0c47f0800000000000000
+      internalID: -627113702581938521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_56
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d49718a8bad8a320800000000000000
+      internalID: 2569544074043823319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_57
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 65
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20acce40b7435f5e0800000000000000
+      internalID: -1876535966761694718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_58
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 71
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1142dcaee4ccadb0800000000000000
+      internalID: -4779228575166217955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_59
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 66
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054de034e1d0780b0800000000000000
+      internalID: -5726593977553071024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_60
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 60
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef5bc5dc756f62a0800000000000000
+      internalID: -6742058530313117728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_61
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f19ee14999549a0800000000000000
+      internalID: -6249420046453891180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_62
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 67
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fafa4888b4e4fea0800000000000000
+      internalID: -5839791335580960010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_63
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 71
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb33bc52498231640800000000000000
+      internalID: 5049424223966802879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_64
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544f1f4332a723a10800000000000000
+      internalID: 1887705485452375109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_65
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 59
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df4f29856ef29240800000000000000
+      internalID: 4797176265149730777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_66
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 67
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5164b9d91add7f0800000000000000
+      internalID: -586134678201297462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_67
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 59
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6844bee65ad25750800000000000000
+      internalID: 6292331696296839277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_68
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 67
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2007f35259d6960f0800000000000000
+      internalID: -1123246144709758974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_69
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 61
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff80ad565eccbe150800000000000000
+      internalID: 5903037022227532031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_70
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010cbe93219e48780800000000000000
+      internalID: -8681557917173039088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_71
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 69
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02f6dfa1bc08fa80800000000000000
+      internalID: -8432976344952409587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_72
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 65
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dc83f95e64a7750800000000000000
+      internalID: 6303428580491185509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_73
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 70
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65a4bb46857df280800000000000000
+      internalID: -9007914460014926482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_74
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 60
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa923e57e34d8ee20800000000000000
+      internalID: 3380184885072439722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_75
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681714bef85414a60800000000000000
+      internalID: 7656477325936128390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_76
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 57
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235d101703d5c6d50800000000000000
+      internalID: 6731858005647807794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_77
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 54
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fa067a3cc4a1890800000000000000
+      internalID: -7486587027339563238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_78
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 37
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff73213d0cacd6a0800000000000000
+      internalID: -6423069795878207491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_79
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 62
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f03343f3cb283f0800000000000000
+      internalID: -899949995875954914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_80
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 53
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a88d53942eb76e0800000000000000
+      internalID: -1838627218786841996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_81
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 60
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfe475ff941817390800000000000000
+      internalID: -7822328922949333252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_82
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 57
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8bf0f78476a36550800000000000000
+      internalID: 6152944535345363855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_83
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 48
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0e4f326189426d0800000000000000
+      internalID: -3016118629571436298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_84
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 61
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e65f37428d31080800000000000000
+      internalID: -9217786361221386603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_85
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 52
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc05b09956fef680800000000000000
+      internalID: -8719260964002394891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_86
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 50
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b01aee8da8042ea0800000000000000
+      internalID: -5898580070428438345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_87
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ef386624f310e60800000000000000
+      internalID: 7926686373569101322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_88
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 48
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2a60cc07e1e2160800000000000000
+      internalID: 7002567940415857332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_89
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 55
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26de538573f5bd480800000000000000
+      internalID: -8873393949495661214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_90
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 50
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a909da33e1f44b90800000000000000
+      internalID: -7258410741167224416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_91
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 55
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da369e2b0d04cc6f0800000000000000
+      internalID: -663083780031290451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_92
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 50
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7c05ed60b5dc090800000000000000
+      internalID: -8012648076964476929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_93
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 48
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f7044411f7dcc10800000000000000
+      internalID: 2075454715423915900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_94
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 41
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edb8eee1246279a0800000000000000
+      internalID: -6236812437049786909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_95
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 40
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 729e50a92da9421b0800000000000000
+      internalID: -5682246600516835033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_96
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 51
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22788329ecc2be8d0800000000000000
+      internalID: -2816107876262050014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_97
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 29
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368b9d9352b112100800000000000000
+      internalID: 81376114967689315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_98
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 50
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0388f06f6d5c1d0800000000000000
+      internalID: -3331019997059731284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_99
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 53
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcc1532c78a3b430800000000000000
+      internalID: 3797564161925434611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_100
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 43
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6f175e38d847cc0800000000000000
+      internalID: -3714188195044133188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_101
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 42
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c866271f97db43f0800000000000000
+      internalID: -915401020951598904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_102
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 40
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8911cb7e6fcd9ee00800000000000000
+      internalID: 1074632939112501656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_103
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 40
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c06108942e84f290800000000000000
+      internalID: -7857499162034478909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_104
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 36
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cf9bfd77f9e0650800000000000000
+      internalID: 6201069074139184273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_105
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 42
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060cd783e523f4160800000000000000
+      internalID: 7011878525095231584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_106
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 41
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f455a3654e870fcf0800000000000000
+      internalID: -220543459646614193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_107
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 39
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afa4485e65903900800000000000000
+      internalID: 662193446383300520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_108
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 44
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7fef4cfe805d2cf0800000000000000
+      internalID: -275475427151057026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_109
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 34
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff1c05e66bc12010800000000000000
+      internalID: 1162433821628178418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_110
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 40
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439342cc4cf095770800000000000000
+      internalID: 8599922301353605428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_111
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 35
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3078701ea380f9940800000000000000
+      internalID: 5304967935042225923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_112
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 42
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d72401669caf12600800000000000000
+      internalID: 441909981366731389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_113
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 34
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4fff915180e0920800000000000000
+      internalID: 2958310891952534759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_114
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 40
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a5eec2d43efffa0800000000000000
+      internalID: -5764639077405140332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_115
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 40
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7873fe39485bac0d0800000000000000
+      internalID: -3401706987502749817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_116
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447cd497a7d98bf60800000000000000
+      internalID: 8050357483271472964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_117
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 19
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09099b16babeb8510800000000000000
+      internalID: 1552593617870753936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_118
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 31
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebad08b867231670800000000000000
+      internalID: 8508187451750984683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_119
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063a7a6160bc6f520800000000000000
+      internalID: 2735597050684482400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_120
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 34
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5355baae1b3536a0800000000000000
+      internalID: -6470200286748781729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_121
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 25
+        width: 25
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd1f9c564211d17f0800000000000000
+      internalID: -640336723992514084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_122
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a11e4758ad9659c20800000000000000
+      internalID: 3212590296461533466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_123
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 29
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea7528d908c95160800000000000000
+      internalID: 7014857839212853986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_124
+      rect:
+        serializedVersion: 2
+        x: 1240
+        y: 31
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d79fc566d77c550800000000000000
+      internalID: 6181046892189285784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_125
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 30
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d81930a5b16fce360800000000000000
+      internalID: 7200400501593313677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_126
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 29
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afedd45b56968dfc0800000000000000
+      internalID: -3469907627334574342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_127
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 25
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39358414071483d0800000000000000
+      internalID: -3205411728489367236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_128
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 29
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9f9f51b3948aa60800000000000000
+      internalID: 7685473282228353533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_129
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 27
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3cc3bd3151a7980800000000000000
+      internalID: -8540490568327969796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_130
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 19
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82b338bba2a97db0800000000000000
+      internalID: -4793621469945679221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_131
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 24
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d8e73fc1c3f60a0800000000000000
+      internalID: -6886219210184290972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_132
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d26e0b142ee0e60800000000000000
+      internalID: 7930524765614648649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_133
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 26
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0bc5bc4f7ca82a0800000000000000
+      internalID: -6734350438581358351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_134
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 18
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba99ef004d0c9e1d0800000000000000
+      internalID: -3320911233426744917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_135
+      rect:
+        serializedVersion: 2
+        x: 1337
+        y: 17
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10149fe841729f480800000000000000
+      internalID: -8865011422250581759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_136
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 23
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5eea876462ceed0800000000000000
+      internalID: -2383488018671540761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_137
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2260dfb984159ea0800000000000000
+      internalID: -5866760357719023060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_138
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 18
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e485a60eea5050d10800000000000000
+      internalID: 2091083850630977614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteSmoke_139
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 17
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c8ea426141dbb00800000000000000
+      internalID: 845854390352776332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      WhiteSmoke_0: 4323273007612716584
+      WhiteSmoke_1: -3796770093367425955
+      WhiteSmoke_10: 3084118337319529136
+      WhiteSmoke_100: -3714188195044133188
+      WhiteSmoke_101: -915401020951598904
+      WhiteSmoke_102: 1074632939112501656
+      WhiteSmoke_103: -7857499162034478909
+      WhiteSmoke_104: 6201069074139184273
+      WhiteSmoke_105: 7011878525095231584
+      WhiteSmoke_106: -220543459646614193
+      WhiteSmoke_107: 662193446383300520
+      WhiteSmoke_108: -275475427151057026
+      WhiteSmoke_109: 1162433821628178418
+      WhiteSmoke_11: 2125395005370734549
+      WhiteSmoke_110: 8599922301353605428
+      WhiteSmoke_111: 5304967935042225923
+      WhiteSmoke_112: 441909981366731389
+      WhiteSmoke_113: 2958310891952534759
+      WhiteSmoke_114: -5764639077405140332
+      WhiteSmoke_115: -3401706987502749817
+      WhiteSmoke_116: 8050357483271472964
+      WhiteSmoke_117: 1552593617870753936
+      WhiteSmoke_118: 8508187451750984683
+      WhiteSmoke_119: 2735597050684482400
+      WhiteSmoke_12: 5647449699936824834
+      WhiteSmoke_120: -6470200286748781729
+      WhiteSmoke_121: -640336723992514084
+      WhiteSmoke_122: 3212590296461533466
+      WhiteSmoke_123: 7014857839212853986
+      WhiteSmoke_124: 6181046892189285784
+      WhiteSmoke_125: 7200400501593313677
+      WhiteSmoke_126: -3469907627334574342
+      WhiteSmoke_127: -3205411728489367236
+      WhiteSmoke_128: 7685473282228353533
+      WhiteSmoke_129: -8540490568327969796
+      WhiteSmoke_13: -6437788418840999649
+      WhiteSmoke_130: -4793621469945679221
+      WhiteSmoke_131: -6886219210184290972
+      WhiteSmoke_132: 7930524765614648649
+      WhiteSmoke_133: -6734350438581358351
+      WhiteSmoke_134: -3320911233426744917
+      WhiteSmoke_135: -8865011422250581759
+      WhiteSmoke_136: -2383488018671540761
+      WhiteSmoke_137: -5866760357719023060
+      WhiteSmoke_138: 2091083850630977614
+      WhiteSmoke_139: 845854390352776332
+      WhiteSmoke_14: 1363302170606078859
+      WhiteSmoke_15: 793497331138943249
+      WhiteSmoke_16: 2873035630787274610
+      WhiteSmoke_17: -7283316357768549454
+      WhiteSmoke_18: 1303604475423191008
+      WhiteSmoke_19: 1373240753323316538
+      WhiteSmoke_2: -7456293837086142434
+      WhiteSmoke_20: -7369389460653501653
+      WhiteSmoke_21: -7400910186180391535
+      WhiteSmoke_22: 8073030353210834851
+      WhiteSmoke_23: -2508707853438470951
+      WhiteSmoke_24: -4216119589783526123
+      WhiteSmoke_25: -5931394956449429624
+      WhiteSmoke_26: 7894371034459261776
+      WhiteSmoke_27: 4384347546340827165
+      WhiteSmoke_28: -4909700865822143429
+      WhiteSmoke_29: 8716630369491273862
+      WhiteSmoke_3: 3810204417147510144
+      WhiteSmoke_30: 1937636952095754405
+      WhiteSmoke_31: 986038673105150590
+      WhiteSmoke_32: -7583421163444054839
+      WhiteSmoke_33: 5828125406100503079
+      WhiteSmoke_34: -815765240183332185
+      WhiteSmoke_35: 4776184762052954846
+      WhiteSmoke_36: 6532879356914393137
+      WhiteSmoke_37: 2283053771871906526
+      WhiteSmoke_38: 86995675532117331
+      WhiteSmoke_39: -5473694569144927947
+      WhiteSmoke_4: -6703822536370224848
+      WhiteSmoke_40: 4124438029880275424
+      WhiteSmoke_41: 7463020619992061345
+      WhiteSmoke_42: -2689330794144103504
+      WhiteSmoke_43: 6816507185929252050
+      WhiteSmoke_44: 6169349843759472669
+      WhiteSmoke_45: -8308648777666484970
+      WhiteSmoke_46: 3555449545569575630
+      WhiteSmoke_47: -512884410497574535
+      WhiteSmoke_48: -4508293485874851060
+      WhiteSmoke_49: -2872707894592432726
+      WhiteSmoke_5: -5679021681211123275
+      WhiteSmoke_50: -6870273753806874660
+      WhiteSmoke_51: -5880569375185651041
+      WhiteSmoke_52: 6421517412208030703
+      WhiteSmoke_53: 851173288354752547
+      WhiteSmoke_54: -5907923751927645638
+      WhiteSmoke_55: -627113702581938521
+      WhiteSmoke_56: 2569544074043823319
+      WhiteSmoke_57: -1876535966761694718
+      WhiteSmoke_58: -4779228575166217955
+      WhiteSmoke_59: -5726593977553071024
+      WhiteSmoke_6: 4628897129917189352
+      WhiteSmoke_60: -6742058530313117728
+      WhiteSmoke_61: -6249420046453891180
+      WhiteSmoke_62: -5839791335580960010
+      WhiteSmoke_63: 5049424223966802879
+      WhiteSmoke_64: 1887705485452375109
+      WhiteSmoke_65: 4797176265149730777
+      WhiteSmoke_66: -586134678201297462
+      WhiteSmoke_67: 6292331696296839277
+      WhiteSmoke_68: -1123246144709758974
+      WhiteSmoke_69: 5903037022227532031
+      WhiteSmoke_7: -1825683332581705683
+      WhiteSmoke_70: -8681557917173039088
+      WhiteSmoke_71: -8432976344952409587
+      WhiteSmoke_72: 6303428580491185509
+      WhiteSmoke_73: -9007914460014926482
+      WhiteSmoke_74: 3380184885072439722
+      WhiteSmoke_75: 7656477325936128390
+      WhiteSmoke_76: 6731858005647807794
+      WhiteSmoke_77: -7486587027339563238
+      WhiteSmoke_78: -6423069795878207491
+      WhiteSmoke_79: -899949995875954914
+      WhiteSmoke_8: -2545422895558113228
+      WhiteSmoke_80: -1838627218786841996
+      WhiteSmoke_81: -7822328922949333252
+      WhiteSmoke_82: 6152944535345363855
+      WhiteSmoke_83: -3016118629571436298
+      WhiteSmoke_84: -9217786361221386603
+      WhiteSmoke_85: -8719260964002394891
+      WhiteSmoke_86: -5898580070428438345
+      WhiteSmoke_87: 7926686373569101322
+      WhiteSmoke_88: 7002567940415857332
+      WhiteSmoke_89: -8873393949495661214
+      WhiteSmoke_9: -5922648496566022562
+      WhiteSmoke_90: -7258410741167224416
+      WhiteSmoke_91: -663083780031290451
+      WhiteSmoke_92: -8012648076964476929
+      WhiteSmoke_93: 2075454715423915900
+      WhiteSmoke_94: -6236812437049786909
+      WhiteSmoke_95: -5682246600516835033
+      WhiteSmoke_96: -2816107876262050014
+      WhiteSmoke_97: 81376114967689315
+      WhiteSmoke_98: -3331019997059731284
+      WhiteSmoke_99: 3797564161925434611
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
