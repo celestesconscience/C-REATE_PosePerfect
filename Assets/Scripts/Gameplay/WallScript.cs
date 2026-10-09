@@ -19,27 +19,24 @@ public class WallScript : MonoBehaviour
     void Update()
     {
         
+        spriteRenderer.sprite = walls[wallType];
 
         switch (wallType)//makes the sprite into whatever walltype it is
         {
             case 0: 
-                spriteRenderer.sprite = walls[wallType];
+                
                 gameObject.tag = "Pose_1";
                 break;
             case 1: 
-                spriteRenderer.sprite = walls[wallType];
                 gameObject.tag = "Pose_2";
                 break;
             case 2: 
-                spriteRenderer.sprite = walls[wallType];
                 gameObject.tag = "Pose_3";
                 break;
             case 3: 
-                spriteRenderer.sprite = walls[wallType];
                 gameObject.tag = "Pose_4";
                 break;
             case 4: 
-                spriteRenderer.sprite = walls[wallType];
                 gameObject.tag = "Pose_5";
                 break;
         }
