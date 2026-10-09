@@ -1,80 +1,94 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// Controls Menu Buttons and Overlays; Navigation
+// Controls the scene management and UI of the game
 public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to attach script to a GameObject
-// class = container for objects behaviour; class name is MenuManager
-{
+// class = container for objects behaviour; class name is GameManager
+{   
+    // Reference to the Pause Overlay
+    public GameObject pauseOverlay;
+
     // Reference to the Controls Overlay
     public GameObject controlsOverlay;
 
-    // Opens the Controls Overlay
-    public void OpenControls()
+    // Returns to the Main Menu from the Game Pause
+    public void Open_MainMenu_Scene()
+
     {
-        controlsOverlay.SetActive(true);
+        Time.timeScale = 1; // Resumes the game since you paused to get to press Main Menu
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void Open_Instructions_Scene()
+    {
+        SceneManager.LoadScene("Instructions");
+    }
+
+    // Goes to game scene, can be used as both a start game and restart game
+    public void Open_Game_Scene()
+    {
+        Time.timeScale = 1; // <-- Resume the game by setting the time scale back to 1
+        SceneManager.LoadScene("Game");
+        print("Game restarted"); // For debugging purposes
+    }
+
+    public void Open_HighScores_Scene()
+    {
+        SceneManager.LoadScene("HighScores");
+    }
+
+    public void Open_Credits_Scene()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
+    // Opens the Pause Overlay
+    public void Pause_Open_UI()
+    {
+        if(!controlsOverlay.activeSelf) // Checks that the controls overlay isn't open before allowing pause
+        {
+            pauseOverlay.SetActive(true);
+            Time.timeScale = 0; // Pause the game by setting the time scale to 0
+            print("Pause menu opened. Game frozen"); // For debugging purposes
+        }
+    }
+
+    // Closes the Pause Overlay
+    public void Pause_Close_UI()
+    {
+        pauseOverlay.SetActive(false);
+        Time.timeScale = 1; // Resume the game by setting the time scale back to 1
+        print("Pause menu closed. Game resumed"); // For debugging: print a message when the pause menu is closed
+    }
+
+    // Opens the Controls Overlay
+    public void Controls_Open_UI()
+    {
+        //if(pauseOverlay.activeSelf) // Checks if the pause overlay is currently active
+        //{
+        //    pauseOverlay.SetActive(false); // Hide the pause overlay before showing the controls overlay
+            controlsOverlay.SetActive(true); // Show the controls overlay
+        //    Time.timeScale = 0; // Pause the game by setting the time scale to 0
+            print("Controls menu opened. Game frozen"); // For debugging purposes
+        //}
     }
 
     // Closes the Controls Overlay
-    public void CloseControls()
+    public void Controls_Close_UI() // Method for closing the controls overlay and showing the pause overlay
     {
-        controlsOverlay.SetActive(false);
+            controlsOverlay.SetActive(false); // Hide the controls overlay before showing the pause overlay
+        //    pauseOverlay.SetActive(true); // Show the pause overlay after closing the controls overlay
+        //    Time.timeScale = 0; // This should be 0 to keep the game paused
+            print("Controls menu closed. Returned to pause menu."); // For debugging purposes
     }
 
-    // Toggles the visibility of the Controls Panel
-    public void ToggleControls()
-    {
-        // Set the Controls Overlay to the opposiite of its current active state
-        // activeSelf checks if the panel is currently active (true) or inactive (false)
-        // ! means "Not", so it changes true to false or false to true
-        // Basically, set controls overlay((!opposite)controlsoverlay.whatever state)
-        controlsOverlay.SetActive(!controlsOverlay.activeSelf);
-    }
 
-    // Opens the Credits Scene
-    public void OpenCredits() // <-- This is a method that opens the Credits scene
-    {
-        SceneManager.LoadScene("Credits"); // <-- SceneManager = Unity's scene management system
-                                          // . = Acesssing something that belongs to SceneManager
-                                          // LoadScene = a method that loads a new scene by its name
-    }
 
-    // Opens the High Scores Scene
-    public void OpenHighScores()
+    // Quits the game
+    public void QuitGame()
     {
-        SceneManager.LoadScene("HighScores"); // <-- SceneManager = Unity's scene management system
-                                              // . = Acesssing something that belongs to SceneManager
-                                              // LoadScene = a method that loads a new scene by its name
+        Application.Quit(); // Quit the application
     }
+    
 
-    // Closes the Credits or High Scores Scene and Returns to Main Menu
-    public void ReturnToMainMenu()
-    {
-        SceneManager.LoadScene("MainMenu"); // <-- SceneManager = Unity's scene management system
-                                            // . = Acesssing something that belongs to SceneManager
-                                            // LoadScene = a method that loads a new scene by its name
-    }
-
-    // Opens the Tutorial Scene
-    public void OpenTutorial()
-    {
-        SceneManager.LoadScene("Tutorial"); // <-- SceneManager = Unity's scene management system
-                                              // . = Acesssing something that belongs to SceneManager
-                                              // LoadScene = a method that loads a new scene by its name
-    }
-
-    // Opens the Main Game Scene using the LET'S PLAY Button
-    public void OpenMainGame()
-    {
-        SceneManager.LoadScene("TestGameScene"); // <-- SceneManager = Unity's scene management system
-                                              // . = Acesssing something that belongs to SceneManager
-                                              // LoadScene = a method that loads a new scene by its name
-    }
-
-   // Opens the Instructions Scene using the START Button
-    public void OpenInstructions()
-    {
-        SceneManager.LoadScene("Instructions"); // <-- SceneManager = Unity's scene management system
-                                              // . = Acesssing something that belongs to SceneManager
-                                              // LoadScene = a method that loads a new scene by its name
-    }
 }

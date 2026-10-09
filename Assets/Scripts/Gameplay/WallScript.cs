@@ -21,10 +21,10 @@ public class WallScript : MonoBehaviour
         
         spriteRenderer.sprite = walls[wallType];
 
+
         switch (wallType)//makes the sprite into whatever walltype it is
         {
-            case 0: 
-                
+            case 0:  
                 gameObject.tag = "Pose_1";
                 break;
             case 1: 
