@@ -62,10 +62,18 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
                                               // LoadScene = a method that loads a new scene by its name
     }
 
-    // Opens the Main Game Scene using the START Button
+    // Opens the Main Game Scene using the LET'S PLAY Button
     public void OpenMainGame()
     {
         SceneManager.LoadScene("TestGameScene"); // <-- SceneManager = Unity's scene management system
+                                              // . = Acesssing something that belongs to SceneManager
+                                              // LoadScene = a method that loads a new scene by its name
+    }
+
+   // Opens the Instructions Scene using the START Button
+    public void OpenInstructions()
+    {
+        SceneManager.LoadScene("Instructions"); // <-- SceneManager = Unity's scene management system
                                               // . = Acesssing something that belongs to SceneManager
                                               // LoadScene = a method that loads a new scene by its name
     }
