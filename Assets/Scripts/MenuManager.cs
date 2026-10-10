@@ -102,6 +102,5 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
     {
         Application.Quit(); // Quit the application
     }
-    
 
 }

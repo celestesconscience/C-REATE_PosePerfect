@@ -37,6 +37,9 @@ public class PlayerScript : MonoBehaviour
 
         // Moves the Player to the Starting Location
         transform.position = new Vector2(locations[currentLocation], transform.position.y);
+
+        // Makes score 0 at beginning of the game
+        GameManager.instance.score = 0;
     }
 
     // Update is called once per frame
@@ -78,6 +81,7 @@ public class PlayerScript : MonoBehaviour
         {   
             //print("SAME POSE");//TEST
             winObject.SetActive(true);
+            GameManager.instance.score += 100;//Adds 100 to the score
         }
         else
         {
