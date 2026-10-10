@@ -4,5 +4,33 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: ffb0580c6aec84ae18158aae76a65332
+  - enabled: 1
+<<<<<<< Updated upstream
+    path: Assets/Scenes/Instructions.unity
+    guid: d49653edff97f42c181be7d1d5ce92e5
+  - enabled: 1
+    path: Assets/Scenes/TestGameScene.unity
+    guid: f14648162bbbb40adb4ec1f7bad6f565
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 5a4afdf8b40d2438da97fbd43679d35f
+  - enabled: 1
+=======
+>>>>>>> Stashed changes
+    path: Assets/Scenes/HighScores.unity
+    guid: ac0d68fc1415b4831ac4784087f91933
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 7c810d6950f024286a29e9adde5a7f54
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: d49653edff97f42c181be7d1d5ce92e5
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: f14648162bbbb40adb4ec1f7bad6f565
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
