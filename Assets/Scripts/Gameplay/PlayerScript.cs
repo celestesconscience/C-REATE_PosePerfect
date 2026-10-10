@@ -3,6 +3,9 @@ using UnityEngine.InputSystem;
 
 public class PlayerScript : MonoBehaviour
 {
+    //Allows player to interact with Menu Managers Game Over Overlay
+    public MenuManager menu;
+
     // Button Input Variables
     InputAction buttonPress, buttonHold; // References to the input actions for tapping and holding the button
     private bool pressed, held; // Stores the state of the button press and hold actions
@@ -46,14 +49,14 @@ public class PlayerScript : MonoBehaviour
         }
 
         // Debug to see if press and hold is working as intended
-        if(pressed == true)
-        {
-            print("tap");
-        }
-        if(held == true)
-        {
-            print("held");
-        }
+        // if(pressed == true)
+        // {
+        //     print("tap");
+        // }
+        // if(held == true)
+        // {
+        //     print("held");
+        // }
 
         // Changes the players poses when the button is pressed
         if(pressed == true)
@@ -70,23 +73,22 @@ public class PlayerScript : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)//detects if wall tag is the same as player
     {
-        if (other.CompareTag(gameObject.tag))
+        //makes sure same wall and correct position
+        if (other.CompareTag(gameObject.tag) && (other.transform.position.x == gameObject.transform.position.x))
         {   
-            print("SAME POSE");//TEST
+            //print("SAME POSE");//TEST
             winObject.SetActive(true);
         }
         else
         {
-            print("DIFFERENT POSE");
-            failObject.SetActive(true);
+            menu.GameOver_Open_UI();
         }
 
     }
 
-      void OnTriggerExit2D(Collider2D other)//detects if wall exits the player
+    void OnTriggerExit2D(Collider2D other)//detects if wall exits the player
     {
         winObject.SetActive(false);
-        failObject.SetActive(false);
     }
 
     // SCRIPT FOR POSE CHANGING
