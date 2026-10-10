@@ -11,7 +11,7 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
     // Reference to the Controls Overlay
     public GameObject controlsOverlay;
 
-    // Reference to the Controls Overlay
+    // Reference to the Game Over Overlay
     public GameObject gameOverOverlay;
 
     // Audio Stuff
@@ -57,6 +57,7 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
         SceneManager.LoadScene("MainMenu");
     }
 
+    // Opens the How to Play from the Main Menu (when pressing start, before actual game scene)
     public void Open_Instructions_Scene()
     {
         SceneManager.LoadScene("Instructions");
@@ -70,11 +71,13 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
         print("Game restarted"); // For debugging purposes
     }
 
+    // Opens the High Scores scene
     public void Open_HighScores_Scene()
     {
         SceneManager.LoadScene("HighScores");
     }
 
+    // Opens the Credits scene
     public void Open_Credits_Scene()
     {
         SceneManager.LoadScene("Credits");
