@@ -585,7 +585,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &715651698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -713,18 +713,18 @@ PrefabInstance:
     - target: {fileID: 8365644531394518826, guid: 82f15c7e186154fd3a6ecd63fa410d6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1460148106}
+      objectReference: {fileID: 715651698}
     - target: {fileID: 8365644531394518826, guid: 82f15c7e186154fd3a6ecd63fa410d6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8365644531394518826, guid: 82f15c7e186154fd3a6ecd63fa410d6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OpenMainMenu_Scene
+      value: ReturnToMainMenu
       objectReference: {fileID: 0}
     - target: {fileID: 8365644531394518826, guid: 82f15c7e186154fd3a6ecd63fa410d6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GameManager, Assembly-CSharp
+      value: MenuManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8365644531394518826, guid: 82f15c7e186154fd3a6ecd63fa410d6c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName

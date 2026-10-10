@@ -72,12 +72,12 @@ public class PlayerScript : MonoBehaviour
     {
         if (other.CompareTag(gameObject.tag))
         {   
-            //print("SAME POSE");//TEST
+            print("SAME POSE");//TEST
             winObject.SetActive(true);
         }
         else
         {
-            //print("DIFFERENT POSE");
+            print("DIFFERENT POSE");
             failObject.SetActive(true);
         }
 
