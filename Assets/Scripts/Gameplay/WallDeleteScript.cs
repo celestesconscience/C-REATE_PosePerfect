@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class WallDeleteScript : MonoBehaviour
 {
-   void FixedUpdate()//helps game remain consistent across different pc specs.
+   void Start() // Helps game remain consistent across different PC specs
     {
-        Destroy(gameObject, 16f);//destroys itself after x seconds to prevent lag
+        Destroy(gameObject, 16f); // Destroys itself after x seconds to prevent lag
     }
 }

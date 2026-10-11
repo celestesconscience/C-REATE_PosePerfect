@@ -16,7 +16,11 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
 
     // Audio Stuff
     public GameObject buttonClickAudio;
+    public GameObject confirmAudio;
     private static GameObject persistentButtonClickAudio; // <-- Static variable to hold the instance of the button click audio
+    private static GameObject persistentConfirmAudio;
+    public AudioSource backgroundMusic;
+    public AudioSource gameOverAudio;
 
     // Plays the click sound effect for menu buttons
     public void Play_Button_Click_SFX()
@@ -27,6 +31,19 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
             if (audioSource != null) // Checks if the AudioSource component exists
             {
                 audioSource.Play(); // Plays the click sound effect
+            }
+        }
+    }
+
+    // Plays the confirm sound effect
+    public void Play_Confirm_SFX()
+    {
+        if (persistentConfirmAudio != null)
+        {
+            AudioSource audioSource = persistentConfirmAudio.GetComponent<AudioSource>();
+            if (audioSource != null) // Checks if the AudioSource component exists
+            {
+                audioSource.Play(); // Plays the confirm sound effect
             }
         }
     }
@@ -45,6 +62,19 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
             else
             {
                 Destroy(buttonClickAudio); // Destroys the duplicate buttonClickAudio GameObject if an instance already exists
+            }
+        }
+
+         if (confirmAudio != null)
+        {
+            if(persistentConfirmAudio == null)
+            {
+                persistentConfirmAudio = confirmAudio;
+                DontDestroyOnLoad(confirmAudio);
+            }
+            else
+            {
+                Destroy(confirmAudio);
             }
         }
     }
@@ -90,6 +120,12 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
         //{
             pauseOverlay.SetActive(true);
             Time.timeScale = 0; // Pause the game by setting the time scale to 0
+
+            if(backgroundMusic != null)
+            {
+                backgroundMusic.Pause();
+            }
+
             print("Pause menu opened. Game frozen"); // For debugging purposes
         //}
     }
@@ -99,6 +135,12 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
     {
         pauseOverlay.SetActive(false);
         Time.timeScale = 1; // Resume the game by setting the time scale back to 1
+
+        if(backgroundMusic != null)
+        {
+        backgroundMusic.UnPause();
+        }
+
         print("Pause menu closed. Game resumed"); // For debugging: print a message when the pause menu is closed
     }
 
@@ -118,6 +160,20 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
     public void GameOver_Open_UI()
     {
         Time.timeScale = 0; 
+
+        // Stops background music
+        if(backgroundMusic != null)
+        {
+            backgroundMusic.Stop(); // Stops background music when player loses
+        }
+
+        // Plays Game Over sound 
+        if(gameOverAudio != null)
+        {
+            gameOverAudio.Play();
+        }
+
+        // Shows Game Over Overlay
         gameOverOverlay.SetActive(true);
     }
 

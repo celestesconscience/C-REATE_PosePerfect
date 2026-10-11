@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using System.Collections;
+using JetBrains.Annotations;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -19,6 +21,12 @@ public class PlayerScript : MonoBehaviour
     public float[] locations = new float[3]; // In inspector you can change where you want the player to be
     public int currentLocation; // Change from 0-2 in inspector to start left(0) middle(1) right(2)
     private int changeAMT = 1; // The amount by which the player's location changes when moving lanes
+
+    // Player Sound Effects
+    public AudioSource movementAudio;
+    public AudioSource poseChangeAudio;
+    public AudioSource successSparkleAudio;
+    public AudioSource failSmokeAudio;
 
     //TEMPORARY
     public GameObject winObject, failObject;
@@ -81,13 +89,34 @@ public class PlayerScript : MonoBehaviour
         {   
             //print("SAME POSE");//TEST
             winObject.SetActive(true);
+
+            // Plays success sparkle sound effect
+            if(successSparkleAudio != null)
+            {
+                successSparkleAudio.Play();
+            }
+
             GameManager.instance.score += 100;//Adds 100 to the score
         }
         else
         {
-            menu.GameOver_Open_UI();
-        }
+            failObject.SetActive(true);
 
+            // Plays fail smoke sound effect
+            if(failSmokeAudio != null)
+            {
+                failSmokeAudio.Play();
+            }
+
+            StartCoroutine(DelayedGameOver());
+        }
+    }
+
+    // Delayed Game Over (so animation can play even with Game Over UI)
+    IEnumerator DelayedGameOver()
+    {
+        yield return new WaitForSeconds(1f);
+        menu.GameOver_Open_UI();
     }
 
     void OnTriggerExit2D(Collider2D other)//detects if wall exits the player
@@ -105,6 +134,12 @@ public class PlayerScript : MonoBehaviour
         }
 
         spriteRenderer.sprite = poses[startingPose]; // Sets the sprite of the player character to the new pose
+
+        // Audio for when player cycles poses
+        if(poseChangeAudio != null)
+        {
+            poseChangeAudio.Play();
+        }
 
         switch (startingPose) // What value does this variable currently have?
         {
@@ -157,5 +192,11 @@ public class PlayerScript : MonoBehaviour
 
             // Actually moves the player character game object to the new location based on the current location index
             transform.position = new Vector2(locations[currentLocation], transform.position.y);
+
+            // Audio for when player moves lanes
+            if (movementAudio != null)
+            {
+                movementAudio.Play();
+            }
     }
 }
