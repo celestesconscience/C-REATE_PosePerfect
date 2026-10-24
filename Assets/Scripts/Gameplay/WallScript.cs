@@ -2,17 +2,17 @@ using UnityEngine;
 
 public class WallScript : MonoBehaviour
 {
-    
-
     public Sprite[] walls;//all possible walls
     private SpriteRenderer spriteRenderer;
     public int wallType;//what wall it should be
+    private Animator anim;//gets animator component to control wall speed
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         wallType = Random.Range(0,5);//returns a number from 0-4
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -20,6 +20,8 @@ public class WallScript : MonoBehaviour
     {
         
         spriteRenderer.sprite = walls[wallType];
+
+        anim.SetFloat("Speed", GameManager.instance.wallSpeed);//changes speed of wall
 
         switch (wallType)//makes the sprite into whatever walltype it is
         {

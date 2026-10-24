@@ -44,7 +44,7 @@ public class WallSpawner : MonoBehaviour
 
         GameObject wall = Instantiate(wallPrefab, spawnPosition, Quaternion.identity);//spawns wall
 
-        yield return new WaitForSeconds(spawnFreq);//waits spawnFreq amount of seconds before starting again
+        yield return new WaitForSeconds(GameManager.instance.wallSpawnSpeed);//waits certain amount of seconds before starting again
         StartCoroutine("SpawnWalls");
     }
 }

@@ -57,7 +57,7 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
             if(persistentButtonClickAudio == null) // Checks if the static variable is null, meaning no instance exists yet
             {
                 persistentButtonClickAudio = buttonClickAudio; // Assigns the buttonClickAudio GameObject to the static variable
-                DontDestroyOnLoad(buttonClickAudio); // Makes the buttonClickAudio GameObject persist across scene loads
+                //DontDestroyOnLoad(buttonClickAudio); // Makes the buttonClickAudio GameObject persist across scene loads
             }
             else
             {
@@ -70,7 +70,7 @@ public class MenuManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
             if(persistentConfirmAudio == null)
             {
                 persistentConfirmAudio = confirmAudio;
-                DontDestroyOnLoad(confirmAudio);
+                //DontDestroyOnLoad(confirmAudio);
             }
             else
             {

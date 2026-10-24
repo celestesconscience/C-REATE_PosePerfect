@@ -28,7 +28,7 @@ public class PlayerScript : MonoBehaviour
     public AudioSource successSparkleAudio;
     public AudioSource failSmokeAudio;
 
-    //TEMPORARY
+    //WIN & LOSE Objects
     public GameObject winObject, failObject;
 
     // Start is called once when the game starts
@@ -52,7 +52,7 @@ public class PlayerScript : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         // Checks if the button was pressed
         if(Time.timeScale != 0){//Makes it so button wont work when time is paused
         pressed = buttonPress.WasPerformedThisFrame();
@@ -96,12 +96,14 @@ public class PlayerScript : MonoBehaviour
                 successSparkleAudio.Play();
             }
 
-            GameManager.instance.score += 100;//Adds 100 to the score
+            GameManager.instance.AddScore();
+            //GameManager.instance.score += 100;//Adds 100 to the score
         }
         else
         {
+            spriteRenderer.color = new Color(255f, 255f, 255f, 0f);
             failObject.SetActive(true);
-
+            
             // Plays fail smoke sound effect
             if(failSmokeAudio != null)
             {
@@ -115,7 +117,7 @@ public class PlayerScript : MonoBehaviour
     // Delayed Game Over (so animation can play even with Game Over UI)
     IEnumerator DelayedGameOver()
     {
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(1.5f);
         menu.GameOver_Open_UI();
     }
 
