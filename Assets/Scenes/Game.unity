@@ -4600,10 +4600,10 @@ MonoBehaviour:
   - 0
   wallSpawnSpeed: 8
   wallEndSpawnSpeed: 4
-  wallSpawnScale: 0.25
+  wallSpawnScale: 0.2
   wallSpeed: 0.6
   wallEndSpeed: 1.2
-  wallScale: 0.04
+  wallScale: 0.03
 --- !u!4 &1572596186
 Transform:
   m_ObjectHideFlags: 0

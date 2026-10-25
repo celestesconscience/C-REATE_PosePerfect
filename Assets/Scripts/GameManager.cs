@@ -17,25 +17,34 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
     public float wallSpawnSpeed;
     public float wallEndSpawnSpeed;
     public float wallSpawnScale;
+    private float startWallSpawn;
 
     [Header("Wall Speed Settings")]
     public float wallSpeed;
     public float wallEndSpeed;
     public float wallScale;
+    private float startWallSpeed;
 
     //happens before start, only for important stuff
     void Awake()
+    {
+        //Singleton Pattern, allows it to persist across scenes
+        if (instance != null && instance != this)
         {
-            //Singleton Pattern, allows it to persist across scenes
-            if (instance != null && instance != this)
-            {
-                Destroy(gameObject);
-                return;
-            }
-            instance = this;
-
-            DontDestroyOnLoad(gameObject);
+            Destroy(gameObject);
+            return;
         }
+        instance = this;
+
+        DontDestroyOnLoad(gameObject);
+    }
+
+    void Start()
+    {
+        //keeps starting speed for reset
+        startWallSpawn = wallSpawnSpeed;
+        startWallSpeed = wallSpeed; 
+    }
 
     
     void Update()
@@ -44,6 +53,12 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
         if(score > highScore[0])
         {
             highScore[0] = score;
+        }
+
+        if(score == 0)//when reset go back to original speeds;
+        {
+            wallSpawnSpeed = startWallSpawn;
+            wallSpeed = startWallSpeed;
         }
     }
 
