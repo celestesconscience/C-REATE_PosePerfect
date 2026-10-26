@@ -84,8 +84,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 1a5382db20cd941b88d7afdfe477c1a7, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Sprite: {fileID: -8140036163375529567, guid: 6bcb6504390c449d5849395be93e520f, type: 3}
+  m_Color: {r: 1, g: 0.36078432, b: 0.5411765, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -155,7 +155,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.6, y: 5.6}
+    oldSize: {x: 5.8333335, y: 5.8333335}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -176,11 +176,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   walls:
-  - {fileID: 21300000, guid: 1a5382db20cd941b88d7afdfe477c1a7, type: 3}
-  - {fileID: 21300000, guid: 8550d7db214204ebcbdf2d2c50a686cf, type: 3}
-  - {fileID: 21300000, guid: 796b63eaef22e47daa5043c349866c70, type: 3}
-  - {fileID: 21300000, guid: 1a8555e8806d14d73a48333cabf88273, type: 3}
-  - {fileID: 21300000, guid: 370dedd642dd34a6da8aae07a20af99c, type: 3}
+  - {fileID: 0}
+  - {fileID: -1877689280401534173, guid: 6bcb6504390c449d5849395be93e520f, type: 3}
+  - {fileID: -8140036163375529567, guid: 6bcb6504390c449d5849395be93e520f, type: 3}
+  - {fileID: 5831345900199859252, guid: 6bcb6504390c449d5849395be93e520f, type: 3}
+  - {fileID: -5510208376263212832, guid: 6bcb6504390c449d5849395be93e520f, type: 3}
+  - {fileID: 6666108761514168681, guid: 6bcb6504390c449d5849395be93e520f, type: 3}
+  - {fileID: 6426482799633681665, guid: 6bcb6504390c449d5849395be93e520f, type: 3}
+  - {fileID: 6510113176806185954, guid: 6bcb6504390c449d5849395be93e520f, type: 3}
+  - {fileID: 2017374347624248392, guid: 6bcb6504390c449d5849395be93e520f, type: 3}
+  - {fileID: -3191170049323639344, guid: 6bcb6504390c449d5849395be93e520f, type: 3}
+  - {fileID: 437974266962794714, guid: 6bcb6504390c449d5849395be93e520f, type: 3}
+  currentWalls:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   wallType: 2
 --- !u!1 &3346019513873013248
 GameObject:

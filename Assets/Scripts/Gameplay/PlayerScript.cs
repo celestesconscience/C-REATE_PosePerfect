@@ -13,9 +13,10 @@ public class PlayerScript : MonoBehaviour
     private bool pressed, held; // Stores the state of the button press and hold actions
 
     // Player Changing Poses Variables;
-    public Sprite[] poses; // Leave 0 empty; array of poses for the player character
+    public Sprite[] poses; // array of poses for the player character
+    public Sprite[] currentPoses = new Sprite [5];
     private SpriteRenderer spriteRenderer; // Reference to the sprite renderer component of the player character
-    private int startingPose = 1; // The initial pose of the player character
+    private int startingPose = 0; // The initial pose of the player character
 
     // Player Movement Variables
     public float[] locations = new float[3]; // In inspector you can change where you want the player to be
@@ -40,7 +41,7 @@ public class PlayerScript : MonoBehaviour
 
         // Gets the spriteRenderer from the Inspector and Changes Pose to Starting Pose
         spriteRenderer = GetComponent<SpriteRenderer>(); // Gets the sprite renderer component from the player character
-        spriteRenderer.sprite = poses[startingPose]; // Sets the initial pose of the player character
+        spriteRenderer.sprite = poses[GameManager.instance.randomWallNums[0]]; // Sets the initial pose of the player character
         gameObject.tag = "Pose_1"; // Sets the initial tag of the player character based on the starting pose
 
         // Moves the Player to the Starting Location
@@ -58,6 +59,14 @@ public class PlayerScript : MonoBehaviour
         pressed = buttonPress.WasPerformedThisFrame();
         held = buttonHold.WasPerformedThisFrame();
         }
+
+        currentPoses[0] = poses[GameManager.instance.randomWallNums[0]];
+        currentPoses[1] = poses[GameManager.instance.randomWallNums[1]];
+        currentPoses[2] = poses[GameManager.instance.randomWallNums[2]];
+        currentPoses[3] = poses[GameManager.instance.randomWallNums[3]];
+        currentPoses[4] = poses[GameManager.instance.randomWallNums[4]];
+
+        spriteRenderer.sprite = currentPoses[startingPose];
 
         // Debug to see if press and hold is working as intended
         // if(pressed == true)
@@ -101,7 +110,7 @@ public class PlayerScript : MonoBehaviour
         }
         else
         {
-            spriteRenderer.color = new Color(255f, 255f, 255f, 0f);
+            spriteRenderer.color = new Color32(255, 255, 255, 0);
             failObject.SetActive(true);
             
             // Plays fail smoke sound effect
@@ -130,12 +139,12 @@ public class PlayerScript : MonoBehaviour
     private void poseChange() // Method for changing the player's pose when the button is pressed
     {
         startingPose++; // Increments the starting pose of the player character (e.g., startingPose = 1 ++ -> startingPose = 2)
-        if(startingPose == poses.Length) // Checks if the player has gone past the last pose in array
+        if(startingPose == currentPoses.Length) // Checks if the player has gone past the last pose in array
         {
-            startingPose = 1; // Resets the starting pose to the first pose in the array (index 1, not 0)
+            startingPose = 0; // Resets the starting pose to the first pose in the array (index 1, not 0)
         }
 
-        spriteRenderer.sprite = poses[startingPose]; // Sets the sprite of the player character to the new pose
+        //spriteRenderer.sprite = currentPoses[startingPose]; // Sets the sprite of the player character to the new pose
 
         // Audio for when player cycles poses
         if(poseChangeAudio != null)
@@ -145,19 +154,19 @@ public class PlayerScript : MonoBehaviour
 
         switch (startingPose) // What value does this variable currently have?
         {
-            case 1: // If the starting pose is 1
+            case 0: // If the starting pose is 1
                 gameObject.tag = "Pose_1"; // Sets the tag of the player character to "Pose_1"
                 break;
-            case 2: // If the starting pose is 2
+            case 1: // If the starting pose is 2
                 gameObject.tag = "Pose_2"; // Sets the tag of the player character to "Pose_2"
                 break;
-            case 3: // If the starting pose is 3
+            case 2: // If the starting pose is 3
                 gameObject.tag = "Pose_3"; // Sets the tag of the player character to "Pose_3"
                 break;
-            case 4: // If the starting pose is 4
+            case 3: // If the starting pose is 4
                 gameObject.tag = "Pose_4"; // Sets the tag of the player character to "Pose_4"
                 break;
-            case 5: // If the starting pose is 5
+            case 4: // If the starting pose is 5
                 gameObject.tag = "Pose_5"; // Sets the tag of the player character to "Pose_5"
                 break;
         }

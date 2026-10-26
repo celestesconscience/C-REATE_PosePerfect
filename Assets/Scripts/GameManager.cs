@@ -13,17 +13,25 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
 
     public float[] highScore = new float [5];
 
+    public int[] randomWallNums = new int [5];
+
+    public int randomColor, prevColor, numColors;
+
+    public int currentNumPoses = 10;
+
     [Header("Wall Spawn Speed Settings")]
-    public float wallSpawnSpeed;
-    public float wallEndSpawnSpeed;
-    public float wallSpawnScale;
+    public float wallSpawnSpeed;//currently 8
+    public float wallEndSpawnSpeed;//currently 4
+    public float wallSpawnScale;//currently .2
     private float startWallSpawn;
 
     [Header("Wall Speed Settings")]
-    public float wallSpeed;
-    public float wallEndSpeed;
-    public float wallScale;
+    public float wallSpeed;//currently .6
+    public float wallEndSpeed;//currently 1.2
+    public float wallScale;//currently .3
     private float startWallSpeed;
+
+
 
     //happens before start, only for important stuff
     void Awake()
@@ -37,6 +45,8 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
         instance = this;
 
         DontDestroyOnLoad(gameObject);
+
+        randomWallNumGenerator();
     }
 
     void Start()
@@ -44,6 +54,11 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
         //keeps starting speed for reset
         startWallSpawn = wallSpawnSpeed;
         startWallSpeed = wallSpeed; 
+
+        randomColor = Random.Range(1 , numColors + 1);
+        prevColor = randomColor;
+
+        
     }
 
     
@@ -60,11 +75,24 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
             wallSpawnSpeed = startWallSpawn;
             wallSpeed = startWallSpeed;
         }
+
+        //changes the poses and color every that num walls
+        if(wallCounter == 10)
+        {   
+            while(randomColor == prevColor){
+                randomColor = Random.Range(0 , numColors);
+            }
+            prevColor = randomColor;
+
+            randomWallNumGenerator();
+            wallCounter = 0;
+        }
     }
 
     public void AddScore()
     {
         score += scoreAddAmt;
+        wallCounter ++;
 
         //DECREASES SPAWN SPEED OF WALL GRADUALLY AS SCORE INCREASES
         if(wallSpawnSpeed > wallEndSpawnSpeed)
@@ -87,5 +115,30 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
             wallSpeed = wallEndSpeed;
         }
     }
-    
-}
+
+    public void randomWallNumGenerator()
+    {
+        int count = 0;
+
+        while(count < 5)//5 different numbers
+        {
+            int randomNum = Random.Range(1, currentNumPoses+1);//generates random number 1-10
+            bool isDuplicate = false;
+
+            for(int x = 0; x < count; x++)
+            {
+                if (randomWallNums[x] == randomNum)
+                {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+
+            if (!isDuplicate)
+            {
+                randomWallNums[count] = randomNum;
+                count++;
+            }
+        }
+    }
+}   
