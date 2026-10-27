@@ -304,7 +304,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -342,7 +342,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -383,12 +383,12 @@ TextureImporter:
       name: violet_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 935
-        width: 14
-        height: 37
+        x: 0
+        y: 900
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -405,12 +405,12 @@ TextureImporter:
       name: violet_1
       rect:
         serializedVersion: 2
-        x: 191
-        y: 946
-        width: 22
-        height: 48
+        x: 160
+        y: 900
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -427,12 +427,12 @@ TextureImporter:
       name: violet_2
       rect:
         serializedVersion: 2
-        x: 228
-        y: 935
-        width: 10
-        height: 26
+        x: 320
+        y: 900
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -449,12 +449,12 @@ TextureImporter:
       name: violet_3
       rect:
         serializedVersion: 2
-        x: 348
-        y: 955
-        width: 28
-        height: 59
+        x: 480
+        y: 900
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -471,12 +471,12 @@ TextureImporter:
       name: violet_4
       rect:
         serializedVersion: 2
-        x: 386
-        y: 946
-        width: 14
-        height: 33
+        x: 640
+        y: 900
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -493,12 +493,12 @@ TextureImporter:
       name: violet_5
       rect:
         serializedVersion: 2
-        x: 410
-        y: 935
-        width: 10
-        height: 26
+        x: 800
+        y: 900
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -515,12 +515,12 @@ TextureImporter:
       name: violet_6
       rect:
         serializedVersion: 2
-        x: 504
-        y: 959
-        width: 36
-        height: 56
+        x: 0
+        y: 776
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -537,12 +537,12 @@ TextureImporter:
       name: violet_7
       rect:
         serializedVersion: 2
-        x: 544
-        y: 955
-        width: 18
-        height: 40
+        x: 160
+        y: 776
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -559,12 +559,12 @@ TextureImporter:
       name: violet_8
       rect:
         serializedVersion: 2
-        x: 568
-        y: 946
-        width: 14
-        height: 33
+        x: 320
+        y: 776
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -581,12 +581,12 @@ TextureImporter:
       name: violet_9
       rect:
         serializedVersion: 2
-        x: 590
-        y: 935
-        width: 8
-        height: 37
+        x: 480
+        y: 776
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -603,12 +603,12 @@ TextureImporter:
       name: violet_10
       rect:
         serializedVersion: 2
-        x: 662
-        y: 960
-        width: 40
-        height: 54
+        x: 640
+        y: 776
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -625,12 +625,12 @@ TextureImporter:
       name: violet_11
       rect:
         serializedVersion: 2
-        x: 702
-        y: 959
-        width: 22
-        height: 38
+        x: 800
+        y: 776
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -647,12 +647,12 @@ TextureImporter:
       name: violet_12
       rect:
         serializedVersion: 2
-        x: 726
-        y: 955
-        width: 18
-        height: 40
+        x: 0
+        y: 652
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -669,12 +669,12 @@ TextureImporter:
       name: violet_13
       rect:
         serializedVersion: 2
-        x: 748
-        y: 947
-        width: 12
-        height: 47
+        x: 160
+        y: 652
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -691,12 +691,12 @@ TextureImporter:
       name: violet_14
       rect:
         serializedVersion: 2
-        x: 766
-        y: 935
-        width: 8
-        height: 36
+        x: 320
+        y: 652
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -713,12 +713,12 @@ TextureImporter:
       name: violet_15
       rect:
         serializedVersion: 2
-        x: 820
-        y: 959
-        width: 65
-        height: 52
+        x: 480
+        y: 652
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -735,12 +735,12 @@ TextureImporter:
       name: violet_16
       rect:
         serializedVersion: 2
-        x: 884
-        y: 959
-        width: 22
-        height: 38
+        x: 640
+        y: 652
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -757,12 +757,12 @@ TextureImporter:
       name: violet_17
       rect:
         serializedVersion: 2
-        x: 907
-        y: 955
-        width: 14
-        height: 59
+        x: 800
+        y: 652
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -779,12 +779,12 @@ TextureImporter:
       name: violet_18
       rect:
         serializedVersion: 2
-        x: 924
-        y: 946
-        width: 12
-        height: 48
+        x: 0
+        y: 528
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -801,12 +801,12 @@ TextureImporter:
       name: violet_19
       rect:
         serializedVersion: 2
-        x: 20
-        y: 829
-        width: 87
-        height: 50
+        x: 160
+        y: 528
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -823,12 +823,12 @@ TextureImporter:
       name: violet_20
       rect:
         serializedVersion: 2
-        x: 105
-        y: 831
-        width: 18
-        height: 56
+        x: 320
+        y: 528
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -845,12 +845,12 @@ TextureImporter:
       name: violet_21
       rect:
         serializedVersion: 2
-        x: 123
-        y: 827
-        width: 14
-        height: 59
+        x: 480
+        y: 528
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -867,12 +867,12 @@ TextureImporter:
       name: violet_22
       rect:
         serializedVersion: 2
-        x: 180
-        y: 824
-        width: 88
-        height: 48
+        x: 640
+        y: 528
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -889,12 +889,12 @@ TextureImporter:
       name: violet_23
       rect:
         serializedVersion: 2
-        x: 265
-        y: 831
-        width: 34
-        height: 56
+        x: 800
+        y: 528
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -911,12 +911,12 @@ TextureImporter:
       name: violet_24
       rect:
         serializedVersion: 2
-        x: 340
-        y: 818
-        width: 119
-        height: 68
+        x: 0
+        y: 404
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -933,12 +933,12 @@ TextureImporter:
       name: violet_25
       rect:
         serializedVersion: 2
-        x: 490
-        y: 807
-        width: 98
-        height: 50
+        x: 160
+        y: 404
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -955,12 +955,12 @@ TextureImporter:
       name: violet_26
       rect:
         serializedVersion: 2
-        x: 584
-        y: 829
-        width: 36
-        height: 54
+        x: 320
+        y: 404
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -977,12 +977,12 @@ TextureImporter:
       name: violet_27
       rect:
         serializedVersion: 2
-        x: 656
-        y: 807
-        width: 92
-        height: 50
+        x: 480
+        y: 404
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -999,12 +999,12 @@ TextureImporter:
       name: violet_28
       rect:
         serializedVersion: 2
-        x: 744
-        y: 824
-        width: 36
-        height: 55
+        x: 640
+        y: 404
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1021,12 +1021,12 @@ TextureImporter:
       name: violet_29
       rect:
         serializedVersion: 2
-        x: 824
-        y: 807
-        width: 116
-        height: 65
+        x: 800
+        y: 404
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1043,12 +1043,12 @@ TextureImporter:
       name: violet_30
       rect:
         serializedVersion: 2
-        x: 22
-        y: 689
-        width: 40
-        height: 50
+        x: 0
+        y: 280
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1065,12 +1065,12 @@ TextureImporter:
       name: violet_31
       rect:
         serializedVersion: 2
-        x: 62
-        y: 679
-        width: 78
-        height: 59
+        x: 160
+        y: 280
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1087,12 +1087,12 @@ TextureImporter:
       name: violet_32
       rect:
         serializedVersion: 2
-        x: 180
-        y: 686
-        width: 65
-        height: 48
+        x: 320
+        y: 280
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1109,12 +1109,12 @@ TextureImporter:
       name: violet_33
       rect:
         serializedVersion: 2
-        x: 244
-        y: 679
-        width: 59
-        height: 50
+        x: 480
+        y: 280
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1131,12 +1131,12 @@ TextureImporter:
       name: violet_34
       rect:
         serializedVersion: 2
-        x: 340
-        y: 682
-        width: 87
-        height: 48
+        x: 640
+        y: 280
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1153,12 +1153,12 @@ TextureImporter:
       name: violet_35
       rect:
         serializedVersion: 2
-        x: 425
-        y: 685
-        width: 36
-        height: 56
+        x: 800
+        y: 280
+        width: 160
+        height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1171,1199 +1171,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: violet_36
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 682
-        width: 88
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7762c716d713a7fc0800000000000000
-      internalID: -3496427746123569545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_37
-      rect:
-        serializedVersion: 2
-        x: 585
-        y: 689
-        width: 34
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27a482a5e6581b960800000000000000
-      internalID: 7616015153865706098
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_38
-      rect:
-        serializedVersion: 2
-        x: 660
-        y: 682
-        width: 119
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0f6544f8aa632240800000000000000
-      internalID: 4765770104573357834
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_39
-      rect:
-        serializedVersion: 2
-        x: 820
-        y: 682
-        width: 120
-        height: 52
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d95aa59e6b97d8f0800000000000000
-      internalID: -515772733050955310
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_40
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 554
-        width: 120
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b82c15a10bd917070800000000000000
-      internalID: 8102430584297603723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_41
-      rect:
-        serializedVersion: 2
-        x: 180
-        y: 554
-        width: 120
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a570862e42ed37700800000000000000
-      internalID: 537017030585878362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_42
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 554
-        width: 120
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e48008b68e3e4cf0800000000000000
-      internalID: -266206579634699034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_43
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 554
-        width: 120
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1eb598170bcf29370800000000000000
-      internalID: 8327996495710739425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_44
-      rect:
-        serializedVersion: 2
-        x: 660
-        y: 554
-        width: 120
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9adf05d6052884dd0800000000000000
-      internalID: -2501606311061291607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_45
-      rect:
-        serializedVersion: 2
-        x: 822
-        y: 554
-        width: 118
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3d048f2d12ed6ce10800000000000000
-      internalID: 2217704103381319891
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_46
-      rect:
-        serializedVersion: 2
-        x: 24
-        y: 430
-        width: 36
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd43f4158870fc970800000000000000
-      internalID: 8777242480829478107
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_47
-      rect:
-        serializedVersion: 2
-        x: 61
-        y: 426
-        width: 79
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4070de1d4183c1380800000000000000
-      internalID: -8999256293320620284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_48
-      rect:
-        serializedVersion: 2
-        x: 186
-        y: 432
-        width: 32
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 938715a3cc1960960800000000000000
-      internalID: 7567896530180470841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_49
-      rect:
-        serializedVersion: 2
-        x: 222
-        y: 430
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 21c33eec7497f7610800000000000000
-      internalID: 1621147740197305362
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_50
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 428
-        width: 24
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: adfee9885428dae70800000000000000
-      internalID: 9128095254906335194
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_51
-      rect:
-        serializedVersion: 2
-        x: 264
-        y: 426
-        width: 36
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 24486ace3c1223660800000000000000
-      internalID: 7363985466076857410
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_52
-      rect:
-        serializedVersion: 2
-        x: 348
-        y: 434
-        width: 28
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94f8a6913d041d8d0800000000000000
-      internalID: -2823404215975899319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_53
-      rect:
-        serializedVersion: 2
-        x: 383
-        y: 432
-        width: 20
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 078de5dff380eeb20800000000000000
-      internalID: 3165476659014850672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_54
-      rect:
-        serializedVersion: 2
-        x: 404
-        y: 430
-        width: 22
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5690a63ef391830a0800000000000000
-      internalID: -6901738666756273819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_55
-      rect:
-        serializedVersion: 2
-        x: 425
-        y: 426
-        width: 35
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9b47e743636d843d0800000000000000
-      internalID: -3222090005086309191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_56
-      rect:
-        serializedVersion: 2
-        x: 509
-        y: 435
-        width: 25
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a269e200504788d20800000000000000
-      internalID: 3280999893366117930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_57
-      rect:
-        serializedVersion: 2
-        x: 544
-        y: 434
-        width: 18
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 895fa4fe444153fa0800000000000000
-      internalID: -5821724657001499240
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_58
-      rect:
-        serializedVersion: 2
-        x: 565
-        y: 432
-        width: 20
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cade7a561e7c04250800000000000000
-      internalID: 5926956880506645932
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_59
-      rect:
-        serializedVersion: 2
-        x: 585
-        y: 428
-        width: 34
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91f117611dbc3d040800000000000000
-      internalID: 4671301337398451993
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_60
-      rect:
-        serializedVersion: 2
-        x: 671
-        y: 437
-        width: 22
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a403e339f37a631c0800000000000000
-      internalID: -4524244884151979958
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_61
-      rect:
-        serializedVersion: 2
-        x: 705
-        y: 435
-        width: 16
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 59b81ceecf368e520800000000000000
-      internalID: 2731543111988775829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_62
-      rect:
-        serializedVersion: 2
-        x: 726
-        y: 434
-        width: 18
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9459e29a6f2d7c350800000000000000
-      internalID: 6037025782355629385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_63
-      rect:
-        serializedVersion: 2
-        x: 746
-        y: 432
-        width: 16
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3823df9114f5fdfb0800000000000000
-      internalID: -4620869959445302653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_64
-      rect:
-        serializedVersion: 2
-        x: 761
-        y: 430
-        width: 18
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 775f5106ca0b68bc0800000000000000
-      internalID: -3781140582738037385
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_65
-      rect:
-        serializedVersion: 2
-        x: 833
-        y: 439
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0bfadb1d742d8ba20800000000000000
-      internalID: 3078441551211114416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_66
-      rect:
-        serializedVersion: 2
-        x: 866
-        y: 437
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 089928349b8d4a580800000000000000
-      internalID: -8816683880271406720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_67
-      rect:
-        serializedVersion: 2
-        x: 887
-        y: 435
-        width: 16
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b509fa8fa743bdce0800000000000000
-      internalID: -1379451158096015269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_68
-      rect:
-        serializedVersion: 2
-        x: 907
-        y: 434
-        width: 14
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9a8d6ee831a8e2200800000000000000
-      internalID: 157214853611051177
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_69
-      rect:
-        serializedVersion: 2
-        x: 922
-        y: 432
-        width: 16
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e3548cf06fd422560800000000000000
-      internalID: 7287472866260960574
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_70
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 313
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7640478d241501c30800000000000000
-      internalID: 4328048589444220007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_71
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 311
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eddc43bcd33075d00800000000000000
-      internalID: 961240609404014046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_72
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 309
-        width: 14
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9e1a30da66c256030800000000000000
-      internalID: 3487242305969299945
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_73
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 308
-        width: 12
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a8cce1fd6e2548870800000000000000
-      internalID: 8684157133016452234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_74
-      rect:
-        serializedVersion: 2
-        x: 123
-        y: 306
-        width: 14
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31d009fcd12a1ded0800000000000000
-      internalID: -2390951678236947181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_75
-      rect:
-        serializedVersion: 2
-        x: 197
-        y: 315
-        width: 9
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e809e9a8c78962260800000000000000
-      internalID: 7072507925500956814
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_76
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 313
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 140c5e247d93cec80800000000000000
-      internalID: -8292189217192820671
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_77
-      rect:
-        serializedVersion: 2
-        x: 249
-        y: 311
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ea757c4b049fb73a0800000000000000
-      internalID: -6666460767085701202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_78
-      rect:
-        serializedVersion: 2
-        x: 268
-        y: 310
-        width: 12
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 085174fbbf6a949a0800000000000000
-      internalID: -6248279407823743616
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_79
-      rect:
-        serializedVersion: 2
-        x: 284
-        y: 307
-        width: 12
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ad65864ac4b62cc50800000000000000
-      internalID: 6684022773891225306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_80
-      rect:
-        serializedVersion: 2
-        x: 389
-        y: 315
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dada44b913b3330e0800000000000000
-      internalID: -2291422701157044819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_81
-      rect:
-        serializedVersion: 2
-        x: 410
-        y: 313
-        width: 10
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 31002304819e36600800000000000000
-      internalID: 460467877287428115
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_82
-      rect:
-        serializedVersion: 2
-        x: 429
-        y: 312
-        width: 10
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ca70303b5f7adcdc0800000000000000
-      internalID: -3617050251996493908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_83
-      rect:
-        serializedVersion: 2
-        x: 444
-        y: 309
-        width: 12
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b07ad07ea99b09850800000000000000
-      internalID: 6381804746936526603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_84
-      rect:
-        serializedVersion: 2
-        x: 571
-        y: 315
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8e51dd728803ecbd0800000000000000
-      internalID: -2608093772858452504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_85
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 313
-        width: 8
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e9ffd58b4fa2964f0800000000000000
-      internalID: -835089025346961506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_86
-      rect:
-        serializedVersion: 2
-        x: 605
-        y: 311
-        width: 10
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0baab2305632b6470800000000000000
-      internalID: 8388837647659543216
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_87
-      rect:
-        serializedVersion: 2
-        x: 750
-        y: 315
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1a4dad55a78872f60800000000000000
-      internalID: 8009520521309508769
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_88
-      rect:
-        serializedVersion: 2
-        x: 766
-        y: 313
-        width: 8
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 516377d1cd4961450800000000000000
-      internalID: 6059194021781648917
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: violet_89
-      rect:
-        serializedVersion: 2
-        x: 926
-        y: 315
-        width: 8
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f1e3bc2417026e620800000000000000
-      internalID: 2802963488908721695
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b20e67aad85b642768c73b2b47c04011
     internalID: 0
     vertices: []
     indices: 
@@ -2371,7 +1183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":8.0},"gridSpriteSize":{"x":160.0,"y":124.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       violet_0: -8637307958777317588
       violet_1: -3756695647257517326
@@ -2403,65 +1217,11 @@ TextureImporter:
       violet_33: 2834842853193958265
       violet_34: -7725086310221944641
       violet_35: -7610886689563906682
-      violet_36: -3496427746123569545
-      violet_37: 7616015153865706098
-      violet_38: 4765770104573357834
-      violet_39: -515772733050955310
       violet_4: 3834981366710094643
-      violet_40: 8102430584297603723
-      violet_41: 537017030585878362
-      violet_42: -266206579634699034
-      violet_43: 8327996495710739425
-      violet_44: -2501606311061291607
-      violet_45: 2217704103381319891
-      violet_46: 8777242480829478107
-      violet_47: -8999256293320620284
-      violet_48: 7567896530180470841
-      violet_49: 1621147740197305362
       violet_5: -605739332801647099
-      violet_50: 9128095254906335194
-      violet_51: 7363985466076857410
-      violet_52: -2823404215975899319
-      violet_53: 3165476659014850672
-      violet_54: -6901738666756273819
-      violet_55: -3222090005086309191
-      violet_56: 3280999893366117930
-      violet_57: -5821724657001499240
-      violet_58: 5926956880506645932
-      violet_59: 4671301337398451993
       violet_6: 4890141615381563553
-      violet_60: -4524244884151979958
-      violet_61: 2731543111988775829
-      violet_62: 6037025782355629385
-      violet_63: -4620869959445302653
-      violet_64: -3781140582738037385
-      violet_65: 3078441551211114416
-      violet_66: -8816683880271406720
-      violet_67: -1379451158096015269
-      violet_68: 157214853611051177
-      violet_69: 7287472866260960574
       violet_7: -7845776066353735085
-      violet_70: 4328048589444220007
-      violet_71: 961240609404014046
-      violet_72: 3487242305969299945
-      violet_73: 8684157133016452234
-      violet_74: -2390951678236947181
-      violet_75: 7072507925500956814
-      violet_76: -8292189217192820671
-      violet_77: -6666460767085701202
-      violet_78: -6248279407823743616
-      violet_79: 6684022773891225306
       violet_8: -3003984571688513288
-      violet_80: -2291422701157044819
-      violet_81: 460467877287428115
-      violet_82: -3617050251996493908
-      violet_83: 6381804746936526603
-      violet_84: -2608093772858452504
-      violet_85: -835089025346961506
-      violet_86: 8388837647659543216
-      violet_87: 8009520521309508769
-      violet_88: 6059194021781648917
-      violet_89: 2802963488908721695
       violet_9: -3760232965562553488
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

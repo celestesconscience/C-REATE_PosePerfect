@@ -32,6 +32,10 @@ public class PlayerScript : MonoBehaviour
     //WIN & LOSE Objects
     public GameObject winObject, failObject;
 
+    // Encouragement Text System
+    public EncouragementTextScript encouragementText;
+    private int successfulMatches = 0;
+
     // Start is called once when the game starts
     void Start()
     {
@@ -107,6 +111,13 @@ public class PlayerScript : MonoBehaviour
 
             GameManager.instance.AddScore();
             //GameManager.instance.score += 100;//Adds 100 to the score
+
+            successfulMatches++;
+
+            if(successfulMatches % 5 == 0)
+            {
+                encouragementText.PlayRandomEncouragement();
+            }
         }
         else
         {
