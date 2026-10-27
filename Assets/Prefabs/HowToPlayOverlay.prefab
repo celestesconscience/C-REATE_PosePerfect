@@ -202,7 +202,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c378b5a872e154cd9a56013fd357f4a2, type: 3}
+  m_Sprite: {fileID: 7936782647019889953, guid: 72e7c26216c24459f9d17cc15dc12cb7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e298a211e88bc4807b6b53ed1e659786, type: 3}
+  m_Sprite: {fileID: 4448996948381498231, guid: 72e7c26216c24459f9d17cc15dc12cb7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 3850870296695172674}
   - component: {fileID: 8561645050058419930}
   m_Layer: 5
-  m_Name: CloseButton
+  m_Name: LetsPlayButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -758,7 +758,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3850870296695172674}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: Play_Confirm_SFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MenuManager, Assembly-CSharp
+        m_MethodName: Open_Game_Scene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1115760433409728300
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,7 +848,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0f54a9cbfc0894cb2b39fe1748ef1ee8, type: 3}
+  m_Sprite: {fileID: -866361368913341411, guid: 660c946f3926d417a88baf50b4413bf9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1252,7 +1276,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0f54a9cbfc0894cb2b39fe1748ef1ee8, type: 3}
+  m_Sprite: {fileID: 152222237666035214, guid: 660c946f3926d417a88baf50b4413bf9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1916,7 +1940,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c378b5a872e154cd9a56013fd357f4a2, type: 3}
+  m_Sprite: {fileID: -2782462359203565481, guid: 72e7c26216c24459f9d17cc15dc12cb7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2103,7 +2127,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0f54a9cbfc0894cb2b39fe1748ef1ee8, type: 3}
+  m_Sprite: {fileID: 3763311304365863663, guid: 660c946f3926d417a88baf50b4413bf9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

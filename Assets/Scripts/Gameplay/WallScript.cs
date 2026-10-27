@@ -32,19 +32,19 @@ public class WallScript : MonoBehaviour
             // case 0:
             //     spriteRenderer.color = new Color32(39, 136, 217, 0);//arcade blue
             //     break;
-            case 0:
+            case 1:
                 spriteRenderer.color = new Color32(255, 92, 138, 0);//punchy pink
                 break;
-            case 1:
+            case 2:
                 spriteRenderer.color = new Color32(255, 212, 59, 0);//game show yellow
                 break;
-            case 2:
+            case 3:
                 spriteRenderer.color = new Color32(255, 122, 48, 0);//orange lol
                 break;
-            case 3:
+            case 4:
                 spriteRenderer.color = new Color32(82, 201, 122, 0);//playful green
                 break;
-            case 4:
+            case 5:
                 spriteRenderer.color = new Color32(155, 109, 227, 0);//purple
                 break;
             // case 6:

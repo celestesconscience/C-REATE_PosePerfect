@@ -57,8 +57,6 @@ public class GameManager : MonoBehaviour // <-- MonoBehaviour allows Unity to at
 
         randomColor = Random.Range(1 , numColors + 1);
         prevColor = randomColor;
-
-        
     }
 
     
