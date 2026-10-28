@@ -114,7 +114,7 @@ public class PlayerScript : MonoBehaviour
 
             successfulMatches++;
 
-            if(successfulMatches % 5 == 0)
+            if(successfulMatches % 1 == 0)
             {
                 encouragementText.PlayRandomEncouragement();
             }

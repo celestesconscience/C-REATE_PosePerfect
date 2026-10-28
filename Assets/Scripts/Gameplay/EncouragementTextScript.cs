@@ -16,7 +16,7 @@ public class EncouragementTextScript : MonoBehaviour
 
     public void PlayRandomEncouragement()
 {
-    int randomText = Random.Range(0, 4);
+    int randomText = Random.Range(0, 7);
 
     switch (randomText)
     {
@@ -34,6 +34,22 @@ public class EncouragementTextScript : MonoBehaviour
 
         case 3:
             anim.Play("WowText", 0, 0f);
+            break;
+
+        case 4:
+            anim.Play("GreatText", 0, 0f);
+            break;
+        
+        case 5:
+            anim.Play("NiceText", 0, 0f);
+            break;
+    
+        case 6:
+            anim.Play("RadicalText", 0, 0f);
+            break;
+
+        case 7:
+            anim.Play("TubularText", 0, 0f);
             break;
     }
 

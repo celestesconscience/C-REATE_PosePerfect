@@ -558,9 +558,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 900
-        width: 255
-        height: 124
+        y: 896
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -579,10 +579,10 @@ TextureImporter:
       name: yellow_1
       rect:
         serializedVersion: 2
-        x: 255
-        y: 900
-        width: 255
-        height: 124
+        x: 256
+        y: 896
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -601,10 +601,10 @@ TextureImporter:
       name: yellow_2
       rect:
         serializedVersion: 2
-        x: 510
-        y: 900
-        width: 255
-        height: 124
+        x: 512
+        y: 896
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,10 +623,10 @@ TextureImporter:
       name: yellow_3
       rect:
         serializedVersion: 2
-        x: 765
-        y: 900
-        width: 255
-        height: 124
+        x: 768
+        y: 896
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -645,10 +645,10 @@ TextureImporter:
       name: yellow_4
       rect:
         serializedVersion: 2
-        x: 1020
-        y: 900
-        width: 255
-        height: 124
+        x: 1024
+        y: 896
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -667,10 +667,10 @@ TextureImporter:
       name: yellow_5
       rect:
         serializedVersion: 2
-        x: 1275
-        y: 900
-        width: 255
-        height: 124
+        x: 1280
+        y: 896
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,10 +689,10 @@ TextureImporter:
       name: yellow_6
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 900
-        width: 255
-        height: 124
+        x: 1536
+        y: 896
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -711,10 +711,10 @@ TextureImporter:
       name: yellow_7
       rect:
         serializedVersion: 2
-        x: 1785
-        y: 900
-        width: 255
-        height: 124
+        x: 1792
+        y: 896
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -734,9 +734,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 776
-        width: 255
-        height: 124
+        y: 768
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -755,10 +755,10 @@ TextureImporter:
       name: yellow_9
       rect:
         serializedVersion: 2
-        x: 255
-        y: 776
-        width: 255
-        height: 124
+        x: 256
+        y: 768
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -777,10 +777,10 @@ TextureImporter:
       name: yellow_10
       rect:
         serializedVersion: 2
-        x: 510
-        y: 776
-        width: 255
-        height: 124
+        x: 512
+        y: 768
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -799,10 +799,10 @@ TextureImporter:
       name: yellow_11
       rect:
         serializedVersion: 2
-        x: 765
-        y: 776
-        width: 255
-        height: 124
+        x: 768
+        y: 768
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -821,10 +821,10 @@ TextureImporter:
       name: yellow_12
       rect:
         serializedVersion: 2
-        x: 1020
-        y: 776
-        width: 255
-        height: 124
+        x: 1024
+        y: 768
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -843,10 +843,10 @@ TextureImporter:
       name: yellow_13
       rect:
         serializedVersion: 2
-        x: 1275
-        y: 776
-        width: 255
-        height: 124
+        x: 1280
+        y: 768
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -865,10 +865,10 @@ TextureImporter:
       name: yellow_14
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 776
-        width: 255
-        height: 124
+        x: 1536
+        y: 768
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -887,10 +887,10 @@ TextureImporter:
       name: yellow_15
       rect:
         serializedVersion: 2
-        x: 1785
-        y: 776
-        width: 255
-        height: 124
+        x: 1792
+        y: 768
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -910,9 +910,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 652
-        width: 255
-        height: 124
+        y: 640
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -931,10 +931,10 @@ TextureImporter:
       name: yellow_17
       rect:
         serializedVersion: 2
-        x: 255
-        y: 652
-        width: 255
-        height: 124
+        x: 256
+        y: 640
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -953,10 +953,10 @@ TextureImporter:
       name: yellow_18
       rect:
         serializedVersion: 2
-        x: 510
-        y: 652
-        width: 255
-        height: 124
+        x: 512
+        y: 640
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -975,10 +975,10 @@ TextureImporter:
       name: yellow_19
       rect:
         serializedVersion: 2
-        x: 765
-        y: 652
-        width: 255
-        height: 124
+        x: 768
+        y: 640
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -997,10 +997,10 @@ TextureImporter:
       name: yellow_20
       rect:
         serializedVersion: 2
-        x: 1020
-        y: 652
-        width: 255
-        height: 124
+        x: 1024
+        y: 640
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1019,10 +1019,10 @@ TextureImporter:
       name: yellow_21
       rect:
         serializedVersion: 2
-        x: 1275
-        y: 652
-        width: 255
-        height: 124
+        x: 1280
+        y: 640
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1041,10 +1041,10 @@ TextureImporter:
       name: yellow_22
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 652
-        width: 255
-        height: 124
+        x: 1536
+        y: 640
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1063,10 +1063,10 @@ TextureImporter:
       name: yellow_23
       rect:
         serializedVersion: 2
-        x: 1785
-        y: 652
-        width: 255
-        height: 124
+        x: 1792
+        y: 640
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1086,9 +1086,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 528
-        width: 255
-        height: 124
+        y: 512
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1107,10 +1107,10 @@ TextureImporter:
       name: yellow_25
       rect:
         serializedVersion: 2
-        x: 255
-        y: 528
-        width: 255
-        height: 124
+        x: 256
+        y: 512
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1129,10 +1129,10 @@ TextureImporter:
       name: yellow_26
       rect:
         serializedVersion: 2
-        x: 510
-        y: 528
-        width: 255
-        height: 124
+        x: 512
+        y: 512
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1151,10 +1151,10 @@ TextureImporter:
       name: yellow_27
       rect:
         serializedVersion: 2
-        x: 765
-        y: 528
-        width: 255
-        height: 124
+        x: 768
+        y: 512
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1173,10 +1173,10 @@ TextureImporter:
       name: yellow_28
       rect:
         serializedVersion: 2
-        x: 1020
-        y: 528
-        width: 255
-        height: 124
+        x: 1024
+        y: 512
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1195,10 +1195,10 @@ TextureImporter:
       name: yellow_29
       rect:
         serializedVersion: 2
-        x: 1275
-        y: 528
-        width: 255
-        height: 124
+        x: 1280
+        y: 512
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1217,10 +1217,10 @@ TextureImporter:
       name: yellow_30
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 528
-        width: 255
-        height: 124
+        x: 1536
+        y: 512
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1239,10 +1239,10 @@ TextureImporter:
       name: yellow_31
       rect:
         serializedVersion: 2
-        x: 1785
-        y: 528
-        width: 255
-        height: 124
+        x: 1792
+        y: 512
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1262,9 +1262,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 404
-        width: 255
-        height: 124
+        y: 384
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1283,10 +1283,10 @@ TextureImporter:
       name: yellow_33
       rect:
         serializedVersion: 2
-        x: 255
-        y: 404
-        width: 255
-        height: 124
+        x: 256
+        y: 384
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1305,10 +1305,10 @@ TextureImporter:
       name: yellow_34
       rect:
         serializedVersion: 2
-        x: 510
-        y: 404
-        width: 255
-        height: 124
+        x: 512
+        y: 384
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1327,10 +1327,10 @@ TextureImporter:
       name: yellow_35
       rect:
         serializedVersion: 2
-        x: 765
-        y: 404
-        width: 255
-        height: 124
+        x: 768
+        y: 384
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1349,10 +1349,10 @@ TextureImporter:
       name: yellow_36
       rect:
         serializedVersion: 2
-        x: 1020
-        y: 404
-        width: 255
-        height: 124
+        x: 1024
+        y: 384
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1371,10 +1371,10 @@ TextureImporter:
       name: yellow_37
       rect:
         serializedVersion: 2
-        x: 1275
-        y: 404
-        width: 255
-        height: 124
+        x: 1280
+        y: 384
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1393,10 +1393,10 @@ TextureImporter:
       name: yellow_38
       rect:
         serializedVersion: 2
-        x: 1530
-        y: 404
-        width: 255
-        height: 124
+        x: 1536
+        y: 384
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1415,10 +1415,10 @@ TextureImporter:
       name: yellow_39
       rect:
         serializedVersion: 2
-        x: 1785
-        y: 404
-        width: 255
-        height: 124
+        x: 1792
+        y: 384
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1438,9 +1438,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 280
-        width: 255
-        height: 124
+        y: 256
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1459,10 +1459,10 @@ TextureImporter:
       name: yellow_41
       rect:
         serializedVersion: 2
-        x: 255
-        y: 280
-        width: 255
-        height: 124
+        x: 256
+        y: 256
+        width: 256
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1491,7 +1491,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":8.0},"gridSpriteSize":{"x":255.0,"y":124.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":8.0},"gridSpriteSize":{"x":256.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       yellow_0: -8425141836431729757
       yellow_1: -2476096784960187872
