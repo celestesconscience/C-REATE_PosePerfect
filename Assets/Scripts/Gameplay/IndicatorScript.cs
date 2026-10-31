@@ -1,45 +1,77 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+// Controls the pose selection indicator displayed above the player's available poses.
 public class IndicatorScript : MonoBehaviour
 {
-    // Button Input Variables
+    // ==================== PLAYER INPUT ====================
+
+    // Input action used to cycle between poses.
     InputAction buttonPress;
+
+    // Tracks whether the tap action was performed during the current frame.
     private bool pressed;
 
-    public int arrowAbove;//used only for arrow indicator, leave 0 for circle, how much higher do you want the arrow instead of it being on the pose
 
-    // Indicator Location Variables
-    public GameObject[] Location; // put the location of the different poses here, it will go to position of the poses
-    private int startingPose = 0; // The initial location of the indicator
+    // ==================== INDICATOR SETTINGS ====================
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // Vertical offset for positioning the indicator above each pose.
+    // Use a positive value for an arrow above the pose, or 0 for a circle centered on it.
+    public int arrowAbove;
+
+
+    // ==================== INDICATOR POSITIONS ====================
+
+    // References to the five pose positions, assigned in the Inspector.
+    public GameObject[] Location;
+
+    // Index of the currently selected pose indicator (starts at 0).
+    private int startingPose = 0;
+
+
+    // ==================== INITIALIZATION ====================
+
     void Start()
     {
-        buttonPress = InputSystem.actions.FindAction("TapButton"); // Finds the Input Action for tapping the button
-        
-        transform.localPosition = new Vector2(Location[startingPose].transform.localPosition.x, Location[startingPose].transform.localPosition.y + arrowAbove); // Moves the indicator to the starting location
+        // Find the tap input action configured in Unity's Input System.
+        buttonPress = InputSystem.actions.FindAction("TapButton");
+
+        // Position the indicator at the first pose when the game starts.
+        transform.localPosition = new Vector2(
+            Location[startingPose].transform.localPosition.x,
+            Location[startingPose].transform.localPosition.y + arrowAbove
+        );
     }
 
-    // Update is called once per frame
+
+    // ==================== INDICATOR UPDATE ====================
+
     void Update()
-    {   
-        if(Time.timeScale != 0){
-        pressed = buttonPress.WasPerformedThisFrame(); // Checks if the button was pressed this frame
-        }
-        
-        // Changes the indicator's location when the button is pressed
-        if(pressed == true)
+    {
+        // Read player input only while the game is not paused.
+        if (Time.timeScale != 0)
         {
-            startingPose++; // Increments the starting location of the indicator
-            if(startingPose == Location.Length) // Checks if the indicator has gone past the last location
+            pressed = buttonPress.WasPerformedThisFrame();
+        }
+
+        // Move the indicator when the player cycles to the next pose.
+        if (pressed == true)
+        {
+            // Advance to the next pose index.
+            startingPose++;
+
+            // Return to the first pose after reaching the end of the array.
+            if (startingPose == Location.Length)
             {
-                startingPose = 0; // Resets the starting location to the first location
+                startingPose = 0;
             }
 
-        // Moves the indicator to the new location
-        transform.localPosition = new Vector2(Location[startingPose].transform.localPosition.x, Location[startingPose].transform.localPosition.y + arrowAbove); // Updates the position of the indicator based on the new starting location
-    }
+            // Update the indicator's position to match the selected pose.
+            // Apply the vertical offset to keep it above or centered on the pose.
+            transform.localPosition = new Vector2(
+                Location[startingPose].transform.localPosition.x,
+                Location[startingPose].transform.localPosition.y + arrowAbove
+            );
+        }
     }
 }
-

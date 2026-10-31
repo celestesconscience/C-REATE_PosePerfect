@@ -1,224 +1,287 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
-using JetBrains.Annotations;
 
+// Controls player poses, lane movement, wall collisions, and gameplay feedback.
 public class PlayerScript : MonoBehaviour
 {
-    //Allows player to interact with Menu Managers Game Over Overlay
+    // ==================== MENU MANAGER ====================
+
+    // Reference to the MenuManager for displaying the Game Over screen.
     public MenuManager menu;
 
-    // Button Input Variables
-    InputAction buttonPress, buttonHold; // References to the input actions for tapping and holding the button
-    private bool pressed, held; // Stores the state of the button press and hold actions
+    // ==================== PLAYER INPUT ====================
 
-    // Player Changing Poses Variables;
-    public Sprite[] poses; // array of poses for the player character
-    public Sprite[] currentPoses = new Sprite [5];
-    private SpriteRenderer spriteRenderer; // Reference to the sprite renderer component of the player character
-    private int startingPose = 0; // The initial pose of the player character
+    // Input actions for changing poses and moving between lanes.
+    InputAction buttonPress, buttonHold;
 
-    // Player Movement Variables
-    public float[] locations = new float[3]; // In inspector you can change where you want the player to be
-    public int currentLocation; // Change from 0-2 in inspector to start left(0) middle(1) right(2)
-    private int changeAMT = 1; // The amount by which the player's location changes when moving lanes
+    // Tracks whether each input action was performed during the current frame.
+    private bool pressed, held;
 
-    // Player Sound Effects
+    // ==================== PLAYER POSES ====================
+
+    // All available character pose sprites.
+    public Sprite[] poses;
+
+    // The five poses currently available during gameplay.
+    public Sprite[] currentPoses = new Sprite[5];
+
+    // Controls which sprite is displayed on the player.
+    private SpriteRenderer spriteRenderer;
+
+    // Index of the player's selected pose (0–4).
+    private int startingPose = 0;
+
+    // ==================== PLAYER MOVEMENT ====================
+
+    // X positions of the three lanes, configured in the Inspector.
+    public float[] locations = new float[3];
+
+    // Current lane index: 0 = left, 1 = middle, 2 = right.
+    public int currentLocation;
+
+    // Direction of lane movement: 1 = right, -1 = left.
+    private int changeAMT = 1;
+
+    // ==================== SOUND EFFECTS ====================
+
     public AudioSource movementAudio;
     public AudioSource poseChangeAudio;
     public AudioSource successSparkleAudio;
     public AudioSource failSmokeAudio;
 
-    //WIN & LOSE Objects
+    // ==================== COLLISION EFFECTS ====================
+
+    // Visual effects displayed after successful or failed wall matches.
     public GameObject winObject, failObject;
 
-    // Encouragement Text System
+    // ==================== ENCOURAGEMENT SYSTEM ====================
+
+    // Reference to the script responsible for playing encouragement animations.
     public EncouragementTextScript encouragementText;
+
+    // Tracks total successful matches, regardless of consecutive streaks.
     private int successfulMatches = 0;
 
-    // Start is called once when the game starts
+    // ==================== COMBO / STREAK SYSTEM ====================
+
+    // Tracks consecutive successful matches. Resets when a wall match fails.
+    private int comboCount = 0;
+
+    // ==================== INITIALIZATION ====================
+
     void Start()
     {
-        // Finds the Input Actions for tapping and holding the button
-        buttonPress = InputSystem.actions.FindAction("TapButton"); 
+        // Find the input actions configured in Unity's Input System.
+        buttonPress = InputSystem.actions.FindAction("TapButton");
         buttonHold = InputSystem.actions.FindAction("HoldButton");
 
-        // Gets the spriteRenderer from the Inspector and Changes Pose to Starting Pose
-        spriteRenderer = GetComponent<SpriteRenderer>(); // Gets the sprite renderer component from the player character
-        spriteRenderer.sprite = poses[GameManager.instance.randomWallNums[0]]; // Sets the initial pose of the player character
-        gameObject.tag = "Pose_1"; // Sets the initial tag of the player character based on the starting pose
+        // Get the player's SpriteRenderer and assign the initial pose.
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        spriteRenderer.sprite = poses[GameManager.instance.randomWallNums[0]];
 
-        // Moves the Player to the Starting Location
-        transform.position = new Vector2(locations[currentLocation], transform.position.y);
+        // Set the player's starting pose tag.
+        gameObject.tag = "Pose_1";
 
-        // Makes score 0 at beginning of the game
+        // Move the player to their starting lane.
+        transform.position = new Vector2(
+            locations[currentLocation],
+            transform.position.y
+        );
+
+        // Reset the score at the beginning of a new game.
         GameManager.instance.score = 0;
     }
 
-    // Update is called once per frame
+    // ==================== PLAYER UPDATE ====================
+
     void Update()
-    {   
-        // Checks if the button was pressed
-        if(Time.timeScale != 0){//Makes it so button wont work when time is paused
-        pressed = buttonPress.WasPerformedThisFrame();
-        held = buttonHold.WasPerformedThisFrame();
+    {
+        // Read player input only while the game is not paused.
+        if (Time.timeScale != 0)
+        {
+            pressed = buttonPress.WasPerformedThisFrame();
+            held = buttonHold.WasPerformedThisFrame();
         }
 
+        // Update the five available poses using the GameManager's selection.
         currentPoses[0] = poses[GameManager.instance.randomWallNums[0]];
         currentPoses[1] = poses[GameManager.instance.randomWallNums[1]];
         currentPoses[2] = poses[GameManager.instance.randomWallNums[2]];
         currentPoses[3] = poses[GameManager.instance.randomWallNums[3]];
         currentPoses[4] = poses[GameManager.instance.randomWallNums[4]];
 
+        // Display the sprite corresponding to the currently selected pose.
         spriteRenderer.sprite = currentPoses[startingPose];
 
-        // Debug to see if press and hold is working as intended
-        // if(pressed == true)
-        // {
-        //     print("tap");
-        // }
-        // if(held == true)
-        // {
-        //     print("held");
-        // }
-
-        // Changes the players poses when the button is pressed
-        if(pressed == true)
+        // Cycle to the next pose when the tap action is performed.
+        if (pressed == true)
         {
             poseChange();
         }
 
-        // Moves the player when the button is held
-        if(held == true)
+        // Move to the next lane when the hold action is performed.
+        if (held == true)
         {
             laneMovement();
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)//detects if wall tag is the same as player
+    // ==================== WALL COLLISIONS ====================
+
+    // Checks whether the player matches the approaching wall's pose and lane.
+    void OnTriggerEnter2D(Collider2D other)
     {
-        //makes sure same wall and correct position
-        if (other.CompareTag(gameObject.tag) && (other.transform.position.x == gameObject.transform.position.x))
-        {   
-            //print("SAME POSE");//TEST
+        // A successful match requires the correct pose tag and X position.
+        if (other.CompareTag(gameObject.tag) &&
+            (other.transform.position.x == gameObject.transform.position.x))
+        {
+            // Display the successful match effect.
             winObject.SetActive(true);
 
-            // Plays success sparkle sound effect
-            if(successSparkleAudio != null)
+            // Play the success sound effect if assigned.
+            if (successSparkleAudio != null)
             {
                 successSparkleAudio.Play();
             }
 
+            // Award points and update difficulty through the GameManager.
             GameManager.instance.AddScore();
-            //GameManager.instance.score += 100;//Adds 100 to the score
 
+            // Count this match toward total successes and the current streak.
             successfulMatches++;
+            comboCount++;
 
-            if(successfulMatches % 1 == 0)
+            // Temporarily display the current combo in the Unity Console.
+            Debug.Log("Current Combo: " + comboCount);
+
+            // Play a random encouragement animation every five successes.
+            if (successfulMatches % 5 == 0)
             {
                 encouragementText.PlayRandomEncouragement();
             }
         }
         else
         {
+            // A failed match breaks the current combo streak.
+            comboCount = 0;
+
+            // Hide the player sprite and display the failure effect.
             spriteRenderer.color = new Color32(255, 255, 255, 0);
             failObject.SetActive(true);
-            
-            // Plays fail smoke sound effect
-            if(failSmokeAudio != null)
+
+            // Play the failure sound effect if assigned.
+            if (failSmokeAudio != null)
             {
                 failSmokeAudio.Play();
             }
 
+            // Delay Game Over so the failure animation can finish.
             StartCoroutine(DelayedGameOver());
         }
     }
 
-    // Delayed Game Over (so animation can play even with Game Over UI)
+    // ==================== GAME OVER ====================
+
+    // Waits before opening Game Over to allow the failure effect to play.
     IEnumerator DelayedGameOver()
     {
         yield return new WaitForSeconds(1.5f);
+
         menu.GameOver_Open_UI();
     }
 
-    void OnTriggerExit2D(Collider2D other)//detects if wall exits the player
+    // ==================== COLLISION CLEANUP ====================
+
+    // Hide the success effect after the wall leaves the player's collider.
+    void OnTriggerExit2D(Collider2D other)
     {
         winObject.SetActive(false);
     }
 
-    // SCRIPT FOR POSE CHANGING
-    private void poseChange() // Method for changing the player's pose when the button is pressed
+    // ==================== POSE CHANGING ====================
+
+    // Cycles through the five available poses and updates the player's tag.
+    private void poseChange()
     {
-        startingPose++; // Increments the starting pose of the player character (e.g., startingPose = 1 ++ -> startingPose = 2)
-        if(startingPose == currentPoses.Length) // Checks if the player has gone past the last pose in array
+        // Advance to the next pose index.
+        startingPose++;
+
+        // Return to the first pose after reaching the end of the array.
+        if (startingPose == currentPoses.Length)
         {
-            startingPose = 0; // Resets the starting pose to the first pose in the array (index 1, not 0)
+            startingPose = 0;
         }
 
-        //spriteRenderer.sprite = currentPoses[startingPose]; // Sets the sprite of the player character to the new pose
-
-        // Audio for when player cycles poses
-        if(poseChangeAudio != null)
+        // Play the pose-changing sound effect if assigned.
+        if (poseChangeAudio != null)
         {
             poseChangeAudio.Play();
         }
 
-        switch (startingPose) // What value does this variable currently have?
+        // Update the player's tag for matching against incoming wall tags.
+        switch (startingPose)
         {
-            case 0: // If the starting pose is 1
-                gameObject.tag = "Pose_1"; // Sets the tag of the player character to "Pose_1"
+            case 0:
+                gameObject.tag = "Pose_1";
                 break;
-            case 1: // If the starting pose is 2
-                gameObject.tag = "Pose_2"; // Sets the tag of the player character to "Pose_2"
+
+            case 1:
+                gameObject.tag = "Pose_2";
                 break;
-            case 2: // If the starting pose is 3
-                gameObject.tag = "Pose_3"; // Sets the tag of the player character to "Pose_3"
+
+            case 2:
+                gameObject.tag = "Pose_3";
                 break;
-            case 3: // If the starting pose is 4
-                gameObject.tag = "Pose_4"; // Sets the tag of the player character to "Pose_4"
+
+            case 3:
+                gameObject.tag = "Pose_4";
                 break;
-            case 4: // If the starting pose is 5
-                gameObject.tag = "Pose_5"; // Sets the tag of the player character to "Pose_5"
+
+            case 4:
+                gameObject.tag = "Pose_5";
                 break;
         }
-
-        // End of pose change logic
     }
 
-    // SCRIPT FOR LANE MOVEMENT
-    private void laneMovement() // Method for moving the player character between lanes
+    // ==================== LANE MOVEMENT ====================
+
+    // Moves the player between three lanes, reversing direction at the edges.
+    private void laneMovement()
     {
-        currentLocation+= changeAMT; // Updates the current location of the player character based on the change amount
+        // Move one lane in the current direction.
+        currentLocation += changeAMT;
 
-            // Checks if the player goes past the last location
-            if(currentLocation== locations.Length)
-            {
-                // Changes direction from positive to negative
-                changeAMT = -changeAMT;
+        // Reverse direction when moving beyond the rightmost lane.
+        if (currentLocation == locations.Length)
+        {
+            changeAMT = -changeAMT;
 
-                // Moves the location back into the valid range
-                currentLocation+= changeAMT;
-                currentLocation+= changeAMT;
-            }
+            // Move back into the valid lane range.
+            currentLocation += changeAMT;
+            currentLocation += changeAMT;
+        }
 
-            // Checks if the player goes past the first location
-            else if(currentLocation == -1)
-            {
-                // Changes direction from negative to positive
-                changeAMT = -changeAMT;
+        // Reverse direction when moving beyond the leftmost lane.
+        else if (currentLocation == -1)
+        {
+            changeAMT = -changeAMT;
 
-                // Moves the location back into the valid range
-                currentLocation+= changeAMT;
-                currentLocation+= changeAMT;
-            }
+            // Move back into the valid lane range.
+            currentLocation += changeAMT;
+            currentLocation += changeAMT;
+        }
 
-            // Actually moves the player character game object to the new location based on the current location index
-            transform.position = new Vector2(locations[currentLocation], transform.position.y);
+        // Update the player's X position to match the selected lane.
+        transform.position = new Vector2(
+            locations[currentLocation],
+            transform.position.y
+        );
 
-            // Audio for when player moves lanes
-            if (movementAudio != null)
-            {
-                movementAudio.Play();
-            }
+        // Play the movement sound effect if assigned.
+        if (movementAudio != null)
+        {
+            movementAudio.Play();
+        }
     }
 }
