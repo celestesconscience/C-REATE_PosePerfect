@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
+using TMPro;
 
 // Controls player poses, lane movement, wall collisions, and gameplay feedback.
 public class PlayerScript : MonoBehaviour
@@ -10,6 +11,7 @@ public class PlayerScript : MonoBehaviour
     // Reference to the MenuManager for displaying the Game Over screen.
     public MenuManager menu;
 
+
     // ==================== PLAYER INPUT ====================
 
     // Input actions for changing poses and moving between lanes.
@@ -17,6 +19,7 @@ public class PlayerScript : MonoBehaviour
 
     // Tracks whether each input action was performed during the current frame.
     private bool pressed, held;
+
 
     // ==================== PLAYER POSES ====================
 
@@ -32,6 +35,7 @@ public class PlayerScript : MonoBehaviour
     // Index of the player's selected pose (0–4).
     private int startingPose = 0;
 
+
     // ==================== PLAYER MOVEMENT ====================
 
     // X positions of the three lanes, configured in the Inspector.
@@ -43,6 +47,7 @@ public class PlayerScript : MonoBehaviour
     // Direction of lane movement: 1 = right, -1 = left.
     private int changeAMT = 1;
 
+
     // ==================== SOUND EFFECTS ====================
 
     public AudioSource movementAudio;
@@ -50,10 +55,12 @@ public class PlayerScript : MonoBehaviour
     public AudioSource successSparkleAudio;
     public AudioSource failSmokeAudio;
 
+
     // ==================== COLLISION EFFECTS ====================
 
     // Visual effects displayed after successful or failed wall matches.
     public GameObject winObject, failObject;
+
 
     // ==================== ENCOURAGEMENT SYSTEM ====================
 
@@ -63,10 +70,48 @@ public class PlayerScript : MonoBehaviour
     // Tracks total successful matches, regardless of consecutive streaks.
     private int successfulMatches = 0;
 
+
     // ==================== COMBO / STREAK SYSTEM ====================
 
     // Tracks consecutive successful matches. Resets when a wall match fails.
     private int comboCount = 0;
+
+
+    // ==================== COMBO UI ====================
+
+    // Reference to the TextMeshPro element displaying the current combo.
+    public TextMeshProUGUI comboText;
+
+    // Reference to the matching outline text.
+    public TextMeshProUGUI comboOutline;
+
+    // Animator responsible for the combo pop and idle animations.
+    public Animator comboAnimator;
+
+
+    // ==================== COMBO DISPLAY ====================
+
+    // Updates the persistent combo counter and replays its pop animation.
+    void ShowCombo()
+    {
+        // Only display combos of 2 or higher.
+        if (comboCount < 2)
+            return;
+
+        // Update both text layers with the current combo.
+        string comboMessage = comboCount + "X COMBO!";
+
+        comboText.text = comboMessage;
+        comboOutline.text = comboMessage;
+
+        // Keep the combo visible while the streak continues.
+        comboText.gameObject.SetActive(true);
+        comboOutline.gameObject.SetActive(true);
+
+        // Replay the pop animation whenever the combo increases.
+        comboAnimator.Play("ComboPop", 0, 0f);
+    }
+
 
     // ==================== INITIALIZATION ====================
 
@@ -92,6 +137,7 @@ public class PlayerScript : MonoBehaviour
         // Reset the score at the beginning of a new game.
         GameManager.instance.score = 0;
     }
+
 
     // ==================== PLAYER UPDATE ====================
 
@@ -127,6 +173,7 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+
     // ==================== WALL COLLISIONS ====================
 
     // Checks whether the player matches the approaching wall's pose and lane.
@@ -155,6 +202,8 @@ public class PlayerScript : MonoBehaviour
             // Temporarily display the current combo in the Unity Console.
             Debug.Log("Current Combo: " + comboCount);
 
+            ShowCombo();
+
             // Play a random encouragement animation every five successes.
             if (successfulMatches % 5 == 0)
             {
@@ -165,6 +214,10 @@ public class PlayerScript : MonoBehaviour
         {
             // A failed match breaks the current combo streak.
             comboCount = 0;
+
+            // Hide both combo text layers.
+            comboText.gameObject.SetActive(false);
+            comboOutline.gameObject.SetActive(false);
 
             // Hide the player sprite and display the failure effect.
             spriteRenderer.color = new Color32(255, 255, 255, 0);
@@ -181,6 +234,7 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+
     // ==================== GAME OVER ====================
 
     // Waits before opening Game Over to allow the failure effect to play.
@@ -191,6 +245,7 @@ public class PlayerScript : MonoBehaviour
         menu.GameOver_Open_UI();
     }
 
+
     // ==================== COLLISION CLEANUP ====================
 
     // Hide the success effect after the wall leaves the player's collider.
@@ -198,6 +253,7 @@ public class PlayerScript : MonoBehaviour
     {
         winObject.SetActive(false);
     }
+
 
     // ==================== POSE CHANGING ====================
 
@@ -243,6 +299,7 @@ public class PlayerScript : MonoBehaviour
                 break;
         }
     }
+
 
     // ==================== LANE MOVEMENT ====================
 
