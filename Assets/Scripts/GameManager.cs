@@ -91,6 +91,10 @@ public class GameManager : MonoBehaviour
         // Assign this GameManager as the shared instance.
         instance = this;
 
+        // Save the starting difficulty settings for future resets.
+        startWallSpawn = wallSpawnSpeed;
+        startWallSpeed = wallSpeed;
+
         // Keep the GameManager alive when switching between scenes.
         DontDestroyOnLoad(gameObject);
 
@@ -100,10 +104,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // Save the starting difficulty settings for future resets.
-        startWallSpawn = wallSpawnSpeed;
-        startWallSpeed = wallSpeed;
-
         // Randomly select the initial wall color.
         randomColor = Random.Range(1, numColors + 1);
 
@@ -136,7 +136,7 @@ public class GameManager : MonoBehaviour
             // Select a different wall color from the previous one.
             while (randomColor == prevColor)
             {
-                randomColor = Random.Range(0, numColors);
+                randomColor = Random.Range(1, numColors + 1);
             }
 
             // Save the new color for the next comparison.
@@ -150,6 +150,25 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // ==================== NEW GAME RESET ====================
+
+    // Resets progression when starting a new game.
+    public void ResetGame()
+    {
+        // Start counting successful matches from zero.
+        wallCounter = 0;
+
+        // Restore the starting difficulty settings.
+        wallSpawnSpeed = startWallSpawn;
+        wallSpeed = startWallSpeed;
+
+        // Generate a fresh set of five available poses.
+        randomWallNumGenerator();
+
+        // Choose a new starting wall color.
+        randomColor = Random.Range(1, numColors + 1);
+        prevColor = randomColor;
+    }
 
     // ==================== SCORING & DIFFICULTY ====================
 

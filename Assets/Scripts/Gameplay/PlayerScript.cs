@@ -11,7 +11,6 @@ public class PlayerScript : MonoBehaviour
     // Reference to the MenuManager for displaying the Game Over screen.
     public MenuManager menu;
 
-
     // ==================== PLAYER INPUT ====================
 
     // Input actions for changing poses and moving between lanes.
@@ -19,7 +18,6 @@ public class PlayerScript : MonoBehaviour
 
     // Tracks whether each input action was performed during the current frame.
     private bool pressed, held;
-
 
     // ==================== PLAYER POSES ====================
 
@@ -34,7 +32,6 @@ public class PlayerScript : MonoBehaviour
 
     // Index of the player's selected pose (0–4).
     private int startingPose = 0;
-
 
     // ==================== PLAYER MOVEMENT ====================
 
@@ -117,6 +114,12 @@ public class PlayerScript : MonoBehaviour
 
     void Start()
     {
+        // Reset the score at the beginning of a new game.
+        GameManager.instance.score = 0;
+
+        // Reset wall progression, colors, poses, and difficulty.
+        GameManager.instance.ResetGame();
+        
         // Find the input actions configured in Unity's Input System.
         buttonPress = InputSystem.actions.FindAction("TapButton");
         buttonHold = InputSystem.actions.FindAction("HoldButton");
@@ -133,9 +136,6 @@ public class PlayerScript : MonoBehaviour
             locations[currentLocation],
             transform.position.y
         );
-
-        // Reset the score at the beginning of a new game.
-        GameManager.instance.score = 0;
     }
 
 
