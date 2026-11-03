@@ -1,9 +1,10 @@
+
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
 // Controls the pose icons displayed in the gameplay UI.
-// Handles pose updates, locked slots, and unlock animations.
+// Handles pose changes, lock animations, and sparkle effects.
 public class PoseUIScript : MonoBehaviour
 {
     // ==================== POSE SPRITES ====================
@@ -17,7 +18,6 @@ public class PoseUIScript : MonoBehaviour
 
     // ==================== UI COMPONENTS ====================
 
-    // Image component displaying this pose.
     private Image image;
 
     // Pose slot index (0–4), assigned in the Inspector.
@@ -26,26 +26,35 @@ public class PoseUIScript : MonoBehaviour
 
     // ==================== LOCK SETTINGS ====================
 
-    // Lock icon for this pose slot, if it has one.
+    // Lock icon assigned to Pose4 and Pose5.
     public GameObject lockedIcon;
 
-    // Time to wait for the burst animation to finish.
-    public float lockBurstDuration = 0.6f;
+    // Duration of the lock burst animation.
+    public float lockBurstDuration = 1f;
 
-    // Tracks whether this lock has finished unlocking.
     private bool unlockComplete = false;
-
-    // Tracks an unlock animation in progress.
     private Coroutine unlockCoroutine;
-
-    // Original scale of the lock, used when resetting.
     private Vector3 originalLockScale;
+
+
+    // ==================== SPARKLE SETTINGS ====================
+
+    // Sparkle animation object assigned to each pose.
+    public GameObject sparkleEffect;
+
+    // How long the sparkles remain visible.
+    public float sparkleDuration = 2.1f;
+
+    private Coroutine sparkleCoroutine;
 
 
     // ==================== POSE TRACKING ====================
 
-    // Tracks the last pose set displayed.
+    // Detects when the pose selection changes.
     private int lastPoseSetVersion = -1;
+
+    // Tracks the previous number of active poses.
+    private int lastActivePoseCount = -1;
 
 
     // ==================== INITIALIZATION ====================
@@ -59,6 +68,12 @@ public class PoseUIScript : MonoBehaviour
             originalLockScale = lockedIcon.transform.localScale;
         }
 
+        // Sparkles should not appear when the game starts.
+        if (sparkleEffect != null)
+        {
+            sparkleEffect.SetActive(false);
+        }
+
         RefreshPoseUI();
     }
 
@@ -70,7 +85,7 @@ public class PoseUIScript : MonoBehaviour
         if (GameManager.instance == null)
             return;
 
-        // Only refresh when the available poses change.
+        // Refresh only when the GameManager changes poses.
         if (lastPoseSetVersion != GameManager.instance.poseSetVersion)
         {
             RefreshPoseUI();
@@ -84,7 +99,15 @@ public class PoseUIScript : MonoBehaviour
     {
         GameManager manager = GameManager.instance;
 
-        // Update the available pose sprites.
+        if (manager == null)
+            return;
+
+        bool isFirstUpdate = lastPoseSetVersion == -1;
+
+        // Remember how many poses were previously unlocked.
+        int previousPoseCount = lastActivePoseCount;
+
+        // Update all five available sprite slots.
         for (int i = 0; i < currentPoses.Length; i++)
         {
             if (i >= manager.activePoseCount)
@@ -105,7 +128,7 @@ public class PoseUIScript : MonoBehaviour
             }
         }
 
-        // Check whether this pose slot is unlocked.
+        // Determine whether this pose slot is unlocked.
         bool isUnlocked =
             poseNum >= 0 &&
             poseNum < manager.activePoseCount &&
@@ -116,15 +139,34 @@ public class PoseUIScript : MonoBehaviour
             image.sprite = currentPoses[poseNum];
         }
 
-        // Poses without locks display normally.
+        // A full pose rotation has occurred.
+        // Do not sparkle when the game first initializes.
+        bool newPoseSet =
+            !isFirstUpdate &&
+            previousPoseCount == 5 &&
+            manager.activePoseCount == 5 &&
+            manager.score > 0f;
+
+
+        // ==================== NORMAL POSES ====================
+
         if (lockedIcon == null)
         {
             image.enabled = isUnlocked;
+
+            // Sparkle when all five poses rotate.
+            if (isUnlocked && newPoseSet)
+            {
+                PlaySparkle();
+            }
         }
 
-        // Locked poses remain hidden behind their lock icons.
+
+        // ==================== LOCKED POSES ====================
+
         else if (!isUnlocked)
         {
+            // Reset the lock if the game restarts.
             if (unlockCoroutine != null)
             {
                 StopCoroutine(unlockCoroutine);
@@ -137,32 +179,42 @@ public class PoseUIScript : MonoBehaviour
             lockedIcon.SetActive(true);
             lockedIcon.transform.localScale = originalLockScale;
 
-            // Restart the normal lock-shaking animation.
-            Animator lockAnimator = lockedIcon.GetComponent<Animator>();
+            Animator lockAnimator =
+                lockedIcon.GetComponent<Animator>();
 
             if (lockAnimator != null)
             {
                 lockAnimator.ResetTrigger("Burst");
                 lockAnimator.Play("LockShake", 0, 0f);
             }
+
+            HideSparkle();
         }
 
-        // The lock has already burst open.
         else if (unlockComplete)
         {
+            // Already unlocked: display the pose normally.
             image.enabled = true;
             lockedIcon.SetActive(false);
+
+            // Sparkle whenever the five-pose set rotates.
+            if (newPoseSet)
+            {
+                PlaySparkle();
+            }
         }
 
-        // A newly unlocked pose needs to play its burst animation.
         else if (unlockCoroutine == null)
         {
+            // Newly unlocked: burst the lock first.
             image.enabled = false;
+
             unlockCoroutine = StartCoroutine(PlayLockBurst());
         }
 
-        // Remember the current pose set.
+        // Remember the current progression state.
         lastPoseSetVersion = manager.poseSetVersion;
+        lastActivePoseCount = manager.activePoseCount;
     }
 
 
@@ -170,22 +222,83 @@ public class PoseUIScript : MonoBehaviour
 
     private IEnumerator PlayLockBurst()
     {
-        // Play the burst animation on this lock.
-        Animator lockAnimator = lockedIcon.GetComponent<Animator>();
+        Animator lockAnimator =
+            lockedIcon.GetComponent<Animator>();
 
+        // Trigger the existing LockBurst animation.
         if (lockAnimator != null)
         {
             lockAnimator.SetTrigger("Burst");
         }
 
-        // Wait for the burst animation to finish.
+        // Wait until the lock finishes bursting.
         yield return new WaitForSeconds(lockBurstDuration);
 
-        // Hide the lock and reveal the new pose.
+        // Reveal the unlocked pose.
         lockedIcon.SetActive(false);
         image.enabled = true;
 
         unlockComplete = true;
         unlockCoroutine = null;
+
+        // Celebrate the new pose with sparkles!
+        PlaySparkle();
+    }
+
+
+    // ==================== SPARKLE ANIMATION ====================
+
+    private void PlaySparkle()
+    {
+        if (sparkleEffect == null)
+            return;
+
+        // Restart the sparkle if another rotation happens.
+        if (sparkleCoroutine != null)
+        {
+            StopCoroutine(sparkleCoroutine);
+        }
+
+        sparkleCoroutine = StartCoroutine(ShowSparkle());
+    }
+
+
+    private IEnumerator ShowSparkle()
+    {
+        // Show the sparkle object.
+        sparkleEffect.SetActive(true);
+
+        // Restart its default animation from the beginning.
+        Animator sparkleAnimator =
+            sparkleEffect.GetComponent<Animator>();
+
+        if (sparkleAnimator != null)
+        {
+            sparkleAnimator.Rebind();
+            sparkleAnimator.Update(0f);
+        }
+
+        // Keep sparkles visible briefly.
+        yield return new WaitForSeconds(sparkleDuration);
+
+        // Hide the sparkle after its animation finishes.
+        sparkleEffect.SetActive(false);
+
+        sparkleCoroutine = null;
+    }
+
+
+    private void HideSparkle()
+    {
+        if (sparkleCoroutine != null)
+        {
+            StopCoroutine(sparkleCoroutine);
+            sparkleCoroutine = null;
+        }
+
+        if (sparkleEffect != null)
+        {
+            sparkleEffect.SetActive(false);
+        }
     }
 }
