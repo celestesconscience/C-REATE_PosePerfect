@@ -45,7 +45,16 @@ public class PoseUIScript : MonoBehaviour
         currentPoses[3] = poses[GameManager.instance.randomWallNums[3]];
         currentPoses[4] = poses[GameManager.instance.randomWallNums[4]];
 
-        // Display the pose assigned to this UI icon.
-        image.sprite = currentPoses[poseNum];
+        // Check whether this pose slot is currently unlocked.
+        bool isUnlocked = poseNum < GameManager.instance.activePoseCount;
+
+        // Hide locked pose icons and reveal them when unlocked.
+        image.enabled = isUnlocked;
+
+        // Only display a sprite if its pose slot is unlocked.
+        if (isUnlocked)
+        {
+            image.sprite = currentPoses[poseNum];
+        }
     }
 }

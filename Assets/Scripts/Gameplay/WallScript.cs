@@ -17,6 +17,9 @@ public class WallScript : MonoBehaviour
     // Index of the randomly selected wall pose (0–4).
     public int wallType;
 
+    // Remembers which pose set this wall is currently displaying.
+    private int lastPoseSetVersion;
+
 
     // ==================== WALL ANIMATION ====================
 
@@ -32,10 +35,12 @@ public class WallScript : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
 
-        // Randomly select one of the five currently available wall poses.
-        // For integers, Random.Range(0, 5) returns a value from 0 to 4.
-        wallType = Random.Range(0, 5);
-
+        // Randomly select a wall pose from the currently unlocked poses.
+        // Stage 1 uses 3 poses; Stage 2 onward uses 5.
+        wallType = Random.Range(
+            0,
+            GameManager.instance.activePoseCount
+        );
 
         // ==================== WALL SPRITE SELECTION ====================
 
@@ -49,6 +54,8 @@ public class WallScript : MonoBehaviour
         // Display the sprite corresponding to this wall's randomly selected pose.
         spriteRenderer.sprite = currentWalls[wallType];
 
+        // Remember the pose set used when this wall spawned.
+        lastPoseSetVersion = GameManager.instance.poseSetVersion;
 
         // ==================== WALL COLOR SELECTION ====================
 
@@ -88,6 +95,25 @@ public class WallScript : MonoBehaviour
 
     void Update()
     {
+        // Check whether the available pose set has changed.
+        if (lastPoseSetVersion != GameManager.instance.poseSetVersion)
+        {
+            // Refresh the wall sprites using the newly available poses.
+            for (int i = 0; i < GameManager.instance.activePoseCount; i++)
+            {
+                currentWalls[i] = walls[GameManager.instance.randomWallNums[i]];
+            }
+
+            // Update this wall's appearance while preserving its pose slot.
+            if (wallType < GameManager.instance.activePoseCount)
+            {
+                spriteRenderer.sprite = currentWalls[wallType];
+            }
+
+            // Remember the updated pose set.
+            lastPoseSetVersion = GameManager.instance.poseSetVersion;
+        }
+
         // Update the wall's animation speed using the GameManager's
         // current difficulty settings.
         anim.SetFloat("Speed", GameManager.instance.wallSpeed);

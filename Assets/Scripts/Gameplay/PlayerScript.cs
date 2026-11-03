@@ -263,11 +263,19 @@ public class PlayerScript : MonoBehaviour
         // Advance to the next pose index.
         startingPose++;
 
-        // Return to the first pose after reaching the end of the array.
-        if (startingPose == currentPoses.Length)
+        // Get the number of poses currently unlocked.
+        int availablePoses = Mathf.Clamp(
+            GameManager.instance.activePoseCount,
+            1,
+            currentPoses.Length
+        );
+
+        // Return to the first pose after the last unlocked pose.
+        if (startingPose >= availablePoses)
         {
             startingPose = 0;
         }
+
 
         // Play the pose-changing sound effect if assigned.
         if (poseChangeAudio != null)

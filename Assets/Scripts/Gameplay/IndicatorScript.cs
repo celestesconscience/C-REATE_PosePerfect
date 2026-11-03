@@ -59,9 +59,16 @@ public class IndicatorScript : MonoBehaviour
         {
             // Advance to the next pose index.
             startingPose++;
+            
+            // Get the number of poses currently unlocked.
+            int availablePoses = Mathf.Clamp(
+                GameManager.instance.activePoseCount,
+                1,
+                Location.Length
+            );
 
-            // Return to the first pose after reaching the end of the array.
-            if (startingPose == Location.Length)
+            // Return to the first pose after the last unlocked pose.
+            if (startingPose >= availablePoses)
             {
                 startingPose = 0;
             }
