@@ -1,60 +1,108 @@
+
 using UnityEngine;
 using UnityEngine.UI;
 
 // Controls the pose icons displayed in the gameplay UI.
-// Keeps each icon updated with the current poses selected by the GameManager.
+// Updates icons when the available pose selection changes.
 public class PoseUIScript : MonoBehaviour
 {
     // ==================== POSE SPRITES ====================
 
-    // All available pose sprites used for the UI.
+    // All available character pose sprites, indexed by pose ID.
     public Sprite[] poses;
 
-    // The five poses currently available during gameplay.
+    // Stores the five possible pose slots.
+    // Only three slots are unlocked at the beginning.
     public Sprite[] currentPoses = new Sprite[5];
 
 
     // ==================== UI COMPONENTS ====================
 
-    // Reference to the Image component displaying this pose icon.
+    // Image component displaying this pose icon.
     private Image image;
 
-    // Index (0–4) determining which of the five poses this UI element displays.
-    // Assigned in the Inspector for each pose icon.
+    // Determines which pose slot this icon displays (0–4).
+    // Assigned separately in the Inspector for each icon.
     public int poseNum;
+
+
+    // ==================== POSE PROGRESSION TRACKING ====================
+
+    // Tracks the last pose set displayed by this UI element.
+    private int lastPoseSetVersion = -1;
 
 
     // ==================== INITIALIZATION ====================
 
     void Start()
     {
-        // Get the Image component attached to this UI GameObject.
+        // Get the Image component attached to this UI object.
         image = GetComponent<Image>();
+
+        // Display the starting pose selection.
+        RefreshPoseUI();
     }
 
 
-    // ==================== POSE UI UPDATE ====================
+    // ==================== UI UPDATE ====================
 
     void Update()
     {
-        // Retrieve the five currently available poses from the GameManager.
-        // These selections may change as the player progresses.
-        currentPoses[0] = poses[GameManager.instance.randomWallNums[0]];
-        currentPoses[1] = poses[GameManager.instance.randomWallNums[1]];
-        currentPoses[2] = poses[GameManager.instance.randomWallNums[2]];
-        currentPoses[3] = poses[GameManager.instance.randomWallNums[3]];
-        currentPoses[4] = poses[GameManager.instance.randomWallNums[4]];
+        // Only refresh when GameManager changes the available poses.
+        if (lastPoseSetVersion != GameManager.instance.poseSetVersion)
+        {
+            RefreshPoseUI();
+        }
+    }
 
-        // Check whether this pose slot is currently unlocked.
-        bool isUnlocked = poseNum < GameManager.instance.activePoseCount;
 
-        // Hide locked pose icons and reveal them when unlocked.
+    // ==================== REFRESH POSE UI ====================
+
+    // Updates available sprites and shows or hides locked pose slots.
+    private void RefreshPoseUI()
+    {
+        GameManager manager = GameManager.instance;
+
+        // Refresh all five possible pose slots.
+        for (int i = 0; i < currentPoses.Length; i++)
+        {
+            // Locked slots should not display a pose.
+            if (i >= manager.activePoseCount)
+            {
+                currentPoses[i] = null;
+                continue;
+            }
+
+            // Get the pose ID assigned to this slot.
+            int poseIndex = manager.randomWallNums[i];
+
+            // Make sure the pose ID exists in the sprite array.
+            if (poseIndex > 0 && poseIndex < poses.Length)
+            {
+                currentPoses[i] = poses[poseIndex];
+            }
+            else
+            {
+                currentPoses[i] = null;
+            }
+        }
+
+        // Check whether this UI icon's slot is unlocked.
+        bool isUnlocked =
+            poseNum >= 0 &&
+            poseNum < manager.activePoseCount &&
+            poseNum < currentPoses.Length;
+
+        // Hide locked icons and reveal them when unlocked.
         image.enabled = isUnlocked;
 
-        // Only display a sprite if its pose slot is unlocked.
+        // Display the assigned pose if this slot is unlocked.
         if (isUnlocked)
         {
             image.sprite = currentPoses[poseNum];
         }
+
+        // Remember which pose set is currently displayed.
+        lastPoseSetVersion = manager.poseSetVersion;
     }
 }

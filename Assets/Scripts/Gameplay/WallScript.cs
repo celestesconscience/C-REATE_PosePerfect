@@ -1,29 +1,32 @@
+
 using UnityEngine;
 
-// Controls each wall's pose, color, movement speed, and collision tag.
+// Controls each wall's pose, color, animation speed,
+// and collision tag. Synchronizes walls when poses change.
 public class WallScript : MonoBehaviour
 {
     // ==================== WALL POSES ====================
 
-    // All available wall sprites.
+    // All available wall sprites, indexed by pose ID.
     public Sprite[] walls;
 
-    // The five wall sprites currently available during gameplay.
+    // Stores up to five currently available wall sprites.
+    // Only three slots are active at the beginning.
     public Sprite[] currentWalls = new Sprite[5];
 
-    // Displays the selected wall sprite and its color.
+    // Displays the wall's selected sprite and color.
     private SpriteRenderer spriteRenderer;
 
-    // Index of the randomly selected wall pose (0–4).
+    // Index of this wall's selected pose slot (0–4).
     public int wallType;
 
-    // Remembers which pose set this wall is currently displaying.
+    // Tracks the pose set currently displayed by this wall.
     private int lastPoseSetVersion;
 
 
     // ==================== WALL ANIMATION ====================
 
-    // Controls the wall's movement animation and playback speed.
+    // Controls wall movement and animation playback speed.
     private Animator anim;
 
 
@@ -31,36 +34,98 @@ public class WallScript : MonoBehaviour
 
     void Start()
     {
-        // Get the SpriteRenderer and Animator attached to this wall.
+        // Get the required components.
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
 
-        // Randomly select a wall pose from the currently unlocked poses.
-        // Stage 1 uses 3 poses; Stage 2 onward uses 5.
+        // Select a pose from the currently unlocked slots.
+        // Stage 1: 3 poses. Stage 2 onward: 5 poses.
         wallType = Random.Range(
             0,
             GameManager.instance.activePoseCount
         );
 
-        // ==================== WALL SPRITE SELECTION ====================
+        // Load the current pose selection.
+        RefreshWallPoses();
 
-        // Get the five available wall sprites selected by the GameManager.
-        currentWalls[0] = walls[GameManager.instance.randomWallNums[0]];
-        currentWalls[1] = walls[GameManager.instance.randomWallNums[1]];
-        currentWalls[2] = walls[GameManager.instance.randomWallNums[2]];
-        currentWalls[3] = walls[GameManager.instance.randomWallNums[3]];
-        currentWalls[4] = walls[GameManager.instance.randomWallNums[4]];
-
-        // Display the sprite corresponding to this wall's randomly selected pose.
+        // Display this wall's selected pose.
         spriteRenderer.sprite = currentWalls[wallType];
 
-        // Remember the pose set used when this wall spawned.
+        // Remember the pose set used at spawn.
         lastPoseSetVersion = GameManager.instance.poseSetVersion;
 
-        // ==================== WALL COLOR SELECTION ====================
+        // Assign the collision tag for this pose slot.
+        // Valid tags: Pose_1 through Pose_5.
+        gameObject.tag = "Pose_" + (wallType + 1);
 
-        // Apply the current wall color selected by the GameManager.
-        // All walls use the same color until the GameManager changes it.
+        // Apply the current wall color.
+        ApplyWallColor();
+    }
+
+
+    // ==================== WALL UPDATE ====================
+
+    void Update()
+    {
+        // Detect changes to the available pose set.
+        if (lastPoseSetVersion != GameManager.instance.poseSetVersion)
+        {
+            // Refresh the available sprites.
+            RefreshWallPoses();
+
+            // Update this wall's sprite without changing its pose slot.
+            if (wallType < GameManager.instance.activePoseCount)
+            {
+                spriteRenderer.sprite = currentWalls[wallType];
+            }
+
+            // Record the new pose set version.
+            lastPoseSetVersion = GameManager.instance.poseSetVersion;
+        }
+
+        // Update wall animation speed as difficulty increases.
+        anim.SetFloat("Speed", GameManager.instance.wallSpeed);
+    }
+
+
+    // ==================== WALL SPRITE SELECTION ====================
+
+    // Refreshes the available wall sprites from GameManager.
+    // Called when a wall spawns or the pose set changes.
+    private void RefreshWallPoses()
+    {
+        for (int i = 0; i < currentWalls.Length; i++)
+        {
+            // Only assign sprites to unlocked pose slots.
+            if (i < GameManager.instance.activePoseCount)
+            {
+                int poseIndex = GameManager.instance.randomWallNums[i];
+
+                // Make sure the pose ID exists in the sprite array.
+                if (poseIndex > 0 && poseIndex < walls.Length)
+                {
+                    currentWalls[i] = walls[poseIndex];
+                }
+                else
+                {
+                    currentWalls[i] = null;
+                }
+            }
+            else
+            {
+                // Keep locked slots empty until they unlock.
+                currentWalls[i] = null;
+            }
+        }
+    }
+
+
+    // ==================== WALL COLOR SELECTION ====================
+
+    // Applies the current color selected by GameManager.
+    // Alpha stays at 0 so the existing fade-in animation works.
+    private void ApplyWallColor()
+    {
         switch (GameManager.instance.randomColor)
         {
             case 1:
@@ -86,63 +151,6 @@ public class WallScript : MonoBehaviour
             case 5:
                 // Purple
                 spriteRenderer.color = new Color32(155, 109, 227, 0);
-                break;
-        }
-    }
-
-
-    // ==================== WALL UPDATE ====================
-
-    void Update()
-    {
-        // Check whether the available pose set has changed.
-        if (lastPoseSetVersion != GameManager.instance.poseSetVersion)
-        {
-            // Refresh the wall sprites using the newly available poses.
-            for (int i = 0; i < GameManager.instance.activePoseCount; i++)
-            {
-                currentWalls[i] = walls[GameManager.instance.randomWallNums[i]];
-            }
-
-            // Update this wall's appearance while preserving its pose slot.
-            if (wallType < GameManager.instance.activePoseCount)
-            {
-                spriteRenderer.sprite = currentWalls[wallType];
-            }
-
-            // Remember the updated pose set.
-            lastPoseSetVersion = GameManager.instance.poseSetVersion;
-        }
-
-        // Update the wall's animation speed using the GameManager's
-        // current difficulty settings.
-        anim.SetFloat("Speed", GameManager.instance.wallSpeed);
-
-
-        // ==================== WALL COLLISION TAGS ====================
-
-        // Assign the wall's collision tag based on its selected pose.
-        // PlayerScript compares this tag against the player's current pose.
-        switch (wallType)
-        {
-            case 0:
-                gameObject.tag = "Pose_1";
-                break;
-
-            case 1:
-                gameObject.tag = "Pose_2";
-                break;
-
-            case 2:
-                gameObject.tag = "Pose_3";
-                break;
-
-            case 3:
-                gameObject.tag = "Pose_4";
-                break;
-
-            case 4:
-                gameObject.tag = "Pose_5";
                 break;
         }
     }

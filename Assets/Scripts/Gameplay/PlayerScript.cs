@@ -1,37 +1,41 @@
+
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 using TMPro;
 
-// Controls player poses, lane movement, wall collisions, and gameplay feedback.
+// Controls player poses, lane movement, wall collisions,
+// scoring feedback, combos, and gameplay effects.
 public class PlayerScript : MonoBehaviour
 {
     // ==================== MENU MANAGER ====================
 
-    // Reference to the MenuManager for displaying the Game Over screen.
+    // Opens the Game Over screen after a failed wall match.
     public MenuManager menu;
+
 
     // ==================== PLAYER INPUT ====================
 
     // Input actions for changing poses and moving between lanes.
-    InputAction buttonPress, buttonHold;
+    private InputAction buttonPress;
+    private InputAction buttonHold;
 
-    // Tracks whether each input action was performed during the current frame.
-    private bool pressed, held;
 
     // ==================== PLAYER POSES ====================
 
-    // All available character pose sprites.
+    // All character pose sprites, indexed by pose ID.
     public Sprite[] poses;
 
-    // The five poses currently available during gameplay.
+    // Stores the five possible pose slots.
+    // Only three slots are unlocked at the beginning.
     public Sprite[] currentPoses = new Sprite[5];
 
-    // Controls which sprite is displayed on the player.
+    // Displays the currently selected player pose.
     private SpriteRenderer spriteRenderer;
 
-    // Index of the player's selected pose (0–4).
+    // Index of the selected pose slot (0–4).
     private int startingPose = 0;
+
 
     // ==================== PLAYER MOVEMENT ====================
 
@@ -55,83 +59,58 @@ public class PlayerScript : MonoBehaviour
 
     // ==================== COLLISION EFFECTS ====================
 
-    // Visual effects displayed after successful or failed wall matches.
-    public GameObject winObject, failObject;
+    // Visual effects displayed after successful or failed matches.
+    public GameObject winObject;
+    public GameObject failObject;
 
 
     // ==================== ENCOURAGEMENT SYSTEM ====================
 
-    // Reference to the script responsible for playing encouragement animations.
+    // Plays encouragement animations every five successful matches.
     public EncouragementTextScript encouragementText;
 
-    // Tracks total successful matches, regardless of consecutive streaks.
+    // Total successful matches during the current game.
     private int successfulMatches = 0;
 
 
-    // ==================== COMBO / STREAK SYSTEM ====================
+    // ==================== COMBO SYSTEM ====================
 
-    // Tracks consecutive successful matches. Resets when a wall match fails.
+    // Consecutive successful matches.
+    // Resets after a failed wall match.
     private int comboCount = 0;
 
-
-    // ==================== COMBO UI ====================
-
-    // Reference to the TextMeshPro element displaying the current combo.
+    // Combo text and its matching outline.
     public TextMeshProUGUI comboText;
-
-    // Reference to the matching outline text.
     public TextMeshProUGUI comboOutline;
 
-    // Animator responsible for the combo pop and idle animations.
+    // Plays the combo pop and idle animations.
     public Animator comboAnimator;
-
-
-    // ==================== COMBO DISPLAY ====================
-
-    // Updates the persistent combo counter and replays its pop animation.
-    void ShowCombo()
-    {
-        // Only display combos of 2 or higher.
-        if (comboCount < 2)
-            return;
-
-        // Update both text layers with the current combo.
-        string comboMessage = comboCount + "X COMBO!";
-
-        comboText.text = comboMessage;
-        comboOutline.text = comboMessage;
-
-        // Keep the combo visible while the streak continues.
-        comboText.gameObject.SetActive(true);
-        comboOutline.gameObject.SetActive(true);
-
-        // Replay the pop animation whenever the combo increases.
-        comboAnimator.Play("ComboPop", 0, 0f);
-    }
 
 
     // ==================== INITIALIZATION ====================
 
     void Start()
     {
-        // Reset the score at the beginning of a new game.
+        // Reset the score and gameplay progression.
         GameManager.instance.score = 0;
-
-        // Reset wall progression, colors, poses, and difficulty.
         GameManager.instance.ResetGame();
-        
-        // Find the input actions configured in Unity's Input System.
+
+        // Find the configured Input System actions.
         buttonPress = InputSystem.actions.FindAction("TapButton");
         buttonHold = InputSystem.actions.FindAction("HoldButton");
 
-        // Get the player's SpriteRenderer and assign the initial pose.
+        // Get the player SpriteRenderer.
         spriteRenderer = GetComponent<SpriteRenderer>();
-        spriteRenderer.sprite = poses[GameManager.instance.randomWallNums[0]];
 
-        // Set the player's starting pose tag.
+        // Start with the first available pose (Idle).
+        startingPose = 0;
+        spriteRenderer.sprite =
+            poses[GameManager.instance.randomWallNums[0]];
+
+        // Assign the matching collision tag.
         gameObject.tag = "Pose_1";
 
-        // Move the player to their starting lane.
+        // Position the player in the configured starting lane.
         transform.position = new Vector2(
             locations[currentLocation],
             transform.position.y
@@ -143,31 +122,37 @@ public class PlayerScript : MonoBehaviour
 
     void Update()
     {
-        // Read player input only while the game is not paused.
-        if (Time.timeScale != 0)
+        // Refresh the available poses using GameManager's selection.
+        // Locked slots remain empty until they are unlocked.
+        for (int i = 0; i < currentPoses.Length; i++)
         {
-            pressed = buttonPress.WasPerformedThisFrame();
-            held = buttonHold.WasPerformedThisFrame();
+            int poseIndex = GameManager.instance.randomWallNums[i];
+
+            if (poseIndex > 0 && poseIndex < poses.Length)
+            {
+                currentPoses[i] = poses[poseIndex];
+            }
+            else
+            {
+                currentPoses[i] = null;
+            }
         }
 
-        // Update the five available poses using the GameManager's selection.
-        currentPoses[0] = poses[GameManager.instance.randomWallNums[0]];
-        currentPoses[1] = poses[GameManager.instance.randomWallNums[1]];
-        currentPoses[2] = poses[GameManager.instance.randomWallNums[2]];
-        currentPoses[3] = poses[GameManager.instance.randomWallNums[3]];
-        currentPoses[4] = poses[GameManager.instance.randomWallNums[4]];
-
-        // Display the sprite corresponding to the currently selected pose.
+        // Display the player's currently selected pose.
         spriteRenderer.sprite = currentPoses[startingPose];
 
-        // Cycle to the next pose when the tap action is performed.
-        if (pressed == true)
+        // Ignore gameplay input while paused.
+        if (Time.timeScale == 0)
+            return;
+
+        // Tap to cycle through unlocked poses.
+        if (buttonPress.WasPerformedThisFrame())
         {
             poseChange();
         }
 
-        // Move to the next lane when the hold action is performed.
-        if (held == true)
+        // Hold action to change lanes.
+        if (buttonHold.WasPerformedThisFrame())
         {
             laneMovement();
         }
@@ -176,35 +161,34 @@ public class PlayerScript : MonoBehaviour
 
     // ==================== WALL COLLISIONS ====================
 
-    // Checks whether the player matches the approaching wall's pose and lane.
+    // Checks whether the player matches an incoming wall's
+    // required pose and lane.
     void OnTriggerEnter2D(Collider2D other)
     {
-        // A successful match requires the correct pose tag and X position.
+        // A successful match requires the correct pose and X position.
         if (other.CompareTag(gameObject.tag) &&
-            (other.transform.position.x == gameObject.transform.position.x))
+            other.transform.position.x == transform.position.x)
         {
-            // Display the successful match effect.
+            // Show the success effect.
             winObject.SetActive(true);
 
-            // Play the success sound effect if assigned.
+            // Play the success sound.
             if (successSparkleAudio != null)
             {
                 successSparkleAudio.Play();
             }
 
-            // Award points and update difficulty through the GameManager.
+            // Award points and update progression and difficulty.
             GameManager.instance.AddScore();
 
-            // Count this match toward total successes and the current streak.
+            // Update successful match and combo counters.
             successfulMatches++;
             comboCount++;
 
-            // Temporarily display the current combo in the Unity Console.
-            Debug.Log("Current Combo: " + comboCount);
-
+            // Update the combo display.
             ShowCombo();
 
-            // Play a random encouragement animation every five successes.
+            // Play encouragement every five successful matches.
             if (successfulMatches % 5 == 0)
             {
                 encouragementText.PlayRandomEncouragement();
@@ -212,33 +196,57 @@ public class PlayerScript : MonoBehaviour
         }
         else
         {
-            // A failed match breaks the current combo streak.
+            // Reset the combo after a failed match.
             comboCount = 0;
 
             // Hide both combo text layers.
             comboText.gameObject.SetActive(false);
             comboOutline.gameObject.SetActive(false);
 
-            // Hide the player sprite and display the failure effect.
+            // Hide the player and display the failure effect.
             spriteRenderer.color = new Color32(255, 255, 255, 0);
             failObject.SetActive(true);
 
-            // Play the failure sound effect if assigned.
+            // Play the failure sound.
             if (failSmokeAudio != null)
             {
                 failSmokeAudio.Play();
             }
 
-            // Delay Game Over so the failure animation can finish.
+            // Delay Game Over until the failure effect finishes.
             StartCoroutine(DelayedGameOver());
         }
     }
 
 
+    // ==================== COMBO DISPLAY ====================
+
+    // Updates the combo text and replays its pop animation.
+    private void ShowCombo()
+    {
+        // Only display combos of two or higher.
+        if (comboCount < 2)
+            return;
+
+        string comboMessage = comboCount + "X COMBO!";
+
+        // Update both text layers.
+        comboText.text = comboMessage;
+        comboOutline.text = comboMessage;
+
+        // Keep the combo visible.
+        comboText.gameObject.SetActive(true);
+        comboOutline.gameObject.SetActive(true);
+
+        // Replay the combo pop animation.
+        comboAnimator.Play("ComboPop", 0, 0f);
+    }
+
+
     // ==================== GAME OVER ====================
 
-    // Waits before opening Game Over to allow the failure effect to play.
-    IEnumerator DelayedGameOver()
+    // Waits for the failure effect before opening Game Over.
+    private IEnumerator DelayedGameOver()
     {
         yield return new WaitForSeconds(1.5f);
 
@@ -248,7 +256,7 @@ public class PlayerScript : MonoBehaviour
 
     // ==================== COLLISION CLEANUP ====================
 
-    // Hide the success effect after the wall leaves the player's collider.
+    // Hides the success effect when the wall exits the collider.
     void OnTriggerExit2D(Collider2D other)
     {
         winObject.SetActive(false);
@@ -257,33 +265,32 @@ public class PlayerScript : MonoBehaviour
 
     // ==================== POSE CHANGING ====================
 
-    // Cycles through the five available poses and updates the player's tag.
+    // Cycles through the currently unlocked poses.
     private void poseChange()
     {
-        // Advance to the next pose index.
+        // Move to the next pose slot.
         startingPose++;
 
-        // Get the number of poses currently unlocked.
+        // Get the number of unlocked poses (3 or 5).
         int availablePoses = Mathf.Clamp(
             GameManager.instance.activePoseCount,
             1,
             currentPoses.Length
         );
 
-        // Return to the first pose after the last unlocked pose.
+        // Wrap back to the first pose when reaching the end.
         if (startingPose >= availablePoses)
         {
             startingPose = 0;
         }
 
-
-        // Play the pose-changing sound effect if assigned.
+        // Play the pose change sound.
         if (poseChangeAudio != null)
         {
             poseChangeAudio.Play();
         }
 
-        // Update the player's tag for matching against incoming wall tags.
+        // Update the player's collision tag.
         switch (startingPose)
         {
             case 0:
@@ -311,13 +318,13 @@ public class PlayerScript : MonoBehaviour
 
     // ==================== LANE MOVEMENT ====================
 
-    // Moves the player between three lanes, reversing direction at the edges.
+    // Moves between three lanes, reversing direction at the edges.
     private void laneMovement()
     {
-        // Move one lane in the current direction.
+        // Advance one lane in the current direction.
         currentLocation += changeAMT;
 
-        // Reverse direction when moving beyond the rightmost lane.
+        // Reverse direction at the right edge.
         if (currentLocation == locations.Length)
         {
             changeAMT = -changeAMT;
@@ -327,7 +334,7 @@ public class PlayerScript : MonoBehaviour
             currentLocation += changeAMT;
         }
 
-        // Reverse direction when moving beyond the leftmost lane.
+        // Reverse direction at the left edge.
         else if (currentLocation == -1)
         {
             changeAMT = -changeAMT;
@@ -337,13 +344,13 @@ public class PlayerScript : MonoBehaviour
             currentLocation += changeAMT;
         }
 
-        // Update the player's X position to match the selected lane.
+        // Move the player to the selected lane.
         transform.position = new Vector2(
             locations[currentLocation],
             transform.position.y
         );
 
-        // Play the movement sound effect if assigned.
+        // Play the lane movement sound.
         if (movementAudio != null)
         {
             movementAudio.Play();
