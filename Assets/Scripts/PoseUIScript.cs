@@ -25,12 +25,13 @@ public class PoseUIScript : MonoBehaviour
     // Assigned separately in the Inspector for each icon.
     public int poseNum;
 
+    // Lock icon shown until this pose slot unlocks.
+    public GameObject lockedIcon;
 
     // ==================== POSE PROGRESSION TRACKING ====================
 
     // Tracks the last pose set displayed by this UI element.
     private int lastPoseSetVersion = -1;
-
 
     // ==================== INITIALIZATION ====================
 
@@ -54,7 +55,6 @@ public class PoseUIScript : MonoBehaviour
             RefreshPoseUI();
         }
     }
-
 
     // ==================== REFRESH POSE UI ====================
 
@@ -95,6 +95,13 @@ public class PoseUIScript : MonoBehaviour
 
         // Hide locked icons and reveal them when unlocked.
         image.enabled = isUnlocked;
+
+        // Show the lock when the pose is unavailable.
+        // Hide the lock when the pose unlocks.
+        if (lockedIcon != null)
+        {
+            lockedIcon.SetActive(!isUnlocked);
+        }
 
         // Display the assigned pose if this slot is unlocked.
         if (isUnlocked)
