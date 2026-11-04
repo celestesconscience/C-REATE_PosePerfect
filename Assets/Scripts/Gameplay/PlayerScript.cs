@@ -178,6 +178,10 @@ public class PlayerScript : MonoBehaviour
                 successSparkleAudio.Play();
             }
 
+            // Record the pose set version before adding score.
+            int poseVersionBeforeScore =
+                GameManager.instance.poseSetVersion;
+
             // Award points and update progression and difficulty.
             GameManager.instance.AddScore();
 
@@ -188,8 +192,10 @@ public class PlayerScript : MonoBehaviour
             // Update the combo display.
             ShowCombo();
 
-            // Play encouragement every five successful matches.
-            if (successfulMatches % 5 == 0)
+            // Only play encouragement if no pose progression
+            // milestone was triggered by this successful match.
+            if (successfulMatches % 5 == 0 &&
+                GameManager.instance.poseSetVersion == poseVersionBeforeScore)
             {
                 encouragementText.PlayRandomEncouragement();
             }
