@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 // Manages scoring, pose progression, wall colors, difficulty,

@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
@@ -20,7 +19,6 @@ public class PlayerScript : MonoBehaviour
     private InputAction buttonPress;
     private InputAction buttonHold;
 
-
     // ==================== PLAYER POSES ====================
 
     // All character pose sprites, indexed by pose ID.
@@ -36,7 +34,6 @@ public class PlayerScript : MonoBehaviour
     // Index of the selected pose slot (0–4).
     private int startingPose = 0;
 
-
     // ==================== PLAYER MOVEMENT ====================
 
     // X positions of the three lanes, configured in the Inspector.
@@ -48,7 +45,6 @@ public class PlayerScript : MonoBehaviour
     // Direction of lane movement: 1 = right, -1 = left.
     private int changeAMT = 1;
 
-
     // ==================== SOUND EFFECTS ====================
 
     public AudioSource movementAudio;
@@ -56,13 +52,11 @@ public class PlayerScript : MonoBehaviour
     public AudioSource successSparkleAudio;
     public AudioSource failSmokeAudio;
 
-
     // ==================== COLLISION EFFECTS ====================
 
     // Visual effects displayed after successful or failed matches.
     public GameObject winObject;
     public GameObject failObject;
-
 
     // ==================== ENCOURAGEMENT SYSTEM ====================
 
@@ -71,7 +65,6 @@ public class PlayerScript : MonoBehaviour
 
     // Total successful matches during the current game.
     private int successfulMatches = 0;
-
 
     // ==================== COMBO SYSTEM ====================
 
@@ -85,7 +78,6 @@ public class PlayerScript : MonoBehaviour
 
     // Plays the combo pop and idle animations.
     public Animator comboAnimator;
-
 
     // ==================== INITIALIZATION ====================
 

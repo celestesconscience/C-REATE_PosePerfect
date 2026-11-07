@@ -204,6 +204,12 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   wallType: 2
+  magnetEnabled: 1
+  magnetMultiplier: 1.5
+  magnetHoldTime: 0.6
+  magnetAcceleration: 8
+  magnetCutoffFraction: 0.35
+  magnetStartWallSpeed: 0.6
 --- !u!1 &3346019513873013248
 GameObject:
   m_ObjectHideFlags: 0

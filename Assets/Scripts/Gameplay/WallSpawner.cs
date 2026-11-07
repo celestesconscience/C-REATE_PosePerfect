@@ -1,23 +1,23 @@
 using System.Collections;
 using UnityEngine;
 
-// Spawns incoming walls in random lanes at intervals controlled by the GameManager.
+// Spawns incoming walls in random lanes at intervals
+// controlled by the GameManager.
 public class WallSpawner : MonoBehaviour
 {
     // ==================== WALL PREFAB ====================
 
-    // Reference to the wall prefab that will be spawned during gameplay.
+    // Reference to the wall prefab.
     public GameObject wallPrefab;
 
 
     // ==================== SPAWN SETTINGS ====================
 
-    // Unused spawn frequency variable.
-    // The actual spawn interval is controlled by GameManager.wallSpawnSpeed.
+    // Unused variable, kept from the original script.
+    // GameManager.wallSpawnSpeed controls the actual interval.
     public float spawnFreq;
 
-    // X positions of the three lanes, configured in the Inspector.
-    // These should match the lane positions used by PlayerScript.
+    // X positions of the three lanes.
     public float[] locations = new float[3];
 
 
@@ -25,24 +25,22 @@ public class WallSpawner : MonoBehaviour
 
     void Start()
     {
-        // Begin the coroutine responsible for repeatedly spawning walls.
+        // Begin spawning walls.
         StartCoroutine("SpawnWalls");
     }
 
 
     // ==================== WALL SPAWNING ====================
 
-    // Spawns a wall in a randomly selected lane, waits, then repeats.
     IEnumerator SpawnWalls()
     {
-        // Initialize the position where the next wall will spawn.
+        // Initialize the spawn position.
         Vector3 spawnPosition = Vector2.zero;
 
         // Randomly select one of the three lanes.
-        // Random.Range(0, 3) returns 0, 1, or 2 for integers.
         int randomNum = Random.Range(0, 3);
 
-        // Set the spawn position based on the randomly selected lane.
+        // Set the spawn position.
         switch (randomNum)
         {
             case 0:
@@ -58,7 +56,7 @@ public class WallSpawner : MonoBehaviour
                 break;
         }
 
-        // Create a new wall at the selected position with no rotation.
+        // Spawn the wall.
         GameObject wall = Instantiate(
             wallPrefab,
             spawnPosition,
@@ -66,10 +64,11 @@ public class WallSpawner : MonoBehaviour
         );
 
         // Wait before spawning the next wall.
-        // GameManager adjusts this interval as the difficulty increases.
-        yield return new WaitForSeconds(GameManager.instance.wallSpawnSpeed);
+        yield return new WaitForSeconds(
+            GameManager.instance.wallSpawnSpeed
+        );
 
-        // Repeat the spawning process.
+        // Repeat spawning.
         StartCoroutine("SpawnWalls");
     }
 }
