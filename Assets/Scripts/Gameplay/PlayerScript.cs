@@ -352,7 +352,7 @@ public class PlayerScript : MonoBehaviour
         // Walls use Pose_1 through Pose_5 tags,
         // so search for WallScript instead of a "Wall" tag.
         WallScript[] walls =
-            FindObjectsByType<WallScript>(FindObjectsSortMode.None);
+            FindObjectsByType<WallScript>();
 
         float closestDistance = Mathf.Infinity;
 
