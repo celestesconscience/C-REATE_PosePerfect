@@ -9,6 +9,7 @@ TagManager:
   - Pose_3
   - Pose_4
   - Pose_5
+  - Wall
   layers:
   - Default
   - TransparentFX
