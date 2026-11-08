@@ -407,8 +407,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 100
-  m_fontSizeBase: 100
+  m_fontSize: 112
+  m_fontSizeBase: 112
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -734,6 +734,11 @@ MonoBehaviour:
   confirmAudio: {fileID: 0}
   backgroundMusic: {fileID: 0}
   gameOverAudio: {fileID: 0}
+  creditsViewport: {fileID: 0}
+  scrollingCreditsContent: {fileID: 0}
+  creditsScrollSpeed: 55
+  creditsRestartDelay: 2
+  loopCredits: 1
 --- !u!4 &715651699
 Transform:
   m_ObjectHideFlags: 0
@@ -1313,8 +1318,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
