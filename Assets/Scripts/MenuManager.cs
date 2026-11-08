@@ -1,8 +1,11 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using System.Collections;
 
 // Manages scene navigation, menu overlays, game pausing,
-// and audio associated with menus and game state changes.
+// menu audio, and scrolling credits.
 public class MenuManager : MonoBehaviour
 {
     // ==================== MENU OVERLAYS ====================
@@ -16,33 +19,43 @@ public class MenuManager : MonoBehaviour
     // Reference to the Game Over overlay.
     public GameObject gameOverOverlay;
 
-
     // ==================== MENU SOUND EFFECTS ====================
 
-    // References to the menu button click and confirmation sound objects.
     public GameObject buttonClickAudio;
     public GameObject confirmAudio;
 
-    // Shared references to menu audio objects across MenuManager instances.
     private static GameObject persistentButtonClickAudio;
     private static GameObject persistentConfirmAudio;
 
-
     // ==================== GAME AUDIO ====================
 
-    // Background music played during gameplay.
     public AudioSource backgroundMusic;
-
-    // Sound effect played when the game ends.
     public AudioSource gameOverAudio;
 
+    // ==================== SCROLLING CREDITS ====================
+
+    [Header("Scrolling Credits")]
+
+    // Visible area where the credits scroll.
+    public RectTransform creditsViewport;
+
+    // Parent containing all scrolling credit text objects.
+    public RectTransform scrollingCreditsContent;
+
+    // How fast the credits move upward.
+    public float creditsScrollSpeed = 55f;
+
+    // Delay before the credits restart.
+    public float creditsRestartDelay = 2f;
+
+    // Whether the credits should repeat.
+    public bool loopCredits = true;
 
     // ==================== INITIALIZATION ====================
 
     void Awake()
     {
         // Store the first button click audio object.
-        // Destroy duplicates if another instance is already assigned.
         if (buttonClickAudio != null)
         {
             if (persistentButtonClickAudio == null)
@@ -56,7 +69,6 @@ public class MenuManager : MonoBehaviour
         }
 
         // Store the first confirmation audio object.
-        // Destroy duplicates if another instance is already assigned.
         if (confirmAudio != null)
         {
             if (persistentConfirmAudio == null)
@@ -70,20 +82,103 @@ public class MenuManager : MonoBehaviour
         }
     }
 
+    void Start()
+    {
+        // Only run scrolling credits when the references
+        // have been assigned in the Credits scene.
+        if (creditsViewport != null &&
+            scrollingCreditsContent != null)
+        {
+            StartCoroutine(ScrollCredits());
+        }
+    }
+
+    // ==================== SCROLLING CREDITS ====================
+
+    private IEnumerator ScrollCredits()
+    {
+        // Allow the Canvas layout to initialize.
+        yield return null;
+
+        Canvas.ForceUpdateCanvases();
+
+        // Update the layout to calculate the height
+        // of all credit text objects together.
+        LayoutRebuilder.ForceRebuildLayoutImmediate(
+            scrollingCreditsContent
+        );
+
+        Canvas.ForceUpdateCanvases();
+
+        // Get the height of the visible credits area.
+        float viewportHeight =
+            creditsViewport.rect.height;
+
+        // Get the total height of the credits content.
+        float contentHeight =
+            scrollingCreditsContent.rect.height;
+
+        // Starting position: fully below the viewport.
+        float startY = -(
+            viewportHeight / 2f +
+            contentHeight / 2f
+        );
+
+        // Ending position: fully above the viewport.
+        float endY =
+            viewportHeight / 2f +
+            contentHeight / 2f;
+
+        // Start the scrolling loop.
+        while (true)
+        {
+            Vector2 position =
+                scrollingCreditsContent.anchoredPosition;
+
+            // Reset the credits below the screen.
+            position.y = startY;
+
+            scrollingCreditsContent.anchoredPosition =
+                position;
+
+            // ==================== SCROLL UPWARD ====================
+
+            while (position.y < endY)
+            {
+                position.y = Mathf.MoveTowards(
+                    position.y,
+                    endY,
+                    creditsScrollSpeed * Time.unscaledDeltaTime
+                );
+
+                scrollingCreditsContent.anchoredPosition =
+                    position;
+
+                yield return null;
+            }
+
+            // Stop once the credits finish if looping is off.
+            if (!loopCredits)
+            {
+                yield break;
+            }
+
+            // Wait before restarting.
+            yield return new WaitForSecondsRealtime(
+                creditsRestartDelay
+            );
+        }
+    }
 
     // ==================== MENU SOUND EFFECTS ====================
 
-    // Plays the sound effect when a menu button is clicked.
     public void Play_Button_Click_SFX()
     {
-        // Check that the shared button click audio object exists.
         if (persistentButtonClickAudio != null)
         {
-            // Retrieve the AudioSource component.
             AudioSource audioSource =
                 persistentButtonClickAudio.GetComponent<AudioSource>();
 
-            // Play the sound if the AudioSource is available.
             if (audioSource != null)
             {
                 audioSource.Play();
@@ -91,17 +186,13 @@ public class MenuManager : MonoBehaviour
         }
     }
 
-    // Plays the confirmation sound effect for menu selections.
     public void Play_Confirm_SFX()
     {
-        // Check that the shared confirmation audio object exists.
         if (persistentConfirmAudio != null)
         {
-            // Retrieve the AudioSource component.
             AudioSource audioSource =
                 persistentConfirmAudio.GetComponent<AudioSource>();
 
-            // Play the sound if the AudioSource is available.
             if (audioSource != null)
             {
                 audioSource.Play();
@@ -109,141 +200,111 @@ public class MenuManager : MonoBehaviour
         }
     }
 
-
     // ==================== SCENE NAVIGATION ====================
 
-    // Returns the player to the Main Menu scene.
+    // Returns to the Main Menu.
     public void Open_MainMenu_Scene()
     {
-        // Restore normal game time before switching scenes.
         Time.timeScale = 1;
 
         SceneManager.LoadScene("MainMenu");
     }
 
-    // Opens the How to Play / Instructions scene.
+    // Opens Instructions.
     public void Open_Instructions_Scene()
     {
         SceneManager.LoadScene("Instructions");
     }
 
-    // Opens the Game scene when starting or restarting a game.
+    // Starts or restarts gameplay.
     public void Open_Game_Scene()
     {
-        // Restore normal game time before starting gameplay.
         Time.timeScale = 1;
 
         SceneManager.LoadScene("Game");
 
-        // Debug message confirming the game scene was loaded.
         print("Game restarted");
     }
 
-    // Opens the High Scores scene.
+    // Opens High Scores.
     public void Open_HighScores_Scene()
     {
         SceneManager.LoadScene("HighScores");
     }
 
-    // Opens the Credits scene.
+    // Opens Credits.
     public void Open_Credits_Scene()
     {
         SceneManager.LoadScene("Credits");
     }
 
-
     // ==================== PAUSE MENU ====================
 
-    // Opens the Pause Menu and freezes gameplay.
     public void Pause_Open_UI()
     {
-        // Display the Pause Menu overlay.
         pauseOverlay.SetActive(true);
 
-        // Freeze gameplay by setting the time scale to zero.
         Time.timeScale = 0;
 
-        // Pause background music while the game is paused.
         if (backgroundMusic != null)
         {
             backgroundMusic.Pause();
         }
 
-        // Debug message confirming the game is paused.
         print("Pause menu opened. Game frozen");
     }
 
-    // Closes the Pause Menu and resumes gameplay.
     public void Pause_Close_UI()
     {
-        // Hide the Pause Menu overlay.
         pauseOverlay.SetActive(false);
 
-        // Resume gameplay by restoring the normal time scale.
         Time.timeScale = 1;
 
-        // Resume background music from where it was paused.
         if (backgroundMusic != null)
         {
             backgroundMusic.UnPause();
         }
 
-        // Debug message confirming gameplay has resumed.
         print("Pause menu closed. Game resumed");
     }
 
-
     // ==================== CONTROLS MENU ====================
 
-    // Opens the Controls overlay.
     public void Controls_Open_UI()
     {
-        // Display the Controls overlay.
         controlsOverlay.SetActive(true);
 
-        // Debug message confirming the Controls overlay opened.
         print("Controls menu opened. Game frozen");
     }
 
-    // Closes the Controls overlay.
     public void Controls_Close_UI()
     {
-        // Hide the Controls overlay.
         controlsOverlay.SetActive(false);
 
-        // Debug message confirming the Controls overlay closed.
         print("Controls menu closed. Returned to pause menu.");
     }
 
-
     // ==================== GAME OVER MENU ====================
 
-    // Opens the Game Over overlay and stops gameplay.
     public void GameOver_Open_UI()
     {
-        // Freeze gameplay when the player loses.
         Time.timeScale = 0;
 
-        // Stop background music when the game ends.
         if (backgroundMusic != null)
         {
             backgroundMusic.Stop();
         }
 
-        // Play the Game Over sound effect.
         if (gameOverAudio != null)
         {
             gameOverAudio.Play();
         }
 
-        // Display the Game Over overlay.
         gameOverOverlay.SetActive(true);
     }
 
-
     // ==================== APPLICATION CONTROLS ====================
 
-    // Closes the application when the Quit button is selected.
     public void QuitGame()
     {
         Application.Quit();
