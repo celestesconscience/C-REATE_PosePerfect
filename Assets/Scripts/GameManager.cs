@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 // Manages scoring, pose progression, wall colors, difficulty,
@@ -23,6 +24,9 @@ public class GameManager : MonoBehaviour
 
     // Stores high scores. Currently, index 0 tracks the highest score.
     public float[] highScore = new float[5];
+
+    // Player's current lives.
+    public float livesLeft;
 
 
     // ==================== POSE PROGRESSION ====================
@@ -57,7 +61,40 @@ public class GameManager : MonoBehaviour
     // ==================== WALL COLORS ====================
 
     // Current color, previous color, and number of available colors.
+    [Header("Color Settings")]
     public int randomColor, prevColor, numColors;
+
+    // ==================== WALL/POWERUP SPAWN ====================
+
+    [Header("Wall and PowerUp Settings")]
+
+    // Where the wall is currently
+    public int wallLocation;
+
+    // Where the powerup is currently
+    public int powerUpLocation;
+
+    public int numPowerUps;
+
+    // =================== POWERUPS ====================
+    [Header("Power Up Settings")]
+
+    public int doublePointsTimeStart = 20;
+
+    public int doublePointsTimeLeft;
+
+    public bool doublePoints;
+
+    public bool doublePointsAlreadyOn;
+
+    public int armorTimeStart = 30;
+
+    public int armorTimeLeft;
+
+    public bool armor;
+
+    public bool armorAlreadyOn;
+
 
 
     // ==================== WALL SPAWN SPEED ====================
@@ -123,6 +160,8 @@ public class GameManager : MonoBehaviour
         // Select the initial wall color.
         randomColor = Random.Range(1, numColors + 1);
         prevColor = randomColor;
+
+        //StartCoroutine("activateDoublePoints");
     }
 
 
@@ -141,6 +180,8 @@ public class GameManager : MonoBehaviour
         {
             wallSpawnSpeed = startWallSpawn;
             wallSpeed = startWallSpeed;
+
+
         }
 
         // Change wall color every 10 successful matches.
@@ -182,6 +223,16 @@ public class GameManager : MonoBehaviour
         // Select a new starting wall color.
         randomColor = Random.Range(1, numColors + 1);
         prevColor = randomColor;
+        
+        // Turns off all the armor stuff
+        armorAlreadyOn = false;
+        instance.armor = false;
+        instance.armorTimeLeft = 0;
+
+        // Turns off all the 2x points
+        doublePointsAlreadyOn = false;
+        doublePoints = false;
+        doublePointsTimeLeft = 0;
     }
 
 
@@ -191,7 +242,10 @@ public class GameManager : MonoBehaviour
     public void AddScore()
     {
         // Award points.
-        score += scoreAddAmt;
+        if(doublePoints)
+            score += scoreAddAmt * 2;
+        else
+            score += scoreAddAmt;
 
         // Count successful matches.
         wallCounter++;
@@ -407,4 +461,75 @@ public class GameManager : MonoBehaviour
             nextPoseRotationScore += 600f;
         }
     }
+
+    // ==================== WALL AND POWERUP LOCATION CONTROLLERS====================
+
+    //Changes the current location of the wall
+    public void randomWallLocation()
+    {
+        
+        //Random wall location
+        wallLocation = Random.Range(0, 3);
+
+        // Makes it so wallLocation cannot be same as powerUpLocation
+        while(wallLocation == powerUpLocation)
+        {
+            wallLocation = Random.Range(0, 3);
+        }
+
+    }
+
+    public void randomPowerUpLocation()
+    {   
+
+        powerUpLocation = Random.Range(0,3);
+
+        while(powerUpLocation == wallLocation)
+        {
+            powerUpLocation = Random.Range(0, 3);
+        }
+    }
+
+    public IEnumerator activateDoublePoints()
+    {
+        // doublePointsTimeLeft = doublePointsTimeStart;
+        // doublePoints = true;
+
+        if(doublePointsAlreadyOn == false){
+            doublePointsAlreadyOn = true;
+
+            while(doublePointsTimeLeft > 0)
+            {
+                yield return new WaitForSeconds(1f);
+                doublePointsTimeLeft -= 1;
+            }
+        }
+
+        if(doublePointsTimeLeft >= 0){
+            doublePointsAlreadyOn = false;
+            doublePoints = false;
+        }
+    }
+
+    public IEnumerator activateArmor()
+    {
+        // armorTimeLeft = armorTimeStart;
+        // armor = true;
+
+        if(armorAlreadyOn == false){
+            armorAlreadyOn = true;
+
+            while(armorTimeLeft > 0 )
+            {
+                yield return new WaitForSeconds(1f);
+                armorTimeLeft -= 1;
+            }
+        }
+
+        if(armorTimeLeft >= 0){
+            armorAlreadyOn = false;
+            armor = false;
+        }
+    }
+
 }

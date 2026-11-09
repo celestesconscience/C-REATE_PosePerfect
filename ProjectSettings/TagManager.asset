@@ -10,6 +10,7 @@ TagManager:
   - Pose_4
   - Pose_5
   - Wall
+  - PowerUp
   layers:
   - Default
   - TransparentFX

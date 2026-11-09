@@ -72,7 +72,7 @@ public class WallScript : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
 
-        player = FindFirstObjectByType<PlayerScript>();
+        player = FindAnyObjectByType<PlayerScript>();
 
         // Record the wall's starting distance.
         if (player != null)

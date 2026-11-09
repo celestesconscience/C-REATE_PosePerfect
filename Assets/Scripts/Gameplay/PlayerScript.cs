@@ -91,6 +91,7 @@ public class PlayerScript : MonoBehaviour
 
     public GameObject winObject;
     public GameObject failObject;
+    public GameObject armorObject;
 
     // ==================== ENCOURAGEMENT SYSTEM ====================
 
@@ -183,6 +184,15 @@ public class PlayerScript : MonoBehaviour
             poseChange();
         }
 
+        if(GameManager.instance.armorTimeLeft > 0)
+        {
+            armorObject.SetActive(true);
+        }
+        else
+        {
+             armorObject.SetActive(false);
+        }
+
         // ==================== CONTINUOUS LANE MOVEMENT ====================
 
         // Detect whether the player is holding Space.
@@ -223,6 +233,13 @@ public class PlayerScript : MonoBehaviour
             laneHoldTimer = 0f;
             isAutoMoving = false;
         }
+
+        // Adjusts how many points the player gains per success, every 10 combo gain extra 10 points with max of 100
+        if(comboCount%10 == 0 && comboCount < 101)
+        {
+            GameManager.instance.scoreAddAmt = 100f + comboCount;
+        }
+
     }
 
     // ==================== ARROW UPDATE ====================
@@ -458,12 +475,8 @@ public class PlayerScript : MonoBehaviour
         if (other.CompareTag(gameObject.tag) &&
             other.transform.position.x == transform.position.x)
         {
-            winObject.SetActive(true);
 
-            if (successSparkleAudio != null)
-            {
-                successSparkleAudio.Play();
-            }
+            StartCoroutine("ActivateSuccessAnim");
 
             int poseVersionBeforeScore =
                 GameManager.instance.poseSetVersion;
@@ -482,6 +495,11 @@ public class PlayerScript : MonoBehaviour
                 encouragementText.PlayRandomEncouragement();
             }
         }
+        else if (other.CompareTag("PowerUp"))
+        {
+            //just so it doesnt impact anything against the player
+            //can add sfx is needed
+        }
         else
         {
             comboCount = 0;
@@ -489,20 +507,69 @@ public class PlayerScript : MonoBehaviour
             comboText.gameObject.SetActive(false);
             comboOutline.gameObject.SetActive(false);
 
-            spriteRenderer.color =
-                new Color32(255, 255, 255, 0);
-
-            failObject.SetActive(true);
-
-            if (failSmokeAudio != null)
+            if(GameManager.instance.armorAlreadyOn)//CHECKS FOR ARMOR IF THERE THEN REMOVES IT
             {
-                failSmokeAudio.Play();
+                GameManager.instance.armorAlreadyOn = false;
+                GameManager.instance.armor = false;
+                GameManager.instance.armorTimeLeft = 0;
+            }
+            else//IF NO ARMOR
+            {
+                GameManager.instance.livesLeft--;
             }
 
-            StartCoroutine(DelayedGameOver());
+            StartCoroutine("ActivateFailAnim");
+
+
+            //Activates if player has no lives left
+            if(GameManager.instance.livesLeft <= 0){
+                //makes player invisible
+                spriteRenderer.color =
+                    new Color32(255, 255, 255, 0);
+
+                // failObject.SetActive(true);
+
+                // if (failSmokeAudio != null)
+                // {
+                //     failSmokeAudio.Play();
+                // }
+
+                StartCoroutine(DelayedGameOver());
+            }
         }
     }
+    // ==================== WIN/LOSE ANIMATIONS ====================
 
+     private IEnumerator ActivateSuccessAnim()
+    {
+        winObject.SetActive(false);
+        winObject.SetActive(true);
+
+        if (successSparkleAudio != null)
+        {
+            successSparkleAudio.Play();
+        }
+
+        yield return new WaitForSeconds(2f);
+
+        winObject.SetActive(false);
+
+    }
+
+     private IEnumerator ActivateFailAnim()
+    {
+        failObject.SetActive(false);//disables it if it is already true
+        failObject.SetActive(true);
+
+        if (failSmokeAudio != null)
+        {
+           failSmokeAudio.Play();
+        }
+
+        yield return new WaitForSeconds(2f);
+
+        failObject.SetActive(false);
+    }
     // ==================== COMBO DISPLAY ====================
 
     private void ShowCombo()
@@ -534,7 +601,7 @@ public class PlayerScript : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        winObject.SetActive(false);
+        //winObject.SetActive(false);
     }
 
     // ==================== POSE CHANGING ====================

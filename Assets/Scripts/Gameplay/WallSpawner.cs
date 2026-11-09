@@ -35,26 +35,10 @@ public class WallSpawner : MonoBehaviour
     IEnumerator SpawnWalls()
     {
         // Initialize the spawn position.
-        Vector3 spawnPosition = Vector2.zero;
+        Vector2 spawnPosition;
 
-        // Randomly select one of the three lanes.
-        int randomNum = Random.Range(0, 3);
-
-        // Set the spawn position.
-        switch (randomNum)
-        {
-            case 0:
-                spawnPosition = new Vector2(locations[randomNum], 0);
-                break;
-
-            case 1:
-                spawnPosition = new Vector2(locations[randomNum], 0);
-                break;
-
-            case 2:
-                spawnPosition = new Vector2(locations[randomNum], 0);
-                break;
-        }
+        GameManager.instance.randomWallLocation();
+        spawnPosition = new Vector2(locations[GameManager.instance.wallLocation], 0);
 
         // Spawn the wall.
         GameObject wall = Instantiate(
