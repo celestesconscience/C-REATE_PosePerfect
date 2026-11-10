@@ -80,6 +80,44 @@ public class PlayerScript : MonoBehaviour
     public AudioSource heartLostAudio;
 
 
+    // ==================== POWER-UP SOUND EFFECTS ====================
+
+    [Header("Power-Up Collection Sounds")]
+
+    public AudioSource bonus500Audio;
+    public AudioSource doublePointsAudio;
+    public AudioSource armorCollectAudio;
+    public AudioSource heartCollectAudio;
+    public AudioSource armorBreakAudio;
+
+    // ==================== PLAY POWER-UP SOUND ====================
+
+    public void PlayPowerUpCollectionSound(int powerUpType)
+    {
+        switch (powerUpType)
+        {
+            case 0: // +500 Points
+                if (bonus500Audio != null)
+                    bonus500Audio.Play();
+                break;
+
+            case 1: // 2x Points
+                if (doublePointsAudio != null)
+                    doublePointsAudio.Play();
+                break;
+
+            case 2: // Armor
+                if (armorCollectAudio != null)
+                    armorCollectAudio.Play();
+                break;
+
+            case 3: // +1 Heart
+                if (heartCollectAudio != null)
+                    heartCollectAudio.Play();
+                break;
+        }
+    }
+
     // ==================== COLLISION EFFECTS ====================
 
     public GameObject winObject;
@@ -100,6 +138,16 @@ public class PlayerScript : MonoBehaviour
     public TextMeshProUGUI comboText;
     public TextMeshProUGUI comboOutline;
     public Animator comboAnimator;
+
+    // ==================== +500 POINTS FEEDBACK ====================
+
+    [Header("+500 Points Feedback")]
+
+    public TextMeshProUGUI bonus500Text;
+    public TextMeshProUGUI bonus500Outline;
+    public Animator bonus500Animator;
+
+    private Coroutine bonus500Routine;
 
 
     // ==================== INITIALIZATION ====================
@@ -131,6 +179,13 @@ public class PlayerScript : MonoBehaviour
             locations[currentLocation],
             transform.position.y
         );
+
+        // Hide +500 feedback when starting a new game.
+        if (bonus500Text != null)
+            bonus500Text.gameObject.SetActive(false);
+
+        if (bonus500Outline != null)
+            bonus500Outline.gameObject.SetActive(false);
 
         // Begin with armor hidden.
         if (armorObject != null)
@@ -546,6 +601,10 @@ public class PlayerScript : MonoBehaviour
                 GameManager.instance.armorAlreadyOn = false;
                 GameManager.instance.armor = false;
                 GameManager.instance.armorTimeLeft = 0;
+                
+                // Play the shield-breaking sound.
+                if (armorBreakAudio != null)
+                    armorBreakAudio.Play();
 
                 if (armorObject != null)
                     armorObject.SetActive(false);
@@ -664,6 +723,46 @@ public class PlayerScript : MonoBehaviour
                 0f
             );
         }
+    }
+
+
+    // ==================== +500 POINTS POPUP ====================
+
+    public void ShowBonus500()
+    {
+        // Don't play if the UI references are missing.
+        if (bonus500Text == null || bonus500Outline == null)
+            return;
+
+        // Restart if another +500 is collected.
+        if (bonus500Routine != null)
+            StopCoroutine(bonus500Routine);
+
+        bonus500Routine = StartCoroutine(PlayBonus500());
+    }
+
+    private IEnumerator PlayBonus500()
+    {
+        // Set the feedback text.
+        bonus500Text.text = "+500";
+        bonus500Outline.text = "+500";
+
+        // Show both text objects.
+        bonus500Text.gameObject.SetActive(true);
+        bonus500Outline.gameObject.SetActive(true);
+
+        // Restart the pop animation.
+        if (bonus500Animator != null)
+            bonus500Animator.Play("Bonus500Pop", 0, 0f);
+
+        // Keep feedback visible briefly.
+        yield return new WaitForSeconds(0.8f);
+
+        // Hide both text objects.
+        bonus500Text.gameObject.SetActive(false);
+        bonus500Outline.gameObject.SetActive(false);
+
+        bonus500Routine = null;
     }
 
 

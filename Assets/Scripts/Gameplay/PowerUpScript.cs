@@ -1,7 +1,7 @@
 using UnityEngine;
 
 // Handles power-up selection, collection animations,
-// and activation of gameplay effects.
+// sound effects, and activation of gameplay effects.
 public class PowerUpScript : MonoBehaviour
 {
     // ==================== POWER-UP SPRITES ====================
@@ -22,7 +22,6 @@ public class PowerUpScript : MonoBehaviour
 
     [Header("Power-Up Collection Animations")]
 
-    // Animation prefabs played when each power-up is collected.
     public GameObject bonus500CollectFX;
     public GameObject doublePointsCollectFX;
     public GameObject armorCollectFX;
@@ -36,19 +35,13 @@ public class PowerUpScript : MonoBehaviour
 
     [Header("Power-Up Selection")]
 
-    // Random value used to determine the power-up type.
     public int powerUpRandom;
-
-    // Selected power-up ID (0–3).
     public int powerUpType;
 
 
     // ==================== SPAWN PROBABILITIES ====================
 
     [Header("Power-Up Spawn Chances")]
-
-    // Relative selection weights for each power-up.
-    // When the total is 100, these equal percentages.
 
     [Min(0)] public int bonusPointsChance = 30;
     [Min(0)] public int doublePointsChance = 25;
@@ -64,7 +57,7 @@ public class PowerUpScript : MonoBehaviour
     // Disable this during regular gameplay.
     public bool forceHeartForTesting = false;
 
-    // Prevents the same power-up from being collected twice.
+    // Prevent duplicate collection.
     private bool collected = false;
 
 
@@ -78,7 +71,7 @@ public class PowerUpScript : MonoBehaviour
         // Randomly select the power-up type.
         SelectPowerUp();
 
-        // Display the sprite matching the selected type.
+        // Display the matching sprite.
         if (spriteRenderer != null &&
             powerUpType >= 0 &&
             powerUpType < powerUps.Length)
@@ -114,7 +107,7 @@ public class PowerUpScript : MonoBehaviour
             return;
         }
 
-        // Select a random value within the total weight.
+        // Randomly select a value within the total weight.
         powerUpRandom = Random.Range(0, totalChance);
 
         // +500 Points
@@ -154,7 +147,7 @@ public class PowerUpScript : MonoBehaviour
         if (anim == null || GameManager.instance == null)
             return;
 
-        // Match the collectible's animation speed to wall speed.
+        // Match collectible animation speed to wall speed.
         anim.SetFloat(
             "Speed",
             GameManager.instance.wallSpeed
@@ -177,21 +170,32 @@ public class PowerUpScript : MonoBehaviour
         if (player == null || GameManager.instance == null)
             return;
 
+        // Do not collect after the game has ended.
+        if (GameManager.instance.livesLeft <= 0)
+            return;
+
         collected = true;
 
-        // A heart animation should only play if the player
-        // has fewer than the maximum of three hearts.
+        // Heart effects only play when a heart can be gained.
         bool canPlayAnimation =
             powerUpType != 3 ||
             GameManager.instance.livesLeft < 3;
 
+        // Play the existing collection animation.
         if (canPlayAnimation)
         {
             PlayCollectionAnimation(player.transform);
         }
 
         // Apply the selected power-up effect.
-        ActivatePowerUp();
+        ActivatePowerUp(player);
+
+        // Play the matching collection sound.
+        // Skip the heart sound if the player already has 3 hearts.
+        if (canPlayAnimation)
+        {
+            player.PlayPowerUpCollectionSound(powerUpType);
+        }
 
         // Clear the occupied power-up lane.
         GameManager.instance.powerUpLocation = 10;
@@ -207,7 +211,7 @@ public class PowerUpScript : MonoBehaviour
     {
         GameObject effectPrefab = null;
 
-        // Choose the correct collection animation.
+        // Select the correct collection animation.
         switch (powerUpType)
         {
             case 0:
@@ -227,27 +231,26 @@ public class PowerUpScript : MonoBehaviour
                 break;
         }
 
-        // Skip animation if no prefab is assigned.
+        // Skip if no animation prefab is assigned.
         if (effectPrefab == null)
             return;
 
-        // Position the effect relative to the player.
-        Vector3 effectPosition =
-            player.position + collectionEffectOffset;
-
-        // Spawn the animation independently so it can finish
-        // after the collected power-up has been destroyed.
-        Instantiate(
+        // Spawn at the player's position without a parent.
+        GameObject effectInstance = Instantiate(
             effectPrefab,
-            effectPosition,
+            player.position + collectionEffectOffset,
             Quaternion.identity
         );
+
+        // Preserve its original world size while
+        // attaching it to the player.
+        effectInstance.transform.SetParent(player, true);
     }
 
 
     // ==================== POWER-UP EFFECTS ====================
 
-    private void ActivatePowerUp()
+    private void ActivatePowerUp(PlayerScript player)
     {
         GameManager manager = GameManager.instance;
 
@@ -257,8 +260,14 @@ public class PowerUpScript : MonoBehaviour
 
             case 0:
 
-                // Immediately award 500 bonus points.
+                // Award exactly 500 bonus points.
                 manager.score += 500f;
+
+                // Show +500 feedback beside the score HUD.
+                if (player != null)
+                {
+                    player.ShowBonus500();
+                }
 
                 break;
 
@@ -267,18 +276,17 @@ public class PowerUpScript : MonoBehaviour
 
             case 1:
 
-                // Stop any existing double-points countdown.
-                // Prevents an older timer from ending a refreshed effect.
+                // Stop the previous countdown if active.
                 manager.StopCoroutine("activateDoublePoints");
 
                 // Restore the full duration.
                 manager.doublePointsTimeLeft =
                     manager.doublePointsTimeStart;
 
-                // Activate the score multiplier.
+                // Activate the multiplier.
                 manager.doublePoints = true;
 
-                // Start a new countdown.
+                // Start a fresh countdown.
                 manager.StartCoroutine("activateDoublePoints");
 
                 break;
@@ -288,19 +296,17 @@ public class PowerUpScript : MonoBehaviour
 
             case 2:
 
-                // Stop any existing armor countdown.
-                // Prevents an older timer from removing new armor.
+                // Stop the previous armor countdown.
                 manager.StopCoroutine("activateArmor");
 
-                // Restore the full armor duration.
+                // Restore the full duration.
                 manager.armorTimeLeft =
                     manager.armorTimeStart;
 
                 // Activate the shield.
                 manager.armor = true;
 
-                // Start a new countdown.
-                // GameManager sets armorAlreadyOn to true.
+                // Start a fresh countdown.
                 manager.StartCoroutine("activateArmor");
 
                 break;
@@ -310,7 +316,7 @@ public class PowerUpScript : MonoBehaviour
 
             case 3:
 
-                // Restore one heart without exceeding three lives.
+                // Restore one heart, maximum 3.
                 manager.livesLeft = Mathf.Min(
                     manager.livesLeft + 1,
                     3

@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-// Displays power-up timers and the player's remaining hearts.
+// Controls the expanding power-up status panel and heart HUD.
 public class PowerUpCounters : MonoBehaviour
 {
     // ==================== POWER-UP STATUS PANEL ====================
@@ -10,10 +10,14 @@ public class PowerUpCounters : MonoBehaviour
 
     public GameObject powerUpStatusPanel;
 
+    public GameObject doublePointsRow;
+    public GameObject armorRow;
+
     public TextMeshProUGUI doublePointsCounterText;
     public TextMeshProUGUI armorCounterText;
 
-    // ==================== HEART DISPLAY ====================
+
+    // ==================== HEART HUD ====================
 
     [Header("Heart HUD")]
 
@@ -21,19 +25,21 @@ public class PowerUpCounters : MonoBehaviour
     public GameObject heart2;
     public GameObject heart3;
 
+
     // ==================== INITIALIZATION ====================
 
     void Start()
     {
-        if (doublePointsCounterText != null)
-            doublePointsCounterText.gameObject.SetActive(false);
+        if (doublePointsRow != null)
+            doublePointsRow.SetActive(false);
 
-        if (armorCounterText != null)
-            armorCounterText.gameObject.SetActive(false);
+        if (armorRow != null)
+            armorRow.SetActive(false);
 
         if (powerUpStatusPanel != null)
             powerUpStatusPanel.SetActive(false);
     }
+
 
     // ==================== UPDATE ====================
 
@@ -46,13 +52,14 @@ public class PowerUpCounters : MonoBehaviour
         UpdateHeartDisplay();
     }
 
+
     // ==================== DYNAMIC POWER-UP PANEL ====================
 
     private void UpdatePowerUpPanel()
     {
         GameManager manager = GameManager.instance;
 
-        // Determine which effects are currently active.
+        // Check whether each timed power-up is active.
         bool doublePointsActive =
             manager.doublePoints &&
             manager.doublePointsAlreadyOn &&
@@ -63,53 +70,50 @@ public class PowerUpCounters : MonoBehaviour
             manager.armorAlreadyOn &&
             manager.armorTimeLeft > 0;
 
-        // ==================== DOUBLE POINTS ROW ====================
+
+        // ==================== DOUBLE POINTS ====================
 
         if (doublePointsCounterText != null)
         {
-            if (doublePointsActive)
-            {
-                doublePointsCounterText.text =
-                    "2x Points     " +
-                    manager.doublePointsTimeLeft + "s";
-            }
-
-            doublePointsCounterText.gameObject.SetActive(
-                doublePointsActive
-            );
+            doublePointsCounterText.text =
+                "x2 Points    " +
+                manager.doublePointsTimeLeft + "s";
         }
 
-        // ==================== ARMOR ROW ====================
+        if (doublePointsRow != null &&
+            doublePointsRow.activeSelf != doublePointsActive)
+        {
+            doublePointsRow.SetActive(doublePointsActive);
+        }
+
+
+        // ==================== ARMOR ====================
 
         if (armorCounterText != null)
         {
-            if (armorActive)
-            {
-                armorCounterText.text =
-                    "Armor     " +
-                    manager.armorTimeLeft + "s";
-            }
-
-            armorCounterText.gameObject.SetActive(
-                armorActive
-            );
+            armorCounterText.text =
+                "Armor Up    " +
+                manager.armorTimeLeft + "s";
         }
+
+        if (armorRow != null &&
+            armorRow.activeSelf != armorActive)
+        {
+            armorRow.SetActive(armorActive);
+        }
+
 
         // ==================== PANEL VISIBILITY ====================
 
-        // Show the panel if at least one timed effect is active.
-        // Hide it completely when neither effect is active.
-        if (powerUpStatusPanel != null)
-        {
-            bool showPanel =
-                doublePointsActive || armorActive;
+        bool panelActive = doublePointsActive || armorActive;
 
-            if (powerUpStatusPanel.activeSelf != showPanel)
-            {
-                powerUpStatusPanel.SetActive(showPanel);
-            }
+        if (powerUpStatusPanel != null &&
+            powerUpStatusPanel.activeSelf != panelActive)
+        {
+            powerUpStatusPanel.SetActive(panelActive);
         }
     }
+
 
     // ==================== HEART DISPLAY ====================
 
