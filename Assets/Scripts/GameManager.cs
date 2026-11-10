@@ -7,110 +7,75 @@ public class GameManager : MonoBehaviour
 {
     // ==================== GAME MANAGER INSTANCE ====================
 
-    // Shared instance accessible by other gameplay scripts.
     public static GameManager instance;
 
 
     // ==================== SCORING SYSTEM ====================
 
-    // Player's current score.
     public float score;
-
-    // Points awarded for each successful wall match.
     public float scoreAddAmt;
 
-    // Counts successful matches toward the next wall color change.
     private int wallCounter;
 
-    // Stores high scores. Currently, index 0 tracks the highest score.
     public float[] highScore = new float[5];
-
-    // Player's current lives.
     public float livesLeft;
 
 
     // ==================== POSE PROGRESSION ====================
 
-    // Stores up to five pose IDs, used by the player, walls, and UI.
-    // Only the first three slots are active at the start.
     public int[] randomWallNums = new int[5];
 
-    // Total number of available poses (IDs 1–20).
     public int currentNumPoses = 20;
-
-    // Number of currently unlocked pose slots (3 or 5).
     public int activePoseCount = 3;
 
-    // Increases whenever the available pose selection changes.
-    // Used by WallScript to synchronize existing walls.
     public int poseSetVersion { get; private set; } = 0;
 
-    // Total successful matches during the current game.
     private int totalSuccessfulMatches = 0;
-
-    // Current progression stage.
     private int poseStage = 1;
 
-    // Tracks which pose IDs have already been introduced.
     private bool[] introducedPoses = new bool[21];
 
-    // Next score milestone for full-pool randomization.
     private float nextPoseRotationScore = 3300f;
 
 
     // ==================== WALL COLORS ====================
 
-    // Current color, previous color, and number of available colors.
     [Header("Color Settings")]
     public int randomColor, prevColor, numColors;
 
-    // ==================== WALL/POWERUP SPAWN ====================
+
+    // ==================== WALL / POWER-UP SPAWN ====================
 
     [Header("Wall and PowerUp Settings")]
 
-    // Where the wall is currently
     public int wallLocation;
-
-    // Where the powerup is currently
     public int powerUpLocation;
-
     public int numPowerUps;
 
-    // =================== POWERUPS ====================
+
+    // ==================== POWER-UPS ====================
+
     [Header("Power Up Settings")]
 
     public int doublePointsTimeStart = 20;
-
     public int doublePointsTimeLeft;
-
     public bool doublePoints;
-
     public bool doublePointsAlreadyOn;
 
     public int armorTimeStart = 30;
-
     public int armorTimeLeft;
-
     public bool armor;
-
     public bool armorAlreadyOn;
-
 
 
     // ==================== WALL SPAWN SPEED ====================
 
     [Header("Wall Spawn Speed Settings")]
 
-    // Current time between wall spawns.
     public float wallSpawnSpeed;
-
-    // Minimum spawn interval.
     public float wallEndSpawnSpeed;
-
-    // Amount the spawn interval decreases after each successful match.
     public float wallSpawnScale;
 
-    // Original spawn interval, saved for resetting.
     private float startWallSpawn;
 
 
@@ -118,16 +83,10 @@ public class GameManager : MonoBehaviour
 
     [Header("Wall Speed Settings")]
 
-    // Current wall movement speed.
     public float wallSpeed;
-
-    // Maximum wall movement speed.
     public float wallEndSpeed;
-
-    // Amount wall speed increases after each successful match.
     public float wallScale;
 
-    // Original wall speed, saved for resetting.
     private float startWallSpeed;
 
 
@@ -148,20 +107,19 @@ public class GameManager : MonoBehaviour
         startWallSpawn = wallSpawnSpeed;
         startWallSpeed = wallSpeed;
 
-        // Preserve the GameManager between scene changes.
+        // Preserve GameManager between scene changes.
         DontDestroyOnLoad(gameObject);
 
-        // Initialize Idle and two randomly selected poses.
+        // Initialize the starting pose selection.
         GenerateStartingPoses();
     }
+
 
     void Start()
     {
         // Select the initial wall color.
         randomColor = Random.Range(1, numColors + 1);
         prevColor = randomColor;
-
-        //StartCoroutine("activateDoublePoints");
     }
 
 
@@ -175,22 +133,18 @@ public class GameManager : MonoBehaviour
             highScore[0] = score;
         }
 
-        // Restore starting difficulty when the score is zero.
+        // Restore starting difficulty when score is zero.
         if (score == 0)
         {
             wallSpawnSpeed = startWallSpawn;
             wallSpeed = startWallSpeed;
-
-
         }
 
         // Change wall color every 10 successful matches.
-        // Pose progression is handled separately.
         if (wallCounter >= 10)
         {
             if (numColors > 1)
             {
-                // Prevent selecting the same color twice consecutively.
                 do
                 {
                     randomColor = Random.Range(1, numColors + 1);
@@ -207,10 +161,26 @@ public class GameManager : MonoBehaviour
 
     // ==================== NEW GAME RESET ====================
 
-    // Resets difficulty, wall colors, and pose progression.
     public void ResetGame()
     {
-        // Reset the wall color counter.
+        // Stop old power-up timers before resetting values.
+        StopCoroutine("activateArmor");
+        StopCoroutine("activateDoublePoints");
+
+        // Restore the player's starting heart after restarting.
+        livesLeft = 1;
+
+        // Clear all armor effects.
+        armorAlreadyOn = false;
+        armor = false;
+        armorTimeLeft = 0;
+
+        // Clear all double-points effects.
+        doublePointsAlreadyOn = false;
+        doublePoints = false;
+        doublePointsTimeLeft = 0;
+
+        // Reset wall color counter.
         wallCounter = 0;
 
         // Restore starting difficulty.
@@ -223,26 +193,15 @@ public class GameManager : MonoBehaviour
         // Select a new starting wall color.
         randomColor = Random.Range(1, numColors + 1);
         prevColor = randomColor;
-        
-        // Turns off all the armor stuff
-        armorAlreadyOn = false;
-        instance.armor = false;
-        instance.armorTimeLeft = 0;
-
-        // Turns off all the 2x points
-        doublePointsAlreadyOn = false;
-        doublePoints = false;
-        doublePointsTimeLeft = 0;
     }
 
 
     // ==================== SCORING & DIFFICULTY ====================
 
-    // Called by PlayerScript after each successful wall match.
     public void AddScore()
     {
-        // Award points.
-        if(doublePoints)
+        // Apply double points when active.
+        if (doublePoints)
             score += scoreAddAmt * 2;
         else
             score += scoreAddAmt;
@@ -251,28 +210,26 @@ public class GameManager : MonoBehaviour
         wallCounter++;
         totalSuccessfulMatches++;
 
-        // Check for pose unlocks and rotations.
+        // Check for pose progression.
         UpdatePoseProgression();
 
-        // Gradually reduce the interval between wall spawns.
+        // Increase wall spawn frequency.
         if (wallSpawnSpeed > wallEndSpawnSpeed)
         {
             wallSpawnSpeed -= wallSpawnScale;
         }
 
-        // Enforce the minimum spawn interval.
         if (wallSpawnSpeed < wallEndSpawnSpeed)
         {
             wallSpawnSpeed = wallEndSpawnSpeed;
         }
 
-        // Gradually increase wall movement speed.
+        // Increase wall movement speed.
         if (wallSpeed < wallEndSpeed)
         {
             wallSpeed += wallScale;
         }
 
-        // Enforce the maximum wall movement speed.
         if (wallSpeed > wallEndSpeed)
         {
             wallSpeed = wallEndSpeed;
@@ -282,7 +239,6 @@ public class GameManager : MonoBehaviour
 
     // ==================== STARTING POSES ====================
 
-    // Starts a new game with Idle and two unique random poses.
     private void GenerateStartingPoses()
     {
         // Clear previously introduced poses.
@@ -298,7 +254,7 @@ public class GameManager : MonoBehaviour
         randomWallNums[0] = 1;
         introducedPoses[1] = true;
 
-        // Select two unique random poses from IDs 2–20.
+        // Select two unique random poses.
         for (int i = 1; i < 3; i++)
         {
             int randomNum;
@@ -313,25 +269,22 @@ public class GameManager : MonoBehaviour
             introducedPoses[randomNum] = true;
         }
 
-        // Keep the last two pose slots locked.
+        // Keep final two slots locked.
         randomWallNums[3] = 0;
         randomWallNums[4] = 0;
 
-        // Notify other scripts that the pose set changed.
         poseSetVersion++;
     }
 
 
     // ==================== FIRST POSE UNLOCK ====================
 
-    // Unlocks two additional poses after six successful matches.
     private void UnlockAdditionalPoses()
     {
-        // Only unlock during Stage 1.
         if (poseStage != 1)
             return;
 
-        // Fill slots 4 and 5 with previously unseen poses.
+        // Unlock two previously unseen poses.
         for (int i = 3; i < 5; i++)
         {
             int randomNum;
@@ -346,22 +299,17 @@ public class GameManager : MonoBehaviour
             introducedPoses[randomNum] = true;
         }
 
-        // Activate all five slots.
         activePoseCount = 5;
         poseStage = 2;
 
-        // Notify other scripts.
         poseSetVersion++;
     }
 
 
     // ==================== NEW POSE ROTATION ====================
 
-    // Replaces all five slots with previously unseen poses.
-    // Used at 1,500, 2,100, and 2,700 points.
     private void RotateToNewPoses()
     {
-        // Only introduce unseen poses during Stages 2–4.
         if (poseStage < 2 || poseStage >= 5)
             return;
 
@@ -382,21 +330,17 @@ public class GameManager : MonoBehaviour
 
         activePoseCount = 5;
 
-        // Advance to the next stage.
         poseStage++;
 
-        // Notify other scripts.
         poseSetVersion++;
     }
 
 
     // ==================== FULL-POOL RANDOMIZATION ====================
 
-    // Selects five unique poses from all 20 available poses.
-    // Used at 3,300 points and every 600 points afterward.
     private void RotateFromFullPool()
     {
-        // Track selections within this rotation to prevent duplicates.
+        // Prevent duplicate poses within the same rotation.
         bool[] selectedPoses = new bool[currentNumPoses + 1];
 
         for (int i = 0; i < 5; i++)
@@ -414,122 +358,125 @@ public class GameManager : MonoBehaviour
         }
 
         activePoseCount = 5;
-
-        // Stage 6 represents unrestricted randomization.
         poseStage = 6;
 
-        // Notify other scripts.
         poseSetVersion++;
     }
 
 
     // ==================== POSE PROGRESSION CONTROLLER ====================
 
-    // Activates pose changes when progression milestones are reached.
     private void UpdatePoseProgression()
     {
-        // Stage 1 → 2: Unlock two poses after six successful matches.
+        // Stage 1: Unlock five poses after six matches.
         if (poseStage == 1 && totalSuccessfulMatches >= 6)
         {
             UnlockAdditionalPoses();
         }
 
-        // Stage 2 → 3: Introduce five unseen poses.
+        // Stage 2: Rotate at 1500 points.
         if (poseStage == 2 && score >= 1500f)
         {
             RotateToNewPoses();
         }
 
-        // Stage 3 → 4: Introduce five more unseen poses.
+        // Stage 3: Rotate at 2100 points.
         if (poseStage == 3 && score >= 2100f)
         {
             RotateToNewPoses();
         }
 
-        // Stage 4 → 5: Introduce the final five unseen poses.
+        // Stage 4: Rotate at 2700 points.
         if (poseStage == 4 && score >= 2700f)
         {
             RotateToNewPoses();
         }
 
-        // Stage 6+: Randomize from all 20 poses every 600 points.
+        // Stage 5+: Rotate every 600 points from 3300.
         if (poseStage >= 5 && score >= nextPoseRotationScore)
         {
             RotateFromFullPool();
-
-            // Schedule the next full-pool rotation.
             nextPoseRotationScore += 600f;
         }
     }
 
-    // ==================== WALL AND POWERUP LOCATION CONTROLLERS====================
 
-    //Changes the current location of the wall
+    // ==================== WALL LOCATION CONTROLLER ====================
+
     public void randomWallLocation()
     {
-        
-        //Random wall location
         wallLocation = Random.Range(0, 3);
 
-        // Makes it so wallLocation cannot be same as powerUpLocation
-        while(wallLocation == powerUpLocation)
+        // Prevent wall and power-up occupying the same lane.
+        while (wallLocation == powerUpLocation)
         {
             wallLocation = Random.Range(0, 3);
         }
-
     }
 
+
+    // ==================== POWER-UP LOCATION CONTROLLER ====================
+
     public void randomPowerUpLocation()
-    {   
+    {
+        powerUpLocation = Random.Range(0, 3);
 
-        powerUpLocation = Random.Range(0,3);
-
-        while(powerUpLocation == wallLocation)
+        // Prevent power-up and wall occupying the same lane.
+        while (powerUpLocation == wallLocation)
         {
             powerUpLocation = Random.Range(0, 3);
         }
     }
 
+
+    // ==================== DOUBLE POINTS TIMER ====================
+
     public IEnumerator activateDoublePoints()
     {
-        // doublePointsTimeLeft = doublePointsTimeStart;
-        // doublePoints = true;
+        // Activate double points immediately.
+        doublePointsAlreadyOn = true;
 
-        if(doublePointsAlreadyOn == false){
-            doublePointsAlreadyOn = true;
+        // Count down while the effect is active.
+        while (doublePointsTimeLeft > 0 && doublePoints)
+        {
+            yield return new WaitForSeconds(1f);
 
-            while(doublePointsTimeLeft > 0)
-            {
-                yield return new WaitForSeconds(1f);
-                doublePointsTimeLeft -= 1;
-            }
+            // Stop if double points were cancelled.
+            if (!doublePoints)
+                yield break;
+
+            doublePointsTimeLeft--;
         }
 
-        if(doublePointsTimeLeft >= 0){
-            doublePointsAlreadyOn = false;
-            doublePoints = false;
-        }
+        // Disable the multiplier when time expires.
+        doublePointsTimeLeft = 0;
+        doublePointsAlreadyOn = false;
+        doublePoints = false;
     }
+
+
+    // ==================== ARMOR TIMER ====================
 
     public IEnumerator activateArmor()
     {
-        // armorTimeLeft = armorTimeStart;
-        // armor = true;
+        // Activate protection immediately.
+        armorAlreadyOn = true;
 
-        if(armorAlreadyOn == false){
-            armorAlreadyOn = true;
+        // Count down while armor remains active.
+        while (armorTimeLeft > 0 && armor)
+        {
+            yield return new WaitForSeconds(1f);
 
-            while(armorTimeLeft > 0 )
-            {
-                yield return new WaitForSeconds(1f);
-                armorTimeLeft -= 1;
-            }
+            // Stop if armor was consumed or cancelled.
+            if (!armor)
+                yield break;
+
+            armorTimeLeft--;
         }
 
-        if(armorTimeLeft >= 0){
-            armorAlreadyOn = false;
-            armor = false;
-        }
+        // Remove protection when time expires.
+        armorTimeLeft = 0;
+        armorAlreadyOn = false;
+        armor = false;
     }
-
 }

@@ -1,62 +1,129 @@
 using UnityEngine;
 using TMPro;
 
+// Displays power-up timers and the player's remaining hearts.
 public class PowerUpCounters : MonoBehaviour
 {
+    // ==================== POWER-UP STATUS PANEL ====================
 
-    public TextMeshProUGUI doublePointsCounterText, armorCounterText;
+    [Header("Power-Up Status Panel")]
 
-    public GameObject heart1, heart2, heart3;
+    public GameObject powerUpStatusPanel;
 
+    public TextMeshProUGUI doublePointsCounterText;
+    public TextMeshProUGUI armorCounterText;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    // ==================== HEART DISPLAY ====================
+
+    [Header("Heart HUD")]
+
+    public GameObject heart1;
+    public GameObject heart2;
+    public GameObject heart3;
+
+    // ==================== INITIALIZATION ====================
+
     void Start()
     {
-        doublePointsCounterText.text = "";
-        armorCounterText.text = "";
+        if (doublePointsCounterText != null)
+            doublePointsCounterText.gameObject.SetActive(false);
+
+        if (armorCounterText != null)
+            armorCounterText.gameObject.SetActive(false);
+
+        if (powerUpStatusPanel != null)
+            powerUpStatusPanel.SetActive(false);
     }
 
-    // Update is called once per frame
+    // ==================== UPDATE ====================
+
     void Update()
-    {   
-        if(GameManager.instance.doublePointsTimeLeft > 0)
-            doublePointsCounterText.text = "2x Points [" + GameManager.instance.doublePointsTimeLeft + "]";
-        else
-            doublePointsCounterText.text = "";
+    {
+        if (GameManager.instance == null)
+            return;
 
-        if(GameManager.instance.armorTimeLeft > 0)
-            armorCounterText.text = "Armor [" + GameManager.instance.armorTimeLeft + "]";
-        else
-            armorCounterText.text = "";
+        UpdatePowerUpPanel();
+        UpdateHeartDisplay();
+    }
 
+    // ==================== DYNAMIC POWER-UP PANEL ====================
 
+    private void UpdatePowerUpPanel()
+    {
+        GameManager manager = GameManager.instance;
 
+        // Determine which effects are currently active.
+        bool doublePointsActive =
+            manager.doublePoints &&
+            manager.doublePointsAlreadyOn &&
+            manager.doublePointsTimeLeft > 0;
 
-        if(GameManager.instance.livesLeft == 3)
+        bool armorActive =
+            manager.armor &&
+            manager.armorAlreadyOn &&
+            manager.armorTimeLeft > 0;
+
+        // ==================== DOUBLE POINTS ROW ====================
+
+        if (doublePointsCounterText != null)
         {
-            heart1.SetActive(true);
-            heart2.SetActive(true);
-            heart3.SetActive(true);
-        }
-        else if(GameManager.instance.livesLeft == 2)
-        {
-            heart1.SetActive(true);
-            heart2.SetActive(true);
-            heart3.SetActive(false);
-        }
-        else if(GameManager.instance.livesLeft == 1)
-        {
-            heart1.SetActive(true);
-            heart2.SetActive(false);
-            heart3.SetActive(false);
-        }
-        else
-        {
-            heart1.SetActive(false);
-            heart2.SetActive(false);
-            heart3.SetActive(false);
+            if (doublePointsActive)
+            {
+                doublePointsCounterText.text =
+                    "2x Points     " +
+                    manager.doublePointsTimeLeft + "s";
+            }
+
+            doublePointsCounterText.gameObject.SetActive(
+                doublePointsActive
+            );
         }
 
+        // ==================== ARMOR ROW ====================
 
+        if (armorCounterText != null)
+        {
+            if (armorActive)
+            {
+                armorCounterText.text =
+                    "Armor     " +
+                    manager.armorTimeLeft + "s";
+            }
+
+            armorCounterText.gameObject.SetActive(
+                armorActive
+            );
+        }
+
+        // ==================== PANEL VISIBILITY ====================
+
+        // Show the panel if at least one timed effect is active.
+        // Hide it completely when neither effect is active.
+        if (powerUpStatusPanel != null)
+        {
+            bool showPanel =
+                doublePointsActive || armorActive;
+
+            if (powerUpStatusPanel.activeSelf != showPanel)
+            {
+                powerUpStatusPanel.SetActive(showPanel);
+            }
+        }
+    }
+
+    // ==================== HEART DISPLAY ====================
+
+    private void UpdateHeartDisplay()
+    {
+        float lives = GameManager.instance.livesLeft;
+
+        if (heart1 != null)
+            heart1.SetActive(lives >= 1);
+
+        if (heart2 != null)
+            heart2.SetActive(lives >= 2);
+
+        if (heart3 != null)
+            heart3.SetActive(lives >= 3);
     }
 }

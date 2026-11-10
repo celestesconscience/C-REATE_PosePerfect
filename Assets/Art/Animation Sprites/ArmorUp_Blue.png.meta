@@ -1,0 +1,722 @@
+fileFormatVersion: 2
+guid: 9390a4046075e486597d9a072766bf86
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5805481735256207398
+    second: ArmorUp_Blue_0
+  - first:
+      213: 468433212410546747
+    second: ArmorUp_Blue_1
+  - first:
+      213: -38920116188716687
+    second: ArmorUp_Blue_2
+  - first:
+      213: -2176739384056385961
+    second: ArmorUp_Blue_3
+  - first:
+      213: 6303401278516569660
+    second: ArmorUp_Blue_4
+  - first:
+      213: -4302987705349363630
+    second: ArmorUp_Blue_5
+  - first:
+      213: -7697879813851927525
+    second: ArmorUp_Blue_6
+  - first:
+      213: 400340670616871146
+    second: ArmorUp_Blue_7
+  - first:
+      213: -2298610509575729612
+    second: ArmorUp_Blue_8
+  - first:
+      213: -2557174286902786772
+    second: ArmorUp_Blue_9
+  - first:
+      213: -4164063991645444208
+    second: ArmorUp_Blue_10
+  - first:
+      213: -510138030646914844
+    second: ArmorUp_Blue_11
+  - first:
+      213: -2609854336910711729
+    second: ArmorUp_Blue_12
+  - first:
+      213: 5065079761887436879
+    second: ArmorUp_Blue_13
+  - first:
+      213: -4309843738236315672
+    second: ArmorUp_Blue_14
+  - first:
+      213: 9014552628045506007
+    second: ArmorUp_Blue_15
+  - first:
+      213: -8862215463230979982
+    second: ArmorUp_Blue_16
+  - first:
+      213: 6128751462431725449
+    second: ArmorUp_Blue_17
+  - first:
+      213: 1934910774367135294
+    second: ArmorUp_Blue_18
+  - first:
+      213: -1752097475972068000
+    second: ArmorUp_Blue_19
+  - first:
+      213: 8089162277620899813
+    second: ArmorUp_Blue_20
+  - first:
+      213: -5781847924480054695
+    second: ArmorUp_Blue_21
+  - first:
+      213: 4316150889416045150
+    second: ArmorUp_Blue_22
+  - first:
+      213: 8954903667218618186
+    second: ArmorUp_Blue_23
+  - first:
+      213: -9141231066159165900
+    second: ArmorUp_Blue_24
+  - first:
+      213: 1838705595978182692
+    second: ArmorUp_Blue_25
+  - first:
+      213: -1154956300372359672
+    second: ArmorUp_Blue_26
+  - first:
+      213: -2064969148720604131
+    second: ArmorUp_Blue_27
+  - first:
+      213: -1146691039842646443
+    second: ArmorUp_Blue_28
+  - first:
+      213: -3707630708722046557
+    second: ArmorUp_Blue_29
+  - first:
+      213: 6786069061890286202
+    second: ArmorUp_Blue_30
+  - first:
+      213: 3328579856104410868
+    second: ArmorUp_Blue_31
+  - first:
+      213: 242424732011293139
+    second: ArmorUp_Blue_32
+  - first:
+      213: 1625552093533099179
+    second: ArmorUp_Blue_33
+  - first:
+      213: -6182849952727414985
+    second: ArmorUp_Blue_34
+  - first:
+      213: -1054095516785820849
+    second: ArmorUp_Blue_35
+  - first:
+      213: 1288829058187877269
+    second: ArmorUp_Blue_36
+  - first:
+      213: 5550522011866874503
+    second: ArmorUp_Blue_37
+  - first:
+      213: -2461685753161009268
+    second: ArmorUp_Blue_38
+  - first:
+      213: 5687472626969147604
+    second: ArmorUp_Blue_39
+  - first:
+      213: 9055375529216871804
+    second: ArmorUp_Blue_40
+  - first:
+      213: 8229493990719946313
+    second: ArmorUp_Blue_41
+  - first:
+      213: 9089578607510076166
+    second: ArmorUp_Blue_42
+  - first:
+      213: 3517425417138913591
+    second: ArmorUp_Blue_43
+  - first:
+      213: -2761821675166385077
+    second: ArmorUp_Blue_44
+  - first:
+      213: -495720008016875490
+    second: ArmorUp_Blue_45
+  - first:
+      213: -7866280819844158505
+    second: ArmorUp_Blue_46
+  - first:
+      213: -3884471744543662562
+    second: ArmorUp_Blue_47
+  - first:
+      213: -1246278486642714278
+    second: ArmorUp_Blue_48
+  - first:
+      213: 207068422149267088
+    second: ArmorUp_Blue_49
+  - first:
+      213: -986210926606555858
+    second: ArmorUp_Blue_50
+  - first:
+      213: 3212942767831347837
+    second: ArmorUp_Blue_51
+  - first:
+      213: -9024570930436945955
+    second: ArmorUp_Blue_52
+  - first:
+      213: -3518628950075382183
+    second: ArmorUp_Blue_53
+  - first:
+      213: 2800491100155241721
+    second: ArmorUp_Blue_54
+  - first:
+      213: 1997526891132488062
+    second: ArmorUp_Blue_55
+  - first:
+      213: 2865863853862384697
+    second: ArmorUp_Blue_56
+  - first:
+      213: 2083317789689363615
+    second: ArmorUp_Blue_57
+  - first:
+      213: 2347008645692245830
+    second: ArmorUp_Blue_58
+  - first:
+      213: 7418390057080455249
+    second: ArmorUp_Blue_59
+  - first:
+      213: -1130097439315216580
+    second: ArmorUp_Blue_60
+  - first:
+      213: 7770818041868303657
+    second: ArmorUp_Blue_61
+  - first:
+      213: -2828761614586417687
+    second: ArmorUp_Blue_62
+  - first:
+      213: 3059578093101907083
+    second: ArmorUp_Blue_63
+  - first:
+      213: 4430123516364019911
+    second: ArmorUp_Blue_64
+  - first:
+      213: -6915141889368075390
+    second: ArmorUp_Blue_65
+  - first:
+      213: 933003504474772705
+    second: ArmorUp_Blue_66
+  - first:
+      213: 5188658183779752165
+    second: ArmorUp_Blue_67
+  - first:
+      213: 8445715903393486316
+    second: ArmorUp_Blue_68
+  - first:
+      213: 1579772585895850227
+    second: ArmorUp_Blue_69
+  - first:
+      213: 8003761355490812747
+    second: ArmorUp_Blue_70
+  - first:
+      213: -146625741054503937
+    second: ArmorUp_Blue_71
+  - first:
+      213: -2440396296137137516
+    second: ArmorUp_Blue_72
+  - first:
+      213: -1118752252670671688
+    second: ArmorUp_Blue_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArmorUp_Blue_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf090cde19ce6fa0800000000000000
+      internalID: -5805481735256207398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ac9ba5685308600800000000000000
+      internalID: 468433212410546747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17164fb4c5ab57ff0800000000000000
+      internalID: -38920116188716687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e67b4201baac1e0800000000000000
+      internalID: -2176739384056385961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3629b2e01e2a7750800000000000000
+      internalID: 6303401278516569660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25827cdea77b844c0800000000000000
+      internalID: -4302987705349363630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1ca4bb2813ab2590800000000000000
+      internalID: -7697879813851927525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0a24508bb4e8500800000000000000
+      internalID: 400340670616871146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e42cb8be1b910e0800000000000000
+      internalID: -2298610509575729612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c258568d887138cd0800000000000000
+      internalID: -2557174286902786772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0976afb9cd54636c0800000000000000
+      internalID: -4164063991645444208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e09fd8f920abe8f0800000000000000
+      internalID: -510138030646914844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44ace4ee4fe7cbd0800000000000000
+      internalID: -2609854336910711729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f40225e1537ca4640800000000000000
+      internalID: 5065079761887436879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e79bf064fb5034c0800000000000000
+      internalID: -4309843738236315672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Blue_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d567b3aadf1a1d70800000000000000
+      internalID: 9014552628045506007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0291d48361cde4e308d4938acce03d24
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":320.0,"y":96.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ArmorUp_Blue_0: -5805481735256207398
+      ArmorUp_Blue_1: 468433212410546747
+      ArmorUp_Blue_10: -4164063991645444208
+      ArmorUp_Blue_11: -510138030646914844
+      ArmorUp_Blue_12: -2609854336910711729
+      ArmorUp_Blue_13: 5065079761887436879
+      ArmorUp_Blue_14: -4309843738236315672
+      ArmorUp_Blue_15: 9014552628045506007
+      ArmorUp_Blue_2: -38920116188716687
+      ArmorUp_Blue_3: -2176739384056385961
+      ArmorUp_Blue_4: 6303401278516569660
+      ArmorUp_Blue_5: -4302987705349363630
+      ArmorUp_Blue_6: -7697879813851927525
+      ArmorUp_Blue_7: 400340670616871146
+      ArmorUp_Blue_8: -2298610509575729612
+      ArmorUp_Blue_9: -2557174286902786772
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

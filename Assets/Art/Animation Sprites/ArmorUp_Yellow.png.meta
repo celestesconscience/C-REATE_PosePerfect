@@ -1,0 +1,722 @@
+fileFormatVersion: 2
+guid: ec0d38f62f9c44d2289c2c0250391cbf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4231053943881567296
+    second: ArmorUp_Yellow_0
+  - first:
+      213: 2961725121764222845
+    second: ArmorUp_Yellow_1
+  - first:
+      213: -1086510258906238676
+    second: ArmorUp_Yellow_2
+  - first:
+      213: -8818042254179589158
+    second: ArmorUp_Yellow_3
+  - first:
+      213: 1685781322294768222
+    second: ArmorUp_Yellow_4
+  - first:
+      213: -2741476810851875422
+    second: ArmorUp_Yellow_5
+  - first:
+      213: 3842182267563854187
+    second: ArmorUp_Yellow_6
+  - first:
+      213: -8961684899338644120
+    second: ArmorUp_Yellow_7
+  - first:
+      213: -7003867734349642183
+    second: ArmorUp_Yellow_8
+  - first:
+      213: 8233369327538629679
+    second: ArmorUp_Yellow_9
+  - first:
+      213: 3669369896332735917
+    second: ArmorUp_Yellow_10
+  - first:
+      213: -5992235020276273141
+    second: ArmorUp_Yellow_11
+  - first:
+      213: -3905535072450431669
+    second: ArmorUp_Yellow_12
+  - first:
+      213: -6205389329296263815
+    second: ArmorUp_Yellow_13
+  - first:
+      213: -7936151176080588547
+    second: ArmorUp_Yellow_14
+  - first:
+      213: -924423176818862341
+    second: ArmorUp_Yellow_15
+  - first:
+      213: 2367877742558811151
+    second: ArmorUp_Yellow_16
+  - first:
+      213: -1948162121527117044
+    second: ArmorUp_Yellow_17
+  - first:
+      213: -6067527589020030593
+    second: ArmorUp_Yellow_18
+  - first:
+      213: 6319911492640913596
+    second: ArmorUp_Yellow_19
+  - first:
+      213: -8279717716151615572
+    second: ArmorUp_Yellow_20
+  - first:
+      213: 629168608039865413
+    second: ArmorUp_Yellow_21
+  - first:
+      213: -3254144333316517558
+    second: ArmorUp_Yellow_22
+  - first:
+      213: -6627185453666838893
+    second: ArmorUp_Yellow_23
+  - first:
+      213: -4315802743695274905
+    second: ArmorUp_Yellow_24
+  - first:
+      213: 2522345594940541731
+    second: ArmorUp_Yellow_25
+  - first:
+      213: 7109549179815145660
+    second: ArmorUp_Yellow_26
+  - first:
+      213: 1214011716850986035
+    second: ArmorUp_Yellow_27
+  - first:
+      213: 3123111822405310243
+    second: ArmorUp_Yellow_28
+  - first:
+      213: 2503547781665151189
+    second: ArmorUp_Yellow_29
+  - first:
+      213: 8421712476894551857
+    second: ArmorUp_Yellow_30
+  - first:
+      213: 8710396034349118247
+    second: ArmorUp_Yellow_31
+  - first:
+      213: 8335881085264045214
+    second: ArmorUp_Yellow_32
+  - first:
+      213: 7392558379060930665
+    second: ArmorUp_Yellow_33
+  - first:
+      213: -7324759073283530422
+    second: ArmorUp_Yellow_34
+  - first:
+      213: 3083062051038995909
+    second: ArmorUp_Yellow_35
+  - first:
+      213: 2755396251167298086
+    second: ArmorUp_Yellow_36
+  - first:
+      213: -8797420903685767701
+    second: ArmorUp_Yellow_37
+  - first:
+      213: -6506146554772584981
+    second: ArmorUp_Yellow_38
+  - first:
+      213: -5323180192083230993
+    second: ArmorUp_Yellow_39
+  - first:
+      213: -1826288825253771533
+    second: ArmorUp_Yellow_40
+  - first:
+      213: -5143206211678484500
+    second: ArmorUp_Yellow_41
+  - first:
+      213: 1960129884964787795
+    second: ArmorUp_Yellow_42
+  - first:
+      213: 1775703159857388333
+    second: ArmorUp_Yellow_43
+  - first:
+      213: 402435227243901595
+    second: ArmorUp_Yellow_44
+  - first:
+      213: -9016546920642645992
+    second: ArmorUp_Yellow_45
+  - first:
+      213: -6468729459400011373
+    second: ArmorUp_Yellow_46
+  - first:
+      213: -8547078729467064137
+    second: ArmorUp_Yellow_47
+  - first:
+      213: 2856584618789002075
+    second: ArmorUp_Yellow_48
+  - first:
+      213: -8211883543900249449
+    second: ArmorUp_Yellow_49
+  - first:
+      213: 3057235252814315104
+    second: ArmorUp_Yellow_50
+  - first:
+      213: 3333759142397118084
+    second: ArmorUp_Yellow_51
+  - first:
+      213: -1507346466553852490
+    second: ArmorUp_Yellow_52
+  - first:
+      213: -5873699492309343123
+    second: ArmorUp_Yellow_53
+  - first:
+      213: 2048468710109588389
+    second: ArmorUp_Yellow_54
+  - first:
+      213: 7396088046115443599
+    second: ArmorUp_Yellow_55
+  - first:
+      213: -9192471622635902305
+    second: ArmorUp_Yellow_56
+  - first:
+      213: 2461204740403469258
+    second: ArmorUp_Yellow_57
+  - first:
+      213: 5159875068741156327
+    second: ArmorUp_Yellow_58
+  - first:
+      213: -3032880074482684660
+    second: ArmorUp_Yellow_59
+  - first:
+      213: -633144365623050130
+    second: ArmorUp_Yellow_60
+  - first:
+      213: -2663855622434617823
+    second: ArmorUp_Yellow_61
+  - first:
+      213: -5549728872120225404
+    second: ArmorUp_Yellow_62
+  - first:
+      213: 164680946826583508
+    second: ArmorUp_Yellow_63
+  - first:
+      213: -5129476224854735
+    second: ArmorUp_Yellow_64
+  - first:
+      213: -6594455961233239398
+    second: ArmorUp_Yellow_65
+  - first:
+      213: -5905923753825083809
+    second: ArmorUp_Yellow_66
+  - first:
+      213: 1701002757988113664
+    second: ArmorUp_Yellow_67
+  - first:
+      213: 6238152623271789537
+    second: ArmorUp_Yellow_68
+  - first:
+      213: -8428013058237260875
+    second: ArmorUp_Yellow_69
+  - first:
+      213: 8572339672105023730
+    second: ArmorUp_Yellow_70
+  - first:
+      213: 2615443253647556952
+    second: ArmorUp_Yellow_71
+  - first:
+      213: 8257151675561669450
+    second: ArmorUp_Yellow_72
+  - first:
+      213: 2397568525164569522
+    second: ArmorUp_Yellow_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c37c69ead64845c0800000000000000
+      internalID: -4231053943881567296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d776b1d6e492a1920800000000000000
+      internalID: 2961725121764222845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2173151da0fbe0f0800000000000000
+      internalID: -1086510258906238676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3ad313a4500a580800000000000000
+      internalID: -8818042254179589158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e523e545e29156710800000000000000
+      internalID: 1685781322294768222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a504319d5154f9d0800000000000000
+      internalID: -2741476810851875422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69c2746a6c225530800000000000000
+      internalID: 3842182267563854187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86510f9a013b1a380800000000000000
+      internalID: -8961684899338644120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936054857634dce90800000000000000
+      internalID: -7003867734349642183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2c6988f7cdc24270800000000000000
+      internalID: 8233369327538629679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5bc64ca783ce230800000000000000
+      internalID: 3669369896332735917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00f6cd4ffd47dca0800000000000000
+      internalID: -5992235020276273141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4533c44b80ccc9c0800000000000000
+      internalID: -3905535072450431669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975fb46584702e9a0800000000000000
+      internalID: -6205389329296263815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df00be98d802dd190800000000000000
+      internalID: -7936151176080588547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Yellow_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6d29bb40acb23f0800000000000000
+      internalID: -924423176818862341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 434a3e4a6948741cd8b3633c1e058fe8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":320.0,"y":96.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ArmorUp_Yellow_0: -4231053943881567296
+      ArmorUp_Yellow_1: 2961725121764222845
+      ArmorUp_Yellow_10: 3669369896332735917
+      ArmorUp_Yellow_11: -5992235020276273141
+      ArmorUp_Yellow_12: -3905535072450431669
+      ArmorUp_Yellow_13: -6205389329296263815
+      ArmorUp_Yellow_14: -7936151176080588547
+      ArmorUp_Yellow_15: -924423176818862341
+      ArmorUp_Yellow_2: -1086510258906238676
+      ArmorUp_Yellow_3: -8818042254179589158
+      ArmorUp_Yellow_4: 1685781322294768222
+      ArmorUp_Yellow_5: -2741476810851875422
+      ArmorUp_Yellow_6: 3842182267563854187
+      ArmorUp_Yellow_7: -8961684899338644120
+      ArmorUp_Yellow_8: -7003867734349642183
+      ArmorUp_Yellow_9: 8233369327538629679
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

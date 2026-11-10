@@ -180,8 +180,18 @@ MonoBehaviour:
   - {fileID: 1487878086579342849, guid: 50f0a703c20724a56a17c2fbf88282f8, type: 3}
   - {fileID: -700145753515148034, guid: 50f0a703c20724a56a17c2fbf88282f8, type: 3}
   - {fileID: -1615591449214129068, guid: 50f0a703c20724a56a17c2fbf88282f8, type: 3}
+  bonus500CollectFX: {fileID: 7376834073635234802, guid: 221c39df2c9394a1ea70baea9deabbd4, type: 3}
+  doublePointsCollectFX: {fileID: 6095717473406127664, guid: 3bad5ea1641394dc09c5631e1df462a0, type: 3}
+  armorCollectFX: {fileID: 4981970465067688794, guid: bd41ee373b8b34699a9ada954e5695ea, type: 3}
+  heartCollectFX: {fileID: 3917971717092276638, guid: 08b7b24e3ae6641d3878535323818fda, type: 3}
+  collectionEffectOffset: {x: 0, y: 0, z: 0}
   powerUpRandom: 0
   powerUpType: 0
+  bonusPointsChance: 30
+  doublePointsChance: 25
+  armorChance: 25
+  heartChance: 20
+  forceHeartForTesting: 0
 --- !u!1 &4742210188686973486
 GameObject:
   m_ObjectHideFlags: 0

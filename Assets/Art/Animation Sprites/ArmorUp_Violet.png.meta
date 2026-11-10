@@ -1,0 +1,722 @@
+fileFormatVersion: 2
+guid: b1e2c1136f2a9473aae7295b7299bfa1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 507840586517152225
+    second: ArmorUp_Violet_0
+  - first:
+      213: 886677052741393148
+    second: ArmorUp_Violet_1
+  - first:
+      213: 7468567332834323554
+    second: ArmorUp_Violet_2
+  - first:
+      213: 7426972953921663805
+    second: ArmorUp_Violet_3
+  - first:
+      213: 4405989078997056817
+    second: ArmorUp_Violet_4
+  - first:
+      213: 1713163558240877328
+    second: ArmorUp_Violet_5
+  - first:
+      213: -8826708409556831042
+    second: ArmorUp_Violet_6
+  - first:
+      213: -5496014033885047730
+    second: ArmorUp_Violet_7
+  - first:
+      213: 7606792224181072117
+    second: ArmorUp_Violet_8
+  - first:
+      213: -4885516950842806438
+    second: ArmorUp_Violet_9
+  - first:
+      213: 4227973255301061946
+    second: ArmorUp_Violet_10
+  - first:
+      213: -7211064675720957176
+    second: ArmorUp_Violet_11
+  - first:
+      213: -3349706664385717410
+    second: ArmorUp_Violet_12
+  - first:
+      213: -5225434053055293583
+    second: ArmorUp_Violet_13
+  - first:
+      213: 4966620366422160226
+    second: ArmorUp_Violet_14
+  - first:
+      213: 19376923464637143
+    second: ArmorUp_Violet_15
+  - first:
+      213: -1398526602243949915
+    second: ArmorUp_Violet_16
+  - first:
+      213: -7406974233681701489
+    second: ArmorUp_Violet_17
+  - first:
+      213: -7531979481483109378
+    second: ArmorUp_Violet_18
+  - first:
+      213: 2631745407220794337
+    second: ArmorUp_Violet_19
+  - first:
+      213: -8220094752628518845
+    second: ArmorUp_Violet_20
+  - first:
+      213: -3242288511188205673
+    second: ArmorUp_Violet_21
+  - first:
+      213: 5363798206375494610
+    second: ArmorUp_Violet_22
+  - first:
+      213: 8496642776232102212
+    second: ArmorUp_Violet_23
+  - first:
+      213: 6526893578464165733
+    second: ArmorUp_Violet_24
+  - first:
+      213: 3097921511817274987
+    second: ArmorUp_Violet_25
+  - first:
+      213: -5318619695372906721
+    second: ArmorUp_Violet_26
+  - first:
+      213: -1556486706261963470
+    second: ArmorUp_Violet_27
+  - first:
+      213: -3880428475141285558
+    second: ArmorUp_Violet_28
+  - first:
+      213: 1674831381246442702
+    second: ArmorUp_Violet_29
+  - first:
+      213: -5845641592572891472
+    second: ArmorUp_Violet_30
+  - first:
+      213: -2623726930843280925
+    second: ArmorUp_Violet_31
+  - first:
+      213: -919932970164934728
+    second: ArmorUp_Violet_32
+  - first:
+      213: -2985675903152546414
+    second: ArmorUp_Violet_33
+  - first:
+      213: 268613960433465580
+    second: ArmorUp_Violet_34
+  - first:
+      213: -5839617749305100489
+    second: ArmorUp_Violet_35
+  - first:
+      213: 3004086009770373178
+    second: ArmorUp_Violet_36
+  - first:
+      213: -5115739045453474260
+    second: ArmorUp_Violet_37
+  - first:
+      213: 6616501446615396527
+    second: ArmorUp_Violet_38
+  - first:
+      213: 8585733309820184942
+    second: ArmorUp_Violet_39
+  - first:
+      213: 7907560861270321245
+    second: ArmorUp_Violet_40
+  - first:
+      213: -8501126192052977791
+    second: ArmorUp_Violet_41
+  - first:
+      213: -514727970141399756
+    second: ArmorUp_Violet_42
+  - first:
+      213: -3215066540443770167
+    second: ArmorUp_Violet_43
+  - first:
+      213: 3609397585233270197
+    second: ArmorUp_Violet_44
+  - first:
+      213: -8136638373097692560
+    second: ArmorUp_Violet_45
+  - first:
+      213: 3793992868709412448
+    second: ArmorUp_Violet_46
+  - first:
+      213: 989914610909680073
+    second: ArmorUp_Violet_47
+  - first:
+      213: -7473357074796496321
+    second: ArmorUp_Violet_48
+  - first:
+      213: 740874361859938253
+    second: ArmorUp_Violet_49
+  - first:
+      213: -4137872438788105303
+    second: ArmorUp_Violet_50
+  - first:
+      213: 5250752922905130951
+    second: ArmorUp_Violet_51
+  - first:
+      213: 1825991751159054407
+    second: ArmorUp_Violet_52
+  - first:
+      213: -5485962503593590966
+    second: ArmorUp_Violet_53
+  - first:
+      213: -9103717482851625738
+    second: ArmorUp_Violet_54
+  - first:
+      213: 5266200744353968826
+    second: ArmorUp_Violet_55
+  - first:
+      213: -2062627606164154850
+    second: ArmorUp_Violet_56
+  - first:
+      213: 127949657768730589
+    second: ArmorUp_Violet_57
+  - first:
+      213: 4974629303009097690
+    second: ArmorUp_Violet_58
+  - first:
+      213: -1136812905365110860
+    second: ArmorUp_Violet_59
+  - first:
+      213: -5213248779519203335
+    second: ArmorUp_Violet_60
+  - first:
+      213: 3769445023848126411
+    second: ArmorUp_Violet_61
+  - first:
+      213: 3557698759259065624
+    second: ArmorUp_Violet_62
+  - first:
+      213: -5336648220858732425
+    second: ArmorUp_Violet_63
+  - first:
+      213: -4832615153275802968
+    second: ArmorUp_Violet_64
+  - first:
+      213: -5872892330890173831
+    second: ArmorUp_Violet_65
+  - first:
+      213: 781564203042526182
+    second: ArmorUp_Violet_66
+  - first:
+      213: 2948464928631725683
+    second: ArmorUp_Violet_67
+  - first:
+      213: -5828362887300598719
+    second: ArmorUp_Violet_68
+  - first:
+      213: -736598590396670291
+    second: ArmorUp_Violet_69
+  - first:
+      213: -5271414284178642345
+    second: ArmorUp_Violet_70
+  - first:
+      213: 8069621283560108125
+    second: ArmorUp_Violet_71
+  - first:
+      213: -7983377458389174969
+    second: ArmorUp_Violet_72
+  - first:
+      213: -6271120819703399637
+    second: ArmorUp_Violet_73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ArmorUp_Violet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e181e1a2563c0700800000000000000
+      internalID: 507840586517152225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa1427e41c1e4c00800000000000000
+      internalID: 886677052741393148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c2da64b6ea5a760800000000000000
+      internalID: 7468567332834323554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d333fe24d88e11760800000000000000
+      internalID: 7426972953921663805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dbed139b7352d30800000000000000
+      internalID: 4405989078997056817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b7713fd2166c710800000000000000
+      internalID: 1713163558240877328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb47968a77b318580800000000000000
+      internalID: -8826708409556831042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4458b5fa5c3ab3b0800000000000000
+      internalID: -5496014033885047730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f03482b931c09960800000000000000
+      internalID: 7606792224181072117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f6dd0c738233cb0800000000000000
+      internalID: -4885516950842806438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d52126647ccaa30800000000000000
+      internalID: 4227973255301061946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 803f84f12e62deb90800000000000000
+      internalID: -7211064675720957176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5bd78749837381d0800000000000000
+      internalID: -3349706664385717410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 177d86e0a678b77b0800000000000000
+      internalID: -5225434053055293583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26330d2b8eafce440800000000000000
+      internalID: 4966620366422160226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ArmorUp_Violet_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da13ff8537d44000800000000000000
+      internalID: 19376923464637143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 57c44a173c653413f8c6c9952ffe8d1a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":320.0,"y":96.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ArmorUp_Violet_0: 507840586517152225
+      ArmorUp_Violet_1: 886677052741393148
+      ArmorUp_Violet_10: 4227973255301061946
+      ArmorUp_Violet_11: -7211064675720957176
+      ArmorUp_Violet_12: -3349706664385717410
+      ArmorUp_Violet_13: -5225434053055293583
+      ArmorUp_Violet_14: 4966620366422160226
+      ArmorUp_Violet_15: 19376923464637143
+      ArmorUp_Violet_2: 7468567332834323554
+      ArmorUp_Violet_3: 7426972953921663805
+      ArmorUp_Violet_4: 4405989078997056817
+      ArmorUp_Violet_5: 1713163558240877328
+      ArmorUp_Violet_6: -8826708409556831042
+      ArmorUp_Violet_7: -5496014033885047730
+      ArmorUp_Violet_8: 7606792224181072117
+      ArmorUp_Violet_9: -4885516950842806438
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

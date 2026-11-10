@@ -4,18 +4,23 @@ using UnityEngine.UI;
 using System.Collections;
 using TMPro;
 
-// Controls player poses, lane movement, wall collisions,
-// scoring feedback, combos, and gameplay effects.
+// Handles player poses, lane movement, wall collisions, gameplay feedback,
+// combo tracking, and sounds played by the player.
 public class PlayerScript : MonoBehaviour
 {
     // ==================== MENU MANAGER ====================
 
     public MenuManager menu;
 
+
     // ==================== PLAYER INPUT ====================
 
     private InputAction buttonPress;
     private InputAction buttonHold;
+
+    // Prevents player input after losing the final heart.
+    private bool isGameOver = false;
+
 
     // ==================== PLAYER POSES ====================
 
@@ -25,32 +30,24 @@ public class PlayerScript : MonoBehaviour
     private SpriteRenderer spriteRenderer;
     private int startingPose = 0;
 
+
     // ==================== PLAYER MOVEMENT ====================
 
     public float[] locations = new float[3];
-
     public int currentLocation;
 
     // 1 = right, -1 = left.
     private int changeAMT = 1;
-// ==================== CONTINUOUS LANE MOVEMENT ====================
 
     [Header("Continuous Lane Movement Settings")]
 
-    // How long Space must be held before movement begins.
     public float holdToMoveDelay = 0.3f;
-
-    // Time between automatic lane changes.
     public float laneRepeatInterval = 0.4f;
 
-    // Tracks how long Space has been held.
     private float laneHoldTimer = 0f;
-
-    // Tracks when the next lane movement should happen.
     private float nextLaneMoveTime = 0f;
-
-    // Whether automatic movement has started.
     private bool isAutoMoving = false;
+
 
     // ==================== LANE DIRECTION ARROW ====================
 
@@ -60,32 +57,28 @@ public class PlayerScript : MonoBehaviour
 
     private Image laneArrowImage;
 
-    // ==================== ARROW FADE SETTINGS ====================
-
     [Header("Arrow Fade Settings")]
 
-    // Distance in screen pixels at which fading begins.
     public float arrowFadeDistance = 130f;
-
-    // Distance at which the arrow becomes invisible.
     public float arrowHideDistance = 12f;
 
-    // Opacity when the arrow is faded.
     [Range(0f, 1f)]
     public float arrowFadedAlpha = 0.3f;
 
-    // How smoothly the arrow fades.
     public float arrowFadeSpeed = 5f;
 
     private float targetArrowAlpha = 1f;
     private float arrowCheckTimer = 0f;
 
-    // ==================== SOUND EFFECTS ====================
+
+    // ==================== GAMEPLAY SOUND EFFECTS ====================
 
     public AudioSource movementAudio;
     public AudioSource poseChangeAudio;
     public AudioSource successSparkleAudio;
     public AudioSource failSmokeAudio;
+    public AudioSource heartLostAudio;
+
 
     // ==================== COLLISION EFFECTS ====================
 
@@ -93,11 +86,12 @@ public class PlayerScript : MonoBehaviour
     public GameObject failObject;
     public GameObject armorObject;
 
+
     // ==================== ENCOURAGEMENT SYSTEM ====================
 
     public EncouragementTextScript encouragementText;
-
     private int successfulMatches = 0;
+
 
     // ==================== COMBO SYSTEM ====================
 
@@ -105,21 +99,21 @@ public class PlayerScript : MonoBehaviour
 
     public TextMeshProUGUI comboText;
     public TextMeshProUGUI comboOutline;
-
     public Animator comboAnimator;
+
 
     // ==================== INITIALIZATION ====================
 
     void Start()
     {
+        // Reset Game Over state.
+        isGameOver = false;
+
         GameManager.instance.score = 0;
         GameManager.instance.ResetGame();
 
-        buttonPress =
-            InputSystem.actions.FindAction("TapButton");
-
-        buttonHold =
-            InputSystem.actions.FindAction("HoldButton");
+        buttonPress = InputSystem.actions.FindAction("TapButton");
+        buttonHold = InputSystem.actions.FindAction("HoldButton");
 
         spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -128,6 +122,9 @@ public class PlayerScript : MonoBehaviour
         spriteRenderer.sprite =
             poses[GameManager.instance.randomWallNums[0]];
 
+        // Restore player visibility.
+        spriteRenderer.color = Color.white;
+
         gameObject.tag = "Pose_1";
 
         transform.position = new Vector2(
@@ -135,9 +132,16 @@ public class PlayerScript : MonoBehaviour
             transform.position.y
         );
 
-        // Initialize the direction arrow.
+        // Begin with armor hidden.
+        if (armorObject != null)
+            armorObject.SetActive(false);
+
+        // Initialize the lane direction arrow.
         if (laneDirectionArrow != null)
         {
+            // Restore arrow visibility after restarting.
+            laneDirectionArrow.gameObject.SetActive(true);
+
             laneArrowImage =
                 laneDirectionArrow.GetComponent<Image>();
 
@@ -153,102 +157,103 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+
     // ==================== PLAYER UPDATE ====================
 
     void Update()
     {
-        // Refresh available poses.
+        // Stop player updates after Game Over.
+        if (isGameOver)
+            return;
+
+        // Refresh pose sprites.
         for (int i = 0; i < currentPoses.Length; i++)
         {
             int poseIndex =
                 GameManager.instance.randomWallNums[i];
 
             if (poseIndex > 0 && poseIndex < poses.Length)
-            {
                 currentPoses[i] = poses[poseIndex];
-            }
             else
-            {
                 currentPoses[i] = null;
-            }
         }
 
         spriteRenderer.sprite = currentPoses[startingPose];
 
+        // Keep armor visuals synchronized with actual protection.
+        if (armorObject != null)
+        {
+            bool armorActive =
+                GameManager.instance.armorAlreadyOn &&
+                GameManager.instance.armor &&
+                GameManager.instance.armorTimeLeft > 0;
+
+            if (armorObject.activeSelf != armorActive)
+                armorObject.SetActive(armorActive);
+        }
+
+        // Ignore gameplay input while paused.
         if (Time.timeScale == 0)
             return;
 
         // Tap to change poses.
-        if (buttonPress.WasPerformedThisFrame())
+        if (buttonPress != null &&
+            buttonPress.WasPerformedThisFrame())
         {
             poseChange();
         }
 
-        if(GameManager.instance.armorTimeLeft > 0)
-        {
-            armorObject.SetActive(true);
-        }
-        else
-        {
-             armorObject.SetActive(false);
-        }
-
-        // ==================== CONTINUOUS LANE MOVEMENT ====================
-
-        // Detect whether the player is holding Space.
+        // Hold Space to move repeatedly between lanes.
         if (buttonHold != null && buttonHold.IsPressed())
         {
-            // Track how long the button has been held.
             laneHoldTimer += Time.deltaTime;
 
-            // Begin moving once the hold delay is reached.
             if (!isAutoMoving &&
                 laneHoldTimer >= holdToMoveDelay)
             {
                 isAutoMoving = true;
 
-                // Move into the next lane immediately.
                 laneMovement();
 
-                // Schedule the next automatic movement.
                 nextLaneMoveTime =
-                    Time.time + Mathf.Max(0.05f, laneRepeatInterval);
+                    Time.time +
+                    Mathf.Max(0.05f, laneRepeatInterval);
             }
-
-            // Continue moving while Space remains held.
             else if (isAutoMoving &&
                      Time.time >= nextLaneMoveTime)
             {
                 laneMovement();
 
-                // Schedule another lane change.
                 nextLaneMoveTime =
-                    Time.time + Mathf.Max(0.05f, laneRepeatInterval);
+                    Time.time +
+                    Mathf.Max(0.05f, laneRepeatInterval);
             }
         }
         else
         {
-            // Player released Space.
-            // Stop movement and reset the hold timer.
             laneHoldTimer = 0f;
             isAutoMoving = false;
         }
 
-        // Adjusts how many points the player gains per success, every 10 combo gain extra 10 points with max of 100
-        if(comboCount%10 == 0 && comboCount < 101)
+        // Preserve the existing combo-based score adjustment.
+        if (comboCount % 10 == 0 && comboCount < 101)
         {
-            GameManager.instance.scoreAddAmt = 100f + comboCount;
+            GameManager.instance.scoreAddAmt =
+                100f + comboCount;
         }
-
     }
+
 
     // ==================== ARROW UPDATE ====================
 
     void LateUpdate()
     {
+        // Stop all arrow updates after Game Over.
+        if (isGameOver)
+            return;
+
         FollowPlayerWithArrow();
 
-        // Check nearby walls every 0.1 seconds.
         arrowCheckTimer -= Time.deltaTime;
 
         if (arrowCheckTimer <= 0f)
@@ -260,16 +265,17 @@ public class PlayerScript : MonoBehaviour
         SmoothArrowFade();
     }
 
+
     // ==================== ARROW DIRECTION ====================
 
     private void UpdateLaneDirectionArrow()
     {
-        if (laneDirectionArrow == null || locations.Length < 2)
+        if (laneDirectionArrow == null ||
+            locations.Length < 2)
             return;
 
         int nextDirection = changeAMT;
 
-        // Preview direction reversal at lane boundaries.
         if (currentLocation + nextDirection >= locations.Length ||
             currentLocation + nextDirection < 0)
         {
@@ -285,11 +291,13 @@ public class PlayerScript : MonoBehaviour
         laneDirectionArrow.localScale = arrowScale;
     }
 
+
     // ==================== ARROW FOLLOW PLAYER ====================
 
     private void FollowPlayerWithArrow()
     {
-        if (laneDirectionArrow == null || Camera.main == null)
+        if (laneDirectionArrow == null ||
+            Camera.main == null)
             return;
 
         RectTransform uiParent =
@@ -328,9 +336,11 @@ public class PlayerScript : MonoBehaviour
 
             arrowPosition.x = localPosition.x;
 
-            laneDirectionArrow.localPosition = arrowPosition;
+            laneDirectionArrow.localPosition =
+                arrowPosition;
         }
     }
+
 
     // ==================== ARROW VISIBILITY ====================
 
@@ -358,16 +368,12 @@ public class PlayerScript : MonoBehaviour
                 : Camera.main;
         }
 
-        // Find the arrow's actual screen position.
         Vector2 arrowScreenPosition =
             RectTransformUtility.WorldToScreenPoint(
                 uiCamera,
                 laneDirectionArrow.position
             );
 
-        // Find the nearest visible wall.
-        // Walls use Pose_1 through Pose_5 tags,
-        // so search for WallScript instead of a "Wall" tag.
         WallScript[] walls =
             FindObjectsByType<WallScript>();
 
@@ -388,8 +394,6 @@ public class PlayerScript : MonoBehaviour
                 continue;
             }
 
-            // Use the actual visible sprite bounds.
-            // This works even if the wall grows as it approaches.
             Bounds bounds = wallRenderer.bounds;
 
             Vector3 screenMin =
@@ -398,13 +402,18 @@ public class PlayerScript : MonoBehaviour
             Vector3 screenMax =
                 Camera.main.WorldToScreenPoint(bounds.max);
 
-            float left = Mathf.Min(screenMin.x, screenMax.x);
-            float right = Mathf.Max(screenMin.x, screenMax.x);
+            float left =
+                Mathf.Min(screenMin.x, screenMax.x);
 
-            float bottom = Mathf.Min(screenMin.y, screenMax.y);
-            float top = Mathf.Max(screenMin.y, screenMax.y);
+            float right =
+                Mathf.Max(screenMin.x, screenMax.x);
 
-            // Distance from the arrow to the wall's visible area.
+            float bottom =
+                Mathf.Min(screenMin.y, screenMax.y);
+
+            float top =
+                Mathf.Max(screenMin.y, screenMax.y);
+
             float distanceX = Mathf.Max(
                 left - arrowScreenPosition.x,
                 0f,
@@ -423,32 +432,17 @@ public class PlayerScript : MonoBehaviour
             );
 
             if (distance < closestDistance)
-            {
                 closestDistance = distance;
-            }
         }
 
-        // Wall overlaps or nearly touches the arrow:
-        // hide the arrow completely.
         if (closestDistance <= arrowHideDistance)
-        {
             targetArrowAlpha = 0f;
-        }
-
-        // Wall is approaching the arrow:
-        // fade to 30% opacity.
         else if (closestDistance <= arrowFadeDistance)
-        {
             targetArrowAlpha = arrowFadedAlpha;
-        }
-
-        // Wall is far away:
-        // display the arrow normally.
         else
-        {
             targetArrowAlpha = 1f;
-        }
     }
+
 
     // ==================== SMOOTH ARROW FADE ====================
 
@@ -468,15 +462,41 @@ public class PlayerScript : MonoBehaviour
         laneArrowImage.color = color;
     }
 
+
     // ==================== WALL COLLISIONS ====================
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag(gameObject.tag) &&
-            other.transform.position.x == transform.position.x)
+        // Ignore collisions once Game Over has started.
+        if (isGameOver ||
+            GameManager.instance.livesLeft <= 0)
         {
+            return;
+        }
 
-            StartCoroutine("ActivateSuccessAnim");
+        // Power-ups handle their own collection.
+        if (other.GetComponentInParent<PowerUpScript>() != null ||
+            other.CompareTag("PowerUp"))
+        {
+            return;
+        }
+
+        // Ignore unrelated trigger objects.
+        WallScript wall =
+            other.GetComponentInParent<WallScript>();
+
+        if (wall == null)
+            return;
+
+        // ==================== SUCCESSFUL MATCH ====================
+
+        if (other.CompareTag(gameObject.tag) &&
+            Mathf.Abs(
+                other.transform.position.x -
+                transform.position.x
+            ) < 0.01f)
+        {
+            StartCoroutine(ActivateSuccessAnim());
 
             int poseVersionBeforeScore =
                 GameManager.instance.poseSetVersion;
@@ -492,84 +512,128 @@ public class PlayerScript : MonoBehaviour
                 GameManager.instance.poseSetVersion ==
                 poseVersionBeforeScore)
             {
-                encouragementText.PlayRandomEncouragement();
+                if (encouragementText != null)
+                {
+                    encouragementText
+                        .PlayRandomEncouragement();
+                }
             }
         }
-        else if (other.CompareTag("PowerUp"))
-        {
-            //just so it doesnt impact anything against the player
-            //can add sfx is needed
-        }
+
+        // ==================== FAILED MATCH ====================
+
         else
         {
             comboCount = 0;
 
-            comboText.gameObject.SetActive(false);
-            comboOutline.gameObject.SetActive(false);
+            if (comboText != null)
+                comboText.gameObject.SetActive(false);
 
-            if(GameManager.instance.armorAlreadyOn)//CHECKS FOR ARMOR IF THERE THEN REMOVES IT
+            if (comboOutline != null)
+                comboOutline.gameObject.SetActive(false);
+
+            // Check whether armor can absorb the hit.
+            if (GameManager.instance.armorAlreadyOn &&
+                GameManager.instance.armor &&
+                GameManager.instance.armorTimeLeft > 0)
             {
+                // Stop the active armor timer.
+                GameManager.instance.StopCoroutine(
+                    "activateArmor"
+                );
+
+                // Consume armor without losing a heart.
                 GameManager.instance.armorAlreadyOn = false;
                 GameManager.instance.armor = false;
                 GameManager.instance.armorTimeLeft = 0;
+
+                if (armorObject != null)
+                    armorObject.SetActive(false);
             }
-            else//IF NO ARMOR
+            else
             {
-                GameManager.instance.livesLeft--;
+                // Remove one heart.
+                if (GameManager.instance.livesLeft > 0)
+                {
+                    GameManager.instance.livesLeft--;
+
+                    if (heartLostAudio != null)
+                        heartLostAudio.Play();
+                }
             }
 
-            StartCoroutine("ActivateFailAnim");
+            StartCoroutine(ActivateFailAnim());
 
+            // ==================== GAME OVER ====================
 
-            //Activates if player has no lives left
-            if(GameManager.instance.livesLeft <= 0){
-                //makes player invisible
+            if (GameManager.instance.livesLeft <= 0)
+            {
+                // Immediately disable player input.
+                isGameOver = true;
+
+                // Reset continuous movement.
+                laneHoldTimer = 0f;
+                nextLaneMoveTime = 0f;
+                isAutoMoving = false;
+
+                // Hide the player.
                 spriteRenderer.color =
                     new Color32(255, 255, 255, 0);
 
-                // failObject.SetActive(true);
+                // Hide the lane direction arrow.
+                if (laneDirectionArrow != null)
+                {
+                    laneDirectionArrow.gameObject
+                        .SetActive(false);
+                }
 
-                // if (failSmokeAudio != null)
-                // {
-                //     failSmokeAudio.Play();
-                // }
-
+                // Wait before displaying the Game Over menu.
                 StartCoroutine(DelayedGameOver());
             }
         }
     }
-    // ==================== WIN/LOSE ANIMATIONS ====================
 
-     private IEnumerator ActivateSuccessAnim()
+
+    // ==================== SUCCESS ANIMATION ====================
+
+    private IEnumerator ActivateSuccessAnim()
     {
-        winObject.SetActive(false);
-        winObject.SetActive(true);
+        if (winObject != null)
+        {
+            winObject.SetActive(false);
+            winObject.SetActive(true);
+        }
 
         if (successSparkleAudio != null)
-        {
             successSparkleAudio.Play();
-        }
 
         yield return new WaitForSeconds(2f);
 
-        winObject.SetActive(false);
-
+        if (winObject != null)
+            winObject.SetActive(false);
     }
 
-     private IEnumerator ActivateFailAnim()
+
+    // ==================== FAILURE ANIMATION ====================
+
+    private IEnumerator ActivateFailAnim()
     {
-        failObject.SetActive(false);//disables it if it is already true
-        failObject.SetActive(true);
+        if (failObject != null)
+        {
+            failObject.SetActive(false);
+            failObject.SetActive(true);
+        }
 
         if (failSmokeAudio != null)
-        {
-           failSmokeAudio.Play();
-        }
+            failSmokeAudio.Play();
 
         yield return new WaitForSeconds(2f);
 
-        failObject.SetActive(false);
+        if (failObject != null)
+            failObject.SetActive(false);
     }
+
+
     // ==================== COMBO DISPLAY ====================
 
     private void ShowCombo()
@@ -577,37 +641,51 @@ public class PlayerScript : MonoBehaviour
         if (comboCount < 2)
             return;
 
-        string comboMessage = comboCount + "X COMBO!";
+        string comboMessage =
+            comboCount + "X COMBO!";
 
-        comboText.text = comboMessage;
-        comboOutline.text = comboMessage;
+        if (comboText != null)
+        {
+            comboText.text = comboMessage;
+            comboText.gameObject.SetActive(true);
+        }
 
-        comboText.gameObject.SetActive(true);
-        comboOutline.gameObject.SetActive(true);
+        if (comboOutline != null)
+        {
+            comboOutline.text = comboMessage;
+            comboOutline.gameObject.SetActive(true);
+        }
 
-        comboAnimator.Play("ComboPop", 0, 0f);
+        if (comboAnimator != null)
+        {
+            comboAnimator.Play(
+                "ComboPop",
+                0,
+                0f
+            );
+        }
     }
 
-    // ==================== GAME OVER ====================
+
+    // ==================== GAME OVER DELAY ====================
 
     private IEnumerator DelayedGameOver()
     {
         yield return new WaitForSeconds(1.5f);
 
-        menu.GameOver_Open_UI();
+        if (menu != null)
+            menu.GameOver_Open_UI();
     }
 
-    // ==================== COLLISION CLEANUP ====================
-
-    void OnTriggerExit2D(Collider2D other)
-    {
-        //winObject.SetActive(false);
-    }
 
     // ==================== POSE CHANGING ====================
 
     private void poseChange()
     {
+        // Prevent pose changes after Game Over.
+        if (isGameOver)
+            return;
+
         startingPose++;
 
         int availablePoses = Mathf.Clamp(
@@ -617,14 +695,10 @@ public class PlayerScript : MonoBehaviour
         );
 
         if (startingPose >= availablePoses)
-        {
             startingPose = 0;
-        }
 
         if (poseChangeAudio != null)
-        {
             poseChangeAudio.Play();
-        }
 
         switch (startingPose)
         {
@@ -650,24 +724,31 @@ public class PlayerScript : MonoBehaviour
         }
     }
 
+
     // ==================== LANE MOVEMENT ====================
 
     private void laneMovement()
     {
+        // Prevent lane movement after Game Over.
+        if (isGameOver)
+            return;
+
         currentLocation += changeAMT;
 
-        // Reverse at right boundary.
+        // Reverse direction at the rightmost lane.
         if (currentLocation == locations.Length)
         {
             changeAMT = -changeAMT;
+
             currentLocation += changeAMT;
             currentLocation += changeAMT;
         }
 
-        // Reverse at left boundary.
+        // Reverse direction at the leftmost lane.
         else if (currentLocation == -1)
         {
             changeAMT = -changeAMT;
+
             currentLocation += changeAMT;
             currentLocation += changeAMT;
         }
@@ -680,8 +761,6 @@ public class PlayerScript : MonoBehaviour
         UpdateLaneDirectionArrow();
 
         if (movementAudio != null)
-        {
             movementAudio.Play();
-        }
     }
 }
