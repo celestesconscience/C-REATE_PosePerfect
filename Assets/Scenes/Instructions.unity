@@ -969,6 +969,18 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 32
       objectReference: {fileID: 0}
+    - target: {fileID: 1044100194806342096, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
+      propertyPath: m_Name
+      value: NextButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349387374298860862, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
+      propertyPath: m_Color.b
+      value: 0.5411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349387374298860862, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
+      propertyPath: m_Color.g
+      value: 0.36078432
+      objectReference: {fileID: 0}
     - target: {fileID: 1651177260741898222, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1054,6 +1066,10 @@ PrefabInstance:
       value: HowToPlayOverlay
       objectReference: {fileID: 0}
     - target: {fileID: 2339620241430652828, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
+      propertyPath: m_text
+      value: "Next \u2192"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2339620241430652828, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
       propertyPath: m_fontSize
       value: 48
       objectReference: {fileID: 0}
@@ -1097,6 +1113,18 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 32
       objectReference: {fileID: 0}
+    - target: {fileID: 4083553379377455878, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
+      propertyPath: m_Color.b
+      value: 0.47843137
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083553379377455878, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
+      propertyPath: m_Color.g
+      value: 0.7882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083553379377455878, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
+      propertyPath: m_Color.r
+      value: 0.33333334
+      objectReference: {fileID: 0}
     - target: {fileID: 4569728673100510760, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
       propertyPath: m_text
       value: '     HOLD
@@ -1119,6 +1147,14 @@ PrefabInstance:
       propertyPath: m_fontSizeBase
       value: 96
       objectReference: {fileID: 0}
+    - target: {fileID: 7508581793918302221, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
+      propertyPath: m_Color.b
+      value: 0.1882353
+      objectReference: {fileID: 0}
+    - target: {fileID: 7508581793918302221, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
+      propertyPath: m_Color.g
+      value: 0.47843137
+      objectReference: {fileID: 0}
     - target: {fileID: 8561645050058419930, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1127,6 +1163,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2078634149}
+    - target: {fileID: 8561645050058419930, guid: 9886565d994ea4bda8efcb060f5ac706, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Open_GameGuide_Scene
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

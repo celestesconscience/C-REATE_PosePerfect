@@ -3845,8 +3845,8 @@ MonoBehaviour:
   - -5.5
   - 0
   - 5.5
-  minTime: 5
-  maxTime: 10
+  minTime: 20
+  maxTime: 40
 --- !u!114 &847976413
 MonoBehaviour:
   m_ObjectHideFlags: 0

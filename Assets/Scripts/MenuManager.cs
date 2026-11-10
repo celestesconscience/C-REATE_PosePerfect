@@ -1,4 +1,3 @@
-
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -19,6 +18,7 @@ public class MenuManager : MonoBehaviour
     // Reference to the Game Over overlay.
     public GameObject gameOverOverlay;
 
+
     // ==================== MENU SOUND EFFECTS ====================
 
     public GameObject buttonClickAudio;
@@ -27,10 +27,12 @@ public class MenuManager : MonoBehaviour
     private static GameObject persistentButtonClickAudio;
     private static GameObject persistentConfirmAudio;
 
+
     // ==================== GAME AUDIO ====================
 
     public AudioSource backgroundMusic;
     public AudioSource gameOverAudio;
+
 
     // ==================== SCROLLING CREDITS ====================
 
@@ -50,6 +52,7 @@ public class MenuManager : MonoBehaviour
 
     // Whether the credits should repeat.
     public bool loopCredits = true;
+
 
     // ==================== INITIALIZATION ====================
 
@@ -92,6 +95,7 @@ public class MenuManager : MonoBehaviour
             StartCoroutine(ScrollCredits());
         }
     }
+
 
     // ==================== SCROLLING CREDITS ====================
 
@@ -170,6 +174,7 @@ public class MenuManager : MonoBehaviour
         }
     }
 
+
     // ==================== MENU SOUND EFFECTS ====================
 
     public void Play_Button_Click_SFX()
@@ -200,6 +205,7 @@ public class MenuManager : MonoBehaviour
         }
     }
 
+
     // ==================== SCENE NAVIGATION ====================
 
     // Returns to the Main Menu.
@@ -210,13 +216,23 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    // Opens Instructions.
+    // Opens the original Controls / Instructions scene.
     public void Open_Instructions_Scene()
     {
         SceneManager.LoadScene("Instructions");
     }
 
+    // NEW: Opens the Power-Ups & Scoring guide.
+    // Instructions -> GameGuide
+    public void Open_GameGuide_Scene()
+    {
+        Time.timeScale = 1;
+
+        SceneManager.LoadScene("GameGuide");
+    }
+
     // Starts or restarts gameplay.
+    // GameGuide -> Game
     public void Open_Game_Scene()
     {
         Time.timeScale = 1;
@@ -237,6 +253,7 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene("Credits");
     }
+
 
     // ==================== PAUSE MENU ====================
 
@@ -268,6 +285,7 @@ public class MenuManager : MonoBehaviour
         print("Pause menu closed. Game resumed");
     }
 
+
     // ==================== CONTROLS MENU ====================
 
     public void Controls_Open_UI()
@@ -283,6 +301,7 @@ public class MenuManager : MonoBehaviour
 
         print("Controls menu closed. Returned to pause menu.");
     }
+
 
     // ==================== GAME OVER MENU ====================
 
@@ -302,6 +321,7 @@ public class MenuManager : MonoBehaviour
 
         gameOverOverlay.SetActive(true);
     }
+
 
     // ==================== APPLICATION CONTROLS ====================
 
