@@ -13,11 +13,13 @@ public class GameManager : MonoBehaviour
     // ==================== SCORING SYSTEM ====================
 
     public float score;
+    public float currentScore;
     public float scoreAddAmt;
 
     private int wallCounter;
 
-    public float[] highScore = new float[5];
+    public float[] highScore = new float[6];
+    public float currentHighScore;
     public float livesLeft;
 
 
@@ -120,6 +122,10 @@ public class GameManager : MonoBehaviour
         // Select the initial wall color.
         randomColor = Random.Range(1, numColors + 1);
         prevColor = randomColor;
+
+        System.Array.Sort(highScore); 
+        System.Array.Reverse(highScore);
+
     }
 
 
@@ -128,10 +134,11 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         // Update the highest score.
-        if (score > highScore[0])
-        {
-            highScore[0] = score;
-        }
+        // if (score > highScore[0])
+        // {
+        //     highScore[0] = score;
+        // }
+        //currentScore = score;
 
         // Restore starting difficulty when score is zero.
         if (score == 0)
@@ -163,6 +170,10 @@ public class GameManager : MonoBehaviour
 
     public void ResetGame()
     {
+
+        System.Array.Sort(highScore);
+        System.Array.Reverse(highScore);
+
         // Stop old power-up timers before resetting values.
         StopCoroutine("activateArmor");
         StopCoroutine("activateDoublePoints");

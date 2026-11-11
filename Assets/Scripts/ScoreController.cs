@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using System;
 
 // Updates the score and high score displayed in the gameplay HUD
 // and Game Over screen using values stored in the GameManager.
@@ -26,10 +27,33 @@ public class ScoreController : MonoBehaviour
 
     // ==================== SCORE UI UPDATE ====================
 
-    void Update()
+    void Start()
     {
+        GameManager.instance.currentHighScore = GameManager.instance.highScore[0];
+    }
+
+    void Update()
+    {   
+        GameManager.instance.highScore[5] = GameManager.instance.score;
+
+        if (GameManager.instance.score > GameManager.instance.currentHighScore)
+        {
+            //GameManager.instance.highScore[6] = GameManager.instance.highScore[1];
+            GameManager.instance.currentHighScore = score;
+        }
+
+
         // Retrieve the highest recorded score from the GameManager.
-        highScore = GameManager.instance.highScore[0];
+        if(GameManager.instance.currentHighScore > GameManager.instance.highScore[0])
+        {
+            highScore = GameManager.instance.currentHighScore;
+            GameManager.instance.highScore[5] = GameManager.instance.currentHighScore;
+        }
+        else
+        {
+            highScore = GameManager.instance.highScore[0];
+        }
+        
 
         // Update the high score displayed during gameplay and on Game Over.
         // "N0" formats the number with separators and no decimal places.
