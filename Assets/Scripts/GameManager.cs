@@ -15,6 +15,7 @@ public class GameManager : MonoBehaviour
     public float score;
     public float currentScore;
     public float scoreAddAmt;
+    private bool scoreSavedThisRun = false;
 
     private int wallCounter;
 
@@ -105,6 +106,9 @@ public class GameManager : MonoBehaviour
 
         instance = this;
 
+        // Load saved high scores.
+        LoadHighScores();
+
         // Save starting difficulty before other scripts call ResetGame().
         startWallSpawn = wallSpawnSpeed;
         startWallSpeed = wallSpeed;
@@ -165,14 +169,94 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    // ==================== HIGH SCORE SAVING ====================
+
+    // Five saved scores, plus the current run in slot 5.
+    private const int SavedHighScoreCount = 5;
+    private const string HighScoreKey = "PosePerfect_HighScore_";
+
+
+    // Load previous high scores when the application starts.
+    private void LoadHighScores()
+    {
+        if (highScore == null || highScore.Length < 6)
+            highScore = new float[6];
+
+        for (int i = 0; i < SavedHighScoreCount; i++)
+        {
+            highScore[i] = PlayerPrefs.GetInt(
+                HighScoreKey + i, 0
+            );
+        }
+
+        // Slot 5 is reserved for the current run.
+        highScore[5] = 0;
+
+        System.Array.Sort(highScore);
+        System.Array.Reverse(highScore);
+
+        currentHighScore = highScore[0];
+    }
+
+
+    // Save the completed run into the Top 5 leaderboard.
+    public void SaveFinishedHighScore()
+    {
+        if (scoreSavedThisRun)
+            return;
+
+        scoreSavedThisRun = true;
+
+        int finalScore = Mathf.RoundToInt(score);
+
+        if (finalScore <= 0)
+            return;
+
+        // Compare the completed run against the saved Top 5.
+        float[] rankedScores = new float[6];
+
+        for (int i = 0; i < SavedHighScoreCount; i++)
+        {
+            rankedScores[i] = highScore[i];
+        }
+
+        rankedScores[5] = finalScore;
+
+        // Sort highest to lowest.
+        System.Array.Sort(rankedScores);
+        System.Array.Reverse(rankedScores);
+
+        // Keep the five highest scores.
+        for (int i = 0; i < SavedHighScoreCount; i++)
+        {
+            highScore[i] = rankedScores[i];
+
+            PlayerPrefs.SetInt(
+                HighScoreKey + i,
+                Mathf.RoundToInt(highScore[i])
+            );
+        }
+
+        // Clear the temporary current-run slot.
+        highScore[5] = 0;
+
+        currentHighScore = highScore[0];
+
+        // Write scores to persistent storage.
+        PlayerPrefs.Save();
+
+        Debug.Log("High scores saved!");
+    }
+
 
     // ==================== NEW GAME RESET ====================
 
     public void ResetGame()
     {
+        scoreSavedThisRun = false;
 
-        System.Array.Sort(highScore);
-        System.Array.Reverse(highScore);
+        // Clear the temporary score slot without changing saved scores.
+        highScore[5] = 0;
 
         // Stop old power-up timers before resetting values.
         StopCoroutine("activateArmor");

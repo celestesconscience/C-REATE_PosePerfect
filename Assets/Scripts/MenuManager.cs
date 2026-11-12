@@ -302,11 +302,17 @@ public class MenuManager : MonoBehaviour
         print("Controls menu closed. Returned to pause menu.");
     }
 
-
+ 
     // ==================== GAME OVER MENU ====================
 
     public void GameOver_Open_UI()
     {
+        // Save the finished score before showing Game Over.
+        if (GameManager.instance != null)
+        {
+            GameManager.instance.SaveFinishedHighScore();
+        }
+
         Time.timeScale = 0;
 
         if (backgroundMusic != null)
@@ -319,7 +325,10 @@ public class MenuManager : MonoBehaviour
             gameOverAudio.Play();
         }
 
-        gameOverOverlay.SetActive(true);
+        if (gameOverOverlay != null)
+        {
+            gameOverOverlay.SetActive(true);
+        }
     }
 
 
